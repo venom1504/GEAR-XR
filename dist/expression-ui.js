@@ -1,0 +1,99 @@
+const el = id => document.getElementById(id);
+const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export const matchLabels = {named:'Named anatomical match',related:'Related area · approximate',broader:'Broader region · approximate',unmapped:'No regional match'};
+
+export function queryRegion(data, name, category='all') {
+  const region = data.regions[name];
+  if (!region) return [];
+  return region.records.filter(record => record.detected &&
+    (category === 'all' || (category === 'unlisted' ? !data.genes[record.gene].inPaperTable : Boolean(data.genes[record.gene].pathways[category]))));
+}
+
+export class ExpressionPanel {
+  constructor(data, models, onSelect) {
+    this.data=data; this.models=models; this.onSelect=onSelect;
+    this.regionName=null; this.category='all'; this.gene=''; this.locked=false;
+    el('pathwayFilter').onchange=()=>{this.category=el('pathwayFilter').value;this.render();};
+    el('geneSelect').onchange=()=>this.selectGene(el('geneSelect').value);
+    for (const [value,label] of Object.entries(data.categories)) {
+      const option=document.createElement('option');option.value=value;option.textContent=label+' network';el('pathwayFilter').append(option);
+    }
+    const unlisted=document.createElement('option');unlisted.value='unlisted';unlisted.textContent='Not listed in Table 1';el('pathwayFilter').append(unlisted);
+  }
+  get region(){return this.data.regions[this.regionName] || null;}
+  get records(){return queryRegion(this.data,this.regionName,this.category);}
+  get currentRecord(){return this.region?.records.find(row=>row.gene===this.gene) || null;}
+  setRegion(name){if(name!==this.regionName)this.gene='';this.regionName=name;this.render();}
+  setLocked(value){
+    this.locked=value;el('pathwayFilter').disabled=value;el('geneSelect').disabled=value || !this.records.length;
+    el('geneList').querySelectorAll('button').forEach(button=>button.disabled=value);
+  }
+  selectGene(gene){
+    if(this.locked || !this.records.some(row=>row.gene===gene))return;
+    this.gene=gene;el('geneSelect').value=gene;
+    el('geneList').querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.gene===gene)));
+    this.onSelect(gene);this.renderEvidence();
+  }
+  render(){
+    const region=this.region,records=this.records;
+    const total=region?.records.filter(row=>row.detected).length || 0;
+    el('proteinCount').textContent=records.length+' DETECTED';
+    el('geneListCount').textContent=this.category==='all'?`${total} detected gene RNAs`:`${records.length} of ${total} detected gene RNAs`;
+    el('geneListNote').textContent='RNA nTPM ≥1 · max source value · compare within the named study';
+    el('sourceStudy').textContent=region?.dataset?(region.dataset==='pfc'?'HPA prefrontal study':'HPA human brain study')+(region.match!=='named'?' · '+region.areas.join('; '):'')+' · source values not side specific':'No source RNA assigned';
+    el('geneListTitle').textContent=region?.match==='broader'?'BROADER SOURCE GENES':region?.match==='related'?'RELATED SOURCE GENES':'SOURCE AREA GENES';
+    el('mappingBadge').textContent=matchLabels[region?.match || 'unmapped'];
+    el('mappingBadge').dataset.match=region?.match || 'unmapped';
+    el('mappingDetails').replaceChildren();
+    if(region?.dataset){
+      const study=this.data.studies[region.dataset];
+      const p=document.createElement('p');p.textContent=study.label+' · gene-level RNA-seq · HPA '+this.data.hpaVersion;el('mappingDetails').append(p);
+      const area=document.createElement('p');area.textContent='Measured source: '+region.areas.join('; ');el('mappingDetails').append(area);
+      const note=document.createElement('p');note.textContent=region.rationale+' Values are not side specific and were not measured in this BigBrain specimen.';el('mappingDetails').append(note);
+    }else{
+      const p=document.createElement('p');p.textContent=region?.rationale || 'Choose a labeled cortical region to see its evidence.';el('mappingDetails').append(p);
+    }
+    const methods=document.createElement('a');methods.href='assets/expression-methods.html';methods.target='_blank';methods.rel='noreferrer';methods.textContent='Sources, mapping rules & all source values ↗';el('mappingDetails').append(methods);
+    el('geneList').replaceChildren();el('geneSelect').replaceChildren();
+    const highest=records.length?Math.max(...records.map(row=>row.nTPM)):1;
+    for(const row of records){
+      const button=document.createElement('button');button.type='button';button.className='gene-row';button.dataset.gene=row.gene;
+      button.setAttribute('aria-label',`${row.gene}, ${row.nTPM.toFixed(1)} nTPM, select protein`);
+      const memberships=Object.keys(this.data.genes[row.gene].pathways).map(key=>this.data.categories[key]).join(' · ');
+      button.innerHTML=`<span class="gene-row-top"><strong>${escape(row.gene)}</strong><span>${row.nTPM.toFixed(1)} <small>nTPM</small></span></span><span class="gene-row-sub">${escape(memberships || 'Additional library gene')}</span><span class="gene-row-bar" aria-hidden="true"><i style="width:${Math.max(4,row.nTPM/highest*100)}%"></i></span>`;
+      button.onclick=()=>this.selectGene(row.gene);el('geneList').append(button);
+      const option=document.createElement('option');option.value=row.gene;option.textContent=`${row.gene} · ${row.nTPM.toFixed(1)} nTPM`;el('geneSelect').append(option);
+    }
+    const below=region?.records.filter(row=>!row.detected) || [];
+    el('belowCutoff').hidden=!below.length;
+    el('belowCutoffSummary').textContent=`Below the RNA cutoff (${below.length})`;
+    el('belowCutoffText').textContent=below.map(row=>row.gene+' '+row.nTPM.toFixed(1)+' nTPM').join(' · ')+'. Below cutoff does not prove absence.';
+    if(!records.length){
+      const p=document.createElement('p');p.className='gene-empty';p.textContent=region?.dataset?'No detected genes match this pathway filter. Choose All pathways.':'No regional expression values are assigned to this surface.';el('geneList').append(p);
+      this.gene='';el('geneMeta').textContent='Select a region with measured RNA evidence.';
+      el('geneEvidence').hidden=true;this.onSelect('');
+    }else{
+      if(!records.some(row=>row.gene===this.gene))this.gene=records[0].gene;
+      el('geneEvidence').hidden=false;
+      el('geneList').querySelectorAll('button').forEach(button=>button.setAttribute('aria-pressed',String(button.dataset.gene===this.gene)));
+      el('geneSelect').value=this.gene;this.onSelect(this.gene);this.renderEvidence();
+    }
+    el('explore').disabled=!records.length;el('proteinNav').disabled=!records.length;
+    this.setLocked(this.locked);
+  }
+  renderEvidence(){
+    const gene=this.data.genes[this.gene],record=this.currentRecord,region=this.region;
+    if(!gene || !record)return;
+    const data=this.data;
+    el('geneEvidenceSummary').textContent=this.gene+' · RNA, protein & pathway evidence';
+    const rows=record.values.map(row=>`<tr><td>${escape(row.area)}</td><td>${row.nTPM.toFixed(1)}</td></tr>`).join('');
+    const networks=Object.entries(gene.pathways).map(([key,evidence])=>{
+      const source=evidence.referenceNumbers.length?'cited report'+(evidence.referenceNumbers.length>1?'s':'')+' ['+evidence.referenceNumbers.join(', ')+']':'';
+      const type=[evidence.stringAssociation?'STRING association ≥0.30':'',source].filter(Boolean).join(' + ');
+      return `<li><strong>${escape(data.categories[key])}</strong>: ${escape(type)}${evidence.bindingWithoutSignificantFoldChange?'. CHD8 binding sites reported; expression fold change was not statistically significant.':''}</li>`;
+    }).join('');
+    const protein=gene.cortexProteinIHC.length?'<table><thead><tr><th>Cortical cell type</th><th>IHC</th><th>Reliability</th></tr></thead><tbody>'+gene.cortexProteinIHC.map(row=>`<tr><td>${escape(row.cellType)}</td><td>${escape(row.level)}</td><td class="${row.reliability==='Uncertain'?'uncertain':''}">${escape(row.reliability)}</td></tr>`).join('')+'</tbody></table>':'<p>No cortical protein IHC annotation was available in the downloaded table. This does not establish absence.</p>';
+    const top=gene.highestSampledBrainRNA;
+    el('geneEvidenceBody').innerHTML=`<p><strong>${escape(data.studies[region.dataset].label)}</strong> · ${escape(matchLabels[region.match])}. These are named-area correspondences, not pointwise measurements in this brain.</p><table><thead><tr><th>Measured source area</th><th>nTPM</th></tr></thead><tbody>${rows}</tbody></table><p>Listed when at least one source value is ≥1 nTPM. A gene may appear in many regions. The displayed value is the maximum, not a donor average. Left and right use the same source values.</p><p><a href="${escape(gene.hpaUrl)}" target="_blank" rel="noreferrer">Check ${escape(this.gene)} in the Human Protein Atlas ↗</a></p><p>Human regional category: <strong>${escape(gene.humanRegionalSpecificity)}</strong>; ${escape(gene.humanRegionalDistribution)}. ${escape(gene.brainExpressionCluster)}.</p><p>Highest RNA in the source's 193-area table: ${escape(top.area)}, ${top.nTPM.toFixed(1)} nTPM. This may lie outside the cortical mesh. It is not an exclusive location.</p><p>Separate GTEx broad cortex RNA check: ${gene.gtexBrainRNA['cerebral cortex']?.toFixed(1) ?? 'unavailable'} nTPM. This is not a parcel-level replication.</p><h4>Protein evidence · broader cerebral cortex</h4>${protein}<p><a href="${escape(gene.ihcUrl)}" target="_blank" rel="noreferrer">Original cortical staining and reliability ↗</a>. IHC is not a measurement of this DKT parcel; uncertain annotations need validation. Gene-level RNA does not identify the amount, location or splice form of the displayed protein.</p><h4>Arnett et al. · Table 1</h4>${networks?'<ul>'+networks+'</ul>':'<p>This gene is not a row in Table 1. No pathway membership is inferred from its absence.</p>'}<p>STRING entries describe associations, not proof of physical binding. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8215789/#Tab1" target="_blank" rel="noreferrer">View the source table and qualifications ↗</a></p><p><a href="assets/expression-methods.html" target="_blank" rel="noreferrer">Full methods, studies, attribution and downloadable evidence ↗</a></p>`;
+  }
+}
