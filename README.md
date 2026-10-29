@@ -13,7 +13,9 @@ This repository contains the prebuilt public website and its scientific attribut
 
 No server, database, dependency installation, or secret environment variables are required.
 
-The expression layer contains 250 STAGE susceptibility genes across 63 named prenatal source regions. The adult model provides anatomical context; actual 2D tissue annotations are available for developmental zones. Protein models have independent coordinates and their uncertainty is labeled.
+The website restores the presentation UI from source snapshot 308c230: the cortical region explorer, HPA expression panel, and 20 interactive protein structures. The brain-to-protein transition is illustrative; expression is not exclusive to the selected region. Model uncertainty and fragments are labeled.
+
+Unused STAGE assets remain archived in the deployment directory for compatibility with the existing Render build check. The presentation UI does not load them.
 
 ## Attribution and licenses
 
