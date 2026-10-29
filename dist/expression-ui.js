@@ -1,3 +1,4 @@
+import {rankedRegion} from './regional-ranking.js';
 const el = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const matchLabels = {named:'Named anatomical match',related:'Related area · approximate',broader:'Broader region · approximate',unmapped:'No regional match'};
@@ -10,8 +11,8 @@ export function queryRegion(data, name, category='all') {
 }
 
 export class ExpressionPanel {
-  constructor(data, models, onSelect) {
-    this.data=data; this.models=models; this.onSelect=onSelect;
+  constructor(data, models, onSelect, ranking) {
+    this.data=data; this.models=models; this.onSelect=onSelect;this.ranking=ranking;
     this.regionName=null; this.category='all'; this.gene=''; this.locked=false;
     el('pathwayFilter').onchange=()=>{this.category=el('pathwayFilter').value;this.render();};
     el('geneSelect').onchange=()=>this.selectGene(el('geneSelect').value);
@@ -21,7 +22,7 @@ export class ExpressionPanel {
     const unlisted=document.createElement('option');unlisted.value='unlisted';unlisted.textContent='Not listed in Table 1';el('pathwayFilter').append(unlisted);
   }
   get region(){return this.data.regions[this.regionName] || null;}
-  get records(){return queryRegion(this.data,this.regionName,this.category);}
+  get records(){return rankedRegion(this.data,this.ranking,this.regionName,this.category);}
   get currentRecord(){return this.region?.records.find(row=>row.gene===this.gene) || null;}
   setRegion(name){if(name!==this.regionName)this.gene='';this.regionName=name;this.render();}
   setLocked(value){
@@ -36,12 +37,12 @@ export class ExpressionPanel {
   }
   render(){
     const region=this.region,records=this.records;
-    const total=region?.records.filter(row=>row.detected).length || 0;
-    el('proteinCount').textContent=records.length+' DETECTED';
-    el('geneListCount').textContent=this.category==='all'?`${total} detected gene RNAs`:`${records.length} of ${total} detected gene RNAs`;
-    el('geneListNote').textContent='RNA nTPM ≥1 · max source value · compare within the named study';
+    const total=this.ranking.regions[this.regionName]?.eligibleCount||0;
+    el('proteinCount').textContent=records.length+' SHOWN';
+    el('geneListCount').textContent=`${records.length} of up to 3 regional candidates · ${total} genes meet the rule in the 20-gene library`;
+    el('geneListNote').textContent='Strong genetic evidence: SFARI 1 or 2. Regional mean ≥1 nTPM and ≥1.25× other-area mean. This descriptive threshold is not a significance test or an ASD/control comparison.';
     el('sourceStudy').textContent=region?.dataset?(region.dataset==='pfc'?'HPA prefrontal study':'HPA human brain study')+(region.match!=='named'?' · '+region.areas.join('; '):'')+' · source values not side specific':'No source RNA assigned';
-    el('geneListTitle').textContent=region?.match==='broader'?'BROADER SOURCE GENES':region?.match==='related'?'RELATED SOURCE GENES':'SOURCE AREA GENES';
+    el('geneListTitle').textContent='TOP REGIONAL CANDIDATES';
     el('mappingBadge').textContent=matchLabels[region?.match || 'unmapped'];
     el('mappingBadge').dataset.match=region?.match || 'unmapped';
     el('mappingDetails').replaceChildren();
@@ -55,22 +56,22 @@ export class ExpressionPanel {
     }
     const methods=document.createElement('a');methods.href='assets/expression-methods.html';methods.target='_blank';methods.rel='noreferrer';methods.textContent='Sources, mapping rules & all source values ↗';el('mappingDetails').append(methods);
     el('geneList').replaceChildren();el('geneSelect').replaceChildren();
-    const highest=records.length?Math.max(...records.map(row=>row.nTPM)):1;
+    const highest=records.length?Math.max(...records.map(row=>row.enrichment)):1;
     for(const row of records){
       const button=document.createElement('button');button.type='button';button.className='gene-row';button.dataset.gene=row.gene;
-      button.setAttribute('aria-label',`${row.gene}, ${row.nTPM.toFixed(1)} nTPM, select protein`);
-      const memberships=Object.keys(this.data.genes[row.gene].pathways).map(key=>this.data.categories[key]).join(' · ');
-      button.innerHTML=`<span class="gene-row-top"><strong>${escape(row.gene)}</strong><span>${row.nTPM.toFixed(1)} <small>nTPM</small></span></span><span class="gene-row-sub">${escape(memberships || 'Additional library gene')}</span><span class="gene-row-bar" aria-hidden="true"><i style="width:${Math.max(4,row.nTPM/highest*100)}%"></i></span>`;
+      const evidence=this.ranking.genes[row.gene],rank=this.ranking.regions[this.regionName].top.findIndex(r=>r.gene===row.gene)+1;
+      button.setAttribute('aria-label',`Rank ${rank}: ${row.gene}, ${row.enrichment.toFixed(2)} times regional enrichment, SFARI ${evidence.score}, select evidence and protein`);
+      button.innerHTML=`<span class="gene-row-top"><strong>${rank}. ${escape(row.gene)}</strong><span>${row.enrichment.toFixed(2)}× <small>enriched</small></span></span><span class="gene-row-sub">SFARI ${evidence.score} · ${evidence.score===1?'High Confidence':'Strong Candidate'}<br>Regional mean ${row.regionalMean.toFixed(2)} vs ${row.otherAreaMean.toFixed(2)} nTPM elsewhere<br>${row.sourceAreaCount} mapped source area(s) · ${row.comparisonAreaCount} other study areas</span><span class="gene-row-bar" aria-hidden="true"><i style="width:${row.enrichment/highest*100}%"></i></span>`;
       button.onclick=()=>this.selectGene(row.gene);el('geneList').append(button);
-      const option=document.createElement('option');option.value=row.gene;option.textContent=`${row.gene} · ${row.nTPM.toFixed(1)} nTPM`;el('geneSelect').append(option);
+      const option=document.createElement('option');option.value=row.gene;option.textContent=`${row.gene} · ${row.enrichment.toFixed(2)}× enrichment`;el('geneSelect').append(option);
     }
     const below=region?.records.filter(row=>!row.detected) || [];
-    el('belowCutoff').hidden=!below.length;
+    el('belowCutoff').hidden=true;
     el('belowCutoffSummary').textContent=`Below the RNA cutoff (${below.length})`;
     el('belowCutoffText').textContent=below.map(row=>row.gene+' '+row.nTPM.toFixed(1)+' nTPM').join(' · ')+'. Below cutoff does not prove absence.';
     if(!records.length){
-      const p=document.createElement('p');p.className='gene-empty';p.textContent=region?.dataset?'No detected genes match this pathway filter. Choose All pathways.':'No regional expression values are assigned to this surface.';el('geneList').append(p);
-      this.gene='';el('geneMeta').textContent='Select a region with measured RNA evidence.';
+      const p=document.createElement('p');p.className='gene-empty';p.textContent=region?.dataset?(this.category==='all'?'No genes meet both the genetic-evidence and regional-enrichment rules here. A missing result does not imply no autism relevance.':'None of the top three candidates match this article network. Choose All networks to see the regional ranking.'):'No regional measurements are mapped to this surface.';el('geneList').append(p);
+      this.gene='';el('geneMeta').textContent='No qualifying regional candidate. Choose another region.';
       el('geneEvidence').hidden=true;this.onSelect('');
     }else{
       if(!records.some(row=>row.gene===this.gene))this.gene=records[0].gene;
@@ -84,8 +85,8 @@ export class ExpressionPanel {
   renderEvidence(){
     const gene=this.data.genes[this.gene],record=this.currentRecord,region=this.region;
     if(!gene || !record)return;
-    const data=this.data;
-    el('geneEvidenceSummary').textContent=this.gene+' · RNA, protein & pathway evidence';
+    const data=this.data;const candidate=this.records.find(r=>r.gene===this.gene),genetic=this.ranking.genes[this.gene];
+    el('geneEvidenceSummary').textContent=this.gene+' · genetic evidence, enrichment & source values';
     const rows=record.values.map(row=>`<tr><td>${escape(row.area)}</td><td>${row.nTPM.toFixed(1)}</td></tr>`).join('');
     const networks=Object.entries(gene.pathways).map(([key,evidence])=>{
       const source=evidence.referenceNumbers.length?'cited report'+(evidence.referenceNumbers.length>1?'s':'')+' ['+evidence.referenceNumbers.join(', ')+']':'';
@@ -94,6 +95,6 @@ export class ExpressionPanel {
     }).join('');
     const protein=gene.cortexProteinIHC.length?'<table><thead><tr><th>Cortical cell type</th><th>IHC</th><th>Reliability</th></tr></thead><tbody>'+gene.cortexProteinIHC.map(row=>`<tr><td>${escape(row.cellType)}</td><td>${escape(row.level)}</td><td class="${row.reliability==='Uncertain'?'uncertain':''}">${escape(row.reliability)}</td></tr>`).join('')+'</tbody></table>':'<p>No cortical protein IHC annotation was available in the downloaded table. This does not establish absence.</p>';
     const top=gene.highestSampledBrainRNA;
-    el('geneEvidenceBody').innerHTML=`<p><strong>${escape(data.studies[region.dataset].label)}</strong> · ${escape(matchLabels[region.match])}. These are named-area correspondences, not pointwise measurements in this brain.</p><table><thead><tr><th>Measured source area</th><th>nTPM</th></tr></thead><tbody>${rows}</tbody></table><p>Listed when at least one source value is ≥1 nTPM. A gene may appear in many regions. The displayed value is the maximum, not a donor average. Left and right use the same source values.</p><p><a href="${escape(gene.hpaUrl)}" target="_blank" rel="noreferrer">Check ${escape(this.gene)} in the Human Protein Atlas ↗</a></p><p>Human regional category: <strong>${escape(gene.humanRegionalSpecificity)}</strong>; ${escape(gene.humanRegionalDistribution)}. ${escape(gene.brainExpressionCluster)}.</p><p>Highest RNA in the source's 193-area table: ${escape(top.area)}, ${top.nTPM.toFixed(1)} nTPM. This may lie outside the cortical mesh. It is not an exclusive location.</p><p>Separate GTEx broad cortex RNA check: ${gene.gtexBrainRNA['cerebral cortex']?.toFixed(1) ?? 'unavailable'} nTPM. This is not a parcel-level replication.</p><h4>Protein evidence · broader cerebral cortex</h4>${protein}<p><a href="${escape(gene.ihcUrl)}" target="_blank" rel="noreferrer">Original cortical staining and reliability ↗</a>. IHC is not a measurement of this DKT parcel; uncertain annotations need validation. Gene-level RNA does not identify the amount, location or splice form of the displayed protein.</p><h4>Arnett et al. · Table 1</h4>${networks?'<ul>'+networks+'</ul>':'<p>This gene is not a row in Table 1. No pathway membership is inferred from its absence.</p>'}<p>STRING entries describe associations, not proof of physical binding. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8215789/#Tab1" target="_blank" rel="noreferrer">View the source table and qualifications ↗</a></p><p><a href="assets/expression-methods.html" target="_blank" rel="noreferrer">Full methods, studies, attribution and downloadable evidence ↗</a></p>`;
+    el('geneEvidenceBody').innerHTML=`<h4>Why this gene is shown</h4><p><strong>${candidate.enrichment.toFixed(2)}× regional enrichment</strong> = ${candidate.regionalMean.toFixed(3)} nTPM mean across ${candidate.sourceAreaCount} mapped source area(s) ÷ ${candidate.otherAreaMean.toFixed(3)} nTPM mean across ${candidate.comparisonAreaCount} other unique areas in the same study. Target areas are excluded. Values below are the underlying measurements; their maximum is not the ranking numerator.</p><p><strong>SFARI ${genetic.score}: ${genetic.score===1?'High Confidence':'Strong Candidate'}</strong>. ${escape(genetic.geneticCategory)}. ${genetic.reports} curated reports in the saved table; report count is not used to rank genes. <a href="${escape(genetic.url)}" target="_blank" rel="noreferrer">Official SFARI evidence table ↗</a> (retrieved ${escape(this.ranking.sfari.retrieved)}).</p><p>Genetic evidence concerns autism association overall. Regional enrichment is descriptive RNA evidence in reference tissue, not proof of region-specific causation. Ranking covers only the 20 library genes and does not compare autistic and non-autistic people.</p><p><strong>${escape(data.studies[region.dataset].label)}</strong> · ${escape(matchLabels[region.match])}. These are named-area correspondences, not pointwise measurements in this brain.</p><table><thead><tr><th>Measured source area</th><th>nTPM</th></tr></thead><tbody>${rows}</tbody></table><p>Raw source values are retained for audit. Ranking uses their arithmetic mean and a same-study baseline, not a donor average. A gene may qualify in multiple regions. Left and right use the same source values.</p><p><a href="${escape(gene.hpaUrl)}" target="_blank" rel="noreferrer">Check ${escape(this.gene)} in the Human Protein Atlas ↗</a></p><p>Human regional category: <strong>${escape(gene.humanRegionalSpecificity)}</strong>; ${escape(gene.humanRegionalDistribution)}. ${escape(gene.brainExpressionCluster)}.</p><p>Highest RNA in the source's 193-area table: ${escape(top.area)}, ${top.nTPM.toFixed(1)} nTPM. This may lie outside the cortical mesh. It is not an exclusive location.</p><p>Separate GTEx broad cortex RNA check: ${gene.gtexBrainRNA['cerebral cortex']?.toFixed(1) ?? 'unavailable'} nTPM. This is not a parcel-level replication.</p><h4>Protein evidence · broader cerebral cortex</h4>${protein}<p><a href="${escape(gene.ihcUrl)}" target="_blank" rel="noreferrer">Original cortical staining and reliability ↗</a>. IHC is not a measurement of this DKT parcel; uncertain annotations need validation. Gene-level RNA does not identify the amount, location or splice form of the displayed protein.</p><h4>Arnett et al. · Table 1</h4>${networks?'<ul>'+networks+'</ul>':'<p>This gene is not a row in Table 1. No pathway membership is inferred from its absence.</p>'}<p>STRING entries describe associations, not proof of physical binding. <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC8215789/#Tab1" target="_blank" rel="noreferrer">View the source table and qualifications ↗</a></p><p><a href="assets/expression-methods.html" target="_blank" rel="noreferrer">Full methods, studies, attribution and downloadable evidence ↗</a></p>`;
   }
 }

@@ -20,3 +20,9 @@ Unused STAGE assets remain archived in the deployment directory for compatibilit
 ## Attribution and licenses
 
 See `dist/assets/sanger-methods.html`, `dist/assets/ATLAS_REFERENCES.txt`, and `dist/assets/BIGBRAIN_LICENSE.txt` for the full scientific references and terms. BigBrain-derived anatomy is CC BY-NC-SA 4.0 and is for noncommercial use. STAGE adaptations retain attribution under CC BY 4.0. Harvard–Oxford surface adaptations are CC BY-SA 4.0. Other assets retain their original notices.
+
+## Regional gene ranking (28 October 2026)
+
+The current HPA interface now defaults to at most three candidates ranked by descriptive same-study regional enrichment, after SFARI score 1/2 genetic-evidence filtering. It does not switch to the prenatal STAGE dataset. The scope is the 20 current library genes. No qualifying genes means an explicit empty state, never a fallback to the largest RNA value.
+
+Rebuild: `python3 scripts/build_ranking.py`. Inputs and official SFARI snapshot: `research/`. Output: `dist/assets/regional-ranking.json`. Tests: `npm test`. Methods and limitations: `dist/assets/regional-ranking-methods.html`. No geometry changes or public deployment are included.

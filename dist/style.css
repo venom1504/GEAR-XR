@@ -22,3 +22,9 @@ body:not(.protein) #geneSelect,body:not(.protein) #geneSelectLabel{display:none}
 body:not(.protein) .selection-actions #geneMeta strong{display:inline}#geneListCount{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}.right #regionDescription{font-size:10px;margin-bottom:6px}.right h2{margin-top:10px}.selection-actions{padding-bottom:6px}.selection-actions #geneMeta{font-size:9px;margin:4px 0 8px}.selection-actions .primary{padding:9px 12px}.mapping-scope{padding:8px 0;margin-bottom:10px}#regionalGenes>label{margin-top:9px}.paper-note{margin-bottom:8px}
 
 [hidden]{display:none!important}#sourceStudy{font-size:8px;line-height:1.6;color:#8ba6b3;margin:-5px 0 11px}.gene-row{padding:8px}.gene-row-sub{margin-top:3px}.gene-row-bar{margin-top:5px}@media(min-width:761px){.right{top:112px;bottom:88px}}
+
+/* Regional ranking: make all three candidates and their evidence inspectable. */
+#geneList{max-height:none;overflow:visible}.gene-row{margin:8px 0;padding:12px}.gene-row-sub{line-height:1.7}.ranking-method p{font-size:11px;line-height:1.7;color:#a9bec8}.ranking-method a{color:#9de8dd}#geneEvidence[open]{display:block}.right #geneList{max-height:none}.gene-row[aria-pressed=true]{border-color:#9de8dd}#geneListNote{font-size:10px}[hidden]{display:none!important}
+@media(max-width:760px){.right{display:block;max-height:40vh}.right details,.right .ranking-method{display:block}.right #geneList{max-height:none}.right #geneEvidence{display:block}.right #geneEvidence[hidden]{display:none}.gene-row{padding:10px}.right #geneEvidenceBody{font-size:11px}}
+
+#regionalGenes .paper-note{margin:4px 0}#regionalGenes .gene-row{padding:9px}.gene-row-sub{font-size:10px}#regionalGenes>label{margin-top:4px}#geneListCount{font-size:11px}.right #sourceStudy{margin-top:8px}.right .selection-actions{margin-top:14px}#geneListTitle{line-height:1.7}
