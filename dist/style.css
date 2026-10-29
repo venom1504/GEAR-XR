@@ -30,5 +30,3 @@ body:not(.protein) .selection-actions #geneMeta strong{display:inline}#geneListC
 #regionalGenes .paper-note{margin:4px 0}#regionalGenes .gene-row{padding:9px}.gene-row-sub{font-size:10px}#regionalGenes>label{margin-top:4px}#geneListCount{font-size:11px}.right #sourceStudy{margin-top:8px}.right .selection-actions{margin-top:14px}#geneListTitle{line-height:1.7}
 
 footer{padding-bottom:12px}.creator-credit{position:absolute;bottom:6px;left:0;right:0;text-align:center;font-size:10px;color:#8ba6b3;letter-spacing:.2px;pointer-events:none}@media(max-width:760px){footer{padding-bottom:12px}.creator-credit{font-size:8px;bottom:3px}}
-
-.creator-credit{position:fixed;bottom:5px;left:50%;transform:translateX(-50%);font-size:9px;font-weight:400;letter-spacing:.2px;color:#78939f;white-space:nowrap;pointer-events:none}
