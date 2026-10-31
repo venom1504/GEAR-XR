@@ -1,4 +1,4 @@
-# NeuroAtlas XR
+# GEAR-XR
 
 Interactive Three.js/WebXR brain, gene-expression and protein demonstration.
 
