@@ -14,6 +14,11 @@
           "file": "ADNP.html"
         },
         {
+          "url": "https://www.proteinatlas.org/ENSG00000101126-ADNP/brain/parietal%2Bcortex",
+          "sha256": "334dfbb550b6685778a96009128fa2f7c8e9e7e511d718b643eda981e2c2d035",
+          "file": "ADNP.parietal.html"
+        },
+        {
           "url": "https://www.proteinatlas.org/ENSG00000101126-ADNP/brain/hippocampal%2Bformation",
           "sha256": "06caecc2638bcb288501701c9a2ed83344b3d8498c4cb013d2820fb3cb1e2aa1",
           "file": "ADNP.hippocampal.html"
@@ -9094,6 +9099,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 21.7,
+            "samples": [
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 22.8
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 21.9
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 21.6
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 21.5
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 21.4
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 20.7
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000101126-ADNP/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "334dfbb550b6685778a96009128fa2f7c8e9e7e511d718b643eda981e2c2d035",
+            "sampleRange": [
+              20.7,
+              22.8
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -9106,6 +9157,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000049618-ARID1B/brain/cerebral%2Bcortex",
           "sha256": "2824e42a381ecc220f951091bd0ec685d80479601fe876c9aa72c450ed6fcc8a",
           "file": "ARID1B.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000049618-ARID1B/brain/parietal%2Bcortex",
+          "sha256": "d2e55705a5a3af0da439abe09b88f738b5e99e91ac46f53ff9ea8742a27ba771",
+          "file": "ARID1B.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000049618-ARID1B/brain/hippocampal%2Bformation",
@@ -18188,6 +18244,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 10.1,
+            "samples": [
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 13.5
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 11.7
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 10.0
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 8.9
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 8.7
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 7.6
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000049618-ARID1B/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "d2e55705a5a3af0da439abe09b88f738b5e99e91ac46f53ff9ea8742a27ba771",
+            "sampleRange": [
+              7.6,
+              13.5
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -18200,6 +18302,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000116539-ASH1L/brain/cerebral%2Bcortex",
           "sha256": "7e28a2f770db06a3118e6978ce5f61c477c21bab672785d1ffbf966987e88243",
           "file": "ASH1L.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000116539-ASH1L/brain/parietal%2Bcortex",
+          "sha256": "ff22285619607c270a2704cc7b208b6174c4e98263a535b2d95a45e2d0af1ca4",
+          "file": "ASH1L.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000116539-ASH1L/brain/hippocampal%2Bformation",
@@ -27282,6 +27389,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 15.4,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 16.8
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 16.4
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 15.9
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 15.4
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 14.3
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 13.9
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000116539-ASH1L/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "ff22285619607c270a2704cc7b208b6174c4e98263a535b2d95a45e2d0af1ca4",
+            "sampleRange": [
+              13.9,
+              16.8
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -27294,6 +27447,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000100888-CHD8/brain/cerebral%2Bcortex",
           "sha256": "4390f3b2fa9e168fd79adef1f9d99ceabca0cc0b19aea207aa32f90a3b9e0ff6",
           "file": "CHD8.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000100888-CHD8/brain/parietal%2Bcortex",
+          "sha256": "47eef5f44c424e5d96aa57aea020be2e11bbd9932d8bb231a977dd5f795c9786",
+          "file": "CHD8.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000100888-CHD8/brain/hippocampal%2Bformation",
@@ -36376,6 +36534,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 7.4,
+            "samples": [
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 9.3
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 8.8
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 7.7
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 7.3
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 6.8
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 4.3
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000100888-CHD8/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "47eef5f44c424e5d96aa57aea020be2e11bbd9932d8bb231a977dd5f795c9786",
+            "sampleRange": [
+              4.3,
+              9.3
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -36388,6 +36592,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000174469-CNTNAP2/brain/cerebral%2Bcortex",
           "sha256": "464102db5ef7f58c6251638d4217e4f645853096bb91dcc34a224bc07aa68537",
           "file": "CNTNAP2.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000174469-CNTNAP2/brain/parietal%2Bcortex",
+          "sha256": "79ba3555b068667142c42ced07cc4751cf0f829d426b84abcd51cc91f365b18c",
+          "file": "CNTNAP2.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000174469-CNTNAP2/brain/hippocampal%2Bformation",
@@ -45470,6 +45679,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 2.3,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 8.7
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 2.8
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 1.6
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 1.0
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 0.0
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 0.0
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000174469-CNTNAP2/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "79ba3555b068667142c42ced07cc4751cf0f829d426b84abcd51cc91f365b18c",
+            "sampleRange": [
+              0.0,
+              8.7
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -45482,6 +45737,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000157540-DYRK1A/brain/cerebral%2Bcortex",
           "sha256": "7a3ae96e11a05e6f50f934f95a76fd270e7da254fa83b9ff346199359a437447",
           "file": "DYRK1A.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000157540-DYRK1A/brain/parietal%2Bcortex",
+          "sha256": "46f2288d295dce3d05dcab9d8ef4c9090e841d7616edcf39cf40ede4a4630237",
+          "file": "DYRK1A.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000157540-DYRK1A/brain/hippocampal%2Bformation",
@@ -54564,6 +54824,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 11.7,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 13.4
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 13.4
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 13.2
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 10.7
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 10.2
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 9.6
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000157540-DYRK1A/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "46f2288d295dce3d05dcab9d8ef4c9090e841d7616edcf39cf40ede4a4630237",
+            "sampleRange": [
+              9.6,
+              13.4
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -54576,6 +54882,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000114861-FOXP1/brain/cerebral%2Bcortex",
           "sha256": "bf94108168e3fd9eddce1b66b3a45921a90ae36c042fe50929a5fccbb1e43659",
           "file": "FOXP1.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000114861-FOXP1/brain/parietal%2Bcortex",
+          "sha256": "d490143ec20c67793d89d0f660c7ffe14f96a54a8b502a2121755d0afb2990a0",
+          "file": "FOXP1.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000114861-FOXP1/brain/hippocampal%2Bformation",
@@ -63658,6 +63969,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 7.3,
+            "samples": [
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 10.6
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 8.3
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 7.2
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 6.3
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 6.2
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 5.2
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000114861-FOXP1/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "d490143ec20c67793d89d0f660c7ffe14f96a54a8b502a2121755d0afb2990a0",
+            "sampleRange": [
+              5.2,
+              10.6
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -63670,6 +64027,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000273079-GRIN2B/brain/cerebral%2Bcortex",
           "sha256": "70e87c885518c23824daf4eedf0a1486258dfaf83ca488977ec787d7a5f34128",
           "file": "GRIN2B.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000273079-GRIN2B/brain/parietal%2Bcortex",
+          "sha256": "e5c8eb565de0eb419970f001c4d735a078b20f5209d76474aabff6c5dde6847e",
+          "file": "GRIN2B.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000273079-GRIN2B/brain/hippocampal%2Bformation",
@@ -72752,6 +73114,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 0.6,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 1.1
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 1.0
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 0.6
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 0.4
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 0.2
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 0.2
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000273079-GRIN2B/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "e5c8eb565de0eb419970f001c4d735a078b20f5209d76474aabff6c5dde6847e",
+            "sampleRange": [
+              0.2,
+              1.1
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -72764,6 +73172,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000110066-KMT5B/brain/cerebral%2Bcortex",
           "sha256": "151040b4885fe8aba5b98405ad4d3ca0d121f8a04b008d3306f00d3af2c380f3",
           "file": "KMT5B.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000110066-KMT5B/brain/parietal%2Bcortex",
+          "sha256": "c29cc04e53354b60cb8213dbb1929c901e4798ca2dba4e4548313a2e589b1567",
+          "file": "KMT5B.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000110066-KMT5B/brain/hippocampal%2Bformation",
@@ -81846,6 +82259,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 11.1,
+            "samples": [
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 15.1
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 12.8
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 12.5
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 9.7
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 8.7
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 8.0
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000110066-KMT5B/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "c29cc04e53354b60cb8213dbb1929c901e4798ca2dba4e4548313a2e589b1567",
+            "sampleRange": [
+              8.0,
+              15.1
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -81858,6 +82317,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000169057-MECP2/brain/cerebral%2Bcortex",
           "sha256": "eb76fd9825e1aa6d91e74edad6e322d185efe28f58d6ad4d0f1815effd31d73a",
           "file": "MECP2.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000169057-MECP2/brain/parietal%2Bcortex",
+          "sha256": "4e243d0473ca8ae1b2f26145047828b0a4403660b7630f3a5a452c51cc00bfc9",
+          "file": "MECP2.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000169057-MECP2/brain/hippocampal%2Bformation",
@@ -90940,6 +91404,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 7.3,
+            "samples": [
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 9.8
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 8.2
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 7.0
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 6.7
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 6.6
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 5.6
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000169057-MECP2/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "4e243d0473ca8ae1b2f26145047828b0a4403660b7630f3a5a452c51cc00bfc9",
+            "sampleRange": [
+              5.6,
+              9.8
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -90952,6 +91462,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000105976-MET/brain/cerebral%2Bcortex",
           "sha256": "f3b5fab463821fa0159c21615e60e71e58a4c28fbec1ca39afdd2263d5b32f8b",
           "file": "MET.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000105976-MET/brain/parietal%2Bcortex",
+          "sha256": "49d1b3197fe6121ecdb866235c13bd91c8fa544c72145c2cb8cecec4d439434f",
+          "file": "MET.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000105976-MET/brain/hippocampal%2Bformation",
@@ -100034,6 +100549,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 0.7,
+            "samples": [
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 1.2
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 1.1
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 1.0
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 0.4
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 0.3
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 0.3
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000105976-MET/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "49d1b3197fe6121ecdb866235c13bd91c8fa544c72145c2cb8cecec4d439434f",
+            "sampleRange": [
+              0.3,
+              1.2
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -100046,6 +100607,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000196338-NLGN3/brain/cerebral%2Bcortex",
           "sha256": "89274a07835eebc2fb4d14bd66f8be4d9dda8e33a87ba923ad834a9baf819a8f",
           "file": "NLGN3.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000196338-NLGN3/brain/parietal%2Bcortex",
+          "sha256": "e3964f841a091b03e11b9fdb5f35e9e1d650f9a7d10a8cc9c6494702db20695b",
+          "file": "NLGN3.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000196338-NLGN3/brain/hippocampal%2Bformation",
@@ -109128,6 +109694,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 5.4,
+            "samples": [
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 8.6
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 6.7
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 5.5
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 4.9
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 3.9
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 2.7
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000196338-NLGN3/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "e3964f841a091b03e11b9fdb5f35e9e1d650f9a7d10a8cc9c6494702db20695b",
+            "sampleRange": [
+              2.7,
+              8.6
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -109140,6 +109752,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000179915-NRXN1/brain/cerebral%2Bcortex",
           "sha256": "07a58fe621f4c51cc118695db157cabd9530ba903c442891b6ed770675e96103",
           "file": "NRXN1.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000179915-NRXN1/brain/parietal%2Bcortex",
+          "sha256": "fd99b9f38718007dd447b4d7f228ebe6549828c209cc9676e847f26b651f074b",
+          "file": "NRXN1.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000179915-NRXN1/brain/hippocampal%2Bformation",
@@ -118222,6 +118839,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 20.4,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 37.1
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 29.0
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 17.8
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 14.3
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 12.0
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 12.0
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000179915-NRXN1/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "fd99b9f38718007dd447b4d7f228ebe6549828c209cc9676e847f26b651f074b",
+            "sampleRange": [
+              12.0,
+              37.1
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -118234,6 +118897,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000143442-POGZ/brain/cerebral%2Bcortex",
           "sha256": "6666f4cbf5bf82425d5d72cdd8e7d1994f8292d3023e09b45c86bbde349d1bd7",
           "file": "POGZ.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000143442-POGZ/brain/parietal%2Bcortex",
+          "sha256": "89701235ce0f79186f92130d756a4c30a8486ae28b6b6a2ddd5ef26a31228ab4",
+          "file": "POGZ.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000143442-POGZ/brain/hippocampal%2Bformation",
@@ -127316,6 +127984,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 24.9,
+            "samples": [
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 34.2
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 26.9
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 26.5
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 26.0
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 18.0
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 17.7
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000143442-POGZ/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "89701235ce0f79186f92130d756a4c30a8486ae28b6b6a2ddd5ef26a31228ab4",
+            "sampleRange": [
+              17.7,
+              34.2
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -127328,6 +128042,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000171862-PTEN/brain/cerebral%2Bcortex",
           "sha256": "0cefe75ac0b9ab49c671cccace861c1c1c87a5f40c2a2bb56dcd646cd4cc9c67",
           "file": "PTEN.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000171862-PTEN/brain/parietal%2Bcortex",
+          "sha256": "5b64c29428928cdfd2ee2385d2cd6aff10742a8706b3ef9bb3307dda083f4b28",
+          "file": "PTEN.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000171862-PTEN/brain/hippocampal%2Bformation",
@@ -136410,6 +137129,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 12.7,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 16.3
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 16.1
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 15.1
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 10.0
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 9.5
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 9.4
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000171862-PTEN/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "5b64c29428928cdfd2ee2385d2cd6aff10742a8706b3ef9bb3307dda083f4b28",
+            "sampleRange": [
+              9.4,
+              16.3
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -136422,6 +137187,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000136531-SCN2A/brain/cerebral%2Bcortex",
           "sha256": "a90877cca3ee921687a5a32ced657bbf54e34e3444b3994ca866b5dacb602deb",
           "file": "SCN2A.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000136531-SCN2A/brain/parietal%2Bcortex",
+          "sha256": "3ae9122dfd112c5bb76ff83903284ad1970cc58250d0e47b2e58d6013bdc7f4c",
+          "file": "SCN2A.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000136531-SCN2A/brain/hippocampal%2Bformation",
@@ -145504,6 +146274,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 6.6,
+            "samples": [
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 13.0
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 11.2
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 6.0
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 4.2
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 2.9
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 2.4
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000136531-SCN2A/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "3ae9122dfd112c5bb76ff83903284ad1970cc58250d0e47b2e58d6013bdc7f4c",
+            "sampleRange": [
+              2.4,
+              13.0
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -145516,6 +146332,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000251322-SHANK3/brain/cerebral%2Bcortex",
           "sha256": "37a47e2aac8672b4b651c8d8a40cf132bfd1d2026e3a3e7399cbacbc1f39a71c",
           "file": "SHANK3.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000251322-SHANK3/brain/parietal%2Bcortex",
+          "sha256": "29f5fa97af209c168a06bf114855cebafc509c1a0a37c2d5b9afb6179a383c18",
+          "file": "SHANK3.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000251322-SHANK3/brain/hippocampal%2Bformation",
@@ -154598,6 +155419,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 15.3,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 19.4
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 19.4
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 17.2
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 13.6
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 11.4
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 11.1
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000251322-SHANK3/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "29f5fa97af209c168a06bf114855cebafc509c1a0a37c2d5b9afb6179a383c18",
+            "sampleRange": [
+              11.1,
+              19.4
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -154610,6 +155477,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000197283-SYNGAP1/brain/cerebral%2Bcortex",
           "sha256": "8d7a0b168544ce03d04ba56bb4dd9d5d076c4e38a1af2d4ba55581b3d2783164",
           "file": "SYNGAP1.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000197283-SYNGAP1/brain/parietal%2Bcortex",
+          "sha256": "d267f95f048b73ebd55f43c03b478081876a0473120085847b1da61fe8d0ceea",
+          "file": "SYNGAP1.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000197283-SYNGAP1/brain/hippocampal%2Bformation",
@@ -163692,6 +164564,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 7.9,
+            "samples": [
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 11.2
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 10.7
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 8.3
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 6.8
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 5.0
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 5.0
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000197283-SYNGAP1/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "d267f95f048b73ebd55f43c03b478081876a0473120085847b1da61fe8d0ceea",
+            "sampleRange": [
+              5.0,
+              11.2
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -163704,6 +164622,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000136535-TBR1/brain/cerebral%2Bcortex",
           "sha256": "bc38e46673bcf02de8390df459700423832ab1693044d0502d008586e7781585",
           "file": "TBR1.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000136535-TBR1/brain/parietal%2Bcortex",
+          "sha256": "da25237d872e12f2ee297d629619ed0464c7f2b9614994123fdd92eb3671669c",
+          "file": "TBR1.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000136535-TBR1/brain/hippocampal%2Bformation",
@@ -172786,6 +173709,52 @@
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
             "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 10.6,
+            "samples": [
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 21.7
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 20.2
+              },
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 8.3
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 7.2
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 3.7
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 2.7
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000136535-TBR1/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "da25237d872e12f2ee297d629619ed0464c7f2b9614994123fdd92eb3671669c",
+            "sampleRange": [
+              2.7,
+              21.7
+            ],
+            "sourceLabel": "parietal cortex",
+            "matchesSavedValue": true
           }
         }
       }
@@ -172798,6 +173767,11 @@
           "url": "https://www.proteinatlas.org/ENSG00000163625-WDFY3/brain/cerebral%2Bcortex",
           "sha256": "b239ee97880ded9ee3ab0a5d0ff473cc8b5bd3efcda088eda9894d269a0a759b",
           "file": "WDFY3.html"
+        },
+        {
+          "url": "https://www.proteinatlas.org/ENSG00000163625-WDFY3/brain/parietal%2Bcortex",
+          "sha256": "13d64c78b03d71849a1734e978eb8ec8955469b7d323c6bc2d8a5b3d2fc5ca05",
+          "file": "WDFY3.parietal.html"
         },
         {
           "url": "https://www.proteinatlas.org/ENSG00000163625-WDFY3/brain/hippocampal%2Bformation",
@@ -181879,6 +182853,52 @@
               9.0
             ],
             "sourceLabel": "ventromedial prefrontal cortex",
+            "matchesSavedValue": true
+          },
+          "parietal cortex": {
+            "sampleCount": 6,
+            "independentDonorCount": null,
+            "displayedMean": 9.0,
+            "samples": [
+              {
+                "id": "1585",
+                "description": "Male, age 75, left hemisphere",
+                "nTPM": 11.5
+              },
+              {
+                "id": "1589",
+                "description": "Female, age 67, right hemisphere",
+                "nTPM": 10.9
+              },
+              {
+                "id": "1586",
+                "description": "Female, age 94, right hemisphere",
+                "nTPM": 9.5
+              },
+              {
+                "id": "1584",
+                "description": "Male, age 61, left hemisphere",
+                "nTPM": 8.2
+              },
+              {
+                "id": "1588",
+                "description": "Female, age 67, left hemisphere",
+                "nTPM": 7.2
+              },
+              {
+                "id": "1587",
+                "description": "Female, age 85, right hemisphere",
+                "nTPM": 6.8
+              }
+            ],
+            "anchor": "hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceUrl": "https://www.proteinatlas.org/ENSG00000163625-WDFY3/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex",
+            "sourceSHA256": "13d64c78b03d71849a1734e978eb8ec8955469b7d323c6bc2d8a5b3d2fc5ca05",
+            "sampleRange": [
+              6.8,
+              11.5
+            ],
+            "sourceLabel": "parietal cortex",
             "matchesSavedValue": true
           }
         }

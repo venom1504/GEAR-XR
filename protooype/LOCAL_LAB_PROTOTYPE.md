@@ -20,7 +20,7 @@ The source-page fetcher reuses archived pages if present. It downloads only miss
 
 Postcentral TBR1 retains the HPA source-entry means 105.0, 65.1, 84.8 and 85.8 nTPM for provenance. The ranking now averages their individual tissue measurements with equal weight per sample. The entries contain 1, 6, 5 and 3 samples, yielding 78.493333 nTPM across 15 sample IDs; the single-sample entry contributes 6.7% rather than 25%. The former equal-area result, 85.175, is retained in the ranking audit fields only.
 
-The baseline uses the identical tissue-sample method in the same study. IDs are deduplicated, target IDs excluded, and conflicting duplicate values fail the build. All HPA brain areas are covered; one PFC baseline area (parietal cortex) lacks a verified sample table and is explicitly excluded rather than imputed. Counts are tissue counts, not independent donor counts. Repeated donors, age, cell composition and statistical uncertainty remain unadjusted. Original rounded sample rows are retained, so calculation precision is limited by the published numbers.
+The baseline uses the identical tissue-sample method in the same study. IDs are deduplicated, target IDs excluded, and conflicting duplicate values fail the build. All HPA brain areas are covered; all 20 PFC areas are now covered, including six parietal cortex tissue samples per gene recovered from its separate official page. Counts are tissue counts, not independent donor counts. Repeated donors, age, cell composition and statistical uncertainty remain unadjusted. Original rounded sample rows are retained, so calculation precision is limited by the published numbers.
 
 ## Provenance
 

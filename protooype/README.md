@@ -18,7 +18,7 @@ Run `npm test` to execute 20 JavaScript and 5 Python regression checks.
 
 - Postcentral and precentral evidence includes the unsuffixed entry plus dorsal, middle and ventral subdivisions, across all 20 library genes.
 - TBR1's original 105.0 nTPM single-sample entry remains visible. Its corrected postcentral summary is 78.493 nTPM across 15 equally weighted tissue samples. The unsuffixed entry now has 1/15 (6.7%) weight, not 25%. This is not an independent-donor mean.
-- All 880 mapped gene/source measurements have verified sample tables and direct source anchors. The audit retains 4,240 imported source entries: all 193 HPA brain areas and 19 of 20 PFC areas across 20 genes. The PFC parietal cortex baseline entry lacks a verified sample table and is explicitly excluded. SCN2A superior frontal uses the separate PFC study: 10 tissue samples, mean 11.6 nTPM and range 3.9–25.4 nTPM.
+- All 880 mapped gene/source measurements have verified sample tables and direct source anchors. The audit retains 4,260 imported source entries: all 193 HPA brain areas and all 20 PFC areas across 20 genes. The separately published parietal cortex page supplies six verified tissue rows per gene, completing the PFC baseline. SCN2A superior frontal uses the separate PFC study: 10 tissue samples, mean 11.6 nTPM and range 3.9–25.4 nTPM.
 - Shared broader mappings are explicit; cuneus and lateral occipital do not claim independent parcel-level measurements.
 - Sampling notices disappear for empty rankings. Yellow is reserved for single-sample results; multiple-source evidence is neutral and its weights are shown.
 - Region selection retains both hemispheres. The 3D canvas occupies its own panel, and narrow windows scroll.

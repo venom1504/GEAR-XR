@@ -1,5 +1,5 @@
-import {mappingContext} from './mapping-context.js?v=sample-weighted-1';
-import {coverageForRecord,coverageLabel,sampleSummary} from './sample-coverage.js?v=sample-weighted-1';
+import {mappingContext} from './mapping-context.js?v=complete-baseline-1';
+import {coverageForRecord,coverageLabel,sampleSummary} from './sample-coverage.js?v=complete-baseline-1';
 import {rankedRegion} from './regional-ranking.js';
 const el = id => document.getElementById(id);
 const escape = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

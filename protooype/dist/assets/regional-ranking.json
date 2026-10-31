@@ -1239,18 +1239,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 31.942857142857143,
-          "otherAreaMean": 19.015217391304347,
-          "enrichment": 1.6798575838246583,
+          "otherAreaMean": 18.8625,
+          "enrichment": 1.6934582978320551,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1283,18 +1281,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 9.39047619047619,
-          "otherAreaMean": 6.310144927536232,
-          "enrichment": 1.4881553907736729,
+          "otherAreaMean": 6.271527777777778,
+          "enrichment": 1.4973187591945205,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1329,18 +1325,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 18.50952380952381,
-          "otherAreaMean": 22.58405797101449,
-          "enrichment": 0.8195836121781063,
+          "otherAreaMean": 22.54513888888889,
+          "enrichment": 0.8209984378781545,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1373,18 +1367,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 7.119047619047619,
-          "otherAreaMean": 8.516666666666667,
-          "enrichment": 0.835896002236511,
+          "otherAreaMean": 8.58125,
+          "enrichment": 0.8296049665314049,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1417,18 +1409,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 11.871428571428572,
-          "otherAreaMean": 15.155797101449275,
-          "enrichment": 0.7832929203237594,
+          "otherAreaMean": 15.168055555555556,
+          "enrichment": 0.7826598820097584,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1461,18 +1451,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 7.29047619047619,
-          "otherAreaMean": 7.558695652173913,
-          "enrichment": 0.9645151129189092,
+          "otherAreaMean": 7.550694444444445,
+          "enrichment": 0.9655371759666802,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1505,18 +1493,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 1.638095238095238,
-          "otherAreaMean": 3.384782608695652,
-          "enrichment": 0.483958772976114,
+          "otherAreaMean": 3.341666666666667,
+          "enrichment": 0.4902030637691485,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1549,18 +1535,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 9.561904761904762,
-          "otherAreaMean": 11.435507246376812,
-          "enrichment": 0.8361592149691763,
+          "otherAreaMean": 11.448611111111111,
+          "enrichment": 0.835202162874127,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1593,18 +1577,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 4.947619047619048,
-          "otherAreaMean": 6.673188405797101,
-          "enrichment": 0.7414175573584848,
+          "otherAreaMean": 6.699305555555555,
+          "enrichment": 0.738527151297961,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1637,18 +1619,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 0.9904761904761905,
-          "otherAreaMean": 1.0565217391304347,
-          "enrichment": 0.9374877523025672,
+          "otherAreaMean": 1.0368055555555555,
+          "enrichment": 0.95531528083437,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1681,18 +1661,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 8.628571428571428,
-          "otherAreaMean": 10.055797101449276,
-          "enrichment": 0.8580693645188853,
+          "otherAreaMean": 10.100694444444445,
+          "enrichment": 0.8542552669056621,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1725,18 +1703,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 7.957142857142857,
-          "otherAreaMean": 7.565942028985507,
-          "enrichment": 1.0517055016624024,
+          "otherAreaMean": 7.555555555555555,
+          "enrichment": 1.0531512605042017,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1769,18 +1745,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.49047619047619045,
-          "otherAreaMean": 0.9927536231884058,
-          "enrichment": 0.4940563086548488,
+          "otherAreaMean": 0.98125,
+          "enrichment": 0.49984834698210495,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1813,18 +1787,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 9.39047619047619,
-          "otherAreaMean": 6.310144927536232,
-          "enrichment": 1.4881553907736729,
+          "otherAreaMean": 6.271527777777778,
+          "enrichment": 1.4973187591945205,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1857,18 +1829,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 16.552380952380954,
-          "otherAreaMean": 24.23840579710145,
-          "enrichment": 0.6828989122032263,
+          "otherAreaMean": 24.077083333333334,
+          "enrichment": 0.6874745052472837,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1901,18 +1871,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 18.185714285714287,
-          "otherAreaMean": 21.86304347826087,
-          "enrichment": 0.8318015880907399,
+          "otherAreaMean": 21.98888888888889,
+          "enrichment": 0.8270410741355663,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1945,18 +1913,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 9.095238095238095,
-          "otherAreaMean": 11.72391304347826,
-          "enrichment": 0.7757851889133179,
+          "otherAreaMean": 11.765972222222222,
+          "enrichment": 0.7730120319390223,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -1989,18 +1955,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 7.1761904761904765,
-          "otherAreaMean": 8.993478260869566,
-          "enrichment": 0.7979327094628037,
+          "otherAreaMean": 8.894444444444444,
+          "enrichment": 0.8068171678415277,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -2033,18 +1997,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 31.942857142857143,
-          "otherAreaMean": 19.015217391304347,
-          "enrichment": 1.6798575838246583,
+          "otherAreaMean": 18.8625,
+          "enrichment": 1.6934582978320551,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -2077,18 +2039,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 13.114285714285714,
-          "otherAreaMean": 10.808695652173913,
-          "enrichment": 1.2133088150787266,
+          "otherAreaMean": 10.684722222222222,
+          "enrichment": 1.2273866780561178,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -2121,18 +2081,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 8.4,
-          "otherAreaMean": 12.33768115942029,
-          "enrichment": 0.6808410666040174,
+          "otherAreaMean": 12.266666666666667,
+          "enrichment": 0.6847826086956521,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -2165,18 +2123,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 6.366666666666667,
-          "otherAreaMean": 7.646376811594203,
-          "enrichment": 0.8326383623957545,
+          "otherAreaMean": 7.7034722222222225,
+          "enrichment": 0.8264671414405481,
           "sourceAreaCount": 3,
-          "comparisonAreaCount": 16,
+          "comparisonAreaCount": 17,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 21,
-          "comparisonSampleCount": 138,
+          "comparisonSampleCount": 144,
           "totalComparisonAreaCount": 17,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "anterior cingulate gyrus, pregenual-dorsal",
@@ -2215,18 +2171,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 25.257142857142856,
-          "otherAreaMean": 21.898026315789473,
-          "enrichment": 1.1533981415910213,
+          "otherAreaMean": 21.88860759493671,
+          "enrichment": 1.1538944516043752,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2249,18 +2203,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 7.928571428571429,
-          "otherAreaMean": 8.350657894736843,
-          "enrichment": 0.9494547050680352,
+          "otherAreaMean": 8.415822784810127,
+          "enrichment": 0.9421029448103224,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2283,18 +2235,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 16.085714285714285,
-          "otherAreaMean": 14.659210526315789,
-          "enrichment": 1.0973110903099235,
+          "otherAreaMean": 14.689240506329114,
+          "enrichment": 1.095067800052935,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2317,18 +2267,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 8.371428571428572,
-          "otherAreaMean": 7.484210526315789,
-          "enrichment": 1.1185453084187262,
+          "otherAreaMean": 7.479746835443038,
+          "enrichment": 1.1192128230544207,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2351,18 +2299,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 1.9428571428571428,
-          "otherAreaMean": 3.2098684210526316,
-          "enrichment": 0.605276256844201,
+          "otherAreaMean": 3.1772151898734178,
+          "enrichment": 0.6114968696642004,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2385,18 +2331,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 10.414285714285715,
-          "otherAreaMean": 11.223684210526315,
-          "enrichment": 0.9278847764193603,
+          "otherAreaMean": 11.24367088607595,
+          "enrichment": 0.9262353745325881,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2419,18 +2363,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 6.7,
-          "otherAreaMean": 6.433552631578947,
-          "enrichment": 1.0414152776357501,
+          "otherAreaMean": 6.466455696202532,
+          "enrichment": 1.0361162767935792,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2453,18 +2395,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 0.8,
-          "otherAreaMean": 1.0592105263157894,
-          "enrichment": 0.7552795031055902,
+          "otherAreaMean": 1.0411392405063291,
+          "enrichment": 0.7683890577507599,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2487,18 +2427,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 10.228571428571428,
-          "otherAreaMean": 9.850657894736843,
-          "enrichment": 1.0383642938241213,
+          "otherAreaMean": 9.899367088607596,
+          "enrichment": 1.0332550896453458,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2521,18 +2459,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 7.671428571428572,
-          "otherAreaMean": 7.615131578947368,
-          "enrichment": 1.007392780006171,
+          "otherAreaMean": 7.60379746835443,
+          "enrichment": 1.0088943851221195,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2555,18 +2491,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.45714285714285713,
-          "otherAreaMean": 0.9480263157894737,
-          "enrichment": 0.4822048180826806,
+          "otherAreaMean": 0.9392405063291139,
+          "enrichment": 0.48671544089333846,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2589,18 +2523,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 5.657142857142857,
-          "otherAreaMean": 6.765789473684211,
-          "enrichment": 0.8361393565594265,
+          "otherAreaMean": 6.713291139240506,
+          "enrichment": 0.8426780158655335,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2623,18 +2555,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 19.87142857142857,
-          "otherAreaMean": 23.37763157894737,
-          "enrichment": 0.8500188953838979,
+          "otherAreaMean": 23.263291139240508,
+          "enrichment": 0.8541967880851328,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2657,18 +2587,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 25.857142857142858,
-          "otherAreaMean": 21.17105263157895,
-          "enrichment": 1.2213442244517445,
+          "otherAreaMean": 21.312025316455696,
+          "enrichment": 1.2132653970328071,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2691,18 +2619,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 10.142857142857142,
-          "otherAreaMean": 11.433552631578948,
-          "enrichment": 0.8871133469787016,
+          "otherAreaMean": 11.482911392405063,
+          "enrichment": 0.8833001314950276,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2725,18 +2651,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 6.571428571428571,
-          "otherAreaMean": 8.853947368421053,
-          "enrichment": 0.7422032566927795,
+          "otherAreaMean": 8.768987341772151,
+          "enrichment": 0.7493942362220962,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2759,18 +2683,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 15.4,
-          "otherAreaMean": 20.967763157894737,
-          "enrichment": 0.7344607950801669,
+          "otherAreaMean": 20.754430379746836,
+          "enrichment": 0.7420102464015613,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2793,18 +2715,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 9.82857142857143,
-          "otherAreaMean": 11.172368421052632,
-          "enrichment": 0.8797213856688595,
+          "otherAreaMean": 11.045569620253165,
+          "enrichment": 0.8898202416423824,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2827,18 +2747,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 9.82857142857143,
-          "otherAreaMean": 11.909210526315789,
-          "enrichment": 0.8252916015594174,
+          "otherAreaMean": 11.860759493670885,
+          "enrichment": 0.8286629059307823,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2861,18 +2779,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 8.157142857142857,
-          "otherAreaMean": 7.446052631578947,
-          "enrichment": 1.0954989523641228,
+          "otherAreaMean": 7.505696202531645,
+          "enrichment": 1.0867936347319094,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2901,18 +2817,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 25.257142857142856,
-          "otherAreaMean": 21.898026315789473,
-          "enrichment": 1.1533981415910213,
+          "otherAreaMean": 21.88860759493671,
+          "enrichment": 1.1538944516043752,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2935,18 +2849,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 7.928571428571429,
-          "otherAreaMean": 8.350657894736843,
-          "enrichment": 0.9494547050680352,
+          "otherAreaMean": 8.415822784810127,
+          "enrichment": 0.9421029448103224,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -2969,18 +2881,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 16.085714285714285,
-          "otherAreaMean": 14.659210526315789,
-          "enrichment": 1.0973110903099235,
+          "otherAreaMean": 14.689240506329114,
+          "enrichment": 1.095067800052935,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3003,18 +2913,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 8.371428571428572,
-          "otherAreaMean": 7.484210526315789,
-          "enrichment": 1.1185453084187262,
+          "otherAreaMean": 7.479746835443038,
+          "enrichment": 1.1192128230544207,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3037,18 +2945,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 1.9428571428571428,
-          "otherAreaMean": 3.2098684210526316,
-          "enrichment": 0.605276256844201,
+          "otherAreaMean": 3.1772151898734178,
+          "enrichment": 0.6114968696642004,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3071,18 +2977,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 10.414285714285715,
-          "otherAreaMean": 11.223684210526315,
-          "enrichment": 0.9278847764193603,
+          "otherAreaMean": 11.24367088607595,
+          "enrichment": 0.9262353745325881,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3105,18 +3009,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 6.7,
-          "otherAreaMean": 6.433552631578947,
-          "enrichment": 1.0414152776357501,
+          "otherAreaMean": 6.466455696202532,
+          "enrichment": 1.0361162767935792,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3139,18 +3041,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 0.8,
-          "otherAreaMean": 1.0592105263157894,
-          "enrichment": 0.7552795031055902,
+          "otherAreaMean": 1.0411392405063291,
+          "enrichment": 0.7683890577507599,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3173,18 +3073,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 10.228571428571428,
-          "otherAreaMean": 9.850657894736843,
-          "enrichment": 1.0383642938241213,
+          "otherAreaMean": 9.899367088607596,
+          "enrichment": 1.0332550896453458,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3207,18 +3105,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 7.671428571428572,
-          "otherAreaMean": 7.615131578947368,
-          "enrichment": 1.007392780006171,
+          "otherAreaMean": 7.60379746835443,
+          "enrichment": 1.0088943851221195,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3241,18 +3137,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.45714285714285713,
-          "otherAreaMean": 0.9480263157894737,
-          "enrichment": 0.4822048180826806,
+          "otherAreaMean": 0.9392405063291139,
+          "enrichment": 0.48671544089333846,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3275,18 +3169,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 5.657142857142857,
-          "otherAreaMean": 6.765789473684211,
-          "enrichment": 0.8361393565594265,
+          "otherAreaMean": 6.713291139240506,
+          "enrichment": 0.8426780158655335,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3309,18 +3201,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 19.87142857142857,
-          "otherAreaMean": 23.37763157894737,
-          "enrichment": 0.8500188953838979,
+          "otherAreaMean": 23.263291139240508,
+          "enrichment": 0.8541967880851328,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3343,18 +3233,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 25.857142857142858,
-          "otherAreaMean": 21.17105263157895,
-          "enrichment": 1.2213442244517445,
+          "otherAreaMean": 21.312025316455696,
+          "enrichment": 1.2132653970328071,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3377,18 +3265,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 10.142857142857142,
-          "otherAreaMean": 11.433552631578948,
-          "enrichment": 0.8871133469787016,
+          "otherAreaMean": 11.482911392405063,
+          "enrichment": 0.8833001314950276,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3411,18 +3297,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 6.571428571428571,
-          "otherAreaMean": 8.853947368421053,
-          "enrichment": 0.7422032566927795,
+          "otherAreaMean": 8.768987341772151,
+          "enrichment": 0.7493942362220962,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3445,18 +3329,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 15.4,
-          "otherAreaMean": 20.967763157894737,
-          "enrichment": 0.7344607950801669,
+          "otherAreaMean": 20.754430379746836,
+          "enrichment": 0.7420102464015613,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3479,18 +3361,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 9.82857142857143,
-          "otherAreaMean": 11.172368421052632,
-          "enrichment": 0.8797213856688595,
+          "otherAreaMean": 11.045569620253165,
+          "enrichment": 0.8898202416423824,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3513,18 +3393,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 9.82857142857143,
-          "otherAreaMean": 11.909210526315789,
-          "enrichment": 0.8252916015594174,
+          "otherAreaMean": 11.860759493670885,
+          "enrichment": 0.8286629059307823,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -3547,18 +3425,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 8.157142857142857,
-          "otherAreaMean": 7.446052631578947,
-          "enrichment": 1.0954989523641228,
+          "otherAreaMean": 7.505696202531645,
+          "enrichment": 1.0867936347319094,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "dorsolateral prefrontal cortex",
@@ -21082,18 +20958,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 27.142857142857142,
-          "otherAreaMean": 20.426973684210527,
-          "enrichment": 1.328775253861408,
+          "otherAreaMean": 20.234177215189874,
+          "enrichment": 1.3414361678359175,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21118,18 +20992,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 18.428571428571427,
-          "otherAreaMean": 22.2125,
-          "enrichment": 0.829648685585658,
+          "otherAreaMean": 22.191139240506327,
+          "enrichment": 0.8304472892916221,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21152,18 +21024,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 7.485714285714286,
-          "otherAreaMean": 8.371052631578948,
-          "enrichment": 0.894238110207931,
+          "otherAreaMean": 8.435443037974684,
+          "enrichment": 0.8874121077002229,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21186,18 +21056,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 12.471428571428572,
-          "otherAreaMean": 14.825657894736842,
-          "enrichment": 0.841205743446702,
+          "otherAreaMean": 14.849367088607595,
+          "enrichment": 0.8398626350207631,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21220,18 +21088,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 8.071428571428571,
-          "otherAreaMean": 7.498026315789474,
-          "enrichment": 1.0764737587585704,
+          "otherAreaMean": 7.493037974683545,
+          "enrichment": 1.07719039976832,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21254,18 +21120,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 3.8142857142857145,
-          "otherAreaMean": 3.123684210526316,
-          "enrichment": 1.2210855698640029,
+          "otherAreaMean": 3.0943037974683545,
+          "enrichment": 1.2326797767583204,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21288,18 +21152,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 10.585714285714285,
-          "otherAreaMean": 11.215789473684211,
-          "enrichment": 0.943822484413756,
+          "otherAreaMean": 11.23607594936709,
+          "enrichment": 0.9421184347112358,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21322,18 +21184,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 6.485714285714286,
-          "otherAreaMean": 6.443421052631579,
-          "enrichment": 1.0065637854079756,
+          "otherAreaMean": 6.4759493670886075,
+          "enrichment": 1.0015078744554897,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21356,18 +21216,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 1.0,
-          "otherAreaMean": 1.05,
-          "enrichment": 0.9523809523809523,
+          "otherAreaMean": 1.0322784810126582,
+          "enrichment": 0.9687308399754753,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21390,18 +21248,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 7.942857142857143,
-          "otherAreaMean": 9.95592105263158,
-          "enrichment": 0.7978023430346168,
+          "otherAreaMean": 10.000632911392405,
+          "enrichment": 0.7942354462194979,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21424,18 +21280,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 8.67142857142857,
-          "otherAreaMean": 7.569078947368421,
-          "enrichment": 1.1456385422487116,
+          "otherAreaMean": 7.559493670886076,
+          "enrichment": 1.1470911874461773,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21458,18 +21312,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.9857142857142858,
-          "otherAreaMean": 0.9236842105263158,
-          "enrichment": 1.0671550671550671,
+          "otherAreaMean": 0.9158227848101266,
+          "enrichment": 1.076315529667292,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21492,18 +21344,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 8.071428571428571,
-          "otherAreaMean": 6.654605263157895,
-          "enrichment": 1.2129086928889203,
+          "otherAreaMean": 6.60632911392405,
+          "enrichment": 1.2217720964607341,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21526,18 +21376,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 19.485714285714284,
-          "otherAreaMean": 23.395394736842107,
-          "enrichment": 0.8328867499307024,
+          "otherAreaMean": 23.280379746835443,
+          "enrichment": 0.8370015651640315,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21560,18 +21408,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 20.142857142857142,
-          "otherAreaMean": 21.43421052631579,
-          "enrichment": 0.9397526966587739,
+          "otherAreaMean": 21.565189873417722,
+          "enrichment": 0.9340449706722121,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21594,18 +21440,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 9.8,
-          "otherAreaMean": 11.449342105263158,
-          "enrichment": 0.8559443774061944,
+          "otherAreaMean": 11.498101265822784,
+          "enrichment": 0.8523146364286894,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21628,18 +21472,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 8.1,
-          "otherAreaMean": 8.783552631578948,
-          "enrichment": 0.9221781139989513,
+          "otherAreaMean": 8.70126582278481,
+          "enrichment": 0.9308990398603433,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21662,18 +21504,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 27.142857142857142,
-          "otherAreaMean": 20.426973684210527,
-          "enrichment": 1.328775253861408,
+          "otherAreaMean": 20.234177215189874,
+          "enrichment": 1.3414361678359175,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21696,18 +21536,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 12.228571428571428,
-          "otherAreaMean": 11.061842105263159,
-          "enrichment": 1.105473330048089,
+          "otherAreaMean": 10.939240506329114,
+          "enrichment": 1.117862928554898,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21730,18 +21568,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 11.67142857142857,
-          "otherAreaMean": 11.824342105263158,
-          "enrichment": 0.9870679034424652,
+          "otherAreaMean": 11.779113924050632,
+          "enrichment": 0.9908579411561519,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21764,18 +21600,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 6.0285714285714285,
-          "otherAreaMean": 7.544078947368421,
-          "enrichment": 0.7991129825960209,
+          "otherAreaMean": 7.6,
+          "enrichment": 0.793233082706767,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 7,
-          "comparisonSampleCount": 152,
+          "comparisonSampleCount": 158,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, lateral",
@@ -21803,18 +21637,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 9.263636363636364,
-          "otherAreaMean": 7.344594594594595,
-          "enrichment": 1.2612862758216943,
+          "otherAreaMean": 7.40974025974026,
+          "enrichment": 1.2501971781614232,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -21839,18 +21671,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 24.136363636363637,
-          "otherAreaMean": 21.89054054054054,
-          "enrichment": 1.1025933138409216,
+          "otherAreaMean": 21.881168831168832,
+          "enrichment": 1.1030655547971628,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -21873,18 +21703,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 9.481818181818182,
-          "otherAreaMean": 8.246621621621621,
-          "enrichment": 1.149782131019329,
+          "otherAreaMean": 8.317532467532468,
+          "enrichment": 1.1399797017721915,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -21907,18 +21735,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 16.59090909090909,
-          "otherAreaMean": 14.583108108108108,
-          "enrichment": 1.1376799080084072,
+          "otherAreaMean": 14.616883116883116,
+          "enrichment": 1.1350510884051532,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -21941,18 +21767,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 7.609090909090909,
-          "otherAreaMean": 7.516891891891892,
-          "enrichment": 1.0122655771195097,
+          "otherAreaMean": 7.511038961038961,
+          "enrichment": 1.0130543788363449,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -21975,18 +21799,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 1.3818181818181818,
-          "otherAreaMean": 3.2858108108108106,
-          "enrichment": 0.420541005365188,
+          "otherAreaMean": 3.2493506493506494,
+          "enrichment": 0.42525979216626697,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22009,18 +21831,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 12.690909090909091,
-          "otherAreaMean": 11.07635135135135,
-          "enrichment": 1.1457662084149,
+          "otherAreaMean": 11.102597402597402,
+          "enrichment": 1.1430576675634578,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22043,18 +21863,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 6.718181818181818,
-          "otherAreaMean": 6.425,
-          "enrichment": 1.0456314113901661,
+          "otherAreaMean": 6.459090909090909,
+          "enrichment": 1.040112596762843,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22077,18 +21895,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 0.7363636363636363,
-          "otherAreaMean": 1.070945945945946,
-          "enrichment": 0.6875824490966446,
+          "otherAreaMean": 1.051948051948052,
+          "enrichment": 0.7,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22111,18 +21927,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 11.790909090909091,
-          "otherAreaMean": 9.724324324324325,
-          "enrichment": 1.2125170549295061,
+          "otherAreaMean": 9.779220779220779,
+          "enrichment": 1.205710491367862,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22145,18 +21959,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 6.827272727272727,
-          "otherAreaMean": 7.676351351351351,
-          "enrichment": 0.8893903385585457,
+          "otherAreaMean": 7.662337662337662,
+          "enrichment": 0.8910169491525424,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22179,18 +21991,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.9363636363636364,
-          "otherAreaMean": 0.9256756756756757,
-          "enrichment": 1.0115461181154612,
+          "otherAreaMean": 0.9175324675324675,
+          "enrichment": 1.0205237084217977,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22213,18 +22023,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 5.8545454545454545,
-          "otherAreaMean": 6.781081081081081,
-          "enrichment": 0.8633646146599515,
+          "otherAreaMean": 6.726623376623377,
+          "enrichment": 0.8703542813012839,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22247,18 +22055,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 24.727272727272727,
-          "otherAreaMean": 23.111486486486488,
-          "enrichment": 1.069912692190137,
+          "otherAreaMean": 23.004545454545454,
+          "enrichment": 1.0748863860897055,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22281,18 +22087,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 23.827272727272728,
-          "otherAreaMean": 21.19527027027027,
-          "enrichment": 1.1241787636317269,
+          "otherAreaMean": 21.33896103896104,
+          "enrichment": 1.1166088491266508,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22315,18 +22119,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 13.5,
-          "otherAreaMean": 11.218918918918918,
-          "enrichment": 1.203324500120453,
+          "otherAreaMean": 11.277922077922078,
+          "enrichment": 1.1970290188853063,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22349,18 +22151,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 8.39090909090909,
-          "otherAreaMean": 8.780405405405405,
-          "enrichment": 0.9556402812270454,
+          "otherAreaMean": 8.696103896103896,
+          "enrichment": 0.9649044205495818,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22383,18 +22183,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 12.463636363636363,
-          "otherAreaMean": 21.336486486486486,
-          "enrichment": 0.5841466153075501,
+          "otherAreaMean": 21.103246753246754,
+          "enrichment": 0.5906027877780854,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22417,18 +22215,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 9.154545454545454,
-          "otherAreaMean": 11.258783783783784,
-          "enrichment": 0.8131025189177983,
+          "otherAreaMean": 11.125324675324675,
+          "enrichment": 0.8228564758069223,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22451,18 +22247,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 10.854545454545454,
-          "otherAreaMean": 11.889189189189189,
-          "enrichment": 0.912976089607142,
+          "otherAreaMean": 11.840259740259741,
+          "enrichment": 0.9167489305692661,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22485,18 +22279,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 9.263636363636364,
-          "otherAreaMean": 7.344594594594595,
-          "enrichment": 1.2612862758216943,
+          "otherAreaMean": 7.40974025974026,
+          "enrichment": 1.2501971781614232,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 11,
-          "comparisonSampleCount": 148,
+          "comparisonSampleCount": 154,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "orbitofrontal gyrus, medial",
@@ -22524,18 +22316,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 26.58,
-          "otherAreaMean": 20.329530201342283,
-          "enrichment": 1.3074576606912942,
+          "otherAreaMean": 20.136774193548387,
+          "enrichment": 1.3199730872741253,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22558,18 +22348,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 4.01,
-          "otherAreaMean": 3.0966442953020135,
-          "enrichment": 1.2949501517121802,
+          "otherAreaMean": 3.067741935483871,
+          "enrichment": 1.3071503680336487,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22594,18 +22382,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 17.75,
-          "otherAreaMean": 22.334228187919464,
-          "enrichment": 0.7947442754973255,
+          "otherAreaMean": 22.30774193548387,
+          "enrichment": 0.7956878850102669,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22628,18 +22414,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 8.26,
-          "otherAreaMean": 8.336912751677852,
-          "enrichment": 0.9907744324585412,
+          "otherAreaMean": 8.403870967741936,
+          "enrichment": 0.9828803930600337,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22662,18 +22446,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 12.06,
-          "otherAreaMean": 14.900671140939597,
-          "enrichment": 0.8093595171606163,
+          "otherAreaMean": 14.921935483870968,
+          "enrichment": 0.8082061481257297,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22696,18 +22478,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 6.77,
-          "otherAreaMean": 7.573825503355705,
-          "enrichment": 0.8938679663269826,
+          "otherAreaMean": 7.565806451612903,
+          "enrichment": 0.8948153833034876,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22730,18 +22510,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 4.01,
-          "otherAreaMean": 3.0966442953020135,
-          "enrichment": 1.2949501517121802,
+          "otherAreaMean": 3.067741935483871,
+          "enrichment": 1.3071503680336487,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22764,18 +22542,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 9.47,
-          "otherAreaMean": 11.303355704697987,
-          "enrichment": 0.8378042987768674,
+          "otherAreaMean": 11.320645161290322,
+          "enrichment": 0.83652476206759,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22798,18 +22574,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 5.72,
-          "otherAreaMean": 6.493959731543624,
-          "enrichment": 0.8808185200496073,
+          "otherAreaMean": 6.525161290322581,
+          "enrichment": 0.8766066838046271,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22832,18 +22606,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 0.93,
-          "otherAreaMean": 1.0557046979865772,
-          "enrichment": 0.8809281627463447,
+          "otherAreaMean": 1.0374193548387096,
+          "enrichment": 0.8964552238805971,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22866,18 +22638,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 8.77,
-          "otherAreaMean": 9.940939597315436,
-          "enrichment": 0.8822103699702943,
+          "otherAreaMean": 9.987096774193548,
+          "enrichment": 0.8781330749354005,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22900,18 +22670,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 8.0,
-          "otherAreaMean": 7.5919463087248324,
-          "enrichment": 1.0537482319660536,
+          "otherAreaMean": 7.581290322580645,
+          "enrichment": 1.055229342183644,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22934,18 +22702,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.86,
-          "otherAreaMean": 0.9308724832214765,
-          "enrichment": 0.9238644556596971,
+          "otherAreaMean": 0.9225806451612903,
+          "enrichment": 0.9321678321678322,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -22968,18 +22734,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 7.74,
-          "otherAreaMean": 6.648322147651006,
-          "enrichment": 1.1642035130224107,
+          "otherAreaMean": 6.599354838709678,
+          "enrichment": 1.1728419200312836,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23002,18 +22766,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 20.13,
-          "otherAreaMean": 23.430872483221478,
-          "enrichment": 0.8591229376718605,
+          "otherAreaMean": 23.31225806451613,
+          "enrichment": 0.863494215973875,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23036,18 +22798,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 17.59,
-          "otherAreaMean": 21.631543624161075,
-          "enrichment": 0.8131643448853587,
+          "otherAreaMean": 21.75741935483871,
+          "enrichment": 0.808459850551536,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23070,18 +22830,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 9.78,
-          "otherAreaMean": 11.483892617449664,
-          "enrichment": 0.8516276079714803,
+          "otherAreaMean": 11.53225806451613,
+          "enrichment": 0.848055944055944,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23104,18 +22862,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 8.29,
-          "otherAreaMean": 8.784563758389261,
-          "enrichment": 0.943700817480327,
+          "otherAreaMean": 8.700645161290323,
+          "enrichment": 0.9528029067180779,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23138,18 +22894,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 26.58,
-          "otherAreaMean": 20.329530201342283,
-          "enrichment": 1.3074576606912942,
+          "otherAreaMean": 20.136774193548387,
+          "enrichment": 1.3199730872741253,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23172,18 +22926,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 11.280000000000001,
-          "otherAreaMean": 11.102013422818793,
-          "enrichment": 1.016031918752267,
+          "otherAreaMean": 10.975483870967743,
+          "enrichment": 1.0277451210909947,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23206,18 +22958,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 10.53,
-          "otherAreaMean": 11.904026845637583,
-          "enrichment": 0.8845746180301066,
+          "otherAreaMean": 11.85483870967742,
+          "enrichment": 0.8882448979591836,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23240,18 +22990,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 6.51,
-          "otherAreaMean": 7.542281879194631,
-          "enrichment": 0.8631340096102509,
+          "otherAreaMean": 7.599354838709678,
+          "enrichment": 0.8566516682231089,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, orbital",
@@ -23279,18 +23027,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 27.2125,
-          "otherAreaMean": 20.37880794701987,
-          "enrichment": 1.3353332575068242,
+          "otherAreaMean": 20.186624203821655,
+          "enrichment": 1.3480460985075569,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23315,18 +23061,16 @@
         {
           "gene": "ADNP",
           "regionalMean": 18.95,
-          "otherAreaMean": 22.209933774834436,
-          "enrichment": 0.853221814712109,
+          "otherAreaMean": 22.188535031847135,
+          "enrichment": 0.8540446664370192,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23349,18 +23093,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 7.5625,
-          "otherAreaMean": 8.372847682119206,
-          "enrichment": 0.9032171952859289,
+          "otherAreaMean": 8.437579617834395,
+          "enrichment": 0.8962878387559448,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23383,18 +23125,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 11.9875,
-          "otherAreaMean": 14.866887417218543,
-          "enrichment": 0.806322107888993,
+          "otherAreaMean": 14.889171974522293,
+          "enrichment": 0.8051152891854895,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23417,18 +23157,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 7.4125,
-          "otherAreaMean": 7.529139072847682,
-          "enrichment": 0.9845083120766998,
+          "otherAreaMean": 7.522929936305732,
+          "enrichment": 0.9853208873084413,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23451,18 +23189,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 3.5875,
-          "otherAreaMean": 3.1311258278145697,
-          "enrichment": 1.145754018612521,
+          "otherAreaMean": 3.1012738853503183,
+          "enrichment": 1.156782706921339,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23485,18 +23221,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 10.3125,
-          "otherAreaMean": 11.234437086092715,
-          "enrichment": 0.9179365126149494,
+          "otherAreaMean": 11.254140127388535,
+          "enrichment": 0.9163294470541626,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23519,18 +23253,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 5.6,
-          "otherAreaMean": 6.490066225165563,
-          "enrichment": 0.8628571428571428,
+          "otherAreaMean": 6.521019108280255,
+          "enrichment": 0.8587614768509474,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23553,18 +23285,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 1.1624999999999999,
-          "otherAreaMean": 1.0417218543046358,
-          "enrichment": 1.1159408773045134,
+          "otherAreaMean": 1.024203821656051,
+          "enrichment": 1.1350279850746268,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23587,18 +23317,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 7.7,
-          "otherAreaMean": 9.982119205298014,
-          "enrichment": 0.7713792874676574,
+          "otherAreaMean": 10.026114649681528,
+          "enrichment": 0.7679944095038436,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23621,18 +23349,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 8.6125,
-          "otherAreaMean": 7.564900662251656,
-          "enrichment": 1.13848157226648,
+          "otherAreaMean": 7.555414012738853,
+          "enrichment": 1.1399110605294218,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23655,18 +23381,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.775,
-          "otherAreaMean": 0.9344370860927153,
-          "enrichment": 0.829376328844791,
+          "otherAreaMean": 0.9261146496815287,
+          "enrichment": 0.8368294360385145,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23689,18 +23413,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 7.875,
-          "otherAreaMean": 6.655629139072848,
-          "enrichment": 1.1832089552238807,
+          "otherAreaMean": 6.607006369426752,
+          "enrichment": 1.1919165140268004,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23723,18 +23445,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 19.025,
-          "otherAreaMean": 23.44569536423841,
-          "enrichment": 0.8114495946671185,
+          "otherAreaMean": 23.328025477707005,
+          "enrichment": 0.815542662116041,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23757,18 +23477,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 20.3625,
-          "otherAreaMean": 21.43112582781457,
-          "enrichment": 0.950136738666914,
+          "otherAreaMean": 21.563057324840763,
+          "enrichment": 0.9443234182075975,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23791,18 +23509,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 9.175,
-          "otherAreaMean": 11.493377483443709,
-          "enrichment": 0.7982857966004034,
+          "otherAreaMean": 11.540764331210191,
+          "enrichment": 0.7950080026491528,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23825,18 +23541,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 9.1,
-          "otherAreaMean": 8.735099337748345,
-          "enrichment": 1.0417740712661105,
+          "otherAreaMean": 8.654140127388535,
+          "enrichment": 1.0515198351365276,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23859,18 +23573,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 27.2125,
-          "otherAreaMean": 20.37880794701987,
-          "enrichment": 1.3353332575068242,
+          "otherAreaMean": 20.186624203821655,
+          "enrichment": 1.3480460985075569,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23893,18 +23605,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 13.0625,
-          "otherAreaMean": 11.009933774834437,
-          "enrichment": 1.1864285714285714,
+          "otherAreaMean": 10.888535031847134,
+          "enrichment": 1.199656332260895,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23927,18 +23637,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 12.4125,
-          "otherAreaMean": 11.786092715231788,
-          "enrichment": 1.0531480024723268,
+          "otherAreaMean": 11.742038216560509,
+          "enrichment": 1.057099267697315,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23961,18 +23669,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 6.3375,
-          "otherAreaMean": 7.537748344370861,
-          "enrichment": 0.8407683183974697,
+          "otherAreaMean": 7.594267515923566,
+          "enrichment": 0.8345110291034137,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 8,
-          "comparisonSampleCount": 151,
+          "comparisonSampleCount": 157,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "inferior frontal gyrus, triangular",
@@ -23998,54 +23704,18 @@
       "eligibleCount": 2,
       "top": [
         {
-          "gene": "TBR1",
-          "regionalMean": 15.75,
-          "otherAreaMean": 11.553691275167786,
-          "enrichment": 1.3632006970665116,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
-          "study": "pfc",
-          "score": 1,
-          "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
-          "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
-          "areaWeights": [
-            {
-              "area": "superior frontal gyrus",
-              "sampleCount": 10,
-              "weight": 1.0
-            }
-          ],
-          "legacyEqualAreaRegionalMean": 15.8,
-          "legacyEqualAreaOtherMean": 11.273684210526316,
-          "legacyEqualAreaEnrichment": 1.4014939309056957,
-          "targetRange": [
-            3.4,
-            33.3
-          ],
-          "baselineRange": [
-            1.0,
-            37.4
-          ]
-        },
-        {
           "gene": "SCN2A",
           "regionalMean": 11.62,
-          "otherAreaMean": 8.561073825503355,
-          "enrichment": 1.3573063656318596,
+          "otherAreaMean": 8.485806451612904,
+          "enrichment": 1.369345396487493,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24064,24 +23734,54 @@
             1.2,
             25.3
           ]
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 15.75,
+          "otherAreaMean": 11.518064516129032,
+          "enrichment": 1.3674172407998657,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1,
+          "targetSampleCount": 10,
+          "comparisonSampleCount": 155,
+          "totalComparisonAreaCount": 19,
+          "excludedBaselineAreas": [],
+          "areaWeights": [
+            {
+              "area": "superior frontal gyrus",
+              "sampleCount": 10,
+              "weight": 1.0
+            }
+          ],
+          "legacyEqualAreaRegionalMean": 15.8,
+          "legacyEqualAreaOtherMean": 11.273684210526316,
+          "legacyEqualAreaEnrichment": 1.4014939309056957,
+          "targetRange": [
+            3.4,
+            33.3
+          ],
+          "baselineRange": [
+            1.0,
+            37.4
+          ]
         }
       ],
       "evaluated": [
         {
           "gene": "ADNP",
           "regionalMean": 22.41,
-          "otherAreaMean": 22.021476510067114,
-          "enrichment": 1.0176429355113983,
+          "otherAreaMean": 22.00709677419355,
+          "enrichment": 1.0183078772243557,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24104,18 +23804,16 @@
         {
           "gene": "ARID1B",
           "regionalMean": 8.85,
-          "otherAreaMean": 8.297315436241611,
-          "enrichment": 1.066610046105314,
+          "otherAreaMean": 8.365806451612903,
+          "enrichment": 1.0578776895195496,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24138,18 +23836,16 @@
         {
           "gene": "ASH1L",
           "regionalMean": 16.51,
-          "otherAreaMean": 14.602013422818793,
-          "enrichment": 1.1306659925541205,
+          "otherAreaMean": 14.63483870967742,
+          "enrichment": 1.1281299594427792,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24172,18 +23868,16 @@
         {
           "gene": "CHD8",
           "regionalMean": 7.7,
-          "otherAreaMean": 7.511409395973154,
-          "enrichment": 1.0251072194424589,
+          "otherAreaMean": 7.505806451612903,
+          "enrichment": 1.025872442839952,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24206,18 +23900,16 @@
         {
           "gene": "CNTNAP2",
           "regionalMean": 3.6,
-          "otherAreaMean": 3.1241610738255035,
-          "enrichment": 1.1523093447905477,
+          "otherAreaMean": 3.094193548387097,
+          "enrichment": 1.1634695579649708,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24240,18 +23932,16 @@
         {
           "gene": "DYRK1A",
           "regionalMean": 12.95,
-          "otherAreaMean": 11.06979865771812,
-          "enrichment": 1.1698496422941675,
+          "otherAreaMean": 11.096129032258064,
+          "enrichment": 1.167073667073667,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24274,18 +23964,16 @@
         {
           "gene": "FOXP1",
           "regionalMean": 7.02,
-          "otherAreaMean": 6.406711409395973,
-          "enrichment": 1.095725958516656,
+          "otherAreaMean": 6.441290322580645,
+          "enrichment": 1.08984375,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24308,18 +23996,16 @@
         {
           "gene": "GRIN2B",
           "regionalMean": 1.18,
-          "otherAreaMean": 1.0389261744966443,
-          "enrichment": 1.1357881136950905,
+          "otherAreaMean": 1.0212903225806451,
+          "enrichment": 1.1554011370814907,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24342,18 +24028,16 @@
         {
           "gene": "KMT5B",
           "regionalMean": 10.31,
-          "otherAreaMean": 9.837583892617449,
-          "enrichment": 1.0480215581934782,
+          "otherAreaMean": 9.887741935483872,
+          "enrichment": 1.042705206838053,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24376,18 +24060,16 @@
         {
           "gene": "MECP2",
           "regionalMean": 7.49,
-          "otherAreaMean": 7.626174496644295,
-          "enrichment": 0.982143800052803,
+          "otherAreaMean": 7.614193548387097,
+          "enrichment": 0.9836892052194544,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24410,18 +24092,16 @@
         {
           "gene": "MET",
           "regionalMean": 0.72,
-          "otherAreaMean": 0.9402684563758389,
-          "enrichment": 0.7657387580299786,
+          "otherAreaMean": 0.9316129032258065,
+          "enrichment": 0.7728531855955678,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 2,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24444,18 +24124,16 @@
         {
           "gene": "NLGN3",
           "regionalMean": 4.36,
-          "otherAreaMean": 6.8751677852349,
-          "enrichment": 0.6341663412729402,
+          "otherAreaMean": 6.81741935483871,
+          "enrichment": 0.6395381849153025,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24478,18 +24156,16 @@
         {
           "gene": "NRXN1",
           "regionalMean": 28.17,
-          "otherAreaMean": 22.891275167785235,
-          "enrichment": 1.2305998592705525,
+          "otherAreaMean": 22.793548387096774,
+          "enrichment": 1.2358760260401926,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24512,18 +24188,16 @@
         {
           "gene": "POGZ",
           "regionalMean": 22.54,
-          "otherAreaMean": 21.299328859060402,
-          "enrichment": 1.0582493067809426,
+          "otherAreaMean": 21.43806451612903,
+          "enrichment": 1.051400884769328,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24546,18 +24220,16 @@
         {
           "gene": "PTEN",
           "regionalMean": 12.9,
-          "otherAreaMean": 11.274496644295303,
-          "enrichment": 1.144175248526698,
+          "otherAreaMean": 11.330967741935483,
+          "enrichment": 1.138472926037693,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24580,18 +24252,16 @@
         {
           "gene": "SCN2A",
           "regionalMean": 11.62,
-          "otherAreaMean": 8.561073825503355,
-          "enrichment": 1.3573063656318596,
+          "otherAreaMean": 8.485806451612904,
+          "enrichment": 1.369345396487493,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24614,18 +24284,16 @@
         {
           "gene": "SHANK3",
           "regionalMean": 17.78,
-          "otherAreaMean": 20.92013422818792,
-          "enrichment": 0.8498989445317764,
+          "otherAreaMean": 20.704516129032257,
+          "enrichment": 0.8587498441979311,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24648,18 +24316,16 @@
         {
           "gene": "SYNGAP1",
           "regionalMean": 10.91,
-          "otherAreaMean": 11.126845637583893,
-          "enrichment": 0.9805114904397129,
+          "otherAreaMean": 10.999354838709678,
+          "enrichment": 0.9918763563845386,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24682,18 +24348,16 @@
         {
           "gene": "TBR1",
           "regionalMean": 15.75,
-          "otherAreaMean": 11.553691275167786,
-          "enrichment": 1.3632006970665116,
+          "otherAreaMean": 11.518064516129032,
+          "enrichment": 1.3674172407998657,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",
@@ -24716,18 +24380,16 @@
         {
           "gene": "WDFY3",
           "regionalMean": 8.22,
-          "otherAreaMean": 7.42751677852349,
-          "enrichment": 1.1066955814583899,
+          "otherAreaMean": 7.489032258064516,
+          "enrichment": 1.097605099931082,
           "sourceAreaCount": 1,
-          "comparisonAreaCount": 18,
+          "comparisonAreaCount": 19,
           "study": "pfc",
           "score": 1,
           "targetSampleCount": 10,
-          "comparisonSampleCount": 149,
+          "comparisonSampleCount": 155,
           "totalComparisonAreaCount": 19,
-          "excludedBaselineAreas": [
-            "parietal cortex"
-          ],
+          "excludedBaselineAreas": [],
           "areaWeights": [
             {
               "area": "superior frontal gyrus",

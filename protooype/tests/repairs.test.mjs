@@ -43,7 +43,7 @@ test('all 880 mapped gene-source entries have matching means and actual individu
  }
  assert.equal(total,880);
 });
-test('the 4240 imported sample-table entries retain valid page checksums',async()=>{
+test('the 4260 imported sample-table entries retain valid page checksums',async()=>{
  let entries=0;
  for(const gene of Object.values(coverage.genes)){
   for(const page of gene.sourcePages){
@@ -51,7 +51,7 @@ test('the 4240 imported sample-table entries retain valid page checksums',async(
   }
   for(const study of Object.values(gene.studies))for(const row of Object.values(study)){entries++;assert(row.sourceUrl.endsWith('#'+row.anchor));assert(gene.sourcePages.some(p=>p.sha256===row.sourceSHA256));}
  }
- assert.equal(entries,4240);
+ assert.equal(entries,4260);
 });
 test('all six previously missing extraction files exactly match their historical checksums',async()=>{
  for(const [name,hash] of Object.entries(data.sourceChecksums))assert.equal(createHash('sha256').update(await file('../research/expression-source/'+name)).digest('hex'),hash,name);

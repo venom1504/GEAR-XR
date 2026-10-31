@@ -45,9 +45,21 @@ test('mapped source summaries and genetic rows retain original evidence',()=>{
  for(const region of Object.values(data.regions))if(region.dataset)for(const row of region.records)for(const value of row.values)assert.equal(input.measurements[region.dataset][row.gene][value.area],value.nTPM);
  for(const [gene,info] of Object.entries(input.genes)){assert.equal(info.sourceRow[1],gene);assert.equal(Number(info.sourceRow[5]),info.score);assert.equal(ranking.genes[gene].score,info.score);}
 });
-test('missing PFC sample tables are explicitly excluded rather than equal-area imputed',()=>{
+test('all study baseline areas have verified sample tables',()=>{
  for(const [name,region] of Object.entries(data.regions))for(const row of ranking.regions[name].evaluated){
-  if(region.dataset==='pfc')assert.deepEqual(row.excludedBaselineAreas,['parietal cortex']);else assert.deepEqual(row.excludedBaselineAreas,[]);
+  assert.deepEqual(row.excludedBaselineAreas,[]);
   assert.equal(row.comparisonAreaCount+row.excludedBaselineAreas.length,row.totalComparisonAreaCount);
  }
+});
+test('recovered PFC parietal records match official summaries and complete the baseline',()=>{
+ for(const [gene,evidence] of Object.entries(coverage.genes)){
+  const row=evidence.studies.pfc['parietal cortex'];
+  assert.equal(row.sampleCount,6);assert.equal(new Set(row.samples.map(s=>s.id)).size,6);
+  assert(row.matchesSavedValue);assert.equal(row.displayedMean,input.measurements.pfc[gene]['parietal cortex']);
+  assert(Math.abs(mean(row.samples.map(s=>s.nTPM))-row.displayedMean)<0.101);
+  assert(row.sourceUrl.includes('/brain/parietal%2Bcortex#hpa_pfc_brain_rnaseqparietal_cortex'));
+ }
+ const t=ranking.regions.superiorfrontal.evaluated.find(r=>r.gene==='TBR1');
+ assert.equal(t.comparisonAreaCount,19);assert.equal(t.comparisonSampleCount,155);
+ assert(Math.abs(t.otherAreaMean-11.518064516129032)<1e-10);
 });

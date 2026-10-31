@@ -25,7 +25,7 @@ def run():
  data=json.loads((ROOT/'dist/assets/expression.json').read_text())
  def fetch(item):
   gene,meta=item;studies={'hpa':{},'pfc':{}};pages=[]
-  for major,suffix in [('cerebral%2Bcortex',''),('hippocampal%2Bformation','.hippocampal'),*[(name.replace(' ','%2B'),'.'+name.replace(' ','-')) for name in ['amygdala','basal ganglia','cerebellum','choroid plexus','hypothalamus','medulla oblongata','midbrain','pons','spinal cord','thalamus','white matter']]]:
+  for major,suffix in [('cerebral%2Bcortex',''),('parietal%2Bcortex','.parietal'),('hippocampal%2Bformation','.hippocampal'),*[(name.replace(' ','%2B'),'.'+name.replace(' ','-')) for name in ['amygdala','basal ganglia','cerebellum','choroid plexus','hypothalamus','medulla oblongata','midbrain','pons','spinal cord','thalamus','white matter']]]:
    url=f'https://www.proteinatlas.org/{meta["ensembl"]}-{gene}/brain/{major}';p=RAW/(gene+suffix+'.html')
    if not p.exists():p.write_text(urllib.request.urlopen(url,timeout=45).read().decode())
    text=p.read_text();digest=hashlib.sha256(p.read_bytes()).hexdigest();pages.append({'url':url,'sha256':digest,'file':p.name})

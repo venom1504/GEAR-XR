@@ -15,7 +15,7 @@ The individual sample mean is **78.493 nTPM**, replacing the former **85.175 nTP
 
 The comparison mean uses **951 other tissues**, excluding all target sample IDs, with mean **23.342 nTPM**. The corrected enrichment is **3.363×**. No target/comparison data are pooled across the HPA brain and HPA prefrontal studies.
 
-All 193 source areas of the HPA brain dataset have individual sample rows for the 20 library genes. The PFC dataset has sample rows for 19 of 20 areas. Its parietal cortex summary has no verified individual-sample table in the retained official pages, so the prototype explicitly excludes it from the baseline and displays that coverage gap. There is no fallback to invented counts or area-weighted values.
+All 193 source areas of the HPA brain dataset have individual sample rows for the 20 library genes. The PFC dataset now has sample rows for all 20 areas. Six parietal cortex tissue rows per gene were recovered from its separate official page, completing the baseline. There is no fallback to invented counts or area-weighted values.
 
 Sample IDs are deduplicated within each study. Conflicting values for repeated IDs fail the build. Missing target sample records prevent a ranking. Genetics criteria and the 1.25× display threshold are unchanged.
 
