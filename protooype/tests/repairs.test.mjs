@@ -14,13 +14,16 @@ test('cuneus and lateral occipital explicitly share broader occipital source evi
  assert.deepEqual(ranking.regions.cuneus.top,ranking.regions.lateraloccipital.top);
  assert.equal(mappingContext(data,'unknown'),null);
 });
-test('source-area weighting remains explicit and differs from pooling 15 tissues',()=>{
+test('one-sample postcentral entry has 1/15 weight, not 25%, and means come from individual tissues',()=>{
  const record=data.regions.postcentral.records.find(r=>r.gene==='TBR1');
  assert.deepEqual(record.values.map(v=>v.nTPM),[105,65.1,84.8,85.8]);
  const entries=coverageForRecord(coverage,'TBR1','hpa',record),stats=sampleSummary(entries);
  assert.equal(stats.tissueSamples,15);assert.equal(stats.sourceCount,4);assert.equal(stats.independentDonors,null);
  const pooled=entries.flatMap(e=>e.evidence.samples);const pooledMean=pooled.reduce((a,s)=>a+s.nTPM,0)/pooled.length;
- assert(Math.abs(pooledMean-85.175)>1);assert.match(data.regions.postcentral.summaryMethod,/not sample- or donor-weighted/);
+ const ranked=ranking.regions.postcentral.evaluated.find(v=>v.gene==='TBR1');
+ assert(Math.abs(pooledMean-ranked.regionalMean)<1e-10);assert.equal(ranked.legacyEqualAreaRegionalMean,85.175);
+ assert.equal(ranked.areaWeights[0].weight,1/15);assert.equal(ranked.areaWeights[1].weight,6/15);
+ assert.equal(ranked.comparisonSampleCount,951);assert.match(data.regions.postcentral.summaryMethod,/equal sample weight/);
  assert.equal(data.regions.postcentral.records.find(r=>r.gene==='TBR1').originalValues[0].nTPM,105);
 });
 test('SCN2A superior frontal uses verified separate PFC study samples with direct citation',()=>{
@@ -40,7 +43,7 @@ test('all 880 mapped gene-source entries have matching means and actual individu
  }
  assert.equal(total,880);
 });
-test('the 1700 imported sample-table entries retain valid page checksums',async()=>{
+test('the 4240 imported sample-table entries retain valid page checksums',async()=>{
  let entries=0;
  for(const gene of Object.values(coverage.genes)){
   for(const page of gene.sourcePages){
@@ -48,7 +51,7 @@ test('the 1700 imported sample-table entries retain valid page checksums',async(
   }
   for(const study of Object.values(gene.studies))for(const row of Object.values(study)){entries++;assert(row.sourceUrl.endsWith('#'+row.anchor));assert(gene.sourcePages.some(p=>p.sha256===row.sourceSHA256));}
  }
- assert.equal(entries,1700);
+ assert.equal(entries,4240);
 });
 test('all six previously missing extraction files exactly match their historical checksums',async()=>{
  for(const [name,hash] of Object.entries(data.sourceChecksums))assert.equal(createHash('sha256').update(await file('../research/expression-source/'+name)).digest('hex'),hash,name);

@@ -18,9 +18,9 @@ The source-page fetcher reuses archived pages if present. It downloads only miss
 
 ## Exact interpretation
 
-Postcentral TBR1 uses source-entry means 105.0, 65.1, 84.8 and 85.8 nTPM, each contributing 25%, yielding 85.175 nTPM. Those entries have 1, 6, 5 and 3 tissue samples. The 15 unique sample IDs represent tissue samples, not verified independent people. The raw 105.0 entry is retained and still has n=1. Observed sample ranges describe variation; they are not uncertainty intervals for the regional estimate.
+Postcentral TBR1 retains the HPA source-entry means 105.0, 65.1, 84.8 and 85.8 nTPM for provenance. The ranking now averages their individual tissue measurements with equal weight per sample. The entries contain 1, 6, 5 and 3 samples, yielding 78.493333 nTPM across 15 sample IDs; the single-sample entry contributes 6.7% rather than 25%. The former equal-area result, 85.175, is retained in the ranking audit fields only.
 
-The comparison baseline excludes all mapped target source areas, within the same HPA study. HPA brain and HPA prefrontal measurements remain separate. Whole-baseline independent-donor coverage and statistical uncertainty have not been estimated. SFARI scores are association evidence overall, not region-specific causality. No genetic-evidence or enrichment thresholds were changed.
+The baseline uses the identical tissue-sample method in the same study. IDs are deduplicated, target IDs excluded, and conflicting duplicate values fail the build. All HPA brain areas are covered; one PFC baseline area (parietal cortex) lacks a verified sample table and is explicitly excluded rather than imputed. Counts are tissue counts, not independent donor counts. Repeated donors, age, cell composition and statistical uncertainty remain unadjusted. Original rounded sample rows are retained, so calculation precision is limited by the published numbers.
 
 ## Provenance
 
@@ -33,6 +33,6 @@ The comparison baseline excludes all mapped target source areas, within the same
 
 ## Verification
 
-19 automated checks cover full ranking recomputation, all 880 mapped gene/source values and sample counts, all 1,700 sample-entry citations/checksums, SCN2A PFC coverage, equal-area versus tissue weighting, no invented donor counts, all six recovered files, monomer display selection, parcel visibility, pointer coordinates and disposal of repeated protein views. Browser checks additionally cover layout, empty-region notices, shared mappings, independent protein switching, and returning to the brain.
+20 JavaScript and 5 Python checks cover independent recalculation of every ranking, all 880 mapped source values, all 4,240 sample-entry citations/checksums, correct 1-versus-6 sample weighting, deduplication, conflicting IDs, target exclusion, explicit PFC coverage gaps, source recovery and the display repairs. `research/weighting-impact.json` compares top-three lists with the previous equal-area version. Browser checks cover the displayed method, percentages and preserved source values.
 
 The public app is outside this folder. Commits for this model should include `[skip render]` and must not change the root production `dist/` tree.

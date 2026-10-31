@@ -1,0 +1,416 @@
+{
+  "method": "Equal weight per individual tissue sample, not per source area or independent donor",
+  "changedTopLists": 8,
+  "regionCount": 32,
+  "regions": [
+    {
+      "region": "caudalanteriorcingulate",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "GRIN2B",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "GRIN2B",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "rostralanteriorcingulate",
+      "previousEqualAreaTop": [
+        "SHANK3",
+        "NLGN3",
+        "SYNGAP1"
+      ],
+      "sampleWeightedTop": [
+        "SHANK3",
+        "NLGN3"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "caudalmiddlefrontal",
+      "previousEqualAreaTop": [],
+      "sampleWeightedTop": [],
+      "topChanged": false
+    },
+    {
+      "region": "rostralmiddlefrontal",
+      "previousEqualAreaTop": [],
+      "sampleWeightedTop": [],
+      "topChanged": false
+    },
+    {
+      "region": "cuneus",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "CNTNAP2"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "CNTNAP2"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "lateraloccipital",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "CNTNAP2"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "CNTNAP2"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "pericalcarine",
+      "previousEqualAreaTop": [
+        "MET",
+        "TBR1",
+        "NRXN1"
+      ],
+      "sampleWeightedTop": [
+        "MET",
+        "TBR1",
+        "NRXN1"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "entorhinal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "SYNGAP1",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "SYNGAP1",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "fusiform",
+      "previousEqualAreaTop": [
+        "MET",
+        "TBR1",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "MET",
+        "TBR1",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "inferiorparietal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "NRXN1",
+        "CNTNAP2"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "NRXN1",
+        "MET"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "inferiortemporal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "lingual",
+      "previousEqualAreaTop": [
+        "MET",
+        "TBR1",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "MET",
+        "TBR1",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "middletemporal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "parahippocampal",
+      "previousEqualAreaTop": [
+        "SYNGAP1",
+        "GRIN2B",
+        "TBR1"
+      ],
+      "sampleWeightedTop": [
+        "GRIN2B",
+        "SYNGAP1",
+        "TBR1"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "parsopercularis",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "SCN2A",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "SCN2A",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "postcentral",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "SCN2A",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "SCN2A",
+        "CNTNAP2"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "posteriorcingulate",
+      "previousEqualAreaTop": [
+        "GRIN2B",
+        "SYNGAP1",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "GRIN2B",
+        "SYNGAP1",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "precentral",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "GRIN2B",
+        "CNTNAP2"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "GRIN2B",
+        "SCN2A"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "precuneus",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "NRXN1"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "NRXN1"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "superiorparietal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "NRXN1",
+        "SHANK3"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "NRXN1",
+        "SHANK3"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "superiortemporal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "supramarginal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "insula",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "GRIN2B",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "GRIN2B",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "paracentral",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "SCN2A",
+        "GRIN2B"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "SCN2A",
+        "GRIN2B"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "transversetemporal",
+      "previousEqualAreaTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "MET",
+        "SCN2A"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "isthmuscingulate",
+      "previousEqualAreaTop": [
+        "MET",
+        "GRIN2B",
+        "SYNGAP1"
+      ],
+      "sampleWeightedTop": [
+        "MET",
+        "GRIN2B",
+        "SYNGAP1"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "lateralorbitofrontal",
+      "previousEqualAreaTop": [
+        "SHANK3",
+        "CNTNAP2"
+      ],
+      "sampleWeightedTop": [
+        "SHANK3"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "medialorbitofrontal",
+      "previousEqualAreaTop": [
+        "WDFY3"
+      ],
+      "sampleWeightedTop": [
+        "WDFY3"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "parsorbitalis",
+      "previousEqualAreaTop": [
+        "CNTNAP2",
+        "SHANK3"
+      ],
+      "sampleWeightedTop": [
+        "SHANK3",
+        "CNTNAP2"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "parstriangularis",
+      "previousEqualAreaTop": [
+        "SHANK3"
+      ],
+      "sampleWeightedTop": [
+        "SHANK3"
+      ],
+      "topChanged": false
+    },
+    {
+      "region": "superiorfrontal",
+      "previousEqualAreaTop": [
+        "SCN2A",
+        "TBR1",
+        "NRXN1"
+      ],
+      "sampleWeightedTop": [
+        "TBR1",
+        "SCN2A"
+      ],
+      "topChanged": true
+    },
+    {
+      "region": "unknown",
+      "previousEqualAreaTop": [],
+      "sampleWeightedTop": [],
+      "topChanged": false
+    }
+  ]
+}

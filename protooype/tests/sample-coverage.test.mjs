@@ -19,7 +19,8 @@ test('Expanded TBR1 summary retains original 105 nTPM with n=1 and four identifi
  assert.equal(source['precentral gyrus'].sampleCount,1);
  assert.equal(source['precentral gyrus'].samples[0].id,'2557');
  assert.equal(source['postcentral gyrus, dorsal'].independentDonorCount,null);
- assert.equal(ranking.regions.postcentral.top[0].regionalMean,85.175);
+ assert(Math.abs(ranking.regions.postcentral.top[0].regionalMean-78.49333333333334)<1e-10);
+ assert.equal(ranking.regions.postcentral.top[0].legacyEqualAreaRegionalMean,85.175);
 });
 test('unknown counts and changed values do not masquerade as verified sampling',()=>{
  assert.equal(sampleEntry(coverage,'TBR1','hpa','postcentral gyrus',104),null);

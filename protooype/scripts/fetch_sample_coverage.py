@@ -1,6 +1,6 @@
 """Audit per-entry HPA sample rows; never infer independent donors from demographics."""
 from pathlib import Path
-import concurrent.futures,datetime,hashlib,html,json,re,urllib.request
+import concurrent.futures,datetime,hashlib,html,json,re,urllib.request,unicodedata
 ROOT=Path(__file__).resolve().parents[1]
 RAW=ROOT/'research/sample-coverage-source';RAW.mkdir(exist_ok=True)
 
@@ -25,7 +25,7 @@ def run():
  data=json.loads((ROOT/'dist/assets/expression.json').read_text())
  def fetch(item):
   gene,meta=item;studies={'hpa':{},'pfc':{}};pages=[]
-  for major,suffix in [('cerebral%2Bcortex',''),('hippocampal%2Bformation','.hippocampal')]:
+  for major,suffix in [('cerebral%2Bcortex',''),('hippocampal%2Bformation','.hippocampal'),*[(name.replace(' ','%2B'),'.'+name.replace(' ','-')) for name in ['amygdala','basal ganglia','cerebellum','choroid plexus','hypothalamus','medulla oblongata','midbrain','pons','spinal cord','thalamus','white matter']]]:
    url=f'https://www.proteinatlas.org/{meta["ensembl"]}-{gene}/brain/{major}';p=RAW/(gene+suffix+'.html')
    if not p.exists():p.write_text(urllib.request.urlopen(url,timeout=45).read().decode())
    text=p.read_text();digest=hashlib.sha256(p.read_bytes()).hexdigest();pages.append({'url':url,'sha256':digest,'file':p.name})
@@ -35,16 +35,22 @@ def run():
      row['sampleRange']=[min(x['nTPM'] for x in row['samples']),max(x['nTPM'] for x in row['samples'])]
      if area in studies[study]:assert studies[study][area]['samples']==row['samples']
      studies[study][area]=row
+  print('Audited all brain pages for '+gene,flush=True)
   return gene,{'sourceUrl':pages[0]['url'],'sha256':pages[0]['sha256'],'sourcePages':pages,'studies':studies}
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:genes=dict(pool.map(fetch,data['genes'].items()))
  # Match every exposed count to the exact gene, study, source name and saved value.
  inputs=json.loads((ROOT/'research/ranking-input.json').read_text())
+ def norm(name):return re.sub('[^a-z0-9]','',unicodedata.normalize('NFKD',name).encode('ascii','ignore').decode().lower())
  for gene,evidence in genes.items():
-  for study,areas in evidence['studies'].items():
+  for study,areas in list(evidence['studies'].items()):
+   expected=inputs['measurements'][study][gene];names={norm(a):a.lower() for a in expected};values={a.lower():v for a,v in expected.items()};canonical={}
    for area,row in areas.items():
-    expected=inputs['measurements'][study][gene].get(area)
-    row['matchesSavedValue']=expected is not None and abs(expected-row['displayedMean'])<.051
- out={'version':2,'localPrototype':True,'retrieved':'2026-10-31','countDefinition':'Number of individual RNA-seq sample rows shown for this exact gene, study and source entry. Multiple samples do not establish that donors are independent; unique donor counts remain unknown unless there is only one sample. Per-entry counts remain separate. The UI may total distinct sample IDs across mapped entries within a study; this is a tissue-sample total, never an independent-donor total.','genes':genes}
+    key=names.get(norm(area),area);row['sourceLabel']=area
+    row['matchesSavedValue']=key in values and abs(values[key]-row['displayedMean'])<.051
+    if key in canonical:assert canonical[key]['samples']==row['samples']
+    canonical[key]=row
+   evidence['studies'][study]=canonical
+ out={'version':3,'localPrototype':True,'retrieved':'2026-10-31','countDefinition':'Number of individual RNA-seq sample rows shown for this exact gene, study and source entry. Multiple samples do not establish that donors are independent; unique donor counts remain unknown unless there is only one sample. Per-entry counts remain separate. The UI may total distinct sample IDs across mapped entries within a study; this is a tissue-sample total, never an independent-donor total.','genes':genes}
  (ROOT/'dist/assets/sample-coverage.json').write_text(json.dumps(out,indent=2)+'\n')
  print('Audited',len(genes),'genes; sample-entry counts:',{s:sum(len(g['studies'][s]) for g in genes.values()) for s in ['hpa','pfc']})
  print('TBR1 postcentral:',genes['TBR1']['studies']['hpa']['postcentral gyrus']['sampleCount'])

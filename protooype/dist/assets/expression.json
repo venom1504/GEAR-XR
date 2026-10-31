@@ -7,7 +7,7 @@
   "measurement": "Bulk RNA-seq, gene level",
   "unit": "nTPM",
   "detectionThreshold": 1,
-  "aggregation": "Source record nTPM retains the maximum of mapped values. Regional ranking uses an equal-area arithmetic mean of mapped source-entry means, not a sample- or donor-weighted estimate.",
+  "aggregation": "Source record nTPM retains the maximum of mapped values. Regional ranking pools individual tissue samples from mapped entries; each sample has equal weight, not each source area or independent donor.",
   "laterality": "The downloaded tables do not provide hemisphere-specific regional values. The same evidence is shown on left and right parcels.",
   "spatialMethod": "Curated anatomical name correspondence, not spatial registration or pointwise gene localization.",
   "studies": {
@@ -7446,7 +7446,7 @@
       "originalAreas": [
         "postcentral gyrus"
       ],
-      "summaryMethod": "Equal-area arithmetic mean of four named source-entry means; not sample- or donor-weighted."
+      "summaryMethod": "Rankings pool individual tissue samples with equal sample weight, not equal area weight or independent-donor weight."
     },
     "posteriorcingulate": {
       "dataset": "hpa",
@@ -8593,7 +8593,7 @@
       "originalAreas": [
         "precentral gyrus"
       ],
-      "summaryMethod": "Equal-area arithmetic mean of four named source-entry means; not sample- or donor-weighted."
+      "summaryMethod": "Rankings pool individual tissue samples with equal sample weight, not equal area weight or independent-donor weight."
     },
     "precuneus": {
       "dataset": "hpa",
@@ -13133,5 +13133,5 @@
   "methodsUrl": "expression-methods.html",
   "legacyAggregation": "Maximum of source-area summaries; not a donor average.",
   "prototypeRevision": "expanded-sampling-and-ui-repairs",
-  "regionalSummary": "Postcentral and precentral include four source entries, weighted equally by area, not by samples or donors. Original unsuffixed values remain retained."
+  "regionalSummary": "Postcentral and precentral include four source entries; rankings use individual tissue samples with equal sample weight. Independent donor weights are unavailable. Original unsuffixed values remain retained."
 }

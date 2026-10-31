@@ -11,16 +11,16 @@ def build():
  for parcel in ['postcentral','precentral']:
   region=data['regions'][parcel];base=parcel+' gyrus';region['originalAreas']=list(region['areas'])
   region['areas']=[base]+[base+', '+part for part in ['dorsal','middle','ventral']]
-  region['summaryMethod']='Equal-area arithmetic mean of four named source-entry means; not sample- or donor-weighted.'
+  region['summaryMethod']='Rankings pool individual tissue samples with equal sample weight, not equal area weight or independent-donor weight.'
   region['rationale']+=' Coverage includes the unsuffixed entry and three explicitly named subdivisions; no spatial registration to individual samples is implied.'
   for record in region['records']:
    values=[{'area':a,**{k:float(lookup[(record['gene'],a)][k]) for k in ['nTPM','TPM','pTPM']}} for a in region['areas']]
    record['originalValues']=record['values'];record['values']=values
    record.update(nTPM=max(v['nTPM'] for v in values),minimum=min(v['nTPM'] for v in values),detected=any(v['nTPM']>=1 for v in values),detectedAreas=sum(v['nTPM']>=1 for v in values))
  data['legacyAggregation']=data['aggregation']
- data['aggregation']='Source record nTPM retains the maximum of mapped values. Regional ranking uses an equal-area arithmetic mean of mapped source-entry means, not a sample- or donor-weighted estimate.'
+ data['aggregation']='Source record nTPM retains the maximum of mapped values. Regional ranking pools individual tissue samples from mapped entries; each sample has equal weight, not each source area or independent donor.'
  data['prototypeRevision']='expanded-sampling-and-ui-repairs'
- data['regionalSummary']='Postcentral and precentral include four source entries, weighted equally by area, not by samples or donors. Original unsuffixed values remain retained.'
+ data['regionalSummary']='Postcentral and precentral include four source entries; rankings use individual tissue samples with equal sample weight. Independent donor weights are unavailable. Original unsuffixed values remain retained.'
  (ROOT/'dist/assets/expression.json').write_text(json.dumps(data,indent=2)+'\n')
  with (ROOT/'dist/assets/expression-evidence.csv').open('w',newline='') as f:
   fields=['parcel','match','study','gene','ensembl','source_area','nTPM','detected'];w=csv.DictWriter(f,fieldnames=fields);w.writeheader()
