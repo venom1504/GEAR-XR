@@ -1,0 +1,337 @@
+{
+  "doi": "10.1186/s11689-021-09371-4",
+  "table": 1,
+  "categories": {
+    "wnt": "Wnt/\u03b2-catenin",
+    "fmrp": "FMRP",
+    "chd8": "CHD8",
+    "tbr1": "TBR1"
+  },
+  "genes": {
+    "ADNP": {
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": true
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "ARID1B": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": true
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "ASH1L": {
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "ASXL3": {
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "CHD8": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "14"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "DYRK1A": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "FOXP1": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "GRIN2B": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "MECP2": {
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "POGZ": {
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": true
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "PTEN": {
+      "wnt": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "14"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "SCN2A": {
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "tbr1": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "23"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "SHANK3": {
+      "chd8": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    },
+    "KMT5B": {
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": true
+      }
+    },
+    "SYNGAP1": {
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [
+          "20"
+        ],
+        "bindingWithoutSignificantFoldChange": true
+      }
+    },
+    "WDFY3": {
+      "fmrp": {
+        "reported": true,
+        "stringAssociation": false,
+        "referenceNumbers": [
+          "7"
+        ],
+        "bindingWithoutSignificantFoldChange": false
+      },
+      "chd8": {
+        "reported": true,
+        "stringAssociation": true,
+        "referenceNumbers": [],
+        "bindingWithoutSignificantFoldChange": false
+      }
+    }
+  },
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8215789/#Tab1"
+}

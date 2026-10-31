@@ -1,0 +1,1282 @@
+[
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "amygdala",
+    "TPM": "4.1",
+    "pTPM": "5.1",
+    "nTPM": "6.9"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "basal ganglia",
+    "TPM": "5.3",
+    "pTPM": "6.6",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "cerebellum",
+    "TPM": "14.1",
+    "pTPM": "19.0",
+    "nTPM": "12.5"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "cerebral cortex",
+    "TPM": "6.0",
+    "pTPM": "7.4",
+    "nTPM": "7.2"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "hippocampal formation",
+    "TPM": "4.5",
+    "pTPM": "5.7",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "hypothalamus",
+    "TPM": "4.3",
+    "pTPM": "5.3",
+    "nTPM": "5.7"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "midbrain",
+    "TPM": "3.7",
+    "pTPM": "4.7",
+    "nTPM": "6.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Brain region": "spinal cord",
+    "TPM": "4.9",
+    "pTPM": "6.2",
+    "nTPM": "6.9"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "amygdala",
+    "TPM": "6.1",
+    "pTPM": "7.6",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "basal ganglia",
+    "TPM": "8.6",
+    "pTPM": "10.8",
+    "nTPM": "13.1"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "cerebellum",
+    "TPM": "23.9",
+    "pTPM": "32.3",
+    "nTPM": "21.5"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "cerebral cortex",
+    "TPM": "10.8",
+    "pTPM": "13.2",
+    "nTPM": "14.1"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "hippocampal formation",
+    "TPM": "6.6",
+    "pTPM": "8.3",
+    "nTPM": "10.9"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "hypothalamus",
+    "TPM": "8.4",
+    "pTPM": "10.4",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "midbrain",
+    "TPM": "6.9",
+    "pTPM": "8.5",
+    "nTPM": "11.0"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Brain region": "spinal cord",
+    "TPM": "7.6",
+    "pTPM": "9.6",
+    "nTPM": "10.8"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "amygdala",
+    "TPM": "14.1",
+    "pTPM": "17.6",
+    "nTPM": "23.8"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "basal ganglia",
+    "TPM": "16.3",
+    "pTPM": "20.3",
+    "nTPM": "24.2"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "cerebellum",
+    "TPM": "42.7",
+    "pTPM": "57.1",
+    "nTPM": "38.9"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "cerebral cortex",
+    "TPM": "21.3",
+    "pTPM": "26.3",
+    "nTPM": "26.0"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "hippocampal formation",
+    "TPM": "14.2",
+    "pTPM": "17.7",
+    "nTPM": "23.7"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "hypothalamus",
+    "TPM": "17.8",
+    "pTPM": "22.1",
+    "nTPM": "23.7"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "midbrain",
+    "TPM": "13.4",
+    "pTPM": "16.7",
+    "nTPM": "21.5"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Brain region": "spinal cord",
+    "TPM": "15.9",
+    "pTPM": "20.1",
+    "nTPM": "22.3"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "amygdala",
+    "TPM": "0.3",
+    "pTPM": "0.4",
+    "nTPM": "0.6"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "basal ganglia",
+    "TPM": "0.4",
+    "pTPM": "0.5",
+    "nTPM": "0.7"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "cerebellum",
+    "TPM": "0.1",
+    "pTPM": "0.2",
+    "nTPM": "0.1"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "cerebral cortex",
+    "TPM": "2.3",
+    "pTPM": "2.8",
+    "nTPM": "2.6"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "hippocampal formation",
+    "TPM": "2.0",
+    "pTPM": "2.5",
+    "nTPM": "3.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "hypothalamus",
+    "TPM": "0.5",
+    "pTPM": "0.6",
+    "nTPM": "0.6"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "midbrain",
+    "TPM": "0.6",
+    "pTPM": "0.7",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Brain region": "spinal cord",
+    "TPM": "0.7",
+    "pTPM": "1.0",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "amygdala",
+    "TPM": "7.9",
+    "pTPM": "9.9",
+    "nTPM": "14.1"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "basal ganglia",
+    "TPM": "8.3",
+    "pTPM": "10.3",
+    "nTPM": "13.8"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "cerebellum",
+    "TPM": "28.2",
+    "pTPM": "37.7",
+    "nTPM": "25.3"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "cerebral cortex",
+    "TPM": "9.8",
+    "pTPM": "12.1",
+    "nTPM": "12.3"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "hippocampal formation",
+    "TPM": "8.2",
+    "pTPM": "10.2",
+    "nTPM": "14.0"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "hypothalamus",
+    "TPM": "8.5",
+    "pTPM": "10.6",
+    "nTPM": "12.1"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "midbrain",
+    "TPM": "8.3",
+    "pTPM": "10.3",
+    "nTPM": "13.7"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Brain region": "spinal cord",
+    "TPM": "10.6",
+    "pTPM": "13.4",
+    "nTPM": "15.3"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "amygdala",
+    "TPM": "2.4",
+    "pTPM": "3.0",
+    "nTPM": "4.1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "basal ganglia",
+    "TPM": "8.9",
+    "pTPM": "11.1",
+    "nTPM": "12.7"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "cerebellum",
+    "TPM": "3.7",
+    "pTPM": "4.9",
+    "nTPM": "3.4"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "cerebral cortex",
+    "TPM": "7.0",
+    "pTPM": "8.7",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "hippocampal formation",
+    "TPM": "3.1",
+    "pTPM": "3.8",
+    "nTPM": "5.2"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "hypothalamus",
+    "TPM": "2.5",
+    "pTPM": "3.1",
+    "nTPM": "3.6"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "midbrain",
+    "TPM": "2.7",
+    "pTPM": "3.3",
+    "nTPM": "4.4"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Brain region": "spinal cord",
+    "TPM": "3.3",
+    "pTPM": "4.2",
+    "nTPM": "4.7"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "amygdala",
+    "TPM": "12.2",
+    "pTPM": "15.2",
+    "nTPM": "21.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "basal ganglia",
+    "TPM": "16.6",
+    "pTPM": "20.6",
+    "nTPM": "23.9"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "cerebellum",
+    "TPM": "38.5",
+    "pTPM": "51.5",
+    "nTPM": "34.5"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "cerebral cortex",
+    "TPM": "21.9",
+    "pTPM": "27.0",
+    "nTPM": "26.4"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "hippocampal formation",
+    "TPM": "12.4",
+    "pTPM": "15.5",
+    "nTPM": "21.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "hypothalamus",
+    "TPM": "13.8",
+    "pTPM": "17.1",
+    "nTPM": "19.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "midbrain",
+    "TPM": "11.3",
+    "pTPM": "14.0",
+    "nTPM": "18.6"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Brain region": "spinal cord",
+    "TPM": "12.1",
+    "pTPM": "15.3",
+    "nTPM": "17.5"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "amygdala",
+    "TPM": "6.2",
+    "pTPM": "7.8",
+    "nTPM": "9.9"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "basal ganglia",
+    "TPM": "12.4",
+    "pTPM": "15.5",
+    "nTPM": "16.4"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "cerebellum",
+    "TPM": "76.2",
+    "pTPM": "101.9",
+    "nTPM": "67.0"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "cerebral cortex",
+    "TPM": "22.3",
+    "pTPM": "27.4",
+    "nTPM": "25.5"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "hippocampal formation",
+    "TPM": "8.4",
+    "pTPM": "10.4",
+    "nTPM": "13.2"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "hypothalamus",
+    "TPM": "9.6",
+    "pTPM": "11.9",
+    "nTPM": "11.8"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "midbrain",
+    "TPM": "3.1",
+    "pTPM": "3.8",
+    "nTPM": "4.5"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Brain region": "spinal cord",
+    "TPM": "2.1",
+    "pTPM": "2.6",
+    "nTPM": "2.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "amygdala",
+    "TPM": "4.9",
+    "pTPM": "6.1",
+    "nTPM": "7.5"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "basal ganglia",
+    "TPM": "0.1",
+    "pTPM": "0.2",
+    "nTPM": "0.2"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "cerebellum",
+    "TPM": "0.0",
+    "pTPM": "0.0",
+    "nTPM": "0.0"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "cerebral cortex",
+    "TPM": "28.7",
+    "pTPM": "35.3",
+    "nTPM": "33.1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "hippocampal formation",
+    "TPM": "3.2",
+    "pTPM": "4.0",
+    "nTPM": "5.0"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "hypothalamus",
+    "TPM": "0.7",
+    "pTPM": "0.8",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "midbrain",
+    "TPM": "0.2",
+    "pTPM": "0.3",
+    "nTPM": "0.3"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Brain region": "spinal cord",
+    "TPM": "0.0",
+    "pTPM": "0.0",
+    "nTPM": "0.1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "amygdala",
+    "TPM": "15.0",
+    "pTPM": "18.7",
+    "nTPM": "25.1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "basal ganglia",
+    "TPM": "20.3",
+    "pTPM": "25.3",
+    "nTPM": "28.9"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "cerebellum",
+    "TPM": "93.9",
+    "pTPM": "127.0",
+    "nTPM": "84.4"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "cerebral cortex",
+    "TPM": "27.3",
+    "pTPM": "33.4",
+    "nTPM": "35.4"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "hippocampal formation",
+    "TPM": "17.9",
+    "pTPM": "22.3",
+    "nTPM": "29.6"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "hypothalamus",
+    "TPM": "19.7",
+    "pTPM": "24.5",
+    "nTPM": "26.0"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "midbrain",
+    "TPM": "18.3",
+    "pTPM": "22.8",
+    "nTPM": "28.7"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Brain region": "spinal cord",
+    "TPM": "29.0",
+    "pTPM": "36.5",
+    "nTPM": "39.5"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "amygdala",
+    "TPM": "9.9",
+    "pTPM": "12.4",
+    "nTPM": "16.4"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "basal ganglia",
+    "TPM": "12.1",
+    "pTPM": "15.1",
+    "nTPM": "16.9"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "cerebellum",
+    "TPM": "25.2",
+    "pTPM": "33.7",
+    "nTPM": "22.2"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "cerebral cortex",
+    "TPM": "16.7",
+    "pTPM": "20.6",
+    "nTPM": "19.9"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "hippocampal formation",
+    "TPM": "10.1",
+    "pTPM": "12.6",
+    "nTPM": "16.5"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "hypothalamus",
+    "TPM": "11.9",
+    "pTPM": "14.8",
+    "nTPM": "15.6"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "midbrain",
+    "TPM": "8.6",
+    "pTPM": "10.7",
+    "nTPM": "13.4"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Brain region": "spinal cord",
+    "TPM": "9.1",
+    "pTPM": "11.5",
+    "nTPM": "12.6"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "amygdala",
+    "TPM": "5.1",
+    "pTPM": "6.3",
+    "nTPM": "8.8"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "basal ganglia",
+    "TPM": "5.9",
+    "pTPM": "7.3",
+    "nTPM": "9.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "cerebellum",
+    "TPM": "13.0",
+    "pTPM": "17.4",
+    "nTPM": "11.3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "cerebral cortex",
+    "TPM": "6.9",
+    "pTPM": "8.5",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "hippocampal formation",
+    "TPM": "5.7",
+    "pTPM": "7.2",
+    "nTPM": "9.7"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "hypothalamus",
+    "TPM": "5.9",
+    "pTPM": "7.3",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "midbrain",
+    "TPM": "6.7",
+    "pTPM": "8.3",
+    "nTPM": "10.7"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Brain region": "spinal cord",
+    "TPM": "10.6",
+    "pTPM": "13.4",
+    "nTPM": "14.6"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "amygdala",
+    "TPM": "6.1",
+    "pTPM": "7.7",
+    "nTPM": "10.2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "basal ganglia",
+    "TPM": "8.6",
+    "pTPM": "10.7",
+    "nTPM": "12.1"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "cerebellum",
+    "TPM": "24.9",
+    "pTPM": "33.4",
+    "nTPM": "22.0"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "cerebral cortex",
+    "TPM": "10.2",
+    "pTPM": "12.6",
+    "nTPM": "12.3"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "hippocampal formation",
+    "TPM": "6.4",
+    "pTPM": "8.1",
+    "nTPM": "10.7"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "hypothalamus",
+    "TPM": "8.6",
+    "pTPM": "10.6",
+    "nTPM": "11.3"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "midbrain",
+    "TPM": "7.1",
+    "pTPM": "8.8",
+    "nTPM": "11.1"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Brain region": "spinal cord",
+    "TPM": "9.4",
+    "pTPM": "11.8",
+    "nTPM": "13.0"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "amygdala",
+    "TPM": "7.9",
+    "pTPM": "9.9",
+    "nTPM": "13.8"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "basal ganglia",
+    "TPM": "7.8",
+    "pTPM": "9.7",
+    "nTPM": "12.6"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "cerebellum",
+    "TPM": "28.4",
+    "pTPM": "38.0",
+    "nTPM": "25.8"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "cerebral cortex",
+    "TPM": "10.7",
+    "pTPM": "13.2",
+    "nTPM": "13.9"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "hippocampal formation",
+    "TPM": "7.0",
+    "pTPM": "8.8",
+    "nTPM": "12.2"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "hypothalamus",
+    "TPM": "9.4",
+    "pTPM": "11.6",
+    "nTPM": "13.1"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "midbrain",
+    "TPM": "7.5",
+    "pTPM": "9.3",
+    "nTPM": "12.4"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Brain region": "spinal cord",
+    "TPM": "6.3",
+    "pTPM": "8.0",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "amygdala",
+    "TPM": "12.1",
+    "pTPM": "15.1",
+    "nTPM": "19.1"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "basal ganglia",
+    "TPM": "9.7",
+    "pTPM": "12.1",
+    "nTPM": "13.0"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "cerebellum",
+    "TPM": "6.7",
+    "pTPM": "8.9",
+    "nTPM": "5.9"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "cerebral cortex",
+    "TPM": "30.1",
+    "pTPM": "36.9",
+    "nTPM": "34.8"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "hippocampal formation",
+    "TPM": "8.6",
+    "pTPM": "10.7",
+    "nTPM": "13.5"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "hypothalamus",
+    "TPM": "13.6",
+    "pTPM": "16.9",
+    "nTPM": "17.3"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "midbrain",
+    "TPM": "11.5",
+    "pTPM": "14.2",
+    "nTPM": "17.2"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Brain region": "spinal cord",
+    "TPM": "23.0",
+    "pTPM": "28.9",
+    "nTPM": "31.9"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "amygdala",
+    "TPM": "20.3",
+    "pTPM": "25.4",
+    "nTPM": "33.4"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "basal ganglia",
+    "TPM": "16.6",
+    "pTPM": "20.6",
+    "nTPM": "24.0"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "cerebellum",
+    "TPM": "61.4",
+    "pTPM": "82.1",
+    "nTPM": "53.8"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "cerebral cortex",
+    "TPM": "55.2",
+    "pTPM": "67.8",
+    "nTPM": "64.2"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "hippocampal formation",
+    "TPM": "17.8",
+    "pTPM": "22.1",
+    "nTPM": "28.3"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "hypothalamus",
+    "TPM": "20.3",
+    "pTPM": "25.2",
+    "nTPM": "25.6"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "midbrain",
+    "TPM": "9.7",
+    "pTPM": "11.9",
+    "nTPM": "14.7"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Brain region": "spinal cord",
+    "TPM": "6.0",
+    "pTPM": "7.6",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "amygdala",
+    "TPM": "3.4",
+    "pTPM": "4.3",
+    "nTPM": "5.4"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "basal ganglia",
+    "TPM": "3.6",
+    "pTPM": "4.5",
+    "nTPM": "4.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "cerebellum",
+    "TPM": "5.7",
+    "pTPM": "7.7",
+    "nTPM": "4.9"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "cerebral cortex",
+    "TPM": "4.1",
+    "pTPM": "5.0",
+    "nTPM": "5.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "hippocampal formation",
+    "TPM": "2.4",
+    "pTPM": "3.1",
+    "nTPM": "3.8"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "hypothalamus",
+    "TPM": "2.6",
+    "pTPM": "3.3",
+    "nTPM": "3.2"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "midbrain",
+    "TPM": "1.7",
+    "pTPM": "2.2",
+    "nTPM": "2.5"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Brain region": "spinal cord",
+    "TPM": "3.7",
+    "pTPM": "4.7",
+    "nTPM": "4.6"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "amygdala",
+    "TPM": "2.9",
+    "pTPM": "3.6",
+    "nTPM": "4.6"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "basal ganglia",
+    "TPM": "5.8",
+    "pTPM": "7.3",
+    "nTPM": "7.5"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "cerebellum",
+    "TPM": "12.2",
+    "pTPM": "16.5",
+    "nTPM": "10.8"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "cerebral cortex",
+    "TPM": "7.4",
+    "pTPM": "9.0",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "hippocampal formation",
+    "TPM": "4.5",
+    "pTPM": "5.7",
+    "nTPM": "7.1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "hypothalamus",
+    "TPM": "2.9",
+    "pTPM": "3.6",
+    "nTPM": "3.5"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "midbrain",
+    "TPM": "1.2",
+    "pTPM": "1.5",
+    "nTPM": "1.8"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Brain region": "spinal cord",
+    "TPM": "0.8",
+    "pTPM": "1.1",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "amygdala",
+    "TPM": "30.9",
+    "pTPM": "38.4",
+    "nTPM": "52.5"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "basal ganglia",
+    "TPM": "29.0",
+    "pTPM": "36.0",
+    "nTPM": "41.7"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "cerebellum",
+    "TPM": "171.4",
+    "pTPM": "231.5",
+    "nTPM": "155.9"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "cerebral cortex",
+    "TPM": "55.5",
+    "pTPM": "67.7",
+    "nTPM": "73.6"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "hippocampal formation",
+    "TPM": "38.1",
+    "pTPM": "47.4",
+    "nTPM": "67.5"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "hypothalamus",
+    "TPM": "14.4",
+    "pTPM": "17.8",
+    "nTPM": "20.2"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "midbrain",
+    "TPM": "11.2",
+    "pTPM": "14.0",
+    "nTPM": "17.8"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Brain region": "spinal cord",
+    "TPM": "13.0",
+    "pTPM": "16.4",
+    "nTPM": "18.6"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "amygdala",
+    "TPM": "1.4",
+    "pTPM": "1.7",
+    "nTPM": "2.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "basal ganglia",
+    "TPM": "3.4",
+    "pTPM": "4.3",
+    "nTPM": "4.5"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "cerebellum",
+    "TPM": "0.3",
+    "pTPM": "0.4",
+    "nTPM": "0.2"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "cerebral cortex",
+    "TPM": "3.6",
+    "pTPM": "4.4",
+    "nTPM": "4.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "hippocampal formation",
+    "TPM": "2.1",
+    "pTPM": "2.7",
+    "nTPM": "3.3"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "hypothalamus",
+    "TPM": "1.1",
+    "pTPM": "1.4",
+    "nTPM": "1.4"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "midbrain",
+    "TPM": "0.4",
+    "pTPM": "0.5",
+    "nTPM": "0.5"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Brain region": "spinal cord",
+    "TPM": "0.1",
+    "pTPM": "0.2",
+    "nTPM": "0.2"
+  }
+]

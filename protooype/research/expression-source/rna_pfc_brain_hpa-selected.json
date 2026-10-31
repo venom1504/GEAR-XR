@@ -1,0 +1,3202 @@
+[
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "5.2",
+    "pTPM": "7.9",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "4.5",
+    "pTPM": "6.8",
+    "nTPM": "7.1"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "5.8",
+    "pTPM": "8.5",
+    "nTPM": "7.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "4.6",
+    "pTPM": "7.4",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "4.9",
+    "pTPM": "8.0",
+    "nTPM": "7.8"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "frontal cortex",
+    "TPM": "5.3",
+    "pTPM": "8.9",
+    "nTPM": "9.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "5.8",
+    "pTPM": "9.7",
+    "nTPM": "8.2"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "frontopolar cortex",
+    "TPM": "7.5",
+    "pTPM": "11.8",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "gyrus rectus",
+    "TPM": "5.1",
+    "pTPM": "9.1",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "6.1",
+    "pTPM": "9.0",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "7.0",
+    "pTPM": "10.5",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "6.2",
+    "pTPM": "9.3",
+    "nTPM": "7.5"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "5.9",
+    "pTPM": "9.8",
+    "nTPM": "9.5"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "6.7",
+    "pTPM": "9.9",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "parietal cortex",
+    "TPM": "5.6",
+    "pTPM": "9.7",
+    "nTPM": "10.1"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "5.6",
+    "pTPM": "9.9",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "5.9",
+    "pTPM": "9.8",
+    "nTPM": "8.9"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "temporal cortex",
+    "TPM": "5.1",
+    "pTPM": "8.8",
+    "nTPM": "10.3"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "4.4",
+    "pTPM": "7.2",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "5.6",
+    "pTPM": "9.3",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "5.2",
+    "pTPM": "7.8",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "4.4",
+    "pTPM": "6.6",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "6.3",
+    "pTPM": "9.2",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "5.4",
+    "pTPM": "8.5",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "5.0",
+    "pTPM": "8.1",
+    "nTPM": "7.5"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "frontal cortex",
+    "TPM": "4.2",
+    "pTPM": "6.8",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "5.7",
+    "pTPM": "9.3",
+    "nTPM": "7.8"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "frontopolar cortex",
+    "TPM": "8.3",
+    "pTPM": "13.1",
+    "nTPM": "8.8"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "gyrus rectus",
+    "TPM": "5.4",
+    "pTPM": "9.3",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "6.4",
+    "pTPM": "9.2",
+    "nTPM": "6.8"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "7.2",
+    "pTPM": "10.5",
+    "nTPM": "7.4"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "7.4",
+    "pTPM": "10.9",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "5.2",
+    "pTPM": "8.6",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "6.6",
+    "pTPM": "9.7",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "parietal cortex",
+    "TPM": "4.6",
+    "pTPM": "7.9",
+    "nTPM": "7.4"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "4.3",
+    "pTPM": "7.2",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "5.5",
+    "pTPM": "9.0",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "temporal cortex",
+    "TPM": "4.1",
+    "pTPM": "6.8",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "4.7",
+    "pTPM": "7.5",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000100888",
+    "Gene name": "CHD8",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "6.9",
+    "pTPM": "11.2",
+    "nTPM": "8.7"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "13.0",
+    "pTPM": "19.4",
+    "nTPM": "18.7"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "12.1",
+    "pTPM": "18.1",
+    "nTPM": "19.1"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "14.8",
+    "pTPM": "21.6",
+    "nTPM": "17.8"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "14.8",
+    "pTPM": "23.6",
+    "nTPM": "25.3"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "16.4",
+    "pTPM": "26.8",
+    "nTPM": "24.5"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "frontal cortex",
+    "TPM": "13.6",
+    "pTPM": "22.3",
+    "nTPM": "22.4"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "19.5",
+    "pTPM": "32.2",
+    "nTPM": "27.3"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "frontopolar cortex",
+    "TPM": "21.4",
+    "pTPM": "33.8",
+    "nTPM": "23.2"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "gyrus rectus",
+    "TPM": "17.2",
+    "pTPM": "29.9",
+    "nTPM": "24.9"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "14.8",
+    "pTPM": "21.4",
+    "nTPM": "17.8"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "17.4",
+    "pTPM": "25.8",
+    "nTPM": "19.0"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "16.1",
+    "pTPM": "23.9",
+    "nTPM": "18.4"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "15.0",
+    "pTPM": "24.9",
+    "nTPM": "24.1"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "15.5",
+    "pTPM": "22.9",
+    "nTPM": "18.6"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "parietal cortex",
+    "TPM": "12.9",
+    "pTPM": "22.0",
+    "nTPM": "21.7"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "12.8",
+    "pTPM": "22.0",
+    "nTPM": "22.4"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "15.5",
+    "pTPM": "25.4",
+    "nTPM": "22.4"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "temporal cortex",
+    "TPM": "12.3",
+    "pTPM": "20.8",
+    "nTPM": "23.9"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "13.2",
+    "pTPM": "21.1",
+    "nTPM": "24.2"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "20.3",
+    "pTPM": "33.3",
+    "nTPM": "26.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "0.4",
+    "pTPM": "0.6",
+    "nTPM": "0.5"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "0.3",
+    "pTPM": "0.4",
+    "nTPM": "0.5"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "0.4",
+    "pTPM": "0.7",
+    "nTPM": "0.5"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "0.3",
+    "pTPM": "0.5",
+    "nTPM": "0.5"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "1.0",
+    "pTPM": "1.7",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "frontal cortex",
+    "TPM": "0.6",
+    "pTPM": "0.9",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "1.5",
+    "pTPM": "2.4",
+    "nTPM": "1.6"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "frontopolar cortex",
+    "TPM": "2.4",
+    "pTPM": "3.7",
+    "nTPM": "2.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "gyrus rectus",
+    "TPM": "1.0",
+    "pTPM": "1.8",
+    "nTPM": "1.3"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "0.9",
+    "pTPM": "1.4",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "0.9",
+    "pTPM": "1.3",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "1.0",
+    "pTPM": "1.5",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "0.7",
+    "pTPM": "1.1",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "1.1",
+    "pTPM": "1.7",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "parietal cortex",
+    "TPM": "0.5",
+    "pTPM": "0.9",
+    "nTPM": "0.7"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "0.6",
+    "pTPM": "1.0",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "0.6",
+    "pTPM": "1.0",
+    "nTPM": "0.7"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "temporal cortex",
+    "TPM": "0.9",
+    "pTPM": "1.5",
+    "nTPM": "1.2"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "0.4",
+    "pTPM": "0.7",
+    "nTPM": "0.7"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "1.0",
+    "pTPM": "1.7",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "5.8",
+    "pTPM": "8.7",
+    "nTPM": "8.7"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "5.5",
+    "pTPM": "8.2",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "6.9",
+    "pTPM": "10.0",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "6.1",
+    "pTPM": "9.7",
+    "nTPM": "10.2"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "5.9",
+    "pTPM": "9.6",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "frontal cortex",
+    "TPM": "6.0",
+    "pTPM": "9.9",
+    "nTPM": "10.7"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "6.5",
+    "pTPM": "10.8",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "frontopolar cortex",
+    "TPM": "9.0",
+    "pTPM": "14.2",
+    "nTPM": "10.3"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "gyrus rectus",
+    "TPM": "6.9",
+    "pTPM": "11.9",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "6.9",
+    "pTPM": "10.0",
+    "nTPM": "8.8"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "7.2",
+    "pTPM": "10.6",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "6.6",
+    "pTPM": "9.9",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "7.3",
+    "pTPM": "12.0",
+    "nTPM": "11.8"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "6.7",
+    "pTPM": "9.9",
+    "nTPM": "8.7"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "parietal cortex",
+    "TPM": "6.3",
+    "pTPM": "10.8",
+    "nTPM": "11.1"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "6.0",
+    "pTPM": "10.3",
+    "nTPM": "10.9"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "6.4",
+    "pTPM": "10.6",
+    "nTPM": "10.3"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "temporal cortex",
+    "TPM": "5.5",
+    "pTPM": "9.3",
+    "nTPM": "11.4"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "6.2",
+    "pTPM": "10.0",
+    "nTPM": "11.4"
+  },
+  {
+    "Gene": "ENSG00000110066",
+    "Gene name": "KMT5B",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "7.1",
+    "pTPM": "11.6",
+    "nTPM": "9.6"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "3.9",
+    "pTPM": "5.9",
+    "nTPM": "5.3"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "3.1",
+    "pTPM": "4.7",
+    "nTPM": "4.6"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "4.2",
+    "pTPM": "6.1",
+    "nTPM": "4.7"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "3.9",
+    "pTPM": "6.2",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "4.2",
+    "pTPM": "6.9",
+    "nTPM": "6.3"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "frontal cortex",
+    "TPM": "4.2",
+    "pTPM": "7.0",
+    "nTPM": "7.1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "5.1",
+    "pTPM": "8.4",
+    "nTPM": "6.9"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "frontopolar cortex",
+    "TPM": "6.0",
+    "pTPM": "9.5",
+    "nTPM": "6.2"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "gyrus rectus",
+    "TPM": "4.5",
+    "pTPM": "7.9",
+    "nTPM": "6.4"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "4.6",
+    "pTPM": "6.7",
+    "nTPM": "5.7"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "5.4",
+    "pTPM": "8.1",
+    "nTPM": "5.6"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "5.2",
+    "pTPM": "7.9",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "4.4",
+    "pTPM": "7.3",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "4.9",
+    "pTPM": "7.3",
+    "nTPM": "5.9"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "parietal cortex",
+    "TPM": "4.1",
+    "pTPM": "7.1",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "4.5",
+    "pTPM": "7.8",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "4.8",
+    "pTPM": "7.9",
+    "nTPM": "7.0"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "temporal cortex",
+    "TPM": "4.3",
+    "pTPM": "7.3",
+    "nTPM": "8.2"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "3.4",
+    "pTPM": "5.5",
+    "nTPM": "6.1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "5.3",
+    "pTPM": "8.7",
+    "nTPM": "6.9"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "8.6",
+    "pTPM": "12.9",
+    "nTPM": "11.9"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "7.5",
+    "pTPM": "11.2",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "10.3",
+    "pTPM": "15.0",
+    "nTPM": "12.2"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "10.1",
+    "pTPM": "16.1",
+    "nTPM": "16.1"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "10.5",
+    "pTPM": "17.1",
+    "nTPM": "15.1"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "frontal cortex",
+    "TPM": "9.6",
+    "pTPM": "15.8",
+    "nTPM": "15.6"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "13.1",
+    "pTPM": "21.5",
+    "nTPM": "17.3"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "frontopolar cortex",
+    "TPM": "15.4",
+    "pTPM": "24.2",
+    "nTPM": "16.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "gyrus rectus",
+    "TPM": "11.9",
+    "pTPM": "20.5",
+    "nTPM": "16.4"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "10.6",
+    "pTPM": "15.3",
+    "nTPM": "12.1"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "12.1",
+    "pTPM": "17.8",
+    "nTPM": "12.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "11.5",
+    "pTPM": "16.9",
+    "nTPM": "12.5"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "10.8",
+    "pTPM": "17.8",
+    "nTPM": "16.6"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "11.6",
+    "pTPM": "16.9",
+    "nTPM": "13.0"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "parietal cortex",
+    "TPM": "9.5",
+    "pTPM": "16.1",
+    "nTPM": "15.4"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "9.8",
+    "pTPM": "16.5",
+    "nTPM": "16.1"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "11.9",
+    "pTPM": "19.2",
+    "nTPM": "16.5"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "temporal cortex",
+    "TPM": "8.7",
+    "pTPM": "14.6",
+    "nTPM": "16.2"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "8.7",
+    "pTPM": "13.8",
+    "nTPM": "15.5"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "11.9",
+    "pTPM": "19.7",
+    "nTPM": "15.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "6.1",
+    "pTPM": "9.2",
+    "nTPM": "7.1"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "4.8",
+    "pTPM": "7.4",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "7.2",
+    "pTPM": "10.5",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "4.2",
+    "pTPM": "6.7",
+    "nTPM": "6.6"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "5.8",
+    "pTPM": "9.5",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "frontal cortex",
+    "TPM": "7.1",
+    "pTPM": "11.5",
+    "nTPM": "9.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "7.9",
+    "pTPM": "13.0",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "frontopolar cortex",
+    "TPM": "9.9",
+    "pTPM": "15.4",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "gyrus rectus",
+    "TPM": "7.7",
+    "pTPM": "13.2",
+    "nTPM": "9.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "9.1",
+    "pTPM": "12.9",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "10.2",
+    "pTPM": "15.1",
+    "nTPM": "9.1"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "8.5",
+    "pTPM": "12.4",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "6.6",
+    "pTPM": "10.7",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "9.2",
+    "pTPM": "13.3",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "parietal cortex",
+    "TPM": "4.9",
+    "pTPM": "8.3",
+    "nTPM": "6.6"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "8.8",
+    "pTPM": "14.5",
+    "nTPM": "11.9"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "9.9",
+    "pTPM": "16.0",
+    "nTPM": "11.6"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "temporal cortex",
+    "TPM": "6.9",
+    "pTPM": "11.6",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "3.3",
+    "pTPM": "5.3",
+    "nTPM": "5.3"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "8.6",
+    "pTPM": "14.0",
+    "nTPM": "9.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "8.4",
+    "pTPM": "12.7",
+    "nTPM": "8.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "5.3",
+    "pTPM": "8.1",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "8.6",
+    "pTPM": "12.6",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "6.8",
+    "pTPM": "10.7",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "8.5",
+    "pTPM": "13.9",
+    "nTPM": "9.4"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "frontal cortex",
+    "TPM": "11.3",
+    "pTPM": "18.2",
+    "nTPM": "14.2"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "11.0",
+    "pTPM": "18.0",
+    "nTPM": "12.2"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "frontopolar cortex",
+    "TPM": "15.3",
+    "pTPM": "23.8",
+    "nTPM": "13.3"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "gyrus rectus",
+    "TPM": "9.7",
+    "pTPM": "16.8",
+    "nTPM": "11.8"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "11.6",
+    "pTPM": "16.6",
+    "nTPM": "10.5"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "14.2",
+    "pTPM": "21.0",
+    "nTPM": "12.4"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "12.7",
+    "pTPM": "18.4",
+    "nTPM": "11.7"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "8.7",
+    "pTPM": "14.2",
+    "nTPM": "10.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "13.3",
+    "pTPM": "19.3",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "parietal cortex",
+    "TPM": "8.3",
+    "pTPM": "13.8",
+    "nTPM": "10.6"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "10.5",
+    "pTPM": "17.5",
+    "nTPM": "14.5"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "13.7",
+    "pTPM": "22.0",
+    "nTPM": "15.8"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "temporal cortex",
+    "TPM": "10.9",
+    "pTPM": "18.2",
+    "nTPM": "14.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "5.0",
+    "pTPM": "8.1",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "12.3",
+    "pTPM": "20.2",
+    "nTPM": "14.1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "13.3",
+    "pTPM": "19.8",
+    "nTPM": "18.7"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "10.8",
+    "pTPM": "16.1",
+    "nTPM": "16.1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "16.3",
+    "pTPM": "23.9",
+    "nTPM": "19.0"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "16.2",
+    "pTPM": "25.7",
+    "nTPM": "25.9"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "13.2",
+    "pTPM": "21.5",
+    "nTPM": "20.3"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "frontal cortex",
+    "TPM": "14.1",
+    "pTPM": "23.1",
+    "nTPM": "22.3"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "16.4",
+    "pTPM": "27.0",
+    "nTPM": "23.5"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "frontopolar cortex",
+    "TPM": "22.3",
+    "pTPM": "35.3",
+    "nTPM": "24.4"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "gyrus rectus",
+    "TPM": "15.6",
+    "pTPM": "27.2",
+    "nTPM": "22.7"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "15.6",
+    "pTPM": "22.3",
+    "nTPM": "17.6"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "19.9",
+    "pTPM": "29.3",
+    "nTPM": "20.4"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "18.7",
+    "pTPM": "27.4",
+    "nTPM": "20.1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "16.0",
+    "pTPM": "26.3",
+    "nTPM": "23.8"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "17.8",
+    "pTPM": "26.0",
+    "nTPM": "19.5"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "parietal cortex",
+    "TPM": "15.1",
+    "pTPM": "25.6",
+    "nTPM": "24.9"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "12.8",
+    "pTPM": "21.6",
+    "nTPM": "20.5"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "15.3",
+    "pTPM": "25.0",
+    "nTPM": "22.5"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "temporal cortex",
+    "TPM": "13.2",
+    "pTPM": "21.9",
+    "nTPM": "21.8"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "13.3",
+    "pTPM": "21.3",
+    "nTPM": "24.0"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "16.9",
+    "pTPM": "27.6",
+    "nTPM": "22.3"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "7.3",
+    "pTPM": "11.0",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "6.2",
+    "pTPM": "9.3",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "8.7",
+    "pTPM": "12.7",
+    "nTPM": "10.0"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "6.3",
+    "pTPM": "10.1",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "7.2",
+    "pTPM": "11.7",
+    "nTPM": "9.1"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "frontal cortex",
+    "TPM": "7.6",
+    "pTPM": "12.5",
+    "nTPM": "11.7"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "9.1",
+    "pTPM": "15.0",
+    "nTPM": "12.1"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "frontopolar cortex",
+    "TPM": "11.6",
+    "pTPM": "18.2",
+    "nTPM": "11.3"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "gyrus rectus",
+    "TPM": "9.1",
+    "pTPM": "15.8",
+    "nTPM": "12.6"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "9.0",
+    "pTPM": "12.9",
+    "nTPM": "9.5"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "10.6",
+    "pTPM": "15.7",
+    "nTPM": "10.3"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "9.5",
+    "pTPM": "14.1",
+    "nTPM": "10.6"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "8.5",
+    "pTPM": "14.2",
+    "nTPM": "12.7"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "9.6",
+    "pTPM": "14.1",
+    "nTPM": "10.4"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "parietal cortex",
+    "TPM": "7.3",
+    "pTPM": "12.4",
+    "nTPM": "11.7"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "8.6",
+    "pTPM": "14.5",
+    "nTPM": "13.7"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "9.6",
+    "pTPM": "15.6",
+    "nTPM": "13.0"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "temporal cortex",
+    "TPM": "7.3",
+    "pTPM": "12.3",
+    "nTPM": "12.6"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "5.2",
+    "pTPM": "8.4",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "9.0",
+    "pTPM": "14.7",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "4.5",
+    "pTPM": "6.7",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "4.1",
+    "pTPM": "6.1",
+    "nTPM": "6.1"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "5.4",
+    "pTPM": "7.9",
+    "nTPM": "6.4"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "5.0",
+    "pTPM": "8.0",
+    "nTPM": "8.2"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "4.4",
+    "pTPM": "7.2",
+    "nTPM": "6.7"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "frontal cortex",
+    "TPM": "5.3",
+    "pTPM": "8.8",
+    "nTPM": "8.8"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "5.5",
+    "pTPM": "9.1",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "frontopolar cortex",
+    "TPM": "7.5",
+    "pTPM": "11.9",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "gyrus rectus",
+    "TPM": "5.4",
+    "pTPM": "9.5",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "5.5",
+    "pTPM": "7.9",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "6.2",
+    "pTPM": "9.1",
+    "nTPM": "6.3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "5.4",
+    "pTPM": "8.0",
+    "nTPM": "6.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "5.9",
+    "pTPM": "9.8",
+    "nTPM": "9.3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "5.5",
+    "pTPM": "8.0",
+    "nTPM": "6.3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "parietal cortex",
+    "TPM": "5.3",
+    "pTPM": "9.0",
+    "nTPM": "9.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "4.6",
+    "pTPM": "7.9",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "5.5",
+    "pTPM": "9.0",
+    "nTPM": "8.2"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "temporal cortex",
+    "TPM": "4.5",
+    "pTPM": "7.6",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "4.3",
+    "pTPM": "6.9",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "5.1",
+    "pTPM": "8.5",
+    "nTPM": "6.8"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "6.0",
+    "pTPM": "9.1",
+    "nTPM": "8.2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "5.1",
+    "pTPM": "7.7",
+    "nTPM": "7.6"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "6.8",
+    "pTPM": "9.9",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "4.5",
+    "pTPM": "7.3",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "5.0",
+    "pTPM": "8.2",
+    "nTPM": "6.9"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "frontal cortex",
+    "TPM": "4.3",
+    "pTPM": "7.1",
+    "nTPM": "6.6"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "5.5",
+    "pTPM": "9.0",
+    "nTPM": "7.4"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "frontopolar cortex",
+    "TPM": "7.6",
+    "pTPM": "12.0",
+    "nTPM": "7.8"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "gyrus rectus",
+    "TPM": "5.5",
+    "pTPM": "9.6",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "7.0",
+    "pTPM": "10.1",
+    "nTPM": "8.0"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "8.0",
+    "pTPM": "11.9",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "7.7",
+    "pTPM": "11.4",
+    "nTPM": "8.7"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "4.5",
+    "pTPM": "7.6",
+    "nTPM": "6.8"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "7.5",
+    "pTPM": "11.1",
+    "nTPM": "8.6"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "parietal cortex",
+    "TPM": "4.4",
+    "pTPM": "7.5",
+    "nTPM": "7.3"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "4.4",
+    "pTPM": "7.4",
+    "nTPM": "7.2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "5.4",
+    "pTPM": "8.8",
+    "nTPM": "7.5"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "temporal cortex",
+    "TPM": "4.2",
+    "pTPM": "7.2",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "3.9",
+    "pTPM": "6.2",
+    "nTPM": "7.0"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "5.3",
+    "pTPM": "8.7",
+    "nTPM": "7.1"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "6.9",
+    "pTPM": "10.5",
+    "nTPM": "9.7"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "6.1",
+    "pTPM": "9.2",
+    "nTPM": "9.0"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "7.1",
+    "pTPM": "10.4",
+    "nTPM": "8.3"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "5.6",
+    "pTPM": "9.1",
+    "nTPM": "10.2"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "8.3",
+    "pTPM": "13.6",
+    "nTPM": "11.1"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "frontal cortex",
+    "TPM": "7.5",
+    "pTPM": "12.4",
+    "nTPM": "12.9"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "8.8",
+    "pTPM": "14.6",
+    "nTPM": "11.5"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "frontopolar cortex",
+    "TPM": "11.1",
+    "pTPM": "17.4",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "gyrus rectus",
+    "TPM": "9.5",
+    "pTPM": "16.6",
+    "nTPM": "13.9"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "8.4",
+    "pTPM": "12.2",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "8.5",
+    "pTPM": "12.7",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "8.2",
+    "pTPM": "12.2",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "8.4",
+    "pTPM": "14.0",
+    "nTPM": "13.5"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "8.2",
+    "pTPM": "12.1",
+    "nTPM": "9.9"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "parietal cortex",
+    "TPM": "7.3",
+    "pTPM": "12.6",
+    "nTPM": "12.7"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "8.0",
+    "pTPM": "13.9",
+    "nTPM": "14.8"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "8.8",
+    "pTPM": "14.5",
+    "nTPM": "12.9"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "temporal cortex",
+    "TPM": "6.8",
+    "pTPM": "11.7",
+    "nTPM": "13.6"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "5.0",
+    "pTPM": "8.0",
+    "nTPM": "9.0"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "9.0",
+    "pTPM": "15.0",
+    "nTPM": "11.7"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "2.1",
+    "pTPM": "3.2",
+    "nTPM": "2.3"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "0.8",
+    "pTPM": "1.4",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "1.3",
+    "pTPM": "2.0",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "0.9",
+    "pTPM": "1.4",
+    "nTPM": "1.9"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "3.9",
+    "pTPM": "6.5",
+    "nTPM": "3.5"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "frontal cortex",
+    "TPM": "2.0",
+    "pTPM": "3.4",
+    "nTPM": "2.4"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "4.6",
+    "pTPM": "7.5",
+    "nTPM": "4.5"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "frontopolar cortex",
+    "TPM": "5.9",
+    "pTPM": "9.2",
+    "nTPM": "4.3"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "gyrus rectus",
+    "TPM": "4.2",
+    "pTPM": "7.3",
+    "nTPM": "4.8"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "4.3",
+    "pTPM": "6.2",
+    "nTPM": "4.0"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "4.0",
+    "pTPM": "6.0",
+    "nTPM": "3.6"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "3.9",
+    "pTPM": "5.8",
+    "nTPM": "3.8"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "1.3",
+    "pTPM": "2.1",
+    "nTPM": "1.4"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "4.8",
+    "pTPM": "7.0",
+    "nTPM": "4.1"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "parietal cortex",
+    "TPM": "1.9",
+    "pTPM": "3.3",
+    "nTPM": "2.3"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "2.2",
+    "pTPM": "3.8",
+    "nTPM": "3.1"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "3.4",
+    "pTPM": "5.5",
+    "nTPM": "3.6"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "temporal cortex",
+    "TPM": "2.0",
+    "pTPM": "3.4",
+    "nTPM": "3.0"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "1.2",
+    "pTPM": "2.0",
+    "nTPM": "1.7"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "4.1",
+    "pTPM": "6.9",
+    "nTPM": "4.9"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "13.0",
+    "pTPM": "19.6",
+    "nTPM": "16.0"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "11.1",
+    "pTPM": "16.9",
+    "nTPM": "16.6"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "15.6",
+    "pTPM": "22.8",
+    "nTPM": "17.3"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "12.7",
+    "pTPM": "20.1",
+    "nTPM": "19.9"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "17.5",
+    "pTPM": "28.7",
+    "nTPM": "20.7"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "frontal cortex",
+    "TPM": "17.4",
+    "pTPM": "28.0",
+    "nTPM": "23.6"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "24.4",
+    "pTPM": "40.0",
+    "nTPM": "29.9"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "frontopolar cortex",
+    "TPM": "30.8",
+    "pTPM": "47.9",
+    "nTPM": "27.7"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "gyrus rectus",
+    "TPM": "21.4",
+    "pTPM": "36.7",
+    "nTPM": "27.3"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "22.6",
+    "pTPM": "32.2",
+    "nTPM": "20.1"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "20.3",
+    "pTPM": "30.1",
+    "nTPM": "19.0"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "20.0",
+    "pTPM": "29.2",
+    "nTPM": "19.5"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "18.1",
+    "pTPM": "29.6",
+    "nTPM": "24.7"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "21.0",
+    "pTPM": "30.7",
+    "nTPM": "20.0"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "parietal cortex",
+    "TPM": "14.2",
+    "pTPM": "24.1",
+    "nTPM": "20.4"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "20.7",
+    "pTPM": "34.5",
+    "nTPM": "30.3"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "24.4",
+    "pTPM": "39.2",
+    "nTPM": "28.2"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "temporal cortex",
+    "TPM": "16.1",
+    "pTPM": "27.1",
+    "nTPM": "23.5"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "10.9",
+    "pTPM": "17.3",
+    "nTPM": "18.6"
+  },
+  {
+    "Gene": "ENSG00000179915",
+    "Gene name": "NRXN1",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "25.8",
+    "pTPM": "42.5",
+    "nTPM": "30.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "5.4",
+    "pTPM": "8.1",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "6.4",
+    "pTPM": "9.5",
+    "nTPM": "9.6"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "7.8",
+    "pTPM": "11.4",
+    "nTPM": "10.5"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "3.7",
+    "pTPM": "5.8",
+    "nTPM": "5.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "3.4",
+    "pTPM": "5.6",
+    "nTPM": "4.5"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "frontal cortex",
+    "TPM": "2.6",
+    "pTPM": "4.3",
+    "nTPM": "4.5"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "4.6",
+    "pTPM": "7.5",
+    "nTPM": "7.0"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "frontopolar cortex",
+    "TPM": "6.9",
+    "pTPM": "10.9",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "gyrus rectus",
+    "TPM": "4.2",
+    "pTPM": "7.2",
+    "nTPM": "6.5"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "6.4",
+    "pTPM": "9.3",
+    "nTPM": "7.7"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "7.9",
+    "pTPM": "11.4",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "7.8",
+    "pTPM": "11.4",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "3.8",
+    "pTPM": "6.2",
+    "nTPM": "5.9"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "6.4",
+    "pTPM": "9.5",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "parietal cortex",
+    "TPM": "3.3",
+    "pTPM": "5.6",
+    "nTPM": "5.4"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "3.0",
+    "pTPM": "5.1",
+    "nTPM": "5.2"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "2.9",
+    "pTPM": "4.8",
+    "nTPM": "4.4"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "temporal cortex",
+    "TPM": "2.3",
+    "pTPM": "3.9",
+    "nTPM": "4.4"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "4.3",
+    "pTPM": "6.8",
+    "nTPM": "8.1"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "4.3",
+    "pTPM": "7.0",
+    "nTPM": "5.9"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "9.4",
+    "pTPM": "14.1",
+    "nTPM": "11.9"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "9.9",
+    "pTPM": "15.2",
+    "nTPM": "14.1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "11.7",
+    "pTPM": "17.1",
+    "nTPM": "14.0"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "6.0",
+    "pTPM": "9.5",
+    "nTPM": "9.8"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "8.5",
+    "pTPM": "13.9",
+    "nTPM": "11.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "frontal cortex",
+    "TPM": "5.8",
+    "pTPM": "9.6",
+    "nTPM": "8.4"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "8.3",
+    "pTPM": "13.6",
+    "nTPM": "10.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "frontopolar cortex",
+    "TPM": "10.8",
+    "pTPM": "16.9",
+    "nTPM": "10.5"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "gyrus rectus",
+    "TPM": "8.2",
+    "pTPM": "14.2",
+    "nTPM": "10.9"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "10.6",
+    "pTPM": "15.2",
+    "nTPM": "11.3"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "12.5",
+    "pTPM": "18.7",
+    "nTPM": "13.1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "11.7",
+    "pTPM": "17.1",
+    "nTPM": "12.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "6.5",
+    "pTPM": "10.7",
+    "nTPM": "9.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "12.5",
+    "pTPM": "18.4",
+    "nTPM": "12.8"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "parietal cortex",
+    "TPM": "5.3",
+    "pTPM": "8.9",
+    "nTPM": "7.9"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "7.9",
+    "pTPM": "13.2",
+    "nTPM": "11.7"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "8.7",
+    "pTPM": "14.2",
+    "nTPM": "10.9"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "temporal cortex",
+    "TPM": "5.9",
+    "pTPM": "10.0",
+    "nTPM": "10.2"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "5.6",
+    "pTPM": "8.9",
+    "nTPM": "9.7"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "9.1",
+    "pTPM": "14.9",
+    "nTPM": "11.3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "23.8",
+    "pTPM": "35.9",
+    "nTPM": "31.6"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "22.8",
+    "pTPM": "34.8",
+    "nTPM": "33.4"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "25.5",
+    "pTPM": "37.3",
+    "nTPM": "31.3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "9.2",
+    "pTPM": "14.6",
+    "nTPM": "15.4"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "14.4",
+    "pTPM": "23.4",
+    "nTPM": "19.6"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "frontal cortex",
+    "TPM": "9.6",
+    "pTPM": "15.9",
+    "nTPM": "16.0"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "12.6",
+    "pTPM": "20.7",
+    "nTPM": "16.6"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "frontopolar cortex",
+    "TPM": "15.7",
+    "pTPM": "24.8",
+    "nTPM": "16.5"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "gyrus rectus",
+    "TPM": "10.2",
+    "pTPM": "17.9",
+    "nTPM": "15.5"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "23.1",
+    "pTPM": "33.4",
+    "nTPM": "26.6"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "23.7",
+    "pTPM": "35.6",
+    "nTPM": "27.2"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "24.6",
+    "pTPM": "36.5",
+    "nTPM": "27.1"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "8.2",
+    "pTPM": "13.6",
+    "nTPM": "12.5"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "22.9",
+    "pTPM": "33.6",
+    "nTPM": "26.2"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "parietal cortex",
+    "TPM": "9.0",
+    "pTPM": "15.5",
+    "nTPM": "15.3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "9.9",
+    "pTPM": "17.1",
+    "nTPM": "17.7"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "12.3",
+    "pTPM": "20.2",
+    "nTPM": "17.8"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "temporal cortex",
+    "TPM": "8.2",
+    "pTPM": "13.9",
+    "nTPM": "16.9"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "9.0",
+    "pTPM": "14.3",
+    "nTPM": "16.2"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "12.7",
+    "pTPM": "21.1",
+    "nTPM": "16.8"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "anterior cingulate gyrus, pregenual-dorsal",
+    "TPM": "0.8",
+    "pTPM": "1.2",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "anterior cingulate gyrus, pregenual-ventral",
+    "TPM": "0.8",
+    "pTPM": "1.2",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "anterior cingulate gyrus, subgenual",
+    "TPM": "1.0",
+    "pTPM": "1.4",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "dorsolateral prefrontal cortex",
+    "TPM": "0.5",
+    "pTPM": "0.8",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "dorsomedial prefrontal cortex",
+    "TPM": "1.0",
+    "pTPM": "1.7",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "frontal cortex",
+    "TPM": "0.6",
+    "pTPM": "1.1",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "frontomarginal cortex",
+    "TPM": "1.1",
+    "pTPM": "1.9",
+    "nTPM": "1.2"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "frontopolar cortex",
+    "TPM": "1.6",
+    "pTPM": "2.5",
+    "nTPM": "1.3"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "gyrus rectus",
+    "TPM": "1.0",
+    "pTPM": "1.8",
+    "nTPM": "1.2"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "inferior frontal gyrus, orbital",
+    "TPM": "0.9",
+    "pTPM": "1.3",
+    "nTPM": "0.9"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "inferior frontal gyrus, triangular",
+    "TPM": "1.2",
+    "pTPM": "1.8",
+    "nTPM": "1.2"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "orbitofrontal gyrus, lateral",
+    "TPM": "1.0",
+    "pTPM": "1.5",
+    "nTPM": "1.0"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "orbitofrontal gyrus, medial",
+    "TPM": "0.6",
+    "pTPM": "1.0",
+    "nTPM": "0.8"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "orbitofrontal gyrus, posterior",
+    "TPM": "1.2",
+    "pTPM": "1.8",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "parietal cortex",
+    "TPM": "0.4",
+    "pTPM": "0.7",
+    "nTPM": "0.6"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "subcallosal gyrus",
+    "TPM": "1.0",
+    "pTPM": "1.6",
+    "nTPM": "1.3"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "superior frontal gyrus",
+    "TPM": "1.0",
+    "pTPM": "1.7",
+    "nTPM": "1.2"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "temporal cortex",
+    "TPM": "0.6",
+    "pTPM": "1.1",
+    "nTPM": "1.1"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "ventrolateral prefrontal cortex",
+    "TPM": "0.4",
+    "pTPM": "0.7",
+    "nTPM": "0.7"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Subregion": "ventromedial prefrontal cortex",
+    "TPM": "1.1",
+    "pTPM": "1.8",
+    "nTPM": "1.3"
+  }
+]

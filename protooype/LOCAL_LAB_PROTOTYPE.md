@@ -1,25 +1,38 @@
-# GEAR-XR — local lab prototype: sample coverage
+# Local lab prototype — reconstruction and audit
 
-This is a separate local copy, not the public Render site or the connected GitHub checkout. No deployment is required.
+This folder reconstructs the newer model described in the supplied shared-chat history using verified files and public source records. It is not a byte-for-byte export of that other chat's local filesystem.
 
-Start inside this folder:
+## Rebuild
+
+Run from this folder, in order:
 
 ```sh
-python3 -m http.server 8767 --bind 127.0.0.1 --directory dist
+python3 scripts/fetch_sample_coverage.py
+python3 scripts/expand_regions.py
+python3 scripts/build_ranking.py
+python3 scripts/prepare_protein_display.py
+npm test
 ```
 
-Open http://127.0.0.1:8767 . Press Control+C to stop.
+The source-page fetcher reuses archived pages if present. It downloads only missing public pages. The other builds use saved inputs. Node.js and Python 3 are sufficient; no package installation is required.
 
-The amber banner identifies the lab prototype. Each candidate card shows samples per exact source entry; the selected gene's expanded evidence lists sample counts alongside the RNA values. TBR1 postcentral remains 105.0 nTPM, with n=1 highlighted. Its dorsal/middle/ventral subdivisions are separate entries with n=6/5/3 and are not pooled into that value. Unsuffixed precentral is n=1.
+## Exact interpretation
 
-Counts come from individual sample rows on the exact gene's official HPA cerebral-cortex page. Study, source-area name and displayed nTPM must match the saved expression input before a count is exposed. Missing or changed entries show “not verified,” never zero or an inferred count. More than one sample does not establish the number of independent donors; that count remains unknown. A one-sample entry represents one sampled donor. No donor count is inferred from repeated sex, age or hemisphere descriptions.
+Postcentral TBR1 uses source-entry means 105.0, 65.1, 84.8 and 85.8 nTPM, each contributing 25%, yielding 85.175 nTPM. Those entries have 1, 6, 5 and 3 tissue samples. The 15 unique sample IDs represent tissue samples, not verified independent people. The raw 105.0 entry is retained and still has n=1. Observed sample ranges describe variation; they are not uncertainty intervals for the regional estimate.
 
-Regional rankings, the 1.25× display threshold and SFARI filtering remain unchanged. The comparison baseline's full sample coverage has not been audited; its area count is not a donor count. No uncertainty estimates, donor-weighted reanalysis or cell-composition adjustments are introduced. Counts expose evidence limitations rather than validating enrichment.
+The comparison baseline excludes all mapped target source areas, within the same HPA study. HPA brain and HPA prefrontal measurements remain separate. Whole-baseline independent-donor coverage and statistical uncertainty have not been estimated. SFARI scores are association evidence overall, not region-specific causality. No genetic-evidence or enrichment thresholds were changed.
 
-Sources and reproducibility:
-- `dist/assets/sample-coverage.json`: per-gene/study/entry sample counts, sample IDs, public descriptions, nTPM values, source URLs and page checksums.
-- `research/sample-coverage-source/`: official pages retained for audit.
-- `scripts/fetch_sample_coverage.py`: fetch and parse the source pages, then check against saved nTPM inputs.
-- `tests/sample-coverage.test.mjs`: single-sample cases, separate subdivisions, mismatches, unknown values and donor-count safeguards.
+## Provenance
 
-Run `npm test` for the original ranking checks plus coverage regressions.
+- `research/legacy-expression.json`: original unexpanded compiled expression input.
+- `research/expression-source/`: the six recovered original extraction files, verified against every SHA-256 entry in the historical `expression.json` manifest.
+- `research/sample-coverage-source/`: official per-gene HPA cerebral-cortex and hippocampal-formation pages. Source URLs, per-entry anchors and raw-file checksums are retained in `dist/assets/sample-coverage.json`.
+- `research/protein-assemblies/`: official RCSB assembly-1 metadata for 3OPE, 2VX3 and 5BZZ, each documenting one protein chain and monomeric symmetry.
+- `research/protein-display-original/`: the original multi-chain JSON traces. The prototype display retains the first supplied chain A; it is a representative C-alpha trace, not a complete atomistic assembly reconstruction. Unmodeled residues and fragments remain unmodeled.
+- Supplied CIF/PDB downloads stay intact. Their labels no longer imply unmodified original database deposits.
+
+## Verification
+
+19 automated checks cover full ranking recomputation, all 880 mapped gene/source values and sample counts, all 1,700 sample-entry citations/checksums, SCN2A PFC coverage, equal-area versus tissue weighting, no invented donor counts, all six recovered files, monomer display selection, parcel visibility, pointer coordinates and disposal of repeated protein views. Browser checks additionally cover layout, empty-region notices, shared mappings, independent protein switching, and returning to the brain.
+
+The public app is outside this folder. Commits for this model should include `[skip render]` and must not change the root production `dist/` tree.

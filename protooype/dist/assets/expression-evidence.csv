@@ -1,761 +1,881 @@
 parcel,match,study,gene,ensembl,source_area,nTPM,detected
-caudalanteriorcingulate,related,hpa,ADNP,ENSG00000101126,"anterior cingulate cortex, supragenual-dorsal",40.8,True
-caudalanteriorcingulate,related,hpa,ADNP,ENSG00000101126,"anterior cingulate cortex, supragenual-ventral",39.9,True
-caudalanteriorcingulate,related,hpa,ARID1B,ENSG00000049618,"anterior cingulate cortex, supragenual-dorsal",70.9,True
-caudalanteriorcingulate,related,hpa,ARID1B,ENSG00000049618,"anterior cingulate cortex, supragenual-ventral",73.2,True
-caudalanteriorcingulate,related,hpa,ASH1L,ENSG00000116539,"anterior cingulate cortex, supragenual-dorsal",38.1,True
-caudalanteriorcingulate,related,hpa,ASH1L,ENSG00000116539,"anterior cingulate cortex, supragenual-ventral",37.9,True
-caudalanteriorcingulate,related,hpa,CHD8,ENSG00000100888,"anterior cingulate cortex, supragenual-dorsal",28.8,True
-caudalanteriorcingulate,related,hpa,CHD8,ENSG00000100888,"anterior cingulate cortex, supragenual-ventral",29.3,True
+caudalanteriorcingulate,related,hpa,NRXN1,ENSG00000179915,"anterior cingulate cortex, supragenual-dorsal",291.2,True
+caudalanteriorcingulate,related,hpa,NRXN1,ENSG00000179915,"anterior cingulate cortex, supragenual-ventral",246.1,True
+caudalanteriorcingulate,related,hpa,SHANK3,ENSG00000251322,"anterior cingulate cortex, supragenual-dorsal",186.7,True
+caudalanteriorcingulate,related,hpa,SHANK3,ENSG00000251322,"anterior cingulate cortex, supragenual-ventral",140.3,True
+caudalanteriorcingulate,related,hpa,GRIN2B,ENSG00000273079,"anterior cingulate cortex, supragenual-dorsal",102.6,True
+caudalanteriorcingulate,related,hpa,GRIN2B,ENSG00000273079,"anterior cingulate cortex, supragenual-ventral",87.3,True
+caudalanteriorcingulate,related,hpa,WDFY3,ENSG00000163625,"anterior cingulate cortex, supragenual-dorsal",82.5,True
+caudalanteriorcingulate,related,hpa,WDFY3,ENSG00000163625,"anterior cingulate cortex, supragenual-ventral",87.1,True
+caudalanteriorcingulate,related,hpa,POGZ,ENSG00000143442,"anterior cingulate cortex, supragenual-dorsal",74.3,True
+caudalanteriorcingulate,related,hpa,POGZ,ENSG00000143442,"anterior cingulate cortex, supragenual-ventral",85.9,True
 caudalanteriorcingulate,related,hpa,CNTNAP2,ENSG00000174469,"anterior cingulate cortex, supragenual-dorsal",84.3,True
 caudalanteriorcingulate,related,hpa,CNTNAP2,ENSG00000174469,"anterior cingulate cortex, supragenual-ventral",67.2,True
 caudalanteriorcingulate,related,hpa,DYRK1A,ENSG00000157540,"anterior cingulate cortex, supragenual-dorsal",78.4,True
 caudalanteriorcingulate,related,hpa,DYRK1A,ENSG00000157540,"anterior cingulate cortex, supragenual-ventral",76.3,True
-caudalanteriorcingulate,related,hpa,FOXP1,ENSG00000114861,"anterior cingulate cortex, supragenual-dorsal",46.7,True
-caudalanteriorcingulate,related,hpa,FOXP1,ENSG00000114861,"anterior cingulate cortex, supragenual-ventral",43.8,True
-caudalanteriorcingulate,related,hpa,GRIN2B,ENSG00000273079,"anterior cingulate cortex, supragenual-dorsal",102.6,True
-caudalanteriorcingulate,related,hpa,GRIN2B,ENSG00000273079,"anterior cingulate cortex, supragenual-ventral",87.3,True
-caudalanteriorcingulate,related,hpa,KMT5B,ENSG00000110066,"anterior cingulate cortex, supragenual-dorsal",18.9,True
-caudalanteriorcingulate,related,hpa,KMT5B,ENSG00000110066,"anterior cingulate cortex, supragenual-ventral",20.6,True
-caudalanteriorcingulate,related,hpa,MECP2,ENSG00000169057,"anterior cingulate cortex, supragenual-dorsal",49.4,True
-caudalanteriorcingulate,related,hpa,MECP2,ENSG00000169057,"anterior cingulate cortex, supragenual-ventral",53.1,True
-caudalanteriorcingulate,related,hpa,MET,ENSG00000105976,"anterior cingulate cortex, supragenual-dorsal",2.8,True
-caudalanteriorcingulate,related,hpa,MET,ENSG00000105976,"anterior cingulate cortex, supragenual-ventral",3.6,True
-caudalanteriorcingulate,related,hpa,NLGN3,ENSG00000196338,"anterior cingulate cortex, supragenual-dorsal",51.9,True
-caudalanteriorcingulate,related,hpa,NLGN3,ENSG00000196338,"anterior cingulate cortex, supragenual-ventral",52.0,True
-caudalanteriorcingulate,related,hpa,NRXN1,ENSG00000179915,"anterior cingulate cortex, supragenual-dorsal",291.2,True
-caudalanteriorcingulate,related,hpa,NRXN1,ENSG00000179915,"anterior cingulate cortex, supragenual-ventral",246.1,True
-caudalanteriorcingulate,related,hpa,POGZ,ENSG00000143442,"anterior cingulate cortex, supragenual-dorsal",74.3,True
-caudalanteriorcingulate,related,hpa,POGZ,ENSG00000143442,"anterior cingulate cortex, supragenual-ventral",85.9,True
-caudalanteriorcingulate,related,hpa,PTEN,ENSG00000171862,"anterior cingulate cortex, supragenual-dorsal",17.0,True
-caudalanteriorcingulate,related,hpa,PTEN,ENSG00000171862,"anterior cingulate cortex, supragenual-ventral",16.8,True
+caudalanteriorcingulate,related,hpa,ARID1B,ENSG00000049618,"anterior cingulate cortex, supragenual-dorsal",70.9,True
+caudalanteriorcingulate,related,hpa,ARID1B,ENSG00000049618,"anterior cingulate cortex, supragenual-ventral",73.2,True
 caudalanteriorcingulate,related,hpa,SCN2A,ENSG00000136531,"anterior cingulate cortex, supragenual-dorsal",55.8,True
 caudalanteriorcingulate,related,hpa,SCN2A,ENSG00000136531,"anterior cingulate cortex, supragenual-ventral",46.0,True
-caudalanteriorcingulate,related,hpa,SHANK3,ENSG00000251322,"anterior cingulate cortex, supragenual-dorsal",186.7,True
-caudalanteriorcingulate,related,hpa,SHANK3,ENSG00000251322,"anterior cingulate cortex, supragenual-ventral",140.3,True
-caudalanteriorcingulate,related,hpa,SYNGAP1,ENSG00000197283,"anterior cingulate cortex, supragenual-dorsal",48.8,True
-caudalanteriorcingulate,related,hpa,SYNGAP1,ENSG00000197283,"anterior cingulate cortex, supragenual-ventral",44.1,True
 caudalanteriorcingulate,related,hpa,TBR1,ENSG00000136535,"anterior cingulate cortex, supragenual-dorsal",53.8,True
 caudalanteriorcingulate,related,hpa,TBR1,ENSG00000136535,"anterior cingulate cortex, supragenual-ventral",47.4,True
-caudalanteriorcingulate,related,hpa,WDFY3,ENSG00000163625,"anterior cingulate cortex, supragenual-dorsal",82.5,True
-caudalanteriorcingulate,related,hpa,WDFY3,ENSG00000163625,"anterior cingulate cortex, supragenual-ventral",87.1,True
+caudalanteriorcingulate,related,hpa,MECP2,ENSG00000169057,"anterior cingulate cortex, supragenual-dorsal",49.4,True
+caudalanteriorcingulate,related,hpa,MECP2,ENSG00000169057,"anterior cingulate cortex, supragenual-ventral",53.1,True
+caudalanteriorcingulate,related,hpa,NLGN3,ENSG00000196338,"anterior cingulate cortex, supragenual-dorsal",51.9,True
+caudalanteriorcingulate,related,hpa,NLGN3,ENSG00000196338,"anterior cingulate cortex, supragenual-ventral",52.0,True
+caudalanteriorcingulate,related,hpa,SYNGAP1,ENSG00000197283,"anterior cingulate cortex, supragenual-dorsal",48.8,True
+caudalanteriorcingulate,related,hpa,SYNGAP1,ENSG00000197283,"anterior cingulate cortex, supragenual-ventral",44.1,True
+caudalanteriorcingulate,related,hpa,FOXP1,ENSG00000114861,"anterior cingulate cortex, supragenual-dorsal",46.7,True
+caudalanteriorcingulate,related,hpa,FOXP1,ENSG00000114861,"anterior cingulate cortex, supragenual-ventral",43.8,True
+caudalanteriorcingulate,related,hpa,ADNP,ENSG00000101126,"anterior cingulate cortex, supragenual-dorsal",40.8,True
+caudalanteriorcingulate,related,hpa,ADNP,ENSG00000101126,"anterior cingulate cortex, supragenual-ventral",39.9,True
+caudalanteriorcingulate,related,hpa,ASH1L,ENSG00000116539,"anterior cingulate cortex, supragenual-dorsal",38.1,True
+caudalanteriorcingulate,related,hpa,ASH1L,ENSG00000116539,"anterior cingulate cortex, supragenual-ventral",37.9,True
+caudalanteriorcingulate,related,hpa,CHD8,ENSG00000100888,"anterior cingulate cortex, supragenual-dorsal",28.8,True
+caudalanteriorcingulate,related,hpa,CHD8,ENSG00000100888,"anterior cingulate cortex, supragenual-ventral",29.3,True
+caudalanteriorcingulate,related,hpa,KMT5B,ENSG00000110066,"anterior cingulate cortex, supragenual-dorsal",18.9,True
+caudalanteriorcingulate,related,hpa,KMT5B,ENSG00000110066,"anterior cingulate cortex, supragenual-ventral",20.6,True
+caudalanteriorcingulate,related,hpa,PTEN,ENSG00000171862,"anterior cingulate cortex, supragenual-dorsal",17.0,True
+caudalanteriorcingulate,related,hpa,PTEN,ENSG00000171862,"anterior cingulate cortex, supragenual-ventral",16.8,True
+caudalanteriorcingulate,related,hpa,MET,ENSG00000105976,"anterior cingulate cortex, supragenual-dorsal",2.8,True
+caudalanteriorcingulate,related,hpa,MET,ENSG00000105976,"anterior cingulate cortex, supragenual-ventral",3.6,True
+rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, pregenual-dorsal",31.6,True
+rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, pregenual-ventral",33.4,True
+rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, subgenual",31.3,True
 rostralanteriorcingulate,related,pfc,ADNP,ENSG00000101126,"anterior cingulate gyrus, pregenual-dorsal",18.7,True
 rostralanteriorcingulate,related,pfc,ADNP,ENSG00000101126,"anterior cingulate gyrus, pregenual-ventral",19.1,True
 rostralanteriorcingulate,related,pfc,ADNP,ENSG00000101126,"anterior cingulate gyrus, subgenual",17.8,True
-rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, pregenual-dorsal",7.3,True
-rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, pregenual-ventral",7.1,True
-rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, subgenual",7.0,True
+rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, pregenual-dorsal",18.7,True
+rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, pregenual-ventral",16.1,True
+rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, subgenual",19.0,True
+rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, pregenual-dorsal",16.0,True
+rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, pregenual-ventral",16.6,True
+rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, subgenual",17.3,True
+rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, pregenual-dorsal",11.9,True
+rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, pregenual-ventral",14.1,True
+rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, subgenual",14.0,True
 rostralanteriorcingulate,related,pfc,ASH1L,ENSG00000116539,"anterior cingulate gyrus, pregenual-dorsal",11.9,True
 rostralanteriorcingulate,related,pfc,ASH1L,ENSG00000116539,"anterior cingulate gyrus, pregenual-ventral",11.2,True
 rostralanteriorcingulate,related,pfc,ASH1L,ENSG00000116539,"anterior cingulate gyrus, subgenual",12.2,True
-rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, pregenual-dorsal",7.7,True
-rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, pregenual-ventral",6.5,True
-rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, subgenual",7.3,True
-rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, pregenual-dorsal",2.3,True
-rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, pregenual-ventral",1.1,True
-rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, subgenual",1.1,True
+rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, pregenual-dorsal",8.4,True
+rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, pregenual-ventral",9.6,True
+rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, subgenual",10.5,True
 rostralanteriorcingulate,related,pfc,DYRK1A,ENSG00000157540,"anterior cingulate gyrus, pregenual-dorsal",9.8,True
 rostralanteriorcingulate,related,pfc,DYRK1A,ENSG00000157540,"anterior cingulate gyrus, pregenual-ventral",8.6,True
 rostralanteriorcingulate,related,pfc,DYRK1A,ENSG00000157540,"anterior cingulate gyrus, subgenual",10.0,True
-rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, pregenual-dorsal",5.3,True
-rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, pregenual-ventral",4.6,True
-rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, subgenual",4.7,True
-rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, pregenual-dorsal",0.9,False
-rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, pregenual-ventral",1.1,True
-rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, subgenual",1.0,True
+rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, pregenual-dorsal",9.7,True
+rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, pregenual-ventral",9.0,True
+rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, subgenual",8.3,True
+rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, pregenual-dorsal",8.9,True
+rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, pregenual-ventral",7.3,True
+rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, subgenual",8.6,True
 rostralanteriorcingulate,related,pfc,KMT5B,ENSG00000110066,"anterior cingulate gyrus, pregenual-dorsal",8.7,True
 rostralanteriorcingulate,related,pfc,KMT5B,ENSG00000110066,"anterior cingulate gyrus, pregenual-ventral",8.6,True
 rostralanteriorcingulate,related,pfc,KMT5B,ENSG00000110066,"anterior cingulate gyrus, subgenual",8.6,True
 rostralanteriorcingulate,related,pfc,MECP2,ENSG00000169057,"anterior cingulate gyrus, pregenual-dorsal",8.2,True
 rostralanteriorcingulate,related,pfc,MECP2,ENSG00000169057,"anterior cingulate gyrus, pregenual-ventral",7.6,True
 rostralanteriorcingulate,related,pfc,MECP2,ENSG00000169057,"anterior cingulate gyrus, subgenual",7.9,True
-rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, pregenual-dorsal",0.5,False
-rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, pregenual-ventral",0.5,False
-rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, subgenual",0.5,False
-rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, pregenual-dorsal",8.4,True
-rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, pregenual-ventral",9.6,True
-rostralanteriorcingulate,related,pfc,NLGN3,ENSG00000196338,"anterior cingulate gyrus, subgenual",10.5,True
-rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, pregenual-dorsal",16.0,True
-rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, pregenual-ventral",16.6,True
-rostralanteriorcingulate,related,pfc,NRXN1,ENSG00000179915,"anterior cingulate gyrus, subgenual",17.3,True
-rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, pregenual-dorsal",18.7,True
-rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, pregenual-ventral",16.1,True
-rostralanteriorcingulate,related,pfc,POGZ,ENSG00000143442,"anterior cingulate gyrus, subgenual",19.0,True
-rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, pregenual-dorsal",9.7,True
-rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, pregenual-ventral",9.0,True
-rostralanteriorcingulate,related,pfc,PTEN,ENSG00000171862,"anterior cingulate gyrus, subgenual",8.3,True
+rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, pregenual-dorsal",7.7,True
+rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, pregenual-ventral",6.5,True
+rostralanteriorcingulate,related,pfc,CHD8,ENSG00000100888,"anterior cingulate gyrus, subgenual",7.3,True
 rostralanteriorcingulate,related,pfc,SCN2A,ENSG00000136531,"anterior cingulate gyrus, pregenual-dorsal",7.1,True
 rostralanteriorcingulate,related,pfc,SCN2A,ENSG00000136531,"anterior cingulate gyrus, pregenual-ventral",6.7,True
 rostralanteriorcingulate,related,pfc,SCN2A,ENSG00000136531,"anterior cingulate gyrus, subgenual",7.7,True
-rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, pregenual-dorsal",31.6,True
-rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, pregenual-ventral",33.4,True
-rostralanteriorcingulate,related,pfc,SHANK3,ENSG00000251322,"anterior cingulate gyrus, subgenual",31.3,True
-rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, pregenual-dorsal",11.9,True
-rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, pregenual-ventral",14.1,True
-rostralanteriorcingulate,related,pfc,SYNGAP1,ENSG00000197283,"anterior cingulate gyrus, subgenual",14.0,True
-rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, pregenual-dorsal",8.9,True
-rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, pregenual-ventral",7.3,True
-rostralanteriorcingulate,related,pfc,TBR1,ENSG00000136535,"anterior cingulate gyrus, subgenual",8.6,True
+rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, pregenual-dorsal",7.3,True
+rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, pregenual-ventral",7.1,True
+rostralanteriorcingulate,related,pfc,ARID1B,ENSG00000049618,"anterior cingulate gyrus, subgenual",7.0,True
 rostralanteriorcingulate,related,pfc,WDFY3,ENSG00000163625,"anterior cingulate gyrus, pregenual-dorsal",6.5,True
 rostralanteriorcingulate,related,pfc,WDFY3,ENSG00000163625,"anterior cingulate gyrus, pregenual-ventral",6.1,True
 rostralanteriorcingulate,related,pfc,WDFY3,ENSG00000163625,"anterior cingulate gyrus, subgenual",6.4,True
-caudalmiddlefrontal,broader,pfc,ADNP,ENSG00000101126,dorsolateral prefrontal cortex,25.3,True
-caudalmiddlefrontal,broader,pfc,ARID1B,ENSG00000049618,dorsolateral prefrontal cortex,7.9,True
-caudalmiddlefrontal,broader,pfc,ASH1L,ENSG00000116539,dorsolateral prefrontal cortex,16.1,True
-caudalmiddlefrontal,broader,pfc,CHD8,ENSG00000100888,dorsolateral prefrontal cortex,8.4,True
-caudalmiddlefrontal,broader,pfc,CNTNAP2,ENSG00000174469,dorsolateral prefrontal cortex,1.9,True
-caudalmiddlefrontal,broader,pfc,DYRK1A,ENSG00000157540,dorsolateral prefrontal cortex,10.4,True
-caudalmiddlefrontal,broader,pfc,FOXP1,ENSG00000114861,dorsolateral prefrontal cortex,6.7,True
-caudalmiddlefrontal,broader,pfc,GRIN2B,ENSG00000273079,dorsolateral prefrontal cortex,0.8,False
-caudalmiddlefrontal,broader,pfc,KMT5B,ENSG00000110066,dorsolateral prefrontal cortex,10.2,True
-caudalmiddlefrontal,broader,pfc,MECP2,ENSG00000169057,dorsolateral prefrontal cortex,7.7,True
-caudalmiddlefrontal,broader,pfc,MET,ENSG00000105976,dorsolateral prefrontal cortex,0.5,False
-caudalmiddlefrontal,broader,pfc,NLGN3,ENSG00000196338,dorsolateral prefrontal cortex,5.7,True
-caudalmiddlefrontal,broader,pfc,NRXN1,ENSG00000179915,dorsolateral prefrontal cortex,19.9,True
+rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, pregenual-dorsal",5.3,True
+rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, pregenual-ventral",4.6,True
+rostralanteriorcingulate,related,pfc,FOXP1,ENSG00000114861,"anterior cingulate gyrus, subgenual",4.7,True
+rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, pregenual-dorsal",2.3,True
+rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, pregenual-ventral",1.1,True
+rostralanteriorcingulate,related,pfc,CNTNAP2,ENSG00000174469,"anterior cingulate gyrus, subgenual",1.1,True
+rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, pregenual-dorsal",0.9,False
+rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, pregenual-ventral",1.1,True
+rostralanteriorcingulate,related,pfc,GRIN2B,ENSG00000273079,"anterior cingulate gyrus, subgenual",1.0,True
+rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, pregenual-dorsal",0.5,False
+rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, pregenual-ventral",0.5,False
+rostralanteriorcingulate,related,pfc,MET,ENSG00000105976,"anterior cingulate gyrus, subgenual",0.5,False
 caudalmiddlefrontal,broader,pfc,POGZ,ENSG00000143442,dorsolateral prefrontal cortex,25.9,True
-caudalmiddlefrontal,broader,pfc,PTEN,ENSG00000171862,dorsolateral prefrontal cortex,10.2,True
-caudalmiddlefrontal,broader,pfc,SCN2A,ENSG00000136531,dorsolateral prefrontal cortex,6.6,True
+caudalmiddlefrontal,broader,pfc,ADNP,ENSG00000101126,dorsolateral prefrontal cortex,25.3,True
+caudalmiddlefrontal,broader,pfc,NRXN1,ENSG00000179915,dorsolateral prefrontal cortex,19.9,True
+caudalmiddlefrontal,broader,pfc,ASH1L,ENSG00000116539,dorsolateral prefrontal cortex,16.1,True
 caudalmiddlefrontal,broader,pfc,SHANK3,ENSG00000251322,dorsolateral prefrontal cortex,15.4,True
+caudalmiddlefrontal,broader,pfc,DYRK1A,ENSG00000157540,dorsolateral prefrontal cortex,10.4,True
+caudalmiddlefrontal,broader,pfc,KMT5B,ENSG00000110066,dorsolateral prefrontal cortex,10.2,True
+caudalmiddlefrontal,broader,pfc,PTEN,ENSG00000171862,dorsolateral prefrontal cortex,10.2,True
 caudalmiddlefrontal,broader,pfc,SYNGAP1,ENSG00000197283,dorsolateral prefrontal cortex,9.8,True
 caudalmiddlefrontal,broader,pfc,TBR1,ENSG00000136535,dorsolateral prefrontal cortex,9.8,True
+caudalmiddlefrontal,broader,pfc,CHD8,ENSG00000100888,dorsolateral prefrontal cortex,8.4,True
 caudalmiddlefrontal,broader,pfc,WDFY3,ENSG00000163625,dorsolateral prefrontal cortex,8.2,True
-rostralmiddlefrontal,broader,pfc,ADNP,ENSG00000101126,dorsolateral prefrontal cortex,25.3,True
-rostralmiddlefrontal,broader,pfc,ARID1B,ENSG00000049618,dorsolateral prefrontal cortex,7.9,True
-rostralmiddlefrontal,broader,pfc,ASH1L,ENSG00000116539,dorsolateral prefrontal cortex,16.1,True
-rostralmiddlefrontal,broader,pfc,CHD8,ENSG00000100888,dorsolateral prefrontal cortex,8.4,True
-rostralmiddlefrontal,broader,pfc,CNTNAP2,ENSG00000174469,dorsolateral prefrontal cortex,1.9,True
-rostralmiddlefrontal,broader,pfc,DYRK1A,ENSG00000157540,dorsolateral prefrontal cortex,10.4,True
-rostralmiddlefrontal,broader,pfc,FOXP1,ENSG00000114861,dorsolateral prefrontal cortex,6.7,True
-rostralmiddlefrontal,broader,pfc,GRIN2B,ENSG00000273079,dorsolateral prefrontal cortex,0.8,False
-rostralmiddlefrontal,broader,pfc,KMT5B,ENSG00000110066,dorsolateral prefrontal cortex,10.2,True
-rostralmiddlefrontal,broader,pfc,MECP2,ENSG00000169057,dorsolateral prefrontal cortex,7.7,True
-rostralmiddlefrontal,broader,pfc,MET,ENSG00000105976,dorsolateral prefrontal cortex,0.5,False
-rostralmiddlefrontal,broader,pfc,NLGN3,ENSG00000196338,dorsolateral prefrontal cortex,5.7,True
-rostralmiddlefrontal,broader,pfc,NRXN1,ENSG00000179915,dorsolateral prefrontal cortex,19.9,True
+caudalmiddlefrontal,broader,pfc,ARID1B,ENSG00000049618,dorsolateral prefrontal cortex,7.9,True
+caudalmiddlefrontal,broader,pfc,MECP2,ENSG00000169057,dorsolateral prefrontal cortex,7.7,True
+caudalmiddlefrontal,broader,pfc,FOXP1,ENSG00000114861,dorsolateral prefrontal cortex,6.7,True
+caudalmiddlefrontal,broader,pfc,SCN2A,ENSG00000136531,dorsolateral prefrontal cortex,6.6,True
+caudalmiddlefrontal,broader,pfc,NLGN3,ENSG00000196338,dorsolateral prefrontal cortex,5.7,True
+caudalmiddlefrontal,broader,pfc,CNTNAP2,ENSG00000174469,dorsolateral prefrontal cortex,1.9,True
+caudalmiddlefrontal,broader,pfc,GRIN2B,ENSG00000273079,dorsolateral prefrontal cortex,0.8,False
+caudalmiddlefrontal,broader,pfc,MET,ENSG00000105976,dorsolateral prefrontal cortex,0.5,False
 rostralmiddlefrontal,broader,pfc,POGZ,ENSG00000143442,dorsolateral prefrontal cortex,25.9,True
-rostralmiddlefrontal,broader,pfc,PTEN,ENSG00000171862,dorsolateral prefrontal cortex,10.2,True
-rostralmiddlefrontal,broader,pfc,SCN2A,ENSG00000136531,dorsolateral prefrontal cortex,6.6,True
+rostralmiddlefrontal,broader,pfc,ADNP,ENSG00000101126,dorsolateral prefrontal cortex,25.3,True
+rostralmiddlefrontal,broader,pfc,NRXN1,ENSG00000179915,dorsolateral prefrontal cortex,19.9,True
+rostralmiddlefrontal,broader,pfc,ASH1L,ENSG00000116539,dorsolateral prefrontal cortex,16.1,True
 rostralmiddlefrontal,broader,pfc,SHANK3,ENSG00000251322,dorsolateral prefrontal cortex,15.4,True
+rostralmiddlefrontal,broader,pfc,DYRK1A,ENSG00000157540,dorsolateral prefrontal cortex,10.4,True
+rostralmiddlefrontal,broader,pfc,KMT5B,ENSG00000110066,dorsolateral prefrontal cortex,10.2,True
+rostralmiddlefrontal,broader,pfc,PTEN,ENSG00000171862,dorsolateral prefrontal cortex,10.2,True
 rostralmiddlefrontal,broader,pfc,SYNGAP1,ENSG00000197283,dorsolateral prefrontal cortex,9.8,True
 rostralmiddlefrontal,broader,pfc,TBR1,ENSG00000136535,dorsolateral prefrontal cortex,9.8,True
+rostralmiddlefrontal,broader,pfc,CHD8,ENSG00000100888,dorsolateral prefrontal cortex,8.4,True
 rostralmiddlefrontal,broader,pfc,WDFY3,ENSG00000163625,dorsolateral prefrontal cortex,8.2,True
-cuneus,broader,hpa,ADNP,ENSG00000101126,occipital cortex,43.3,True
+rostralmiddlefrontal,broader,pfc,ARID1B,ENSG00000049618,dorsolateral prefrontal cortex,7.9,True
+rostralmiddlefrontal,broader,pfc,MECP2,ENSG00000169057,dorsolateral prefrontal cortex,7.7,True
+rostralmiddlefrontal,broader,pfc,FOXP1,ENSG00000114861,dorsolateral prefrontal cortex,6.7,True
+rostralmiddlefrontal,broader,pfc,SCN2A,ENSG00000136531,dorsolateral prefrontal cortex,6.6,True
+rostralmiddlefrontal,broader,pfc,NLGN3,ENSG00000196338,dorsolateral prefrontal cortex,5.7,True
+rostralmiddlefrontal,broader,pfc,CNTNAP2,ENSG00000174469,dorsolateral prefrontal cortex,1.9,True
+rostralmiddlefrontal,broader,pfc,GRIN2B,ENSG00000273079,dorsolateral prefrontal cortex,0.8,False
+rostralmiddlefrontal,broader,pfc,MET,ENSG00000105976,dorsolateral prefrontal cortex,0.5,False
+cuneus,broader,hpa,NRXN1,ENSG00000179915,occipital cortex,298.1,True
+cuneus,broader,hpa,SHANK3,ENSG00000251322,occipital cortex,179.3,True
+cuneus,broader,hpa,CNTNAP2,ENSG00000174469,occipital cortex,105.4,True
+cuneus,broader,hpa,TBR1,ENSG00000136535,occipital cortex,97.1,True
+cuneus,broader,hpa,GRIN2B,ENSG00000273079,occipital cortex,92.6,True
+cuneus,broader,hpa,WDFY3,ENSG00000163625,occipital cortex,87.1,True
+cuneus,broader,hpa,POGZ,ENSG00000143442,occipital cortex,83.1,True
+cuneus,broader,hpa,DYRK1A,ENSG00000157540,occipital cortex,82.3,True
 cuneus,broader,hpa,ARID1B,ENSG00000049618,occipital cortex,77.4,True
+cuneus,broader,hpa,SCN2A,ENSG00000136531,occipital cortex,59.3,True
+cuneus,broader,hpa,FOXP1,ENSG00000114861,occipital cortex,56.7,True
+cuneus,broader,hpa,NLGN3,ENSG00000196338,occipital cortex,53.4,True
+cuneus,broader,hpa,MECP2,ENSG00000169057,occipital cortex,52.5,True
+cuneus,broader,hpa,SYNGAP1,ENSG00000197283,occipital cortex,45.2,True
+cuneus,broader,hpa,ADNP,ENSG00000101126,occipital cortex,43.3,True
 cuneus,broader,hpa,ASH1L,ENSG00000116539,occipital cortex,42.8,True
 cuneus,broader,hpa,CHD8,ENSG00000100888,occipital cortex,31.0,True
-cuneus,broader,hpa,CNTNAP2,ENSG00000174469,occipital cortex,105.4,True
-cuneus,broader,hpa,DYRK1A,ENSG00000157540,occipital cortex,82.3,True
-cuneus,broader,hpa,FOXP1,ENSG00000114861,occipital cortex,56.7,True
-cuneus,broader,hpa,GRIN2B,ENSG00000273079,occipital cortex,92.6,True
 cuneus,broader,hpa,KMT5B,ENSG00000110066,occipital cortex,20.0,True
-cuneus,broader,hpa,MECP2,ENSG00000169057,occipital cortex,52.5,True
-cuneus,broader,hpa,MET,ENSG00000105976,occipital cortex,19.3,True
-cuneus,broader,hpa,NLGN3,ENSG00000196338,occipital cortex,53.4,True
-cuneus,broader,hpa,NRXN1,ENSG00000179915,occipital cortex,298.1,True
-cuneus,broader,hpa,POGZ,ENSG00000143442,occipital cortex,83.1,True
 cuneus,broader,hpa,PTEN,ENSG00000171862,occipital cortex,19.5,True
-cuneus,broader,hpa,SCN2A,ENSG00000136531,occipital cortex,59.3,True
-cuneus,broader,hpa,SHANK3,ENSG00000251322,occipital cortex,179.3,True
-cuneus,broader,hpa,SYNGAP1,ENSG00000197283,occipital cortex,45.2,True
-cuneus,broader,hpa,TBR1,ENSG00000136535,occipital cortex,97.1,True
-cuneus,broader,hpa,WDFY3,ENSG00000163625,occipital cortex,87.1,True
-lateraloccipital,broader,hpa,ADNP,ENSG00000101126,occipital cortex,43.3,True
+cuneus,broader,hpa,MET,ENSG00000105976,occipital cortex,19.3,True
+lateraloccipital,broader,hpa,NRXN1,ENSG00000179915,occipital cortex,298.1,True
+lateraloccipital,broader,hpa,SHANK3,ENSG00000251322,occipital cortex,179.3,True
+lateraloccipital,broader,hpa,CNTNAP2,ENSG00000174469,occipital cortex,105.4,True
+lateraloccipital,broader,hpa,TBR1,ENSG00000136535,occipital cortex,97.1,True
+lateraloccipital,broader,hpa,GRIN2B,ENSG00000273079,occipital cortex,92.6,True
+lateraloccipital,broader,hpa,WDFY3,ENSG00000163625,occipital cortex,87.1,True
+lateraloccipital,broader,hpa,POGZ,ENSG00000143442,occipital cortex,83.1,True
+lateraloccipital,broader,hpa,DYRK1A,ENSG00000157540,occipital cortex,82.3,True
 lateraloccipital,broader,hpa,ARID1B,ENSG00000049618,occipital cortex,77.4,True
+lateraloccipital,broader,hpa,SCN2A,ENSG00000136531,occipital cortex,59.3,True
+lateraloccipital,broader,hpa,FOXP1,ENSG00000114861,occipital cortex,56.7,True
+lateraloccipital,broader,hpa,NLGN3,ENSG00000196338,occipital cortex,53.4,True
+lateraloccipital,broader,hpa,MECP2,ENSG00000169057,occipital cortex,52.5,True
+lateraloccipital,broader,hpa,SYNGAP1,ENSG00000197283,occipital cortex,45.2,True
+lateraloccipital,broader,hpa,ADNP,ENSG00000101126,occipital cortex,43.3,True
 lateraloccipital,broader,hpa,ASH1L,ENSG00000116539,occipital cortex,42.8,True
 lateraloccipital,broader,hpa,CHD8,ENSG00000100888,occipital cortex,31.0,True
-lateraloccipital,broader,hpa,CNTNAP2,ENSG00000174469,occipital cortex,105.4,True
-lateraloccipital,broader,hpa,DYRK1A,ENSG00000157540,occipital cortex,82.3,True
-lateraloccipital,broader,hpa,FOXP1,ENSG00000114861,occipital cortex,56.7,True
-lateraloccipital,broader,hpa,GRIN2B,ENSG00000273079,occipital cortex,92.6,True
 lateraloccipital,broader,hpa,KMT5B,ENSG00000110066,occipital cortex,20.0,True
-lateraloccipital,broader,hpa,MECP2,ENSG00000169057,occipital cortex,52.5,True
-lateraloccipital,broader,hpa,MET,ENSG00000105976,occipital cortex,19.3,True
-lateraloccipital,broader,hpa,NLGN3,ENSG00000196338,occipital cortex,53.4,True
-lateraloccipital,broader,hpa,NRXN1,ENSG00000179915,occipital cortex,298.1,True
-lateraloccipital,broader,hpa,POGZ,ENSG00000143442,occipital cortex,83.1,True
 lateraloccipital,broader,hpa,PTEN,ENSG00000171862,occipital cortex,19.5,True
-lateraloccipital,broader,hpa,SCN2A,ENSG00000136531,occipital cortex,59.3,True
-lateraloccipital,broader,hpa,SHANK3,ENSG00000251322,occipital cortex,179.3,True
-lateraloccipital,broader,hpa,SYNGAP1,ENSG00000197283,occipital cortex,45.2,True
-lateraloccipital,broader,hpa,TBR1,ENSG00000136535,occipital cortex,97.1,True
-lateraloccipital,broader,hpa,WDFY3,ENSG00000163625,occipital cortex,87.1,True
-pericalcarine,related,hpa,ADNP,ENSG00000101126,area striata,42.0,True
-pericalcarine,related,hpa,ARID1B,ENSG00000049618,area striata,78.7,True
-pericalcarine,related,hpa,ASH1L,ENSG00000116539,area striata,39.2,True
-pericalcarine,related,hpa,CHD8,ENSG00000100888,area striata,29.0,True
-pericalcarine,related,hpa,CNTNAP2,ENSG00000174469,area striata,63.1,True
-pericalcarine,related,hpa,DYRK1A,ENSG00000157540,area striata,82.6,True
-pericalcarine,related,hpa,FOXP1,ENSG00000114861,area striata,52.7,True
-pericalcarine,related,hpa,GRIN2B,ENSG00000273079,area striata,60.8,True
-pericalcarine,related,hpa,KMT5B,ENSG00000110066,area striata,22.5,True
-pericalcarine,related,hpa,MECP2,ENSG00000169057,area striata,54.7,True
-pericalcarine,related,hpa,MET,ENSG00000105976,area striata,19.9,True
-pericalcarine,related,hpa,NLGN3,ENSG00000196338,area striata,42.9,True
+lateraloccipital,broader,hpa,MET,ENSG00000105976,occipital cortex,19.3,True
 pericalcarine,related,hpa,NRXN1,ENSG00000179915,area striata,282.7,True
-pericalcarine,related,hpa,POGZ,ENSG00000143442,area striata,85.8,True
-pericalcarine,related,hpa,PTEN,ENSG00000171862,area striata,20.3,True
-pericalcarine,related,hpa,SCN2A,ENSG00000136531,area striata,35.9,True
 pericalcarine,related,hpa,SHANK3,ENSG00000251322,area striata,143.9,True
-pericalcarine,related,hpa,SYNGAP1,ENSG00000197283,area striata,34.3,True
-pericalcarine,related,hpa,TBR1,ENSG00000136535,area striata,66.0,True
 pericalcarine,related,hpa,WDFY3,ENSG00000163625,area striata,92.3,True
-entorhinal,named,hpa,ADNP,ENSG00000101126,entorhinal gyrus,39.9,True
-entorhinal,named,hpa,ARID1B,ENSG00000049618,entorhinal gyrus,70.6,True
-entorhinal,named,hpa,ASH1L,ENSG00000116539,entorhinal gyrus,39.4,True
-entorhinal,named,hpa,CHD8,ENSG00000100888,entorhinal gyrus,31.3,True
-entorhinal,named,hpa,CNTNAP2,ENSG00000174469,entorhinal gyrus,55.3,True
-entorhinal,named,hpa,DYRK1A,ENSG00000157540,entorhinal gyrus,83.0,True
-entorhinal,named,hpa,FOXP1,ENSG00000114861,entorhinal gyrus,41.9,True
-entorhinal,named,hpa,GRIN2B,ENSG00000273079,entorhinal gyrus,103.2,True
-entorhinal,named,hpa,KMT5B,ENSG00000110066,entorhinal gyrus,20.6,True
-entorhinal,named,hpa,MECP2,ENSG00000169057,entorhinal gyrus,54.6,True
-entorhinal,named,hpa,MET,ENSG00000105976,entorhinal gyrus,4.6,True
-entorhinal,named,hpa,NLGN3,ENSG00000196338,entorhinal gyrus,56.5,True
+pericalcarine,related,hpa,POGZ,ENSG00000143442,area striata,85.8,True
+pericalcarine,related,hpa,DYRK1A,ENSG00000157540,area striata,82.6,True
+pericalcarine,related,hpa,ARID1B,ENSG00000049618,area striata,78.7,True
+pericalcarine,related,hpa,TBR1,ENSG00000136535,area striata,66.0,True
+pericalcarine,related,hpa,CNTNAP2,ENSG00000174469,area striata,63.1,True
+pericalcarine,related,hpa,GRIN2B,ENSG00000273079,area striata,60.8,True
+pericalcarine,related,hpa,MECP2,ENSG00000169057,area striata,54.7,True
+pericalcarine,related,hpa,FOXP1,ENSG00000114861,area striata,52.7,True
+pericalcarine,related,hpa,NLGN3,ENSG00000196338,area striata,42.9,True
+pericalcarine,related,hpa,ADNP,ENSG00000101126,area striata,42.0,True
+pericalcarine,related,hpa,ASH1L,ENSG00000116539,area striata,39.2,True
+pericalcarine,related,hpa,SCN2A,ENSG00000136531,area striata,35.9,True
+pericalcarine,related,hpa,SYNGAP1,ENSG00000197283,area striata,34.3,True
+pericalcarine,related,hpa,CHD8,ENSG00000100888,area striata,29.0,True
+pericalcarine,related,hpa,KMT5B,ENSG00000110066,area striata,22.5,True
+pericalcarine,related,hpa,PTEN,ENSG00000171862,area striata,20.3,True
+pericalcarine,related,hpa,MET,ENSG00000105976,area striata,19.9,True
 entorhinal,named,hpa,NRXN1,ENSG00000179915,entorhinal gyrus,280.0,True
-entorhinal,named,hpa,POGZ,ENSG00000143442,entorhinal gyrus,78.9,True
-entorhinal,named,hpa,PTEN,ENSG00000171862,entorhinal gyrus,15.8,True
-entorhinal,named,hpa,SCN2A,ENSG00000136531,entorhinal gyrus,52.3,True
 entorhinal,named,hpa,SHANK3,ENSG00000251322,entorhinal gyrus,169.3,True
+entorhinal,named,hpa,GRIN2B,ENSG00000273079,entorhinal gyrus,103.2,True
+entorhinal,named,hpa,WDFY3,ENSG00000163625,entorhinal gyrus,87.3,True
+entorhinal,named,hpa,DYRK1A,ENSG00000157540,entorhinal gyrus,83.0,True
+entorhinal,named,hpa,POGZ,ENSG00000143442,entorhinal gyrus,78.9,True
+entorhinal,named,hpa,ARID1B,ENSG00000049618,entorhinal gyrus,70.6,True
 entorhinal,named,hpa,SYNGAP1,ENSG00000197283,entorhinal gyrus,65.8,True
 entorhinal,named,hpa,TBR1,ENSG00000136535,entorhinal gyrus,61.9,True
-entorhinal,named,hpa,WDFY3,ENSG00000163625,entorhinal gyrus,87.3,True
-fusiform,named,hpa,ADNP,ENSG00000101126,fusiform gyrus,40.9,True
-fusiform,named,hpa,ARID1B,ENSG00000049618,fusiform gyrus,71.6,True
-fusiform,named,hpa,ASH1L,ENSG00000116539,fusiform gyrus,41.3,True
-fusiform,named,hpa,CHD8,ENSG00000100888,fusiform gyrus,31.1,True
-fusiform,named,hpa,CNTNAP2,ENSG00000174469,fusiform gyrus,76.9,True
-fusiform,named,hpa,DYRK1A,ENSG00000157540,fusiform gyrus,80.0,True
-fusiform,named,hpa,FOXP1,ENSG00000114861,fusiform gyrus,58.0,True
-fusiform,named,hpa,GRIN2B,ENSG00000273079,fusiform gyrus,105.7,True
-fusiform,named,hpa,KMT5B,ENSG00000110066,fusiform gyrus,19.7,True
-fusiform,named,hpa,MECP2,ENSG00000169057,fusiform gyrus,51.9,True
-fusiform,named,hpa,MET,ENSG00000105976,fusiform gyrus,16.5,True
-fusiform,named,hpa,NLGN3,ENSG00000196338,fusiform gyrus,48.0,True
+entorhinal,named,hpa,NLGN3,ENSG00000196338,entorhinal gyrus,56.5,True
+entorhinal,named,hpa,CNTNAP2,ENSG00000174469,entorhinal gyrus,55.3,True
+entorhinal,named,hpa,MECP2,ENSG00000169057,entorhinal gyrus,54.6,True
+entorhinal,named,hpa,SCN2A,ENSG00000136531,entorhinal gyrus,52.3,True
+entorhinal,named,hpa,FOXP1,ENSG00000114861,entorhinal gyrus,41.9,True
+entorhinal,named,hpa,ADNP,ENSG00000101126,entorhinal gyrus,39.9,True
+entorhinal,named,hpa,ASH1L,ENSG00000116539,entorhinal gyrus,39.4,True
+entorhinal,named,hpa,CHD8,ENSG00000100888,entorhinal gyrus,31.3,True
+entorhinal,named,hpa,KMT5B,ENSG00000110066,entorhinal gyrus,20.6,True
+entorhinal,named,hpa,PTEN,ENSG00000171862,entorhinal gyrus,15.8,True
+entorhinal,named,hpa,MET,ENSG00000105976,entorhinal gyrus,4.6,True
 fusiform,named,hpa,NRXN1,ENSG00000179915,fusiform gyrus,314.9,True
-fusiform,named,hpa,POGZ,ENSG00000143442,fusiform gyrus,80.0,True
-fusiform,named,hpa,PTEN,ENSG00000171862,fusiform gyrus,19.4,True
-fusiform,named,hpa,SCN2A,ENSG00000136531,fusiform gyrus,63.9,True
 fusiform,named,hpa,SHANK3,ENSG00000251322,fusiform gyrus,186.2,True
-fusiform,named,hpa,SYNGAP1,ENSG00000197283,fusiform gyrus,55.0,True
-fusiform,named,hpa,TBR1,ENSG00000136535,fusiform gyrus,71.1,True
+fusiform,named,hpa,GRIN2B,ENSG00000273079,fusiform gyrus,105.7,True
 fusiform,named,hpa,WDFY3,ENSG00000163625,fusiform gyrus,81.0,True
-inferiorparietal,named,hpa,ADNP,ENSG00000101126,inferior parietal lobule,40.3,True
-inferiorparietal,named,hpa,ARID1B,ENSG00000049618,inferior parietal lobule,73.7,True
-inferiorparietal,named,hpa,ASH1L,ENSG00000116539,inferior parietal lobule,41.0,True
-inferiorparietal,named,hpa,CHD8,ENSG00000100888,inferior parietal lobule,29.2,True
-inferiorparietal,named,hpa,CNTNAP2,ENSG00000174469,inferior parietal lobule,91.7,True
-inferiorparietal,named,hpa,DYRK1A,ENSG00000157540,inferior parietal lobule,76.6,True
-inferiorparietal,named,hpa,FOXP1,ENSG00000114861,inferior parietal lobule,53.9,True
-inferiorparietal,named,hpa,GRIN2B,ENSG00000273079,inferior parietal lobule,86.6,True
-inferiorparietal,named,hpa,KMT5B,ENSG00000110066,inferior parietal lobule,18.4,True
-inferiorparietal,named,hpa,MECP2,ENSG00000169057,inferior parietal lobule,50.7,True
-inferiorparietal,named,hpa,MET,ENSG00000105976,inferior parietal lobule,9.1,True
-inferiorparietal,named,hpa,NLGN3,ENSG00000196338,inferior parietal lobule,55.5,True
+fusiform,named,hpa,DYRK1A,ENSG00000157540,fusiform gyrus,80.0,True
+fusiform,named,hpa,POGZ,ENSG00000143442,fusiform gyrus,80.0,True
+fusiform,named,hpa,CNTNAP2,ENSG00000174469,fusiform gyrus,76.9,True
+fusiform,named,hpa,ARID1B,ENSG00000049618,fusiform gyrus,71.6,True
+fusiform,named,hpa,TBR1,ENSG00000136535,fusiform gyrus,71.1,True
+fusiform,named,hpa,SCN2A,ENSG00000136531,fusiform gyrus,63.9,True
+fusiform,named,hpa,FOXP1,ENSG00000114861,fusiform gyrus,58.0,True
+fusiform,named,hpa,SYNGAP1,ENSG00000197283,fusiform gyrus,55.0,True
+fusiform,named,hpa,MECP2,ENSG00000169057,fusiform gyrus,51.9,True
+fusiform,named,hpa,NLGN3,ENSG00000196338,fusiform gyrus,48.0,True
+fusiform,named,hpa,ASH1L,ENSG00000116539,fusiform gyrus,41.3,True
+fusiform,named,hpa,ADNP,ENSG00000101126,fusiform gyrus,40.9,True
+fusiform,named,hpa,CHD8,ENSG00000100888,fusiform gyrus,31.1,True
+fusiform,named,hpa,KMT5B,ENSG00000110066,fusiform gyrus,19.7,True
+fusiform,named,hpa,PTEN,ENSG00000171862,fusiform gyrus,19.4,True
+fusiform,named,hpa,MET,ENSG00000105976,fusiform gyrus,16.5,True
 inferiorparietal,named,hpa,NRXN1,ENSG00000179915,inferior parietal lobule,327.0,True
-inferiorparietal,named,hpa,POGZ,ENSG00000143442,inferior parietal lobule,80.9,True
-inferiorparietal,named,hpa,PTEN,ENSG00000171862,inferior parietal lobule,16.0,True
-inferiorparietal,named,hpa,SCN2A,ENSG00000136531,inferior parietal lobule,52.1,True
 inferiorparietal,named,hpa,SHANK3,ENSG00000251322,inferior parietal lobule,192.8,True
-inferiorparietal,named,hpa,SYNGAP1,ENSG00000197283,inferior parietal lobule,47.3,True
-inferiorparietal,named,hpa,TBR1,ENSG00000136535,inferior parietal lobule,74.6,True
+inferiorparietal,named,hpa,CNTNAP2,ENSG00000174469,inferior parietal lobule,91.7,True
+inferiorparietal,named,hpa,GRIN2B,ENSG00000273079,inferior parietal lobule,86.6,True
 inferiorparietal,named,hpa,WDFY3,ENSG00000163625,inferior parietal lobule,83.7,True
-inferiortemporal,named,hpa,ADNP,ENSG00000101126,inferior temporal gyrus,40.9,True
-inferiortemporal,named,hpa,ARID1B,ENSG00000049618,inferior temporal gyrus,69.8,True
-inferiortemporal,named,hpa,ASH1L,ENSG00000116539,inferior temporal gyrus,41.4,True
-inferiortemporal,named,hpa,CHD8,ENSG00000100888,inferior temporal gyrus,29.4,True
-inferiortemporal,named,hpa,CNTNAP2,ENSG00000174469,inferior temporal gyrus,76.9,True
-inferiortemporal,named,hpa,DYRK1A,ENSG00000157540,inferior temporal gyrus,80.8,True
-inferiortemporal,named,hpa,FOXP1,ENSG00000114861,inferior temporal gyrus,54.5,True
-inferiortemporal,named,hpa,GRIN2B,ENSG00000273079,inferior temporal gyrus,98.3,True
-inferiortemporal,named,hpa,KMT5B,ENSG00000110066,inferior temporal gyrus,19.5,True
-inferiortemporal,named,hpa,MECP2,ENSG00000169057,inferior temporal gyrus,50.1,True
-inferiortemporal,named,hpa,MET,ENSG00000105976,inferior temporal gyrus,15.0,True
-inferiortemporal,named,hpa,NLGN3,ENSG00000196338,inferior temporal gyrus,47.2,True
+inferiorparietal,named,hpa,POGZ,ENSG00000143442,inferior parietal lobule,80.9,True
+inferiorparietal,named,hpa,DYRK1A,ENSG00000157540,inferior parietal lobule,76.6,True
+inferiorparietal,named,hpa,TBR1,ENSG00000136535,inferior parietal lobule,74.6,True
+inferiorparietal,named,hpa,ARID1B,ENSG00000049618,inferior parietal lobule,73.7,True
+inferiorparietal,named,hpa,NLGN3,ENSG00000196338,inferior parietal lobule,55.5,True
+inferiorparietal,named,hpa,FOXP1,ENSG00000114861,inferior parietal lobule,53.9,True
+inferiorparietal,named,hpa,SCN2A,ENSG00000136531,inferior parietal lobule,52.1,True
+inferiorparietal,named,hpa,MECP2,ENSG00000169057,inferior parietal lobule,50.7,True
+inferiorparietal,named,hpa,SYNGAP1,ENSG00000197283,inferior parietal lobule,47.3,True
+inferiorparietal,named,hpa,ASH1L,ENSG00000116539,inferior parietal lobule,41.0,True
+inferiorparietal,named,hpa,ADNP,ENSG00000101126,inferior parietal lobule,40.3,True
+inferiorparietal,named,hpa,CHD8,ENSG00000100888,inferior parietal lobule,29.2,True
+inferiorparietal,named,hpa,KMT5B,ENSG00000110066,inferior parietal lobule,18.4,True
+inferiorparietal,named,hpa,PTEN,ENSG00000171862,inferior parietal lobule,16.0,True
+inferiorparietal,named,hpa,MET,ENSG00000105976,inferior parietal lobule,9.1,True
 inferiortemporal,named,hpa,NRXN1,ENSG00000179915,inferior temporal gyrus,310.0,True
-inferiortemporal,named,hpa,POGZ,ENSG00000143442,inferior temporal gyrus,80.0,True
-inferiortemporal,named,hpa,PTEN,ENSG00000171862,inferior temporal gyrus,17.8,True
-inferiortemporal,named,hpa,SCN2A,ENSG00000136531,inferior temporal gyrus,65.1,True
 inferiortemporal,named,hpa,SHANK3,ENSG00000251322,inferior temporal gyrus,191.1,True
-inferiortemporal,named,hpa,SYNGAP1,ENSG00000197283,inferior temporal gyrus,50.7,True
-inferiortemporal,named,hpa,TBR1,ENSG00000136535,inferior temporal gyrus,77.1,True
+inferiortemporal,named,hpa,GRIN2B,ENSG00000273079,inferior temporal gyrus,98.3,True
 inferiortemporal,named,hpa,WDFY3,ENSG00000163625,inferior temporal gyrus,81.5,True
-lingual,named,hpa,ADNP,ENSG00000101126,lingual gyrus,41.6,True
+inferiortemporal,named,hpa,DYRK1A,ENSG00000157540,inferior temporal gyrus,80.8,True
+inferiortemporal,named,hpa,POGZ,ENSG00000143442,inferior temporal gyrus,80.0,True
+inferiortemporal,named,hpa,TBR1,ENSG00000136535,inferior temporal gyrus,77.1,True
+inferiortemporal,named,hpa,CNTNAP2,ENSG00000174469,inferior temporal gyrus,76.9,True
+inferiortemporal,named,hpa,ARID1B,ENSG00000049618,inferior temporal gyrus,69.8,True
+inferiortemporal,named,hpa,SCN2A,ENSG00000136531,inferior temporal gyrus,65.1,True
+inferiortemporal,named,hpa,FOXP1,ENSG00000114861,inferior temporal gyrus,54.5,True
+inferiortemporal,named,hpa,SYNGAP1,ENSG00000197283,inferior temporal gyrus,50.7,True
+inferiortemporal,named,hpa,MECP2,ENSG00000169057,inferior temporal gyrus,50.1,True
+inferiortemporal,named,hpa,NLGN3,ENSG00000196338,inferior temporal gyrus,47.2,True
+inferiortemporal,named,hpa,ASH1L,ENSG00000116539,inferior temporal gyrus,41.4,True
+inferiortemporal,named,hpa,ADNP,ENSG00000101126,inferior temporal gyrus,40.9,True
+inferiortemporal,named,hpa,CHD8,ENSG00000100888,inferior temporal gyrus,29.4,True
+inferiortemporal,named,hpa,KMT5B,ENSG00000110066,inferior temporal gyrus,19.5,True
+inferiortemporal,named,hpa,PTEN,ENSG00000171862,inferior temporal gyrus,17.8,True
+inferiortemporal,named,hpa,MET,ENSG00000105976,inferior temporal gyrus,15.0,True
+lingual,named,hpa,NRXN1,ENSG00000179915,lingual gyrus,299.1,True
+lingual,named,hpa,SHANK3,ENSG00000251322,lingual gyrus,170.4,True
+lingual,named,hpa,GRIN2B,ENSG00000273079,lingual gyrus,111.0,True
+lingual,named,hpa,WDFY3,ENSG00000163625,lingual gyrus,83.7,True
+lingual,named,hpa,DYRK1A,ENSG00000157540,lingual gyrus,81.8,True
+lingual,named,hpa,POGZ,ENSG00000143442,lingual gyrus,78.1,True
 lingual,named,hpa,ARID1B,ENSG00000049618,lingual gyrus,73.3,True
+lingual,named,hpa,CNTNAP2,ENSG00000174469,lingual gyrus,70.6,True
+lingual,named,hpa,TBR1,ENSG00000136535,lingual gyrus,63.4,True
+lingual,named,hpa,SYNGAP1,ENSG00000197283,lingual gyrus,60.7,True
+lingual,named,hpa,SCN2A,ENSG00000136531,lingual gyrus,59.3,True
+lingual,named,hpa,FOXP1,ENSG00000114861,lingual gyrus,55.4,True
+lingual,named,hpa,MECP2,ENSG00000169057,lingual gyrus,51.2,True
+lingual,named,hpa,NLGN3,ENSG00000196338,lingual gyrus,49.6,True
+lingual,named,hpa,ADNP,ENSG00000101126,lingual gyrus,41.6,True
 lingual,named,hpa,ASH1L,ENSG00000116539,lingual gyrus,40.3,True
 lingual,named,hpa,CHD8,ENSG00000100888,lingual gyrus,30.6,True
-lingual,named,hpa,CNTNAP2,ENSG00000174469,lingual gyrus,70.6,True
-lingual,named,hpa,DYRK1A,ENSG00000157540,lingual gyrus,81.8,True
-lingual,named,hpa,FOXP1,ENSG00000114861,lingual gyrus,55.4,True
-lingual,named,hpa,GRIN2B,ENSG00000273079,lingual gyrus,111.0,True
 lingual,named,hpa,KMT5B,ENSG00000110066,lingual gyrus,20.0,True
-lingual,named,hpa,MECP2,ENSG00000169057,lingual gyrus,51.2,True
-lingual,named,hpa,MET,ENSG00000105976,lingual gyrus,14.9,True
-lingual,named,hpa,NLGN3,ENSG00000196338,lingual gyrus,49.6,True
-lingual,named,hpa,NRXN1,ENSG00000179915,lingual gyrus,299.1,True
-lingual,named,hpa,POGZ,ENSG00000143442,lingual gyrus,78.1,True
 lingual,named,hpa,PTEN,ENSG00000171862,lingual gyrus,18.4,True
-lingual,named,hpa,SCN2A,ENSG00000136531,lingual gyrus,59.3,True
-lingual,named,hpa,SHANK3,ENSG00000251322,lingual gyrus,170.4,True
-lingual,named,hpa,SYNGAP1,ENSG00000197283,lingual gyrus,60.7,True
-lingual,named,hpa,TBR1,ENSG00000136535,lingual gyrus,63.4,True
-lingual,named,hpa,WDFY3,ENSG00000163625,lingual gyrus,83.7,True
-middletemporal,named,hpa,ADNP,ENSG00000101126,middle temporal gyrus,42.5,True
+lingual,named,hpa,MET,ENSG00000105976,lingual gyrus,14.9,True
+middletemporal,named,hpa,NRXN1,ENSG00000179915,middle temporal gyrus,307.4,True
+middletemporal,named,hpa,SHANK3,ENSG00000251322,middle temporal gyrus,164.2,True
+middletemporal,named,hpa,GRIN2B,ENSG00000273079,middle temporal gyrus,95.7,True
+middletemporal,named,hpa,WDFY3,ENSG00000163625,middle temporal gyrus,85.5,True
+middletemporal,named,hpa,CNTNAP2,ENSG00000174469,middle temporal gyrus,82.8,True
+middletemporal,named,hpa,POGZ,ENSG00000143442,middle temporal gyrus,82.4,True
+middletemporal,named,hpa,DYRK1A,ENSG00000157540,middle temporal gyrus,80.8,True
+middletemporal,named,hpa,TBR1,ENSG00000136535,middle temporal gyrus,72.8,True
 middletemporal,named,hpa,ARID1B,ENSG00000049618,middle temporal gyrus,72.3,True
+middletemporal,named,hpa,SCN2A,ENSG00000136531,middle temporal gyrus,65.9,True
+middletemporal,named,hpa,FOXP1,ENSG00000114861,middle temporal gyrus,55.9,True
+middletemporal,named,hpa,MECP2,ENSG00000169057,middle temporal gyrus,52.2,True
+middletemporal,named,hpa,NLGN3,ENSG00000196338,middle temporal gyrus,50.6,True
+middletemporal,named,hpa,SYNGAP1,ENSG00000197283,middle temporal gyrus,49.2,True
+middletemporal,named,hpa,ADNP,ENSG00000101126,middle temporal gyrus,42.5,True
 middletemporal,named,hpa,ASH1L,ENSG00000116539,middle temporal gyrus,41.3,True
 middletemporal,named,hpa,CHD8,ENSG00000100888,middle temporal gyrus,32.9,True
-middletemporal,named,hpa,CNTNAP2,ENSG00000174469,middle temporal gyrus,82.8,True
-middletemporal,named,hpa,DYRK1A,ENSG00000157540,middle temporal gyrus,80.8,True
-middletemporal,named,hpa,FOXP1,ENSG00000114861,middle temporal gyrus,55.9,True
-middletemporal,named,hpa,GRIN2B,ENSG00000273079,middle temporal gyrus,95.7,True
 middletemporal,named,hpa,KMT5B,ENSG00000110066,middle temporal gyrus,18.5,True
-middletemporal,named,hpa,MECP2,ENSG00000169057,middle temporal gyrus,52.2,True
-middletemporal,named,hpa,MET,ENSG00000105976,middle temporal gyrus,12.2,True
-middletemporal,named,hpa,NLGN3,ENSG00000196338,middle temporal gyrus,50.6,True
-middletemporal,named,hpa,NRXN1,ENSG00000179915,middle temporal gyrus,307.4,True
-middletemporal,named,hpa,POGZ,ENSG00000143442,middle temporal gyrus,82.4,True
 middletemporal,named,hpa,PTEN,ENSG00000171862,middle temporal gyrus,17.2,True
-middletemporal,named,hpa,SCN2A,ENSG00000136531,middle temporal gyrus,65.9,True
-middletemporal,named,hpa,SHANK3,ENSG00000251322,middle temporal gyrus,164.2,True
-middletemporal,named,hpa,SYNGAP1,ENSG00000197283,middle temporal gyrus,49.2,True
-middletemporal,named,hpa,TBR1,ENSG00000136535,middle temporal gyrus,72.8,True
-middletemporal,named,hpa,WDFY3,ENSG00000163625,middle temporal gyrus,85.5,True
-parahippocampal,named,hpa,ADNP,ENSG00000101126,parahippocampal cortex,40.6,True
+middletemporal,named,hpa,MET,ENSG00000105976,middle temporal gyrus,12.2,True
+parahippocampal,named,hpa,NRXN1,ENSG00000179915,parahippocampal cortex,272.3,True
+parahippocampal,named,hpa,SHANK3,ENSG00000251322,parahippocampal cortex,198.1,True
+parahippocampal,named,hpa,GRIN2B,ENSG00000273079,parahippocampal cortex,112.6,True
+parahippocampal,named,hpa,WDFY3,ENSG00000163625,parahippocampal cortex,82.2,True
+parahippocampal,named,hpa,DYRK1A,ENSG00000157540,parahippocampal cortex,80.7,True
+parahippocampal,named,hpa,POGZ,ENSG00000143442,parahippocampal cortex,79.6,True
 parahippocampal,named,hpa,ARID1B,ENSG00000049618,parahippocampal cortex,72.7,True
+parahippocampal,named,hpa,SYNGAP1,ENSG00000197283,parahippocampal cortex,66.0,True
+parahippocampal,named,hpa,CNTNAP2,ENSG00000174469,parahippocampal cortex,65.9,True
+parahippocampal,named,hpa,SCN2A,ENSG00000136531,parahippocampal cortex,58.2,True
+parahippocampal,named,hpa,MECP2,ENSG00000169057,parahippocampal cortex,51.3,True
+parahippocampal,named,hpa,NLGN3,ENSG00000196338,parahippocampal cortex,50.3,True
+parahippocampal,named,hpa,TBR1,ENSG00000136535,parahippocampal cortex,49.4,True
+parahippocampal,named,hpa,FOXP1,ENSG00000114861,parahippocampal cortex,48.6,True
+parahippocampal,named,hpa,ADNP,ENSG00000101126,parahippocampal cortex,40.6,True
 parahippocampal,named,hpa,ASH1L,ENSG00000116539,parahippocampal cortex,38.9,True
 parahippocampal,named,hpa,CHD8,ENSG00000100888,parahippocampal cortex,29.4,True
-parahippocampal,named,hpa,CNTNAP2,ENSG00000174469,parahippocampal cortex,65.9,True
-parahippocampal,named,hpa,DYRK1A,ENSG00000157540,parahippocampal cortex,80.7,True
-parahippocampal,named,hpa,FOXP1,ENSG00000114861,parahippocampal cortex,48.6,True
-parahippocampal,named,hpa,GRIN2B,ENSG00000273079,parahippocampal cortex,112.6,True
 parahippocampal,named,hpa,KMT5B,ENSG00000110066,parahippocampal cortex,19.7,True
-parahippocampal,named,hpa,MECP2,ENSG00000169057,parahippocampal cortex,51.3,True
-parahippocampal,named,hpa,MET,ENSG00000105976,parahippocampal cortex,10.2,True
-parahippocampal,named,hpa,NLGN3,ENSG00000196338,parahippocampal cortex,50.3,True
-parahippocampal,named,hpa,NRXN1,ENSG00000179915,parahippocampal cortex,272.3,True
-parahippocampal,named,hpa,POGZ,ENSG00000143442,parahippocampal cortex,79.6,True
 parahippocampal,named,hpa,PTEN,ENSG00000171862,parahippocampal cortex,17.9,True
-parahippocampal,named,hpa,SCN2A,ENSG00000136531,parahippocampal cortex,58.2,True
-parahippocampal,named,hpa,SHANK3,ENSG00000251322,parahippocampal cortex,198.1,True
-parahippocampal,named,hpa,SYNGAP1,ENSG00000197283,parahippocampal cortex,66.0,True
-parahippocampal,named,hpa,TBR1,ENSG00000136535,parahippocampal cortex,49.4,True
-parahippocampal,named,hpa,WDFY3,ENSG00000163625,parahippocampal cortex,82.2,True
-parsopercularis,named,hpa,ADNP,ENSG00000101126,"inferior frontal gyrus, opercular",41.4,True
+parahippocampal,named,hpa,MET,ENSG00000105976,parahippocampal cortex,10.2,True
+parsopercularis,named,hpa,NRXN1,ENSG00000179915,"inferior frontal gyrus, opercular",254.4,True
+parsopercularis,named,hpa,SHANK3,ENSG00000251322,"inferior frontal gyrus, opercular",192.2,True
+parsopercularis,named,hpa,GRIN2B,ENSG00000273079,"inferior frontal gyrus, opercular",107.2,True
+parsopercularis,named,hpa,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, opercular",96.5,True
+parsopercularis,named,hpa,POGZ,ENSG00000143442,"inferior frontal gyrus, opercular",89.0,True
+parsopercularis,named,hpa,TBR1,ENSG00000136535,"inferior frontal gyrus, opercular",78.5,True
+parsopercularis,named,hpa,DYRK1A,ENSG00000157540,"inferior frontal gyrus, opercular",78.4,True
+parsopercularis,named,hpa,WDFY3,ENSG00000163625,"inferior frontal gyrus, opercular",76.5,True
+parsopercularis,named,hpa,SCN2A,ENSG00000136531,"inferior frontal gyrus, opercular",73.2,True
 parsopercularis,named,hpa,ARID1B,ENSG00000049618,"inferior frontal gyrus, opercular",72.0,True
+parsopercularis,named,hpa,SYNGAP1,ENSG00000197283,"inferior frontal gyrus, opercular",60.7,True
+parsopercularis,named,hpa,FOXP1,ENSG00000114861,"inferior frontal gyrus, opercular",57.5,True
+parsopercularis,named,hpa,MECP2,ENSG00000169057,"inferior frontal gyrus, opercular",54.5,True
+parsopercularis,named,hpa,NLGN3,ENSG00000196338,"inferior frontal gyrus, opercular",50.3,True
+parsopercularis,named,hpa,ADNP,ENSG00000101126,"inferior frontal gyrus, opercular",41.4,True
 parsopercularis,named,hpa,ASH1L,ENSG00000116539,"inferior frontal gyrus, opercular",40.5,True
 parsopercularis,named,hpa,CHD8,ENSG00000100888,"inferior frontal gyrus, opercular",32.2,True
-parsopercularis,named,hpa,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, opercular",96.5,True
-parsopercularis,named,hpa,DYRK1A,ENSG00000157540,"inferior frontal gyrus, opercular",78.4,True
-parsopercularis,named,hpa,FOXP1,ENSG00000114861,"inferior frontal gyrus, opercular",57.5,True
-parsopercularis,named,hpa,GRIN2B,ENSG00000273079,"inferior frontal gyrus, opercular",107.2,True
 parsopercularis,named,hpa,KMT5B,ENSG00000110066,"inferior frontal gyrus, opercular",19.4,True
-parsopercularis,named,hpa,MECP2,ENSG00000169057,"inferior frontal gyrus, opercular",54.5,True
-parsopercularis,named,hpa,MET,ENSG00000105976,"inferior frontal gyrus, opercular",8.4,True
-parsopercularis,named,hpa,NLGN3,ENSG00000196338,"inferior frontal gyrus, opercular",50.3,True
-parsopercularis,named,hpa,NRXN1,ENSG00000179915,"inferior frontal gyrus, opercular",254.4,True
-parsopercularis,named,hpa,POGZ,ENSG00000143442,"inferior frontal gyrus, opercular",89.0,True
 parsopercularis,named,hpa,PTEN,ENSG00000171862,"inferior frontal gyrus, opercular",18.2,True
-parsopercularis,named,hpa,SCN2A,ENSG00000136531,"inferior frontal gyrus, opercular",73.2,True
-parsopercularis,named,hpa,SHANK3,ENSG00000251322,"inferior frontal gyrus, opercular",192.2,True
-parsopercularis,named,hpa,SYNGAP1,ENSG00000197283,"inferior frontal gyrus, opercular",60.7,True
-parsopercularis,named,hpa,TBR1,ENSG00000136535,"inferior frontal gyrus, opercular",78.5,True
-parsopercularis,named,hpa,WDFY3,ENSG00000163625,"inferior frontal gyrus, opercular",76.5,True
-postcentral,named,hpa,ADNP,ENSG00000101126,postcentral gyrus,39.9,True
-postcentral,named,hpa,ARID1B,ENSG00000049618,postcentral gyrus,75.8,True
-postcentral,named,hpa,ASH1L,ENSG00000116539,postcentral gyrus,44.6,True
-postcentral,named,hpa,CHD8,ENSG00000100888,postcentral gyrus,33.0,True
-postcentral,named,hpa,CNTNAP2,ENSG00000174469,postcentral gyrus,125.7,True
-postcentral,named,hpa,DYRK1A,ENSG00000157540,postcentral gyrus,84.1,True
-postcentral,named,hpa,FOXP1,ENSG00000114861,postcentral gyrus,51.7,True
-postcentral,named,hpa,GRIN2B,ENSG00000273079,postcentral gyrus,129.6,True
-postcentral,named,hpa,KMT5B,ENSG00000110066,postcentral gyrus,15.8,True
-postcentral,named,hpa,MECP2,ENSG00000169057,postcentral gyrus,57.5,True
-postcentral,named,hpa,MET,ENSG00000105976,postcentral gyrus,3.8,True
-postcentral,named,hpa,NLGN3,ENSG00000196338,postcentral gyrus,43.3,True
+parsopercularis,named,hpa,MET,ENSG00000105976,"inferior frontal gyrus, opercular",8.4,True
 postcentral,named,hpa,NRXN1,ENSG00000179915,postcentral gyrus,306.3,True
-postcentral,named,hpa,POGZ,ENSG00000143442,postcentral gyrus,80.4,True
-postcentral,named,hpa,PTEN,ENSG00000171862,postcentral gyrus,19.8,True
-postcentral,named,hpa,SCN2A,ENSG00000136531,postcentral gyrus,80.7,True
+postcentral,named,hpa,NRXN1,ENSG00000179915,"postcentral gyrus, dorsal",272.8,True
+postcentral,named,hpa,NRXN1,ENSG00000179915,"postcentral gyrus, middle",279.8,True
+postcentral,named,hpa,NRXN1,ENSG00000179915,"postcentral gyrus, ventral",251.3,True
 postcentral,named,hpa,SHANK3,ENSG00000251322,postcentral gyrus,165.4,True
-postcentral,named,hpa,SYNGAP1,ENSG00000197283,postcentral gyrus,49.0,True
+postcentral,named,hpa,SHANK3,ENSG00000251322,"postcentral gyrus, dorsal",149.7,True
+postcentral,named,hpa,SHANK3,ENSG00000251322,"postcentral gyrus, middle",159.0,True
+postcentral,named,hpa,SHANK3,ENSG00000251322,"postcentral gyrus, ventral",125.9,True
+postcentral,named,hpa,GRIN2B,ENSG00000273079,postcentral gyrus,129.6,True
+postcentral,named,hpa,GRIN2B,ENSG00000273079,"postcentral gyrus, dorsal",87.8,True
+postcentral,named,hpa,GRIN2B,ENSG00000273079,"postcentral gyrus, middle",108.3,True
+postcentral,named,hpa,GRIN2B,ENSG00000273079,"postcentral gyrus, ventral",83.6,True
+postcentral,named,hpa,CNTNAP2,ENSG00000174469,postcentral gyrus,125.7,True
+postcentral,named,hpa,CNTNAP2,ENSG00000174469,"postcentral gyrus, dorsal",85.1,True
+postcentral,named,hpa,CNTNAP2,ENSG00000174469,"postcentral gyrus, middle",115.1,True
+postcentral,named,hpa,CNTNAP2,ENSG00000174469,"postcentral gyrus, ventral",83.8,True
 postcentral,named,hpa,TBR1,ENSG00000136535,postcentral gyrus,105.0,True
+postcentral,named,hpa,TBR1,ENSG00000136535,"postcentral gyrus, dorsal",65.1,True
+postcentral,named,hpa,TBR1,ENSG00000136535,"postcentral gyrus, middle",84.8,True
+postcentral,named,hpa,TBR1,ENSG00000136535,"postcentral gyrus, ventral",85.8,True
+postcentral,named,hpa,DYRK1A,ENSG00000157540,postcentral gyrus,84.1,True
+postcentral,named,hpa,DYRK1A,ENSG00000157540,"postcentral gyrus, dorsal",79.2,True
+postcentral,named,hpa,DYRK1A,ENSG00000157540,"postcentral gyrus, middle",82.2,True
+postcentral,named,hpa,DYRK1A,ENSG00000157540,"postcentral gyrus, ventral",80.8,True
+postcentral,named,hpa,SCN2A,ENSG00000136531,postcentral gyrus,80.7,True
+postcentral,named,hpa,SCN2A,ENSG00000136531,"postcentral gyrus, dorsal",54.8,True
+postcentral,named,hpa,SCN2A,ENSG00000136531,"postcentral gyrus, middle",67.4,True
+postcentral,named,hpa,SCN2A,ENSG00000136531,"postcentral gyrus, ventral",60.0,True
+postcentral,named,hpa,POGZ,ENSG00000143442,postcentral gyrus,80.4,True
+postcentral,named,hpa,POGZ,ENSG00000143442,"postcentral gyrus, dorsal",86.0,True
+postcentral,named,hpa,POGZ,ENSG00000143442,"postcentral gyrus, middle",82.5,True
+postcentral,named,hpa,POGZ,ENSG00000143442,"postcentral gyrus, ventral",90.2,True
 postcentral,named,hpa,WDFY3,ENSG00000163625,postcentral gyrus,76.1,True
-posteriorcingulate,named,hpa,ADNP,ENSG00000101126,posterior cingulate cortex,42.8,True
+postcentral,named,hpa,WDFY3,ENSG00000163625,"postcentral gyrus, dorsal",86.5,True
+postcentral,named,hpa,WDFY3,ENSG00000163625,"postcentral gyrus, middle",84.9,True
+postcentral,named,hpa,WDFY3,ENSG00000163625,"postcentral gyrus, ventral",88.3,True
+postcentral,named,hpa,ARID1B,ENSG00000049618,postcentral gyrus,75.8,True
+postcentral,named,hpa,ARID1B,ENSG00000049618,"postcentral gyrus, dorsal",67.0,True
+postcentral,named,hpa,ARID1B,ENSG00000049618,"postcentral gyrus, middle",76.1,True
+postcentral,named,hpa,ARID1B,ENSG00000049618,"postcentral gyrus, ventral",76.7,True
+postcentral,named,hpa,MECP2,ENSG00000169057,postcentral gyrus,57.5,True
+postcentral,named,hpa,MECP2,ENSG00000169057,"postcentral gyrus, dorsal",51.3,True
+postcentral,named,hpa,MECP2,ENSG00000169057,"postcentral gyrus, middle",57.7,True
+postcentral,named,hpa,MECP2,ENSG00000169057,"postcentral gyrus, ventral",55.2,True
+postcentral,named,hpa,FOXP1,ENSG00000114861,postcentral gyrus,51.7,True
+postcentral,named,hpa,FOXP1,ENSG00000114861,"postcentral gyrus, dorsal",44.6,True
+postcentral,named,hpa,FOXP1,ENSG00000114861,"postcentral gyrus, middle",55.1,True
+postcentral,named,hpa,FOXP1,ENSG00000114861,"postcentral gyrus, ventral",56.1,True
+postcentral,named,hpa,SYNGAP1,ENSG00000197283,postcentral gyrus,49.0,True
+postcentral,named,hpa,SYNGAP1,ENSG00000197283,"postcentral gyrus, dorsal",41.4,True
+postcentral,named,hpa,SYNGAP1,ENSG00000197283,"postcentral gyrus, middle",51.8,True
+postcentral,named,hpa,SYNGAP1,ENSG00000197283,"postcentral gyrus, ventral",38.2,True
+postcentral,named,hpa,ASH1L,ENSG00000116539,postcentral gyrus,44.6,True
+postcentral,named,hpa,ASH1L,ENSG00000116539,"postcentral gyrus, dorsal",40.5,True
+postcentral,named,hpa,ASH1L,ENSG00000116539,"postcentral gyrus, middle",43.1,True
+postcentral,named,hpa,ASH1L,ENSG00000116539,"postcentral gyrus, ventral",39.4,True
+postcentral,named,hpa,NLGN3,ENSG00000196338,postcentral gyrus,43.3,True
+postcentral,named,hpa,NLGN3,ENSG00000196338,"postcentral gyrus, dorsal",47.0,True
+postcentral,named,hpa,NLGN3,ENSG00000196338,"postcentral gyrus, middle",42.8,True
+postcentral,named,hpa,NLGN3,ENSG00000196338,"postcentral gyrus, ventral",43.3,True
+postcentral,named,hpa,ADNP,ENSG00000101126,postcentral gyrus,39.9,True
+postcentral,named,hpa,ADNP,ENSG00000101126,"postcentral gyrus, dorsal",41.4,True
+postcentral,named,hpa,ADNP,ENSG00000101126,"postcentral gyrus, middle",42.2,True
+postcentral,named,hpa,ADNP,ENSG00000101126,"postcentral gyrus, ventral",41.9,True
+postcentral,named,hpa,CHD8,ENSG00000100888,postcentral gyrus,33.0,True
+postcentral,named,hpa,CHD8,ENSG00000100888,"postcentral gyrus, dorsal",30.0,True
+postcentral,named,hpa,CHD8,ENSG00000100888,"postcentral gyrus, middle",34.7,True
+postcentral,named,hpa,CHD8,ENSG00000100888,"postcentral gyrus, ventral",30.4,True
+postcentral,named,hpa,PTEN,ENSG00000171862,postcentral gyrus,19.8,True
+postcentral,named,hpa,PTEN,ENSG00000171862,"postcentral gyrus, dorsal",17.6,True
+postcentral,named,hpa,PTEN,ENSG00000171862,"postcentral gyrus, middle",20.2,True
+postcentral,named,hpa,PTEN,ENSG00000171862,"postcentral gyrus, ventral",15.6,True
+postcentral,named,hpa,KMT5B,ENSG00000110066,postcentral gyrus,15.8,True
+postcentral,named,hpa,KMT5B,ENSG00000110066,"postcentral gyrus, dorsal",18.9,True
+postcentral,named,hpa,KMT5B,ENSG00000110066,"postcentral gyrus, middle",19.5,True
+postcentral,named,hpa,KMT5B,ENSG00000110066,"postcentral gyrus, ventral",21.0,True
+postcentral,named,hpa,MET,ENSG00000105976,postcentral gyrus,3.8,True
+postcentral,named,hpa,MET,ENSG00000105976,"postcentral gyrus, dorsal",4.4,True
+postcentral,named,hpa,MET,ENSG00000105976,"postcentral gyrus, middle",10.1,True
+postcentral,named,hpa,MET,ENSG00000105976,"postcentral gyrus, ventral",7.0,True
+posteriorcingulate,named,hpa,NRXN1,ENSG00000179915,posterior cingulate cortex,258.3,True
+posteriorcingulate,named,hpa,SHANK3,ENSG00000251322,posterior cingulate cortex,210.2,True
+posteriorcingulate,named,hpa,GRIN2B,ENSG00000273079,posterior cingulate cortex,179.8,True
+posteriorcingulate,named,hpa,DYRK1A,ENSG00000157540,posterior cingulate cortex,87.0,True
+posteriorcingulate,named,hpa,SYNGAP1,ENSG00000197283,posterior cingulate cortex,86.0,True
+posteriorcingulate,named,hpa,WDFY3,ENSG00000163625,posterior cingulate cortex,84.7,True
+posteriorcingulate,named,hpa,POGZ,ENSG00000143442,posterior cingulate cortex,78.6,True
 posteriorcingulate,named,hpa,ARID1B,ENSG00000049618,posterior cingulate cortex,78.3,True
+posteriorcingulate,named,hpa,CNTNAP2,ENSG00000174469,posterior cingulate cortex,77.5,True
+posteriorcingulate,named,hpa,SCN2A,ENSG00000136531,posterior cingulate cortex,74.0,True
+posteriorcingulate,named,hpa,NLGN3,ENSG00000196338,posterior cingulate cortex,54.9,True
+posteriorcingulate,named,hpa,MECP2,ENSG00000169057,posterior cingulate cortex,48.0,True
+posteriorcingulate,named,hpa,TBR1,ENSG00000136535,posterior cingulate cortex,46.1,True
+posteriorcingulate,named,hpa,FOXP1,ENSG00000114861,posterior cingulate cortex,43.8,True
+posteriorcingulate,named,hpa,ADNP,ENSG00000101126,posterior cingulate cortex,42.8,True
 posteriorcingulate,named,hpa,ASH1L,ENSG00000116539,posterior cingulate cortex,41.4,True
 posteriorcingulate,named,hpa,CHD8,ENSG00000100888,posterior cingulate cortex,28.8,True
-posteriorcingulate,named,hpa,CNTNAP2,ENSG00000174469,posterior cingulate cortex,77.5,True
-posteriorcingulate,named,hpa,DYRK1A,ENSG00000157540,posterior cingulate cortex,87.0,True
-posteriorcingulate,named,hpa,FOXP1,ENSG00000114861,posterior cingulate cortex,43.8,True
-posteriorcingulate,named,hpa,GRIN2B,ENSG00000273079,posterior cingulate cortex,179.8,True
-posteriorcingulate,named,hpa,KMT5B,ENSG00000110066,posterior cingulate cortex,19.1,True
-posteriorcingulate,named,hpa,MECP2,ENSG00000169057,posterior cingulate cortex,48.0,True
-posteriorcingulate,named,hpa,MET,ENSG00000105976,posterior cingulate cortex,7.9,True
-posteriorcingulate,named,hpa,NLGN3,ENSG00000196338,posterior cingulate cortex,54.9,True
-posteriorcingulate,named,hpa,NRXN1,ENSG00000179915,posterior cingulate cortex,258.3,True
-posteriorcingulate,named,hpa,POGZ,ENSG00000143442,posterior cingulate cortex,78.6,True
 posteriorcingulate,named,hpa,PTEN,ENSG00000171862,posterior cingulate cortex,20.6,True
-posteriorcingulate,named,hpa,SCN2A,ENSG00000136531,posterior cingulate cortex,74.0,True
-posteriorcingulate,named,hpa,SHANK3,ENSG00000251322,posterior cingulate cortex,210.2,True
-posteriorcingulate,named,hpa,SYNGAP1,ENSG00000197283,posterior cingulate cortex,86.0,True
-posteriorcingulate,named,hpa,TBR1,ENSG00000136535,posterior cingulate cortex,46.1,True
-posteriorcingulate,named,hpa,WDFY3,ENSG00000163625,posterior cingulate cortex,84.7,True
-precentral,named,hpa,ADNP,ENSG00000101126,precentral gyrus,35.2,True
-precentral,named,hpa,ARID1B,ENSG00000049618,precentral gyrus,71.7,True
-precentral,named,hpa,ASH1L,ENSG00000116539,precentral gyrus,36.6,True
-precentral,named,hpa,CHD8,ENSG00000100888,precentral gyrus,28.9,True
-precentral,named,hpa,CNTNAP2,ENSG00000174469,precentral gyrus,115.5,True
-precentral,named,hpa,DYRK1A,ENSG00000157540,precentral gyrus,77.0,True
-precentral,named,hpa,FOXP1,ENSG00000114861,precentral gyrus,48.3,True
-precentral,named,hpa,GRIN2B,ENSG00000273079,precentral gyrus,109.5,True
-precentral,named,hpa,KMT5B,ENSG00000110066,precentral gyrus,16.9,True
-precentral,named,hpa,MECP2,ENSG00000169057,precentral gyrus,54.1,True
-precentral,named,hpa,MET,ENSG00000105976,precentral gyrus,2.7,True
-precentral,named,hpa,NLGN3,ENSG00000196338,precentral gyrus,42.4,True
+posteriorcingulate,named,hpa,KMT5B,ENSG00000110066,posterior cingulate cortex,19.1,True
+posteriorcingulate,named,hpa,MET,ENSG00000105976,posterior cingulate cortex,7.9,True
 precentral,named,hpa,NRXN1,ENSG00000179915,precentral gyrus,265.0,True
-precentral,named,hpa,POGZ,ENSG00000143442,precentral gyrus,81.2,True
-precentral,named,hpa,PTEN,ENSG00000171862,precentral gyrus,15.2,True
-precentral,named,hpa,SCN2A,ENSG00000136531,precentral gyrus,37.6,True
+precentral,named,hpa,NRXN1,ENSG00000179915,"precentral gyrus, dorsal",268.2,True
+precentral,named,hpa,NRXN1,ENSG00000179915,"precentral gyrus, middle",279.7,True
+precentral,named,hpa,NRXN1,ENSG00000179915,"precentral gyrus, ventral",310.1,True
 precentral,named,hpa,SHANK3,ENSG00000251322,precentral gyrus,220.2,True
-precentral,named,hpa,SYNGAP1,ENSG00000197283,precentral gyrus,43.9,True
-precentral,named,hpa,TBR1,ENSG00000136535,precentral gyrus,73.0,True
+precentral,named,hpa,SHANK3,ENSG00000251322,"precentral gyrus, dorsal",138.0,True
+precentral,named,hpa,SHANK3,ENSG00000251322,"precentral gyrus, middle",141.5,True
+precentral,named,hpa,SHANK3,ENSG00000251322,"precentral gyrus, ventral",144.3,True
+precentral,named,hpa,CNTNAP2,ENSG00000174469,precentral gyrus,115.5,True
+precentral,named,hpa,CNTNAP2,ENSG00000174469,"precentral gyrus, dorsal",88.1,True
+precentral,named,hpa,CNTNAP2,ENSG00000174469,"precentral gyrus, middle",97.2,True
+precentral,named,hpa,CNTNAP2,ENSG00000174469,"precentral gyrus, ventral",91.8,True
+precentral,named,hpa,GRIN2B,ENSG00000273079,precentral gyrus,109.5,True
+precentral,named,hpa,GRIN2B,ENSG00000273079,"precentral gyrus, dorsal",93.6,True
+precentral,named,hpa,GRIN2B,ENSG00000273079,"precentral gyrus, middle",88.1,True
+precentral,named,hpa,GRIN2B,ENSG00000273079,"precentral gyrus, ventral",110.8,True
 precentral,named,hpa,WDFY3,ENSG00000163625,precentral gyrus,82.2,True
-precuneus,named,hpa,ADNP,ENSG00000101126,precuneus,41.3,True
+precentral,named,hpa,WDFY3,ENSG00000163625,"precentral gyrus, dorsal",84.9,True
+precentral,named,hpa,WDFY3,ENSG00000163625,"precentral gyrus, middle",82.2,True
+precentral,named,hpa,WDFY3,ENSG00000163625,"precentral gyrus, ventral",84.8,True
+precentral,named,hpa,POGZ,ENSG00000143442,precentral gyrus,81.2,True
+precentral,named,hpa,POGZ,ENSG00000143442,"precentral gyrus, dorsal",82.8,True
+precentral,named,hpa,POGZ,ENSG00000143442,"precentral gyrus, middle",81.2,True
+precentral,named,hpa,POGZ,ENSG00000143442,"precentral gyrus, ventral",81.0,True
+precentral,named,hpa,DYRK1A,ENSG00000157540,precentral gyrus,77.0,True
+precentral,named,hpa,DYRK1A,ENSG00000157540,"precentral gyrus, dorsal",76.7,True
+precentral,named,hpa,DYRK1A,ENSG00000157540,"precentral gyrus, middle",79.4,True
+precentral,named,hpa,DYRK1A,ENSG00000157540,"precentral gyrus, ventral",82.6,True
+precentral,named,hpa,TBR1,ENSG00000136535,precentral gyrus,73.0,True
+precentral,named,hpa,TBR1,ENSG00000136535,"precentral gyrus, dorsal",66.4,True
+precentral,named,hpa,TBR1,ENSG00000136535,"precentral gyrus, middle",70.9,True
+precentral,named,hpa,TBR1,ENSG00000136535,"precentral gyrus, ventral",70.9,True
+precentral,named,hpa,ARID1B,ENSG00000049618,precentral gyrus,71.7,True
+precentral,named,hpa,ARID1B,ENSG00000049618,"precentral gyrus, dorsal",68.7,True
+precentral,named,hpa,ARID1B,ENSG00000049618,"precentral gyrus, middle",64.7,True
+precentral,named,hpa,ARID1B,ENSG00000049618,"precentral gyrus, ventral",71.8,True
+precentral,named,hpa,MECP2,ENSG00000169057,precentral gyrus,54.1,True
+precentral,named,hpa,MECP2,ENSG00000169057,"precentral gyrus, dorsal",50.1,True
+precentral,named,hpa,MECP2,ENSG00000169057,"precentral gyrus, middle",48.2,True
+precentral,named,hpa,MECP2,ENSG00000169057,"precentral gyrus, ventral",51.5,True
+precentral,named,hpa,FOXP1,ENSG00000114861,precentral gyrus,48.3,True
+precentral,named,hpa,FOXP1,ENSG00000114861,"precentral gyrus, dorsal",42.4,True
+precentral,named,hpa,FOXP1,ENSG00000114861,"precentral gyrus, middle",41.0,True
+precentral,named,hpa,FOXP1,ENSG00000114861,"precentral gyrus, ventral",48.2,True
+precentral,named,hpa,SYNGAP1,ENSG00000197283,precentral gyrus,43.9,True
+precentral,named,hpa,SYNGAP1,ENSG00000197283,"precentral gyrus, dorsal",38.1,True
+precentral,named,hpa,SYNGAP1,ENSG00000197283,"precentral gyrus, middle",38.2,True
+precentral,named,hpa,SYNGAP1,ENSG00000197283,"precentral gyrus, ventral",45.0,True
+precentral,named,hpa,NLGN3,ENSG00000196338,precentral gyrus,42.4,True
+precentral,named,hpa,NLGN3,ENSG00000196338,"precentral gyrus, dorsal",41.6,True
+precentral,named,hpa,NLGN3,ENSG00000196338,"precentral gyrus, middle",43.4,True
+precentral,named,hpa,NLGN3,ENSG00000196338,"precentral gyrus, ventral",47.6,True
+precentral,named,hpa,SCN2A,ENSG00000136531,precentral gyrus,37.6,True
+precentral,named,hpa,SCN2A,ENSG00000136531,"precentral gyrus, dorsal",54.4,True
+precentral,named,hpa,SCN2A,ENSG00000136531,"precentral gyrus, middle",62.0,True
+precentral,named,hpa,SCN2A,ENSG00000136531,"precentral gyrus, ventral",66.8,True
+precentral,named,hpa,ASH1L,ENSG00000116539,precentral gyrus,36.6,True
+precentral,named,hpa,ASH1L,ENSG00000116539,"precentral gyrus, dorsal",37.0,True
+precentral,named,hpa,ASH1L,ENSG00000116539,"precentral gyrus, middle",41.5,True
+precentral,named,hpa,ASH1L,ENSG00000116539,"precentral gyrus, ventral",39.2,True
+precentral,named,hpa,ADNP,ENSG00000101126,precentral gyrus,35.2,True
+precentral,named,hpa,ADNP,ENSG00000101126,"precentral gyrus, dorsal",41.5,True
+precentral,named,hpa,ADNP,ENSG00000101126,"precentral gyrus, middle",41.2,True
+precentral,named,hpa,ADNP,ENSG00000101126,"precentral gyrus, ventral",43.5,True
+precentral,named,hpa,CHD8,ENSG00000100888,precentral gyrus,28.9,True
+precentral,named,hpa,CHD8,ENSG00000100888,"precentral gyrus, dorsal",30.9,True
+precentral,named,hpa,CHD8,ENSG00000100888,"precentral gyrus, middle",30.9,True
+precentral,named,hpa,CHD8,ENSG00000100888,"precentral gyrus, ventral",30.5,True
+precentral,named,hpa,KMT5B,ENSG00000110066,precentral gyrus,16.9,True
+precentral,named,hpa,KMT5B,ENSG00000110066,"precentral gyrus, dorsal",18.8,True
+precentral,named,hpa,KMT5B,ENSG00000110066,"precentral gyrus, middle",18.2,True
+precentral,named,hpa,KMT5B,ENSG00000110066,"precentral gyrus, ventral",19.9,True
+precentral,named,hpa,PTEN,ENSG00000171862,precentral gyrus,15.2,True
+precentral,named,hpa,PTEN,ENSG00000171862,"precentral gyrus, dorsal",18.3,True
+precentral,named,hpa,PTEN,ENSG00000171862,"precentral gyrus, middle",16.9,True
+precentral,named,hpa,PTEN,ENSG00000171862,"precentral gyrus, ventral",17.8,True
+precentral,named,hpa,MET,ENSG00000105976,precentral gyrus,2.7,True
+precentral,named,hpa,MET,ENSG00000105976,"precentral gyrus, dorsal",6.9,True
+precentral,named,hpa,MET,ENSG00000105976,"precentral gyrus, middle",4.2,True
+precentral,named,hpa,MET,ENSG00000105976,"precentral gyrus, ventral",9.3,True
+precuneus,named,hpa,NRXN1,ENSG00000179915,precuneus,270.2,True
+precuneus,named,hpa,SHANK3,ENSG00000251322,precuneus,165.1,True
+precuneus,named,hpa,WDFY3,ENSG00000163625,precuneus,87.3,True
+precuneus,named,hpa,POGZ,ENSG00000143442,precuneus,84.9,True
 precuneus,named,hpa,ARID1B,ENSG00000049618,precuneus,76.6,True
+precuneus,named,hpa,DYRK1A,ENSG00000157540,precuneus,75.7,True
+precuneus,named,hpa,GRIN2B,ENSG00000273079,precuneus,73.8,True
+precuneus,named,hpa,TBR1,ENSG00000136535,precuneus,62.9,True
+precuneus,named,hpa,CNTNAP2,ENSG00000174469,precuneus,60.1,True
+precuneus,named,hpa,FOXP1,ENSG00000114861,precuneus,57.6,True
+precuneus,named,hpa,NLGN3,ENSG00000196338,precuneus,53.5,True
+precuneus,named,hpa,MECP2,ENSG00000169057,precuneus,52.8,True
+precuneus,named,hpa,SYNGAP1,ENSG00000197283,precuneus,44.5,True
+precuneus,named,hpa,SCN2A,ENSG00000136531,precuneus,43.1,True
+precuneus,named,hpa,ADNP,ENSG00000101126,precuneus,41.3,True
 precuneus,named,hpa,ASH1L,ENSG00000116539,precuneus,37.9,True
 precuneus,named,hpa,CHD8,ENSG00000100888,precuneus,30.0,True
-precuneus,named,hpa,CNTNAP2,ENSG00000174469,precuneus,60.1,True
-precuneus,named,hpa,DYRK1A,ENSG00000157540,precuneus,75.7,True
-precuneus,named,hpa,FOXP1,ENSG00000114861,precuneus,57.6,True
-precuneus,named,hpa,GRIN2B,ENSG00000273079,precuneus,73.8,True
 precuneus,named,hpa,KMT5B,ENSG00000110066,precuneus,20.4,True
-precuneus,named,hpa,MECP2,ENSG00000169057,precuneus,52.8,True
-precuneus,named,hpa,MET,ENSG00000105976,precuneus,9.7,True
-precuneus,named,hpa,NLGN3,ENSG00000196338,precuneus,53.5,True
-precuneus,named,hpa,NRXN1,ENSG00000179915,precuneus,270.2,True
-precuneus,named,hpa,POGZ,ENSG00000143442,precuneus,84.9,True
 precuneus,named,hpa,PTEN,ENSG00000171862,precuneus,16.7,True
-precuneus,named,hpa,SCN2A,ENSG00000136531,precuneus,43.1,True
-precuneus,named,hpa,SHANK3,ENSG00000251322,precuneus,165.1,True
-precuneus,named,hpa,SYNGAP1,ENSG00000197283,precuneus,44.5,True
-precuneus,named,hpa,TBR1,ENSG00000136535,precuneus,62.9,True
-precuneus,named,hpa,WDFY3,ENSG00000163625,precuneus,87.3,True
-superiorparietal,named,hpa,ADNP,ENSG00000101126,superior parietal lobule,40.8,True
-superiorparietal,named,hpa,ARID1B,ENSG00000049618,superior parietal lobule,69.7,True
-superiorparietal,named,hpa,ASH1L,ENSG00000116539,superior parietal lobule,40.9,True
-superiorparietal,named,hpa,CHD8,ENSG00000100888,superior parietal lobule,30.9,True
+precuneus,named,hpa,MET,ENSG00000105976,precuneus,9.7,True
+superiorparietal,named,hpa,NRXN1,ENSG00000179915,superior parietal lobule,287.4,True
+superiorparietal,named,hpa,SHANK3,ENSG00000251322,superior parietal lobule,179.3,True
+superiorparietal,named,hpa,WDFY3,ENSG00000163625,superior parietal lobule,87.4,True
 superiorparietal,named,hpa,CNTNAP2,ENSG00000174469,superior parietal lobule,79.1,True
 superiorparietal,named,hpa,DYRK1A,ENSG00000157540,superior parietal lobule,76.9,True
-superiorparietal,named,hpa,FOXP1,ENSG00000114861,superior parietal lobule,48.4,True
-superiorparietal,named,hpa,GRIN2B,ENSG00000273079,superior parietal lobule,72.9,True
-superiorparietal,named,hpa,KMT5B,ENSG00000110066,superior parietal lobule,19.2,True
-superiorparietal,named,hpa,MECP2,ENSG00000169057,superior parietal lobule,51.8,True
-superiorparietal,named,hpa,MET,ENSG00000105976,superior parietal lobule,6.8,True
-superiorparietal,named,hpa,NLGN3,ENSG00000196338,superior parietal lobule,55.2,True
-superiorparietal,named,hpa,NRXN1,ENSG00000179915,superior parietal lobule,287.4,True
 superiorparietal,named,hpa,POGZ,ENSG00000143442,superior parietal lobule,74.6,True
-superiorparietal,named,hpa,PTEN,ENSG00000171862,superior parietal lobule,16.8,True
-superiorparietal,named,hpa,SCN2A,ENSG00000136531,superior parietal lobule,41.5,True
-superiorparietal,named,hpa,SHANK3,ENSG00000251322,superior parietal lobule,179.3,True
-superiorparietal,named,hpa,SYNGAP1,ENSG00000197283,superior parietal lobule,39.8,True
+superiorparietal,named,hpa,GRIN2B,ENSG00000273079,superior parietal lobule,72.9,True
+superiorparietal,named,hpa,ARID1B,ENSG00000049618,superior parietal lobule,69.7,True
 superiorparietal,named,hpa,TBR1,ENSG00000136535,superior parietal lobule,57.3,True
-superiorparietal,named,hpa,WDFY3,ENSG00000163625,superior parietal lobule,87.4,True
-superiortemporal,named,hpa,ADNP,ENSG00000101126,superior temporal gyrus,42.5,True
-superiortemporal,named,hpa,ARID1B,ENSG00000049618,superior temporal gyrus,72.8,True
-superiortemporal,named,hpa,ASH1L,ENSG00000116539,superior temporal gyrus,44.4,True
-superiortemporal,named,hpa,CHD8,ENSG00000100888,superior temporal gyrus,30.5,True
+superiorparietal,named,hpa,NLGN3,ENSG00000196338,superior parietal lobule,55.2,True
+superiorparietal,named,hpa,MECP2,ENSG00000169057,superior parietal lobule,51.8,True
+superiorparietal,named,hpa,FOXP1,ENSG00000114861,superior parietal lobule,48.4,True
+superiorparietal,named,hpa,SCN2A,ENSG00000136531,superior parietal lobule,41.5,True
+superiorparietal,named,hpa,ASH1L,ENSG00000116539,superior parietal lobule,40.9,True
+superiorparietal,named,hpa,ADNP,ENSG00000101126,superior parietal lobule,40.8,True
+superiorparietal,named,hpa,SYNGAP1,ENSG00000197283,superior parietal lobule,39.8,True
+superiorparietal,named,hpa,CHD8,ENSG00000100888,superior parietal lobule,30.9,True
+superiorparietal,named,hpa,KMT5B,ENSG00000110066,superior parietal lobule,19.2,True
+superiorparietal,named,hpa,PTEN,ENSG00000171862,superior parietal lobule,16.8,True
+superiorparietal,named,hpa,MET,ENSG00000105976,superior parietal lobule,6.8,True
+superiortemporal,named,hpa,NRXN1,ENSG00000179915,superior temporal gyrus,319.5,True
+superiortemporal,named,hpa,SHANK3,ENSG00000251322,superior temporal gyrus,175.0,True
+superiortemporal,named,hpa,GRIN2B,ENSG00000273079,superior temporal gyrus,109.9,True
 superiortemporal,named,hpa,CNTNAP2,ENSG00000174469,superior temporal gyrus,88.1,True
 superiortemporal,named,hpa,DYRK1A,ENSG00000157540,superior temporal gyrus,81.7,True
-superiortemporal,named,hpa,FOXP1,ENSG00000114861,superior temporal gyrus,55.3,True
-superiortemporal,named,hpa,GRIN2B,ENSG00000273079,superior temporal gyrus,109.9,True
-superiortemporal,named,hpa,KMT5B,ENSG00000110066,superior temporal gyrus,18.6,True
-superiortemporal,named,hpa,MECP2,ENSG00000169057,superior temporal gyrus,49.7,True
-superiortemporal,named,hpa,MET,ENSG00000105976,superior temporal gyrus,13.7,True
-superiortemporal,named,hpa,NLGN3,ENSG00000196338,superior temporal gyrus,48.1,True
-superiortemporal,named,hpa,NRXN1,ENSG00000179915,superior temporal gyrus,319.5,True
-superiortemporal,named,hpa,POGZ,ENSG00000143442,superior temporal gyrus,79.8,True
-superiortemporal,named,hpa,PTEN,ENSG00000171862,superior temporal gyrus,19.7,True
-superiortemporal,named,hpa,SCN2A,ENSG00000136531,superior temporal gyrus,77.0,True
-superiortemporal,named,hpa,SHANK3,ENSG00000251322,superior temporal gyrus,175.0,True
-superiortemporal,named,hpa,SYNGAP1,ENSG00000197283,superior temporal gyrus,52.6,True
-superiortemporal,named,hpa,TBR1,ENSG00000136535,superior temporal gyrus,79.7,True
 superiortemporal,named,hpa,WDFY3,ENSG00000163625,superior temporal gyrus,81.6,True
-supramarginal,named,hpa,ADNP,ENSG00000101126,supramarginal gyrus,40.7,True
-supramarginal,named,hpa,ARID1B,ENSG00000049618,supramarginal gyrus,74.3,True
-supramarginal,named,hpa,ASH1L,ENSG00000116539,supramarginal gyrus,43.2,True
-supramarginal,named,hpa,CHD8,ENSG00000100888,supramarginal gyrus,30.4,True
+superiortemporal,named,hpa,POGZ,ENSG00000143442,superior temporal gyrus,79.8,True
+superiortemporal,named,hpa,TBR1,ENSG00000136535,superior temporal gyrus,79.7,True
+superiortemporal,named,hpa,SCN2A,ENSG00000136531,superior temporal gyrus,77.0,True
+superiortemporal,named,hpa,ARID1B,ENSG00000049618,superior temporal gyrus,72.8,True
+superiortemporal,named,hpa,FOXP1,ENSG00000114861,superior temporal gyrus,55.3,True
+superiortemporal,named,hpa,SYNGAP1,ENSG00000197283,superior temporal gyrus,52.6,True
+superiortemporal,named,hpa,MECP2,ENSG00000169057,superior temporal gyrus,49.7,True
+superiortemporal,named,hpa,NLGN3,ENSG00000196338,superior temporal gyrus,48.1,True
+superiortemporal,named,hpa,ASH1L,ENSG00000116539,superior temporal gyrus,44.4,True
+superiortemporal,named,hpa,ADNP,ENSG00000101126,superior temporal gyrus,42.5,True
+superiortemporal,named,hpa,CHD8,ENSG00000100888,superior temporal gyrus,30.5,True
+superiortemporal,named,hpa,PTEN,ENSG00000171862,superior temporal gyrus,19.7,True
+superiortemporal,named,hpa,KMT5B,ENSG00000110066,superior temporal gyrus,18.6,True
+superiortemporal,named,hpa,MET,ENSG00000105976,superior temporal gyrus,13.7,True
+supramarginal,named,hpa,NRXN1,ENSG00000179915,supramarginal gyrus,311.4,True
+supramarginal,named,hpa,SHANK3,ENSG00000251322,supramarginal gyrus,186.1,True
+supramarginal,named,hpa,GRIN2B,ENSG00000273079,supramarginal gyrus,95.4,True
 supramarginal,named,hpa,CNTNAP2,ENSG00000174469,supramarginal gyrus,87.9,True
 supramarginal,named,hpa,DYRK1A,ENSG00000157540,supramarginal gyrus,81.1,True
-supramarginal,named,hpa,FOXP1,ENSG00000114861,supramarginal gyrus,53.7,True
-supramarginal,named,hpa,GRIN2B,ENSG00000273079,supramarginal gyrus,95.4,True
-supramarginal,named,hpa,KMT5B,ENSG00000110066,supramarginal gyrus,19.0,True
-supramarginal,named,hpa,MECP2,ENSG00000169057,supramarginal gyrus,53.3,True
-supramarginal,named,hpa,MET,ENSG00000105976,supramarginal gyrus,12.6,True
-supramarginal,named,hpa,NLGN3,ENSG00000196338,supramarginal gyrus,45.3,True
-supramarginal,named,hpa,NRXN1,ENSG00000179915,supramarginal gyrus,311.4,True
 supramarginal,named,hpa,POGZ,ENSG00000143442,supramarginal gyrus,79.8,True
-supramarginal,named,hpa,PTEN,ENSG00000171862,supramarginal gyrus,18.2,True
-supramarginal,named,hpa,SCN2A,ENSG00000136531,supramarginal gyrus,55.6,True
-supramarginal,named,hpa,SHANK3,ENSG00000251322,supramarginal gyrus,186.1,True
-supramarginal,named,hpa,SYNGAP1,ENSG00000197283,supramarginal gyrus,46.9,True
-supramarginal,named,hpa,TBR1,ENSG00000136535,supramarginal gyrus,71.0,True
 supramarginal,named,hpa,WDFY3,ENSG00000163625,supramarginal gyrus,79.1,True
-insula,named,hpa,ADNP,ENSG00000101126,"anterior insular cortex, dorsal",41.1,True
-insula,named,hpa,ADNP,ENSG00000101126,"anterior insular cortex, ventral",43.2,True
-insula,named,hpa,ADNP,ENSG00000101126,posterior insular cortex,41.6,True
+supramarginal,named,hpa,ARID1B,ENSG00000049618,supramarginal gyrus,74.3,True
+supramarginal,named,hpa,TBR1,ENSG00000136535,supramarginal gyrus,71.0,True
+supramarginal,named,hpa,SCN2A,ENSG00000136531,supramarginal gyrus,55.6,True
+supramarginal,named,hpa,FOXP1,ENSG00000114861,supramarginal gyrus,53.7,True
+supramarginal,named,hpa,MECP2,ENSG00000169057,supramarginal gyrus,53.3,True
+supramarginal,named,hpa,SYNGAP1,ENSG00000197283,supramarginal gyrus,46.9,True
+supramarginal,named,hpa,NLGN3,ENSG00000196338,supramarginal gyrus,45.3,True
+supramarginal,named,hpa,ASH1L,ENSG00000116539,supramarginal gyrus,43.2,True
+supramarginal,named,hpa,ADNP,ENSG00000101126,supramarginal gyrus,40.7,True
+supramarginal,named,hpa,CHD8,ENSG00000100888,supramarginal gyrus,30.4,True
+supramarginal,named,hpa,KMT5B,ENSG00000110066,supramarginal gyrus,19.0,True
+supramarginal,named,hpa,PTEN,ENSG00000171862,supramarginal gyrus,18.2,True
+supramarginal,named,hpa,MET,ENSG00000105976,supramarginal gyrus,12.6,True
+insula,named,hpa,NRXN1,ENSG00000179915,"anterior insular cortex, dorsal",270.2,True
+insula,named,hpa,NRXN1,ENSG00000179915,"anterior insular cortex, ventral",292.3,True
+insula,named,hpa,NRXN1,ENSG00000179915,posterior insular cortex,334.6,True
+insula,named,hpa,SHANK3,ENSG00000251322,"anterior insular cortex, dorsal",190.6,True
+insula,named,hpa,SHANK3,ENSG00000251322,"anterior insular cortex, ventral",174.9,True
+insula,named,hpa,SHANK3,ENSG00000251322,posterior insular cortex,191.5,True
+insula,named,hpa,GRIN2B,ENSG00000273079,"anterior insular cortex, dorsal",100.3,True
+insula,named,hpa,GRIN2B,ENSG00000273079,"anterior insular cortex, ventral",107.2,True
+insula,named,hpa,GRIN2B,ENSG00000273079,posterior insular cortex,128.8,True
+insula,named,hpa,CNTNAP2,ENSG00000174469,"anterior insular cortex, dorsal",80.5,True
+insula,named,hpa,CNTNAP2,ENSG00000174469,"anterior insular cortex, ventral",101.1,True
+insula,named,hpa,CNTNAP2,ENSG00000174469,posterior insular cortex,93.3,True
+insula,named,hpa,POGZ,ENSG00000143442,"anterior insular cortex, dorsal",76.5,True
+insula,named,hpa,POGZ,ENSG00000143442,"anterior insular cortex, ventral",86.6,True
+insula,named,hpa,POGZ,ENSG00000143442,posterior insular cortex,85.3,True
+insula,named,hpa,WDFY3,ENSG00000163625,"anterior insular cortex, dorsal",78.9,True
+insula,named,hpa,WDFY3,ENSG00000163625,"anterior insular cortex, ventral",83.6,True
+insula,named,hpa,WDFY3,ENSG00000163625,posterior insular cortex,82.5,True
+insula,named,hpa,DYRK1A,ENSG00000157540,"anterior insular cortex, dorsal",76.2,True
+insula,named,hpa,DYRK1A,ENSG00000157540,"anterior insular cortex, ventral",80.6,True
+insula,named,hpa,DYRK1A,ENSG00000157540,posterior insular cortex,82.3,True
+insula,named,hpa,TBR1,ENSG00000136535,"anterior insular cortex, dorsal",51.2,True
+insula,named,hpa,TBR1,ENSG00000136535,"anterior insular cortex, ventral",71.3,True
+insula,named,hpa,TBR1,ENSG00000136535,posterior insular cortex,79.8,True
 insula,named,hpa,ARID1B,ENSG00000049618,"anterior insular cortex, dorsal",73.4,True
 insula,named,hpa,ARID1B,ENSG00000049618,"anterior insular cortex, ventral",70.5,True
 insula,named,hpa,ARID1B,ENSG00000049618,posterior insular cortex,77.6,True
+insula,named,hpa,SCN2A,ENSG00000136531,"anterior insular cortex, dorsal",52.4,True
+insula,named,hpa,SCN2A,ENSG00000136531,"anterior insular cortex, ventral",70.8,True
+insula,named,hpa,SCN2A,ENSG00000136531,posterior insular cortex,73.6,True
+insula,named,hpa,FOXP1,ENSG00000114861,"anterior insular cortex, dorsal",55.4,True
+insula,named,hpa,FOXP1,ENSG00000114861,"anterior insular cortex, ventral",52.2,True
+insula,named,hpa,FOXP1,ENSG00000114861,posterior insular cortex,61.3,True
+insula,named,hpa,SYNGAP1,ENSG00000197283,"anterior insular cortex, dorsal",53.2,True
+insula,named,hpa,SYNGAP1,ENSG00000197283,"anterior insular cortex, ventral",49.9,True
+insula,named,hpa,SYNGAP1,ENSG00000197283,posterior insular cortex,60.2,True
+insula,named,hpa,MECP2,ENSG00000169057,"anterior insular cortex, dorsal",49.1,True
+insula,named,hpa,MECP2,ENSG00000169057,"anterior insular cortex, ventral",50.9,True
+insula,named,hpa,MECP2,ENSG00000169057,posterior insular cortex,53.0,True
+insula,named,hpa,NLGN3,ENSG00000196338,"anterior insular cortex, dorsal",44.2,True
+insula,named,hpa,NLGN3,ENSG00000196338,"anterior insular cortex, ventral",47.0,True
+insula,named,hpa,NLGN3,ENSG00000196338,posterior insular cortex,48.6,True
+insula,named,hpa,ADNP,ENSG00000101126,"anterior insular cortex, dorsal",41.1,True
+insula,named,hpa,ADNP,ENSG00000101126,"anterior insular cortex, ventral",43.2,True
+insula,named,hpa,ADNP,ENSG00000101126,posterior insular cortex,41.6,True
 insula,named,hpa,ASH1L,ENSG00000116539,"anterior insular cortex, dorsal",38.9,True
 insula,named,hpa,ASH1L,ENSG00000116539,"anterior insular cortex, ventral",42.4,True
 insula,named,hpa,ASH1L,ENSG00000116539,posterior insular cortex,42.8,True
 insula,named,hpa,CHD8,ENSG00000100888,"anterior insular cortex, dorsal",30.2,True
 insula,named,hpa,CHD8,ENSG00000100888,"anterior insular cortex, ventral",29.9,True
 insula,named,hpa,CHD8,ENSG00000100888,posterior insular cortex,32.1,True
-insula,named,hpa,CNTNAP2,ENSG00000174469,"anterior insular cortex, dorsal",80.5,True
-insula,named,hpa,CNTNAP2,ENSG00000174469,"anterior insular cortex, ventral",101.1,True
-insula,named,hpa,CNTNAP2,ENSG00000174469,posterior insular cortex,93.3,True
-insula,named,hpa,DYRK1A,ENSG00000157540,"anterior insular cortex, dorsal",76.2,True
-insula,named,hpa,DYRK1A,ENSG00000157540,"anterior insular cortex, ventral",80.6,True
-insula,named,hpa,DYRK1A,ENSG00000157540,posterior insular cortex,82.3,True
-insula,named,hpa,FOXP1,ENSG00000114861,"anterior insular cortex, dorsal",55.4,True
-insula,named,hpa,FOXP1,ENSG00000114861,"anterior insular cortex, ventral",52.2,True
-insula,named,hpa,FOXP1,ENSG00000114861,posterior insular cortex,61.3,True
-insula,named,hpa,GRIN2B,ENSG00000273079,"anterior insular cortex, dorsal",100.3,True
-insula,named,hpa,GRIN2B,ENSG00000273079,"anterior insular cortex, ventral",107.2,True
-insula,named,hpa,GRIN2B,ENSG00000273079,posterior insular cortex,128.8,True
-insula,named,hpa,KMT5B,ENSG00000110066,"anterior insular cortex, dorsal",19.1,True
-insula,named,hpa,KMT5B,ENSG00000110066,"anterior insular cortex, ventral",18.8,True
-insula,named,hpa,KMT5B,ENSG00000110066,posterior insular cortex,17.8,True
-insula,named,hpa,MECP2,ENSG00000169057,"anterior insular cortex, dorsal",49.1,True
-insula,named,hpa,MECP2,ENSG00000169057,"anterior insular cortex, ventral",50.9,True
-insula,named,hpa,MECP2,ENSG00000169057,posterior insular cortex,53.0,True
-insula,named,hpa,MET,ENSG00000105976,"anterior insular cortex, dorsal",5.2,True
-insula,named,hpa,MET,ENSG00000105976,"anterior insular cortex, ventral",6.0,True
-insula,named,hpa,MET,ENSG00000105976,posterior insular cortex,7.9,True
-insula,named,hpa,NLGN3,ENSG00000196338,"anterior insular cortex, dorsal",44.2,True
-insula,named,hpa,NLGN3,ENSG00000196338,"anterior insular cortex, ventral",47.0,True
-insula,named,hpa,NLGN3,ENSG00000196338,posterior insular cortex,48.6,True
-insula,named,hpa,NRXN1,ENSG00000179915,"anterior insular cortex, dorsal",270.2,True
-insula,named,hpa,NRXN1,ENSG00000179915,"anterior insular cortex, ventral",292.3,True
-insula,named,hpa,NRXN1,ENSG00000179915,posterior insular cortex,334.6,True
-insula,named,hpa,POGZ,ENSG00000143442,"anterior insular cortex, dorsal",76.5,True
-insula,named,hpa,POGZ,ENSG00000143442,"anterior insular cortex, ventral",86.6,True
-insula,named,hpa,POGZ,ENSG00000143442,posterior insular cortex,85.3,True
 insula,named,hpa,PTEN,ENSG00000171862,"anterior insular cortex, dorsal",17.3,True
 insula,named,hpa,PTEN,ENSG00000171862,"anterior insular cortex, ventral",18.3,True
 insula,named,hpa,PTEN,ENSG00000171862,posterior insular cortex,19.5,True
-insula,named,hpa,SCN2A,ENSG00000136531,"anterior insular cortex, dorsal",52.4,True
-insula,named,hpa,SCN2A,ENSG00000136531,"anterior insular cortex, ventral",70.8,True
-insula,named,hpa,SCN2A,ENSG00000136531,posterior insular cortex,73.6,True
-insula,named,hpa,SHANK3,ENSG00000251322,"anterior insular cortex, dorsal",190.6,True
-insula,named,hpa,SHANK3,ENSG00000251322,"anterior insular cortex, ventral",174.9,True
-insula,named,hpa,SHANK3,ENSG00000251322,posterior insular cortex,191.5,True
-insula,named,hpa,SYNGAP1,ENSG00000197283,"anterior insular cortex, dorsal",53.2,True
-insula,named,hpa,SYNGAP1,ENSG00000197283,"anterior insular cortex, ventral",49.9,True
-insula,named,hpa,SYNGAP1,ENSG00000197283,posterior insular cortex,60.2,True
-insula,named,hpa,TBR1,ENSG00000136535,"anterior insular cortex, dorsal",51.2,True
-insula,named,hpa,TBR1,ENSG00000136535,"anterior insular cortex, ventral",71.3,True
-insula,named,hpa,TBR1,ENSG00000136535,posterior insular cortex,79.8,True
-insula,named,hpa,WDFY3,ENSG00000163625,"anterior insular cortex, dorsal",78.9,True
-insula,named,hpa,WDFY3,ENSG00000163625,"anterior insular cortex, ventral",83.6,True
-insula,named,hpa,WDFY3,ENSG00000163625,posterior insular cortex,82.5,True
-paracentral,named,hpa,ADNP,ENSG00000101126,"paracentral lobule, anterior",41.5,True
-paracentral,named,hpa,ADNP,ENSG00000101126,"paracentral lobule, posterior",41.6,True
-paracentral,named,hpa,ARID1B,ENSG00000049618,"paracentral lobule, anterior",71.1,True
-paracentral,named,hpa,ARID1B,ENSG00000049618,"paracentral lobule, posterior",72.4,True
-paracentral,named,hpa,ASH1L,ENSG00000116539,"paracentral lobule, anterior",41.7,True
-paracentral,named,hpa,ASH1L,ENSG00000116539,"paracentral lobule, posterior",37.6,True
-paracentral,named,hpa,CHD8,ENSG00000100888,"paracentral lobule, anterior",31.4,True
-paracentral,named,hpa,CHD8,ENSG00000100888,"paracentral lobule, posterior",29.1,True
-paracentral,named,hpa,CNTNAP2,ENSG00000174469,"paracentral lobule, anterior",92.2,True
-paracentral,named,hpa,CNTNAP2,ENSG00000174469,"paracentral lobule, posterior",70.4,True
-paracentral,named,hpa,DYRK1A,ENSG00000157540,"paracentral lobule, anterior",82.6,True
-paracentral,named,hpa,DYRK1A,ENSG00000157540,"paracentral lobule, posterior",78.4,True
-paracentral,named,hpa,FOXP1,ENSG00000114861,"paracentral lobule, anterior",47.3,True
-paracentral,named,hpa,FOXP1,ENSG00000114861,"paracentral lobule, posterior",47.7,True
-paracentral,named,hpa,GRIN2B,ENSG00000273079,"paracentral lobule, anterior",109.9,True
-paracentral,named,hpa,GRIN2B,ENSG00000273079,"paracentral lobule, posterior",83.5,True
-paracentral,named,hpa,KMT5B,ENSG00000110066,"paracentral lobule, anterior",19.3,True
-paracentral,named,hpa,KMT5B,ENSG00000110066,"paracentral lobule, posterior",18.8,True
-paracentral,named,hpa,MECP2,ENSG00000169057,"paracentral lobule, anterior",51.6,True
-paracentral,named,hpa,MECP2,ENSG00000169057,"paracentral lobule, posterior",48.7,True
-paracentral,named,hpa,MET,ENSG00000105976,"paracentral lobule, anterior",3.0,True
-paracentral,named,hpa,MET,ENSG00000105976,"paracentral lobule, posterior",2.8,True
-paracentral,named,hpa,NLGN3,ENSG00000196338,"paracentral lobule, anterior",48.0,True
-paracentral,named,hpa,NLGN3,ENSG00000196338,"paracentral lobule, posterior",49.3,True
+insula,named,hpa,KMT5B,ENSG00000110066,"anterior insular cortex, dorsal",19.1,True
+insula,named,hpa,KMT5B,ENSG00000110066,"anterior insular cortex, ventral",18.8,True
+insula,named,hpa,KMT5B,ENSG00000110066,posterior insular cortex,17.8,True
+insula,named,hpa,MET,ENSG00000105976,"anterior insular cortex, dorsal",5.2,True
+insula,named,hpa,MET,ENSG00000105976,"anterior insular cortex, ventral",6.0,True
+insula,named,hpa,MET,ENSG00000105976,posterior insular cortex,7.9,True
 paracentral,named,hpa,NRXN1,ENSG00000179915,"paracentral lobule, anterior",293.9,True
 paracentral,named,hpa,NRXN1,ENSG00000179915,"paracentral lobule, posterior",248.3,True
-paracentral,named,hpa,POGZ,ENSG00000143442,"paracentral lobule, anterior",84.5,True
-paracentral,named,hpa,POGZ,ENSG00000143442,"paracentral lobule, posterior",80.9,True
-paracentral,named,hpa,PTEN,ENSG00000171862,"paracentral lobule, anterior",18.3,True
-paracentral,named,hpa,PTEN,ENSG00000171862,"paracentral lobule, posterior",17.0,True
-paracentral,named,hpa,SCN2A,ENSG00000136531,"paracentral lobule, anterior",73.3,True
-paracentral,named,hpa,SCN2A,ENSG00000136531,"paracentral lobule, posterior",49.1,True
 paracentral,named,hpa,SHANK3,ENSG00000251322,"paracentral lobule, anterior",143.6,True
 paracentral,named,hpa,SHANK3,ENSG00000251322,"paracentral lobule, posterior",146.0,True
-paracentral,named,hpa,SYNGAP1,ENSG00000197283,"paracentral lobule, anterior",47.4,True
-paracentral,named,hpa,SYNGAP1,ENSG00000197283,"paracentral lobule, posterior",45.3,True
-paracentral,named,hpa,TBR1,ENSG00000136535,"paracentral lobule, anterior",78.3,True
-paracentral,named,hpa,TBR1,ENSG00000136535,"paracentral lobule, posterior",59.0,True
+paracentral,named,hpa,GRIN2B,ENSG00000273079,"paracentral lobule, anterior",109.9,True
+paracentral,named,hpa,GRIN2B,ENSG00000273079,"paracentral lobule, posterior",83.5,True
+paracentral,named,hpa,CNTNAP2,ENSG00000174469,"paracentral lobule, anterior",92.2,True
+paracentral,named,hpa,CNTNAP2,ENSG00000174469,"paracentral lobule, posterior",70.4,True
 paracentral,named,hpa,WDFY3,ENSG00000163625,"paracentral lobule, anterior",83.8,True
 paracentral,named,hpa,WDFY3,ENSG00000163625,"paracentral lobule, posterior",86.2,True
-transversetemporal,named,hpa,ADNP,ENSG00000101126,"transversal temporal gyrus, anterior",41.3,True
-transversetemporal,named,hpa,ADNP,ENSG00000101126,"transversal temporal gyrus, posterior",42.1,True
-transversetemporal,named,hpa,ARID1B,ENSG00000049618,"transversal temporal gyrus, anterior",75.4,True
-transversetemporal,named,hpa,ARID1B,ENSG00000049618,"transversal temporal gyrus, posterior",77.8,True
-transversetemporal,named,hpa,ASH1L,ENSG00000116539,"transversal temporal gyrus, anterior",43.6,True
-transversetemporal,named,hpa,ASH1L,ENSG00000116539,"transversal temporal gyrus, posterior",41.3,True
-transversetemporal,named,hpa,CHD8,ENSG00000100888,"transversal temporal gyrus, anterior",31.6,True
-transversetemporal,named,hpa,CHD8,ENSG00000100888,"transversal temporal gyrus, posterior",31.5,True
-transversetemporal,named,hpa,CNTNAP2,ENSG00000174469,"transversal temporal gyrus, anterior",97.1,True
-transversetemporal,named,hpa,CNTNAP2,ENSG00000174469,"transversal temporal gyrus, posterior",88.7,True
-transversetemporal,named,hpa,DYRK1A,ENSG00000157540,"transversal temporal gyrus, anterior",83.8,True
-transversetemporal,named,hpa,DYRK1A,ENSG00000157540,"transversal temporal gyrus, posterior",82.7,True
-transversetemporal,named,hpa,FOXP1,ENSG00000114861,"transversal temporal gyrus, anterior",59.0,True
-transversetemporal,named,hpa,FOXP1,ENSG00000114861,"transversal temporal gyrus, posterior",60.9,True
-transversetemporal,named,hpa,GRIN2B,ENSG00000273079,"transversal temporal gyrus, anterior",107.1,True
-transversetemporal,named,hpa,GRIN2B,ENSG00000273079,"transversal temporal gyrus, posterior",94.2,True
-transversetemporal,named,hpa,KMT5B,ENSG00000110066,"transversal temporal gyrus, anterior",19.2,True
-transversetemporal,named,hpa,KMT5B,ENSG00000110066,"transversal temporal gyrus, posterior",18.9,True
-transversetemporal,named,hpa,MECP2,ENSG00000169057,"transversal temporal gyrus, anterior",52.1,True
-transversetemporal,named,hpa,MECP2,ENSG00000169057,"transversal temporal gyrus, posterior",52.0,True
-transversetemporal,named,hpa,MET,ENSG00000105976,"transversal temporal gyrus, anterior",16.0,True
-transversetemporal,named,hpa,MET,ENSG00000105976,"transversal temporal gyrus, posterior",13.9,True
-transversetemporal,named,hpa,NLGN3,ENSG00000196338,"transversal temporal gyrus, anterior",44.5,True
-transversetemporal,named,hpa,NLGN3,ENSG00000196338,"transversal temporal gyrus, posterior",43.6,True
+paracentral,named,hpa,POGZ,ENSG00000143442,"paracentral lobule, anterior",84.5,True
+paracentral,named,hpa,POGZ,ENSG00000143442,"paracentral lobule, posterior",80.9,True
+paracentral,named,hpa,DYRK1A,ENSG00000157540,"paracentral lobule, anterior",82.6,True
+paracentral,named,hpa,DYRK1A,ENSG00000157540,"paracentral lobule, posterior",78.4,True
+paracentral,named,hpa,TBR1,ENSG00000136535,"paracentral lobule, anterior",78.3,True
+paracentral,named,hpa,TBR1,ENSG00000136535,"paracentral lobule, posterior",59.0,True
+paracentral,named,hpa,SCN2A,ENSG00000136531,"paracentral lobule, anterior",73.3,True
+paracentral,named,hpa,SCN2A,ENSG00000136531,"paracentral lobule, posterior",49.1,True
+paracentral,named,hpa,ARID1B,ENSG00000049618,"paracentral lobule, anterior",71.1,True
+paracentral,named,hpa,ARID1B,ENSG00000049618,"paracentral lobule, posterior",72.4,True
+paracentral,named,hpa,MECP2,ENSG00000169057,"paracentral lobule, anterior",51.6,True
+paracentral,named,hpa,MECP2,ENSG00000169057,"paracentral lobule, posterior",48.7,True
+paracentral,named,hpa,NLGN3,ENSG00000196338,"paracentral lobule, anterior",48.0,True
+paracentral,named,hpa,NLGN3,ENSG00000196338,"paracentral lobule, posterior",49.3,True
+paracentral,named,hpa,FOXP1,ENSG00000114861,"paracentral lobule, anterior",47.3,True
+paracentral,named,hpa,FOXP1,ENSG00000114861,"paracentral lobule, posterior",47.7,True
+paracentral,named,hpa,SYNGAP1,ENSG00000197283,"paracentral lobule, anterior",47.4,True
+paracentral,named,hpa,SYNGAP1,ENSG00000197283,"paracentral lobule, posterior",45.3,True
+paracentral,named,hpa,ASH1L,ENSG00000116539,"paracentral lobule, anterior",41.7,True
+paracentral,named,hpa,ASH1L,ENSG00000116539,"paracentral lobule, posterior",37.6,True
+paracentral,named,hpa,ADNP,ENSG00000101126,"paracentral lobule, anterior",41.5,True
+paracentral,named,hpa,ADNP,ENSG00000101126,"paracentral lobule, posterior",41.6,True
+paracentral,named,hpa,CHD8,ENSG00000100888,"paracentral lobule, anterior",31.4,True
+paracentral,named,hpa,CHD8,ENSG00000100888,"paracentral lobule, posterior",29.1,True
+paracentral,named,hpa,KMT5B,ENSG00000110066,"paracentral lobule, anterior",19.3,True
+paracentral,named,hpa,KMT5B,ENSG00000110066,"paracentral lobule, posterior",18.8,True
+paracentral,named,hpa,PTEN,ENSG00000171862,"paracentral lobule, anterior",18.3,True
+paracentral,named,hpa,PTEN,ENSG00000171862,"paracentral lobule, posterior",17.0,True
+paracentral,named,hpa,MET,ENSG00000105976,"paracentral lobule, anterior",3.0,True
+paracentral,named,hpa,MET,ENSG00000105976,"paracentral lobule, posterior",2.8,True
 transversetemporal,named,hpa,NRXN1,ENSG00000179915,"transversal temporal gyrus, anterior",309.5,True
 transversetemporal,named,hpa,NRXN1,ENSG00000179915,"transversal temporal gyrus, posterior",288.8,True
-transversetemporal,named,hpa,POGZ,ENSG00000143442,"transversal temporal gyrus, anterior",80.9,True
-transversetemporal,named,hpa,POGZ,ENSG00000143442,"transversal temporal gyrus, posterior",84.5,True
-transversetemporal,named,hpa,PTEN,ENSG00000171862,"transversal temporal gyrus, anterior",19.4,True
-transversetemporal,named,hpa,PTEN,ENSG00000171862,"transversal temporal gyrus, posterior",18.3,True
-transversetemporal,named,hpa,SCN2A,ENSG00000136531,"transversal temporal gyrus, anterior",72.3,True
-transversetemporal,named,hpa,SCN2A,ENSG00000136531,"transversal temporal gyrus, posterior",55.0,True
 transversetemporal,named,hpa,SHANK3,ENSG00000251322,"transversal temporal gyrus, anterior",169.7,True
 transversetemporal,named,hpa,SHANK3,ENSG00000251322,"transversal temporal gyrus, posterior",151.1,True
-transversetemporal,named,hpa,SYNGAP1,ENSG00000197283,"transversal temporal gyrus, anterior",48.5,True
-transversetemporal,named,hpa,SYNGAP1,ENSG00000197283,"transversal temporal gyrus, posterior",47.9,True
-transversetemporal,named,hpa,TBR1,ENSG00000136535,"transversal temporal gyrus, anterior",84.3,True
-transversetemporal,named,hpa,TBR1,ENSG00000136535,"transversal temporal gyrus, posterior",75.6,True
+transversetemporal,named,hpa,GRIN2B,ENSG00000273079,"transversal temporal gyrus, anterior",107.1,True
+transversetemporal,named,hpa,GRIN2B,ENSG00000273079,"transversal temporal gyrus, posterior",94.2,True
+transversetemporal,named,hpa,CNTNAP2,ENSG00000174469,"transversal temporal gyrus, anterior",97.1,True
+transversetemporal,named,hpa,CNTNAP2,ENSG00000174469,"transversal temporal gyrus, posterior",88.7,True
+transversetemporal,named,hpa,POGZ,ENSG00000143442,"transversal temporal gyrus, anterior",80.9,True
+transversetemporal,named,hpa,POGZ,ENSG00000143442,"transversal temporal gyrus, posterior",84.5,True
 transversetemporal,named,hpa,WDFY3,ENSG00000163625,"transversal temporal gyrus, anterior",84.4,True
 transversetemporal,named,hpa,WDFY3,ENSG00000163625,"transversal temporal gyrus, posterior",84.5,True
-isthmuscingulate,related,hpa,ADNP,ENSG00000101126,retrosplenial cortex,41.4,True
-isthmuscingulate,related,hpa,ARID1B,ENSG00000049618,retrosplenial cortex,75.9,True
-isthmuscingulate,related,hpa,ASH1L,ENSG00000116539,retrosplenial cortex,44.7,True
-isthmuscingulate,related,hpa,CHD8,ENSG00000100888,retrosplenial cortex,30.2,True
-isthmuscingulate,related,hpa,CNTNAP2,ENSG00000174469,retrosplenial cortex,65.5,True
-isthmuscingulate,related,hpa,DYRK1A,ENSG00000157540,retrosplenial cortex,83.5,True
-isthmuscingulate,related,hpa,FOXP1,ENSG00000114861,retrosplenial cortex,40.8,True
-isthmuscingulate,related,hpa,GRIN2B,ENSG00000273079,retrosplenial cortex,99.0,True
-isthmuscingulate,related,hpa,KMT5B,ENSG00000110066,retrosplenial cortex,19.7,True
-isthmuscingulate,related,hpa,MECP2,ENSG00000169057,retrosplenial cortex,49.8,True
-isthmuscingulate,related,hpa,MET,ENSG00000105976,retrosplenial cortex,13.2,True
-isthmuscingulate,related,hpa,NLGN3,ENSG00000196338,retrosplenial cortex,45.3,True
+transversetemporal,named,hpa,TBR1,ENSG00000136535,"transversal temporal gyrus, anterior",84.3,True
+transversetemporal,named,hpa,TBR1,ENSG00000136535,"transversal temporal gyrus, posterior",75.6,True
+transversetemporal,named,hpa,DYRK1A,ENSG00000157540,"transversal temporal gyrus, anterior",83.8,True
+transversetemporal,named,hpa,DYRK1A,ENSG00000157540,"transversal temporal gyrus, posterior",82.7,True
+transversetemporal,named,hpa,ARID1B,ENSG00000049618,"transversal temporal gyrus, anterior",75.4,True
+transversetemporal,named,hpa,ARID1B,ENSG00000049618,"transversal temporal gyrus, posterior",77.8,True
+transversetemporal,named,hpa,SCN2A,ENSG00000136531,"transversal temporal gyrus, anterior",72.3,True
+transversetemporal,named,hpa,SCN2A,ENSG00000136531,"transversal temporal gyrus, posterior",55.0,True
+transversetemporal,named,hpa,FOXP1,ENSG00000114861,"transversal temporal gyrus, anterior",59.0,True
+transversetemporal,named,hpa,FOXP1,ENSG00000114861,"transversal temporal gyrus, posterior",60.9,True
+transversetemporal,named,hpa,MECP2,ENSG00000169057,"transversal temporal gyrus, anterior",52.1,True
+transversetemporal,named,hpa,MECP2,ENSG00000169057,"transversal temporal gyrus, posterior",52.0,True
+transversetemporal,named,hpa,SYNGAP1,ENSG00000197283,"transversal temporal gyrus, anterior",48.5,True
+transversetemporal,named,hpa,SYNGAP1,ENSG00000197283,"transversal temporal gyrus, posterior",47.9,True
+transversetemporal,named,hpa,NLGN3,ENSG00000196338,"transversal temporal gyrus, anterior",44.5,True
+transversetemporal,named,hpa,NLGN3,ENSG00000196338,"transversal temporal gyrus, posterior",43.6,True
+transversetemporal,named,hpa,ASH1L,ENSG00000116539,"transversal temporal gyrus, anterior",43.6,True
+transversetemporal,named,hpa,ASH1L,ENSG00000116539,"transversal temporal gyrus, posterior",41.3,True
+transversetemporal,named,hpa,ADNP,ENSG00000101126,"transversal temporal gyrus, anterior",41.3,True
+transversetemporal,named,hpa,ADNP,ENSG00000101126,"transversal temporal gyrus, posterior",42.1,True
+transversetemporal,named,hpa,CHD8,ENSG00000100888,"transversal temporal gyrus, anterior",31.6,True
+transversetemporal,named,hpa,CHD8,ENSG00000100888,"transversal temporal gyrus, posterior",31.5,True
+transversetemporal,named,hpa,PTEN,ENSG00000171862,"transversal temporal gyrus, anterior",19.4,True
+transversetemporal,named,hpa,PTEN,ENSG00000171862,"transversal temporal gyrus, posterior",18.3,True
+transversetemporal,named,hpa,KMT5B,ENSG00000110066,"transversal temporal gyrus, anterior",19.2,True
+transversetemporal,named,hpa,KMT5B,ENSG00000110066,"transversal temporal gyrus, posterior",18.9,True
+transversetemporal,named,hpa,MET,ENSG00000105976,"transversal temporal gyrus, anterior",16.0,True
+transversetemporal,named,hpa,MET,ENSG00000105976,"transversal temporal gyrus, posterior",13.9,True
 isthmuscingulate,related,hpa,NRXN1,ENSG00000179915,retrosplenial cortex,209.7,True
-isthmuscingulate,related,hpa,POGZ,ENSG00000143442,retrosplenial cortex,68.4,True
-isthmuscingulate,related,hpa,PTEN,ENSG00000171862,retrosplenial cortex,19.3,True
-isthmuscingulate,related,hpa,SCN2A,ENSG00000136531,retrosplenial cortex,46.7,True
 isthmuscingulate,related,hpa,SHANK3,ENSG00000251322,retrosplenial cortex,207.7,True
-isthmuscingulate,related,hpa,SYNGAP1,ENSG00000197283,retrosplenial cortex,56.2,True
-isthmuscingulate,related,hpa,TBR1,ENSG00000136535,retrosplenial cortex,41.2,True
+isthmuscingulate,related,hpa,GRIN2B,ENSG00000273079,retrosplenial cortex,99.0,True
+isthmuscingulate,related,hpa,DYRK1A,ENSG00000157540,retrosplenial cortex,83.5,True
 isthmuscingulate,related,hpa,WDFY3,ENSG00000163625,retrosplenial cortex,79.9,True
-lateralorbitofrontal,named,pfc,ADNP,ENSG00000101126,"orbitofrontal gyrus, lateral",18.4,True
-lateralorbitofrontal,named,pfc,ARID1B,ENSG00000049618,"orbitofrontal gyrus, lateral",7.5,True
-lateralorbitofrontal,named,pfc,ASH1L,ENSG00000116539,"orbitofrontal gyrus, lateral",12.5,True
-lateralorbitofrontal,named,pfc,CHD8,ENSG00000100888,"orbitofrontal gyrus, lateral",8.1,True
-lateralorbitofrontal,named,pfc,CNTNAP2,ENSG00000174469,"orbitofrontal gyrus, lateral",3.8,True
-lateralorbitofrontal,named,pfc,DYRK1A,ENSG00000157540,"orbitofrontal gyrus, lateral",10.6,True
-lateralorbitofrontal,named,pfc,FOXP1,ENSG00000114861,"orbitofrontal gyrus, lateral",6.5,True
-lateralorbitofrontal,named,pfc,GRIN2B,ENSG00000273079,"orbitofrontal gyrus, lateral",1.0,True
-lateralorbitofrontal,named,pfc,KMT5B,ENSG00000110066,"orbitofrontal gyrus, lateral",7.9,True
-lateralorbitofrontal,named,pfc,MECP2,ENSG00000169057,"orbitofrontal gyrus, lateral",8.7,True
-lateralorbitofrontal,named,pfc,MET,ENSG00000105976,"orbitofrontal gyrus, lateral",1.0,True
-lateralorbitofrontal,named,pfc,NLGN3,ENSG00000196338,"orbitofrontal gyrus, lateral",8.1,True
-lateralorbitofrontal,named,pfc,NRXN1,ENSG00000179915,"orbitofrontal gyrus, lateral",19.5,True
-lateralorbitofrontal,named,pfc,POGZ,ENSG00000143442,"orbitofrontal gyrus, lateral",20.1,True
-lateralorbitofrontal,named,pfc,PTEN,ENSG00000171862,"orbitofrontal gyrus, lateral",9.8,True
-lateralorbitofrontal,named,pfc,SCN2A,ENSG00000136531,"orbitofrontal gyrus, lateral",8.1,True
+isthmuscingulate,related,hpa,ARID1B,ENSG00000049618,retrosplenial cortex,75.9,True
+isthmuscingulate,related,hpa,POGZ,ENSG00000143442,retrosplenial cortex,68.4,True
+isthmuscingulate,related,hpa,CNTNAP2,ENSG00000174469,retrosplenial cortex,65.5,True
+isthmuscingulate,related,hpa,SYNGAP1,ENSG00000197283,retrosplenial cortex,56.2,True
+isthmuscingulate,related,hpa,MECP2,ENSG00000169057,retrosplenial cortex,49.8,True
+isthmuscingulate,related,hpa,SCN2A,ENSG00000136531,retrosplenial cortex,46.7,True
+isthmuscingulate,related,hpa,NLGN3,ENSG00000196338,retrosplenial cortex,45.3,True
+isthmuscingulate,related,hpa,ASH1L,ENSG00000116539,retrosplenial cortex,44.7,True
+isthmuscingulate,related,hpa,ADNP,ENSG00000101126,retrosplenial cortex,41.4,True
+isthmuscingulate,related,hpa,TBR1,ENSG00000136535,retrosplenial cortex,41.2,True
+isthmuscingulate,related,hpa,FOXP1,ENSG00000114861,retrosplenial cortex,40.8,True
+isthmuscingulate,related,hpa,CHD8,ENSG00000100888,retrosplenial cortex,30.2,True
+isthmuscingulate,related,hpa,KMT5B,ENSG00000110066,retrosplenial cortex,19.7,True
+isthmuscingulate,related,hpa,PTEN,ENSG00000171862,retrosplenial cortex,19.3,True
+isthmuscingulate,related,hpa,MET,ENSG00000105976,retrosplenial cortex,13.2,True
 lateralorbitofrontal,named,pfc,SHANK3,ENSG00000251322,"orbitofrontal gyrus, lateral",27.1,True
+lateralorbitofrontal,named,pfc,POGZ,ENSG00000143442,"orbitofrontal gyrus, lateral",20.1,True
+lateralorbitofrontal,named,pfc,NRXN1,ENSG00000179915,"orbitofrontal gyrus, lateral",19.5,True
+lateralorbitofrontal,named,pfc,ADNP,ENSG00000101126,"orbitofrontal gyrus, lateral",18.4,True
+lateralorbitofrontal,named,pfc,ASH1L,ENSG00000116539,"orbitofrontal gyrus, lateral",12.5,True
 lateralorbitofrontal,named,pfc,SYNGAP1,ENSG00000197283,"orbitofrontal gyrus, lateral",12.2,True
 lateralorbitofrontal,named,pfc,TBR1,ENSG00000136535,"orbitofrontal gyrus, lateral",11.7,True
+lateralorbitofrontal,named,pfc,DYRK1A,ENSG00000157540,"orbitofrontal gyrus, lateral",10.6,True
+lateralorbitofrontal,named,pfc,PTEN,ENSG00000171862,"orbitofrontal gyrus, lateral",9.8,True
+lateralorbitofrontal,named,pfc,MECP2,ENSG00000169057,"orbitofrontal gyrus, lateral",8.7,True
+lateralorbitofrontal,named,pfc,CHD8,ENSG00000100888,"orbitofrontal gyrus, lateral",8.1,True
+lateralorbitofrontal,named,pfc,NLGN3,ENSG00000196338,"orbitofrontal gyrus, lateral",8.1,True
+lateralorbitofrontal,named,pfc,SCN2A,ENSG00000136531,"orbitofrontal gyrus, lateral",8.1,True
+lateralorbitofrontal,named,pfc,KMT5B,ENSG00000110066,"orbitofrontal gyrus, lateral",7.9,True
+lateralorbitofrontal,named,pfc,ARID1B,ENSG00000049618,"orbitofrontal gyrus, lateral",7.5,True
+lateralorbitofrontal,named,pfc,FOXP1,ENSG00000114861,"orbitofrontal gyrus, lateral",6.5,True
 lateralorbitofrontal,named,pfc,WDFY3,ENSG00000163625,"orbitofrontal gyrus, lateral",6.0,True
-medialorbitofrontal,named,pfc,ADNP,ENSG00000101126,"orbitofrontal gyrus, medial",24.1,True
-medialorbitofrontal,named,pfc,ARID1B,ENSG00000049618,"orbitofrontal gyrus, medial",9.5,True
-medialorbitofrontal,named,pfc,ASH1L,ENSG00000116539,"orbitofrontal gyrus, medial",16.6,True
-medialorbitofrontal,named,pfc,CHD8,ENSG00000100888,"orbitofrontal gyrus, medial",7.6,True
-medialorbitofrontal,named,pfc,CNTNAP2,ENSG00000174469,"orbitofrontal gyrus, medial",1.4,True
-medialorbitofrontal,named,pfc,DYRK1A,ENSG00000157540,"orbitofrontal gyrus, medial",12.7,True
-medialorbitofrontal,named,pfc,FOXP1,ENSG00000114861,"orbitofrontal gyrus, medial",6.7,True
-medialorbitofrontal,named,pfc,GRIN2B,ENSG00000273079,"orbitofrontal gyrus, medial",0.8,False
-medialorbitofrontal,named,pfc,KMT5B,ENSG00000110066,"orbitofrontal gyrus, medial",11.8,True
-medialorbitofrontal,named,pfc,MECP2,ENSG00000169057,"orbitofrontal gyrus, medial",6.8,True
-medialorbitofrontal,named,pfc,MET,ENSG00000105976,"orbitofrontal gyrus, medial",0.9,False
-medialorbitofrontal,named,pfc,NLGN3,ENSG00000196338,"orbitofrontal gyrus, medial",5.9,True
+lateralorbitofrontal,named,pfc,CNTNAP2,ENSG00000174469,"orbitofrontal gyrus, lateral",3.8,True
+lateralorbitofrontal,named,pfc,GRIN2B,ENSG00000273079,"orbitofrontal gyrus, lateral",1.0,True
+lateralorbitofrontal,named,pfc,MET,ENSG00000105976,"orbitofrontal gyrus, lateral",1.0,True
 medialorbitofrontal,named,pfc,NRXN1,ENSG00000179915,"orbitofrontal gyrus, medial",24.7,True
+medialorbitofrontal,named,pfc,ADNP,ENSG00000101126,"orbitofrontal gyrus, medial",24.1,True
 medialorbitofrontal,named,pfc,POGZ,ENSG00000143442,"orbitofrontal gyrus, medial",23.8,True
+medialorbitofrontal,named,pfc,ASH1L,ENSG00000116539,"orbitofrontal gyrus, medial",16.6,True
 medialorbitofrontal,named,pfc,PTEN,ENSG00000171862,"orbitofrontal gyrus, medial",13.5,True
-medialorbitofrontal,named,pfc,SCN2A,ENSG00000136531,"orbitofrontal gyrus, medial",8.4,True
+medialorbitofrontal,named,pfc,DYRK1A,ENSG00000157540,"orbitofrontal gyrus, medial",12.7,True
 medialorbitofrontal,named,pfc,SHANK3,ENSG00000251322,"orbitofrontal gyrus, medial",12.5,True
-medialorbitofrontal,named,pfc,SYNGAP1,ENSG00000197283,"orbitofrontal gyrus, medial",9.2,True
+medialorbitofrontal,named,pfc,KMT5B,ENSG00000110066,"orbitofrontal gyrus, medial",11.8,True
 medialorbitofrontal,named,pfc,TBR1,ENSG00000136535,"orbitofrontal gyrus, medial",10.9,True
+medialorbitofrontal,named,pfc,ARID1B,ENSG00000049618,"orbitofrontal gyrus, medial",9.5,True
 medialorbitofrontal,named,pfc,WDFY3,ENSG00000163625,"orbitofrontal gyrus, medial",9.3,True
-parsorbitalis,named,pfc,ADNP,ENSG00000101126,"inferior frontal gyrus, orbital",17.8,True
-parsorbitalis,named,pfc,ARID1B,ENSG00000049618,"inferior frontal gyrus, orbital",8.3,True
-parsorbitalis,named,pfc,ASH1L,ENSG00000116539,"inferior frontal gyrus, orbital",12.1,True
-parsorbitalis,named,pfc,CHD8,ENSG00000100888,"inferior frontal gyrus, orbital",6.8,True
-parsorbitalis,named,pfc,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, orbital",4.0,True
-parsorbitalis,named,pfc,DYRK1A,ENSG00000157540,"inferior frontal gyrus, orbital",9.5,True
-parsorbitalis,named,pfc,FOXP1,ENSG00000114861,"inferior frontal gyrus, orbital",5.7,True
-parsorbitalis,named,pfc,GRIN2B,ENSG00000273079,"inferior frontal gyrus, orbital",0.9,False
-parsorbitalis,named,pfc,KMT5B,ENSG00000110066,"inferior frontal gyrus, orbital",8.8,True
-parsorbitalis,named,pfc,MECP2,ENSG00000169057,"inferior frontal gyrus, orbital",8.0,True
-parsorbitalis,named,pfc,MET,ENSG00000105976,"inferior frontal gyrus, orbital",0.9,False
-parsorbitalis,named,pfc,NLGN3,ENSG00000196338,"inferior frontal gyrus, orbital",7.7,True
-parsorbitalis,named,pfc,NRXN1,ENSG00000179915,"inferior frontal gyrus, orbital",20.1,True
-parsorbitalis,named,pfc,POGZ,ENSG00000143442,"inferior frontal gyrus, orbital",17.6,True
-parsorbitalis,named,pfc,PTEN,ENSG00000171862,"inferior frontal gyrus, orbital",9.8,True
-parsorbitalis,named,pfc,SCN2A,ENSG00000136531,"inferior frontal gyrus, orbital",8.3,True
+medialorbitofrontal,named,pfc,SYNGAP1,ENSG00000197283,"orbitofrontal gyrus, medial",9.2,True
+medialorbitofrontal,named,pfc,SCN2A,ENSG00000136531,"orbitofrontal gyrus, medial",8.4,True
+medialorbitofrontal,named,pfc,CHD8,ENSG00000100888,"orbitofrontal gyrus, medial",7.6,True
+medialorbitofrontal,named,pfc,MECP2,ENSG00000169057,"orbitofrontal gyrus, medial",6.8,True
+medialorbitofrontal,named,pfc,FOXP1,ENSG00000114861,"orbitofrontal gyrus, medial",6.7,True
+medialorbitofrontal,named,pfc,NLGN3,ENSG00000196338,"orbitofrontal gyrus, medial",5.9,True
+medialorbitofrontal,named,pfc,CNTNAP2,ENSG00000174469,"orbitofrontal gyrus, medial",1.4,True
+medialorbitofrontal,named,pfc,MET,ENSG00000105976,"orbitofrontal gyrus, medial",0.9,False
+medialorbitofrontal,named,pfc,GRIN2B,ENSG00000273079,"orbitofrontal gyrus, medial",0.8,False
 parsorbitalis,named,pfc,SHANK3,ENSG00000251322,"inferior frontal gyrus, orbital",26.6,True
+parsorbitalis,named,pfc,NRXN1,ENSG00000179915,"inferior frontal gyrus, orbital",20.1,True
+parsorbitalis,named,pfc,ADNP,ENSG00000101126,"inferior frontal gyrus, orbital",17.8,True
+parsorbitalis,named,pfc,POGZ,ENSG00000143442,"inferior frontal gyrus, orbital",17.6,True
+parsorbitalis,named,pfc,ASH1L,ENSG00000116539,"inferior frontal gyrus, orbital",12.1,True
 parsorbitalis,named,pfc,SYNGAP1,ENSG00000197283,"inferior frontal gyrus, orbital",11.3,True
 parsorbitalis,named,pfc,TBR1,ENSG00000136535,"inferior frontal gyrus, orbital",10.5,True
+parsorbitalis,named,pfc,PTEN,ENSG00000171862,"inferior frontal gyrus, orbital",9.8,True
+parsorbitalis,named,pfc,DYRK1A,ENSG00000157540,"inferior frontal gyrus, orbital",9.5,True
+parsorbitalis,named,pfc,KMT5B,ENSG00000110066,"inferior frontal gyrus, orbital",8.8,True
+parsorbitalis,named,pfc,ARID1B,ENSG00000049618,"inferior frontal gyrus, orbital",8.3,True
+parsorbitalis,named,pfc,SCN2A,ENSG00000136531,"inferior frontal gyrus, orbital",8.3,True
+parsorbitalis,named,pfc,MECP2,ENSG00000169057,"inferior frontal gyrus, orbital",8.0,True
+parsorbitalis,named,pfc,NLGN3,ENSG00000196338,"inferior frontal gyrus, orbital",7.7,True
+parsorbitalis,named,pfc,CHD8,ENSG00000100888,"inferior frontal gyrus, orbital",6.8,True
 parsorbitalis,named,pfc,WDFY3,ENSG00000163625,"inferior frontal gyrus, orbital",6.5,True
-parstriangularis,named,pfc,ADNP,ENSG00000101126,"inferior frontal gyrus, triangular",19.0,True
-parstriangularis,named,pfc,ARID1B,ENSG00000049618,"inferior frontal gyrus, triangular",7.6,True
-parstriangularis,named,pfc,ASH1L,ENSG00000116539,"inferior frontal gyrus, triangular",12.0,True
-parstriangularis,named,pfc,CHD8,ENSG00000100888,"inferior frontal gyrus, triangular",7.4,True
-parstriangularis,named,pfc,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, triangular",3.6,True
-parstriangularis,named,pfc,DYRK1A,ENSG00000157540,"inferior frontal gyrus, triangular",10.3,True
-parstriangularis,named,pfc,FOXP1,ENSG00000114861,"inferior frontal gyrus, triangular",5.6,True
-parstriangularis,named,pfc,GRIN2B,ENSG00000273079,"inferior frontal gyrus, triangular",1.2,True
-parstriangularis,named,pfc,KMT5B,ENSG00000110066,"inferior frontal gyrus, triangular",7.7,True
-parstriangularis,named,pfc,MECP2,ENSG00000169057,"inferior frontal gyrus, triangular",8.6,True
-parstriangularis,named,pfc,MET,ENSG00000105976,"inferior frontal gyrus, triangular",0.8,False
-parstriangularis,named,pfc,NLGN3,ENSG00000196338,"inferior frontal gyrus, triangular",7.9,True
-parstriangularis,named,pfc,NRXN1,ENSG00000179915,"inferior frontal gyrus, triangular",19.0,True
-parstriangularis,named,pfc,POGZ,ENSG00000143442,"inferior frontal gyrus, triangular",20.4,True
-parstriangularis,named,pfc,PTEN,ENSG00000171862,"inferior frontal gyrus, triangular",9.2,True
-parstriangularis,named,pfc,SCN2A,ENSG00000136531,"inferior frontal gyrus, triangular",9.1,True
+parsorbitalis,named,pfc,FOXP1,ENSG00000114861,"inferior frontal gyrus, orbital",5.7,True
+parsorbitalis,named,pfc,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, orbital",4.0,True
+parsorbitalis,named,pfc,GRIN2B,ENSG00000273079,"inferior frontal gyrus, orbital",0.9,False
+parsorbitalis,named,pfc,MET,ENSG00000105976,"inferior frontal gyrus, orbital",0.9,False
 parstriangularis,named,pfc,SHANK3,ENSG00000251322,"inferior frontal gyrus, triangular",27.2,True
+parstriangularis,named,pfc,POGZ,ENSG00000143442,"inferior frontal gyrus, triangular",20.4,True
+parstriangularis,named,pfc,ADNP,ENSG00000101126,"inferior frontal gyrus, triangular",19.0,True
+parstriangularis,named,pfc,NRXN1,ENSG00000179915,"inferior frontal gyrus, triangular",19.0,True
 parstriangularis,named,pfc,SYNGAP1,ENSG00000197283,"inferior frontal gyrus, triangular",13.1,True
 parstriangularis,named,pfc,TBR1,ENSG00000136535,"inferior frontal gyrus, triangular",12.4,True
+parstriangularis,named,pfc,ASH1L,ENSG00000116539,"inferior frontal gyrus, triangular",12.0,True
+parstriangularis,named,pfc,DYRK1A,ENSG00000157540,"inferior frontal gyrus, triangular",10.3,True
+parstriangularis,named,pfc,PTEN,ENSG00000171862,"inferior frontal gyrus, triangular",9.2,True
+parstriangularis,named,pfc,SCN2A,ENSG00000136531,"inferior frontal gyrus, triangular",9.1,True
+parstriangularis,named,pfc,MECP2,ENSG00000169057,"inferior frontal gyrus, triangular",8.6,True
+parstriangularis,named,pfc,NLGN3,ENSG00000196338,"inferior frontal gyrus, triangular",7.9,True
+parstriangularis,named,pfc,KMT5B,ENSG00000110066,"inferior frontal gyrus, triangular",7.7,True
+parstriangularis,named,pfc,ARID1B,ENSG00000049618,"inferior frontal gyrus, triangular",7.6,True
+parstriangularis,named,pfc,CHD8,ENSG00000100888,"inferior frontal gyrus, triangular",7.4,True
 parstriangularis,named,pfc,WDFY3,ENSG00000163625,"inferior frontal gyrus, triangular",6.3,True
-superiorfrontal,named,pfc,ADNP,ENSG00000101126,superior frontal gyrus,22.4,True
-superiorfrontal,named,pfc,ARID1B,ENSG00000049618,superior frontal gyrus,8.9,True
-superiorfrontal,named,pfc,ASH1L,ENSG00000116539,superior frontal gyrus,16.5,True
-superiorfrontal,named,pfc,CHD8,ENSG00000100888,superior frontal gyrus,7.7,True
-superiorfrontal,named,pfc,CNTNAP2,ENSG00000174469,superior frontal gyrus,3.6,True
-superiorfrontal,named,pfc,DYRK1A,ENSG00000157540,superior frontal gyrus,13.0,True
-superiorfrontal,named,pfc,FOXP1,ENSG00000114861,superior frontal gyrus,7.0,True
-superiorfrontal,named,pfc,GRIN2B,ENSG00000273079,superior frontal gyrus,1.2,True
-superiorfrontal,named,pfc,KMT5B,ENSG00000110066,superior frontal gyrus,10.3,True
-superiorfrontal,named,pfc,MECP2,ENSG00000169057,superior frontal gyrus,7.5,True
-superiorfrontal,named,pfc,MET,ENSG00000105976,superior frontal gyrus,0.7,False
-superiorfrontal,named,pfc,NLGN3,ENSG00000196338,superior frontal gyrus,4.4,True
+parstriangularis,named,pfc,FOXP1,ENSG00000114861,"inferior frontal gyrus, triangular",5.6,True
+parstriangularis,named,pfc,CNTNAP2,ENSG00000174469,"inferior frontal gyrus, triangular",3.6,True
+parstriangularis,named,pfc,GRIN2B,ENSG00000273079,"inferior frontal gyrus, triangular",1.2,True
+parstriangularis,named,pfc,MET,ENSG00000105976,"inferior frontal gyrus, triangular",0.8,False
 superiorfrontal,named,pfc,NRXN1,ENSG00000179915,superior frontal gyrus,28.2,True
 superiorfrontal,named,pfc,POGZ,ENSG00000143442,superior frontal gyrus,22.5,True
+superiorfrontal,named,pfc,ADNP,ENSG00000101126,superior frontal gyrus,22.4,True
+superiorfrontal,named,pfc,SHANK3,ENSG00000251322,superior frontal gyrus,17.8,True
+superiorfrontal,named,pfc,ASH1L,ENSG00000116539,superior frontal gyrus,16.5,True
+superiorfrontal,named,pfc,TBR1,ENSG00000136535,superior frontal gyrus,15.8,True
+superiorfrontal,named,pfc,DYRK1A,ENSG00000157540,superior frontal gyrus,13.0,True
 superiorfrontal,named,pfc,PTEN,ENSG00000171862,superior frontal gyrus,12.9,True
 superiorfrontal,named,pfc,SCN2A,ENSG00000136531,superior frontal gyrus,11.6,True
-superiorfrontal,named,pfc,SHANK3,ENSG00000251322,superior frontal gyrus,17.8,True
 superiorfrontal,named,pfc,SYNGAP1,ENSG00000197283,superior frontal gyrus,10.9,True
-superiorfrontal,named,pfc,TBR1,ENSG00000136535,superior frontal gyrus,15.8,True
+superiorfrontal,named,pfc,KMT5B,ENSG00000110066,superior frontal gyrus,10.3,True
+superiorfrontal,named,pfc,ARID1B,ENSG00000049618,superior frontal gyrus,8.9,True
 superiorfrontal,named,pfc,WDFY3,ENSG00000163625,superior frontal gyrus,8.2,True
+superiorfrontal,named,pfc,CHD8,ENSG00000100888,superior frontal gyrus,7.7,True
+superiorfrontal,named,pfc,MECP2,ENSG00000169057,superior frontal gyrus,7.5,True
+superiorfrontal,named,pfc,FOXP1,ENSG00000114861,superior frontal gyrus,7.0,True
+superiorfrontal,named,pfc,NLGN3,ENSG00000196338,superior frontal gyrus,4.4,True
+superiorfrontal,named,pfc,CNTNAP2,ENSG00000174469,superior frontal gyrus,3.6,True
+superiorfrontal,named,pfc,GRIN2B,ENSG00000273079,superior frontal gyrus,1.2,True
+superiorfrontal,named,pfc,MET,ENSG00000105976,superior frontal gyrus,0.7,False

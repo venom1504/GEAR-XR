@@ -841,31 +841,31 @@
       "top": [
         {
           "gene": "TBR1",
-          "regionalMean": 105.0,
-          "otherAreaMean": 24.375,
-          "enrichment": 4.3076923076923075,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
-          "study": "hpa",
-          "score": 1
-        },
-        {
-          "gene": "GRIN2B",
-          "regionalMean": 129.6,
-          "otherAreaMean": 52.7703125,
-          "enrichment": 2.4559263316850735,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
+          "regionalMean": 85.175,
+          "otherAreaMean": 23.514814814814816,
+          "enrichment": 3.6221845959993697,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
           "study": "hpa",
           "score": 1
         },
         {
           "gene": "SCN2A",
-          "regionalMean": 80.7,
-          "otherAreaMean": 33.0125,
-          "enrichment": 2.444528587656191,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
+          "regionalMean": 65.725,
+          "otherAreaMean": 32.57248677248677,
+          "enrichment": 2.017807251226406,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 102.32499999999999,
+          "otherAreaMean": 52.128042328042326,
+          "enrichment": 1.9629549745234565,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
           "study": "hpa",
           "score": 1
         }
@@ -907,37 +907,37 @@
       ]
     },
     "precentral": {
-      "eligibleCount": 6,
+      "eligibleCount": 7,
       "top": [
         {
           "gene": "TBR1",
-          "regionalMean": 73.0,
-          "otherAreaMean": 24.541666666666668,
-          "enrichment": 2.9745331069609504,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
+          "regionalMean": 70.30000000000001,
+          "otherAreaMean": 23.82962962962963,
+          "enrichment": 2.950108797015854,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 100.5,
+          "otherAreaMean": 52.166666666666664,
+          "enrichment": 1.926517571884984,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
           "study": "hpa",
           "score": 1
         },
         {
           "gene": "CNTNAP2",
-          "regionalMean": 115.5,
-          "otherAreaMean": 54.38645833333333,
-          "enrichment": 2.1236904100668443,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
+          "regionalMean": 98.15,
+          "otherAreaMean": 53.783597883597885,
+          "enrichment": 1.8249058051568603,
+          "sourceAreaCount": 4,
+          "comparisonAreaCount": 189,
           "study": "hpa",
           "score": 2
-        },
-        {
-          "gene": "GRIN2B",
-          "regionalMean": 109.5,
-          "otherAreaMean": 52.875,
-          "enrichment": 2.0709219858156027,
-          "sourceAreaCount": 1,
-          "comparisonAreaCount": 192,
-          "study": "hpa",
-          "score": 1
         }
       ]
     },

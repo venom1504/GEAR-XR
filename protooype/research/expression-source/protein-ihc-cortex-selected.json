@@ -1,0 +1,702 @@
+[
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Medium",
+    "Reliability": "Approved",
+    "geneName": "ARID1B"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "ARID1B"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Approved",
+    "geneName": "ARID1B"
+  },
+  {
+    "Gene": "ENSG00000049618",
+    "Gene name": "ARID1B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Medium",
+    "Reliability": "Approved",
+    "geneName": "ARID1B"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Low",
+    "Reliability": "Supported",
+    "geneName": "ADNP"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "High",
+    "Reliability": "Supported",
+    "geneName": "ADNP"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Supported",
+    "geneName": "ADNP"
+  },
+  {
+    "Gene": "ENSG00000101126",
+    "Gene name": "ADNP",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Low",
+    "Reliability": "Supported",
+    "geneName": "ADNP"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "MET"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "MET"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Approved",
+    "geneName": "MET"
+  },
+  {
+    "Gene": "ENSG00000105976",
+    "Gene name": "MET",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "MET"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Medium",
+    "Reliability": "Supported",
+    "geneName": "FOXP1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Supported",
+    "geneName": "FOXP1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Supported",
+    "geneName": "FOXP1"
+  },
+  {
+    "Gene": "ENSG00000114861",
+    "Gene name": "FOXP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Supported",
+    "geneName": "FOXP1"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "ASH1L"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "ASH1L"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "ASH1L"
+  },
+  {
+    "Gene": "ENSG00000116539",
+    "Gene name": "ASH1L",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "ASH1L"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SCN2A"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SCN2A"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "SCN2A"
+  },
+  {
+    "Gene": "ENSG00000136531",
+    "Gene name": "SCN2A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SCN2A"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal projections",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000136535",
+    "Gene name": "TBR1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "synapses",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "TBR1"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "POGZ"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "High",
+    "Reliability": "Enhanced",
+    "geneName": "POGZ"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Enhanced",
+    "geneName": "POGZ"
+  },
+  {
+    "Gene": "ENSG00000143442",
+    "Gene name": "POGZ",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "POGZ"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "DYRK1A"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "DYRK1A"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "DYRK1A"
+  },
+  {
+    "Gene": "ENSG00000157540",
+    "Gene name": "DYRK1A",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "DYRK1A"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "WDFY3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "WDFY3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "WDFY3"
+  },
+  {
+    "Gene": "ENSG00000163625",
+    "Gene name": "WDFY3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Low",
+    "Reliability": "Approved",
+    "geneName": "WDFY3"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "MECP2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "High",
+    "Reliability": "Enhanced",
+    "geneName": "MECP2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "High",
+    "Reliability": "Enhanced",
+    "geneName": "MECP2"
+  },
+  {
+    "Gene": "ENSG00000169057",
+    "Gene name": "MECP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "MECP2"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "PTEN"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "PTEN"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Medium",
+    "Reliability": "Approved",
+    "geneName": "PTEN"
+  },
+  {
+    "Gene": "ENSG00000171862",
+    "Gene name": "PTEN",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "PTEN"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "CNTNAP2"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "CNTNAP2"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "CNTNAP2"
+  },
+  {
+    "Gene": "ENSG00000174469",
+    "Gene name": "CNTNAP2",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "High",
+    "Reliability": "Enhanced",
+    "geneName": "CNTNAP2"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "NLGN3"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "NLGN3"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "NLGN3"
+  },
+  {
+    "Gene": "ENSG00000196338",
+    "Gene name": "NLGN3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "NLGN3"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SYNGAP1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SYNGAP1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "SYNGAP1"
+  },
+  {
+    "Gene": "ENSG00000197283",
+    "Gene name": "SYNGAP1",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "SYNGAP1"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "SHANK3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Enhanced",
+    "geneName": "SHANK3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Low",
+    "Reliability": "Enhanced",
+    "geneName": "SHANK3"
+  },
+  {
+    "Gene": "ENSG00000251322",
+    "Gene name": "SHANK3",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Medium",
+    "Reliability": "Enhanced",
+    "geneName": "SHANK3"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "endothelial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "GRIN2B"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "glial cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "GRIN2B"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuronal cells",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "GRIN2B"
+  },
+  {
+    "Gene": "ENSG00000273079",
+    "Gene name": "GRIN2B",
+    "Tissue": "Cerebral cortex",
+    "IHC tissue name": "Cerebral cortex",
+    "Cell type": "neuropil",
+    "Level": "Not detected",
+    "Reliability": "Approved",
+    "geneName": "GRIN2B"
+  }
+]

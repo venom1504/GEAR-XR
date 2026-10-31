@@ -24,11 +24,18 @@ def parse_page(text):
 def run():
  data=json.loads((ROOT/'dist/assets/expression.json').read_text())
  def fetch(item):
-  gene,meta=item;url=f'https://www.proteinatlas.org/{meta["ensembl"]}-{gene}/brain/cerebral%2Bcortex';p=RAW/(gene+'.html')
-  if p.exists():text=p.read_text()
-  elif gene=='TBR1' and (ROOT/'research/hpa-tbr1-cerebral-cortex.html').exists():text=(ROOT/'research/hpa-tbr1-cerebral-cortex.html').read_text();p.write_text(text)
-  else:text=urllib.request.urlopen(url,timeout=45).read().decode();p.write_text(text)
-  return gene,{'sourceUrl':url,'sha256':hashlib.sha256(text.encode()).hexdigest(),'studies':parse_page(text)}
+  gene,meta=item;studies={'hpa':{},'pfc':{}};pages=[]
+  for major,suffix in [('cerebral%2Bcortex',''),('hippocampal%2Bformation','.hippocampal')]:
+   url=f'https://www.proteinatlas.org/{meta["ensembl"]}-{gene}/brain/{major}';p=RAW/(gene+suffix+'.html')
+   if not p.exists():p.write_text(urllib.request.urlopen(url,timeout=45).read().decode())
+   text=p.read_text();digest=hashlib.sha256(p.read_bytes()).hexdigest();pages.append({'url':url,'sha256':digest,'file':p.name})
+   for study,areas in parse_page(text).items():
+    for area,row in areas.items():
+     row['sourceUrl']=url+'#'+row['anchor'];row['sourceSHA256']=digest
+     row['sampleRange']=[min(x['nTPM'] for x in row['samples']),max(x['nTPM'] for x in row['samples'])]
+     if area in studies[study]:assert studies[study][area]['samples']==row['samples']
+     studies[study][area]=row
+  return gene,{'sourceUrl':pages[0]['url'],'sha256':pages[0]['sha256'],'sourcePages':pages,'studies':studies}
  with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:genes=dict(pool.map(fetch,data['genes'].items()))
  # Match every exposed count to the exact gene, study, source name and saved value.
  inputs=json.loads((ROOT/'research/ranking-input.json').read_text())
@@ -37,7 +44,7 @@ def run():
    for area,row in areas.items():
     expected=inputs['measurements'][study][gene].get(area)
     row['matchesSavedValue']=expected is not None and abs(expected-row['displayedMean'])<.051
- out={'version':1,'localPrototype':True,'retrieved':'2026-10-30','countDefinition':'Number of individual RNA-seq sample rows shown for this exact gene, study and source entry. Multiple samples do not establish that donors are independent; unique donor counts remain unknown unless there is only one sample. Counts are not summed across subdivisions or source areas.','genes':genes}
+ out={'version':2,'localPrototype':True,'retrieved':'2026-10-31','countDefinition':'Number of individual RNA-seq sample rows shown for this exact gene, study and source entry. Multiple samples do not establish that donors are independent; unique donor counts remain unknown unless there is only one sample. Per-entry counts remain separate. The UI may total distinct sample IDs across mapped entries within a study; this is a tissue-sample total, never an independent-donor total.','genes':genes}
  (ROOT/'dist/assets/sample-coverage.json').write_text(json.dumps(out,indent=2)+'\n')
  print('Audited',len(genes),'genes; sample-entry counts:',{s:sum(len(g['studies'][s]) for g in genes.values()) for s in ['hpa','pfc']})
  print('TBR1 postcentral:',genes['TBR1']['studies']['hpa']['postcentral gyrus']['sampleCount'])

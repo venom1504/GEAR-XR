@@ -1,1 +1,172 @@
-[{"gene": "ADNP", "file": "ADNP.pdb", "predicted": true, "fragment": false, "residues": 1102}, {"gene": "ARID1B", "file": "ARID1B.pdb", "predicted": true, "fragment": false, "residues": 2319}, {"gene": "ASH1L", "file": "ASH1L_3OPE_catalytic_domain.cif", "predicted": false, "fragment": true, "residues": 406}, {"gene": "CHD8", "file": "CHD8.pdb", "predicted": true, "fragment": false, "residues": 2581}, {"gene": "CNTNAP2", "file": "CNTNAP2.pdb", "predicted": false, "fragment": true, "residues": 150}, {"gene": "DYRK1A", "file": "DYRK1A_2VX3_fragment.pdb", "predicted": false, "fragment": true, "residues": 1366}, {"gene": "FOXP1", "file": "FOXP1_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 677}, {"gene": "GRIN2B", "file": "GRIN2B_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 1484}, {"gene": "KMT5B", "file": "KMT5B.pdb", "predicted": true, "fragment": false, "residues": 885}, {"gene": "MECP2", "file": "MECP2.pdb", "predicted": true, "fragment": false, "residues": 486}, {"gene": "MET", "file": "MET_3DKC_fragment.pdb", "predicted": false, "fragment": true, "residues": 312}, {"gene": "NLGN3", "file": "NLGN3.pdb", "predicted": false, "fragment": true, "residues": 1067}, {"gene": "NRXN1", "file": "NRXN1_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 1477}, {"gene": "POGZ", "file": "POGZ.pdb", "predicted": true, "fragment": false, "residues": 1410}, {"gene": "PTEN", "file": "PTEN_5BZZ_engineered_fragment.pdb", "predicted": false, "fragment": true, "residues": 1256}, {"gene": "SCN2A", "file": "SCN2A_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 2005}, {"gene": "SHANK3", "file": "SHANK3_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 1806}, {"gene": "SYNGAP1", "file": "SYNGAP1_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 1343}, {"gene": "TBR1", "file": "TBR1_human_AlphaFold.pdb", "predicted": true, "fragment": false, "residues": 682}, {"gene": "WDFY3", "file": "WDFY3_6W9N_FYVE_domain_only.pdb", "predicted": false, "fragment": true, "residues": 78}]
+[
+  {
+    "gene": "ADNP",
+    "file": "ADNP.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1102
+  },
+  {
+    "gene": "ARID1B",
+    "file": "ARID1B.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 2319
+  },
+  {
+    "gene": "ASH1L",
+    "file": "ASH1L_3OPE_catalytic_domain.cif",
+    "predicted": false,
+    "fragment": true,
+    "residues": 213,
+    "suppliedResidues": 406,
+    "displaySelection": {
+      "pdb": "3OPE",
+      "assembly": "1",
+      "chain": "A",
+      "originalChainCount": 2,
+      "sourceUrl": "https://www.rcsb.org/structure/3OPE",
+      "note": "Representative supplied chain A C-alpha trace for the cited monomeric assembly; not an atomistic assembly reconstruction. Other crystal copies omitted from display only.",
+      "originalJSONSHA256": "4463deb4d7df38ee7d9e4f3111e5a3c1d2eaf3499cc704a5065fbd697e51cb5a"
+    }
+  },
+  {
+    "gene": "CHD8",
+    "file": "CHD8.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 2581
+  },
+  {
+    "gene": "CNTNAP2",
+    "file": "CNTNAP2.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 150
+  },
+  {
+    "gene": "DYRK1A",
+    "file": "DYRK1A_2VX3_fragment.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 346,
+    "suppliedResidues": 1366,
+    "displaySelection": {
+      "pdb": "2VX3",
+      "assembly": "1",
+      "chain": "A",
+      "originalChainCount": 4,
+      "sourceUrl": "https://www.rcsb.org/structure/2VX3",
+      "note": "Representative supplied chain A C-alpha trace for the cited monomeric assembly; not an atomistic assembly reconstruction. Other crystal copies omitted from display only.",
+      "originalJSONSHA256": "e964b522c68a356e0dc246c002d3a8eb45d94b7cd463fb13ccc2a0d8d46712fc"
+    }
+  },
+  {
+    "gene": "FOXP1",
+    "file": "FOXP1_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 677
+  },
+  {
+    "gene": "GRIN2B",
+    "file": "GRIN2B_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1484
+  },
+  {
+    "gene": "KMT5B",
+    "file": "KMT5B.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 885
+  },
+  {
+    "gene": "MECP2",
+    "file": "MECP2.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 486
+  },
+  {
+    "gene": "MET",
+    "file": "MET_3DKC_fragment.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 312
+  },
+  {
+    "gene": "NLGN3",
+    "file": "NLGN3.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 1067
+  },
+  {
+    "gene": "NRXN1",
+    "file": "NRXN1_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1477
+  },
+  {
+    "gene": "POGZ",
+    "file": "POGZ.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1410
+  },
+  {
+    "gene": "PTEN",
+    "file": "PTEN_5BZZ_engineered_fragment.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 314,
+    "suppliedResidues": 1256,
+    "displaySelection": {
+      "pdb": "5BZZ",
+      "assembly": "1",
+      "chain": "A",
+      "originalChainCount": 4,
+      "sourceUrl": "https://www.rcsb.org/structure/5BZZ",
+      "note": "Representative supplied chain A C-alpha trace for the cited monomeric assembly; not an atomistic assembly reconstruction. Other crystal copies omitted from display only.",
+      "originalJSONSHA256": "aa7e9698bc4ecc684d488fb0c6b745b1cbe18040e0a7bbe8cc52177245d5b3e4"
+    }
+  },
+  {
+    "gene": "SCN2A",
+    "file": "SCN2A_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 2005
+  },
+  {
+    "gene": "SHANK3",
+    "file": "SHANK3_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1806
+  },
+  {
+    "gene": "SYNGAP1",
+    "file": "SYNGAP1_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 1343
+  },
+  {
+    "gene": "TBR1",
+    "file": "TBR1_human_AlphaFold.pdb",
+    "predicted": true,
+    "fragment": false,
+    "residues": 682
+  },
+  {
+    "gene": "WDFY3",
+    "file": "WDFY3_6W9N_FYVE_domain_only.pdb",
+    "predicted": false,
+    "fragment": true,
+    "residues": 78
+  }
+]
