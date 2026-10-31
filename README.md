@@ -4,6 +4,10 @@ Interactive Three.js/WebXR brain, gene-expression and protein demonstration.
 
 This repository contains the prebuilt public website and its scientific attribution.
 
+## NeuroAtlas XR Demo
+
+![NeuroAtlas XR 3D Brain Rotation](docs/images/brain-rotation-loop.gif)
+
 ## Render static site
 
 - Branch: `main`
