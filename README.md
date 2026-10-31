@@ -26,3 +26,15 @@ See `dist/assets/sanger-methods.html`, `dist/assets/ATLAS_REFERENCES.txt`, and `
 The current HPA interface now defaults to at most three candidates ranked by descriptive same-study regional enrichment, after SFARI score 1/2 genetic-evidence filtering. It does not switch to the prenatal STAGE dataset. The scope is the 20 current library genes. No qualifying genes means an explicit empty state, never a fallback to the largest RNA value.
 
 Rebuild: `python3 scripts/build_ranking.py`. Inputs and official SFARI snapshot: `research/`. Output: `dist/assets/regional-ranking.json`. Tests: `npm test`. Methods and limitations: `dist/assets/regional-ranking-methods.html`. No geometry changes or public deployment are included.
+
+## Lab prototype — sample coverage
+
+The [protooype](protooype/) folder preserves the separate lab-meeting model with sample counts, single-sample warnings, subdivision evidence, source snapshots and tests. It does not replace the production `dist/` app.
+
+Run from the repository root:
+
+```sh
+python3 -m http.server 8767 --bind 127.0.0.1 --directory protooype/dist
+```
+
+Open http://127.0.0.1:8767 . See [prototype instructions](protooype/LOCAL_LAB_PROTOTYPE.md) for scientific scope and reproducibility.

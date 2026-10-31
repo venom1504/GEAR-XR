@@ -1,0 +1,1344 @@
+{
+  "version": 1,
+  "scope": "20 genes in the current protein library; not a genome-wide ranking",
+  "rule": "SFARI score 1 (High Confidence) or 2 (Strong Candidate); regional mean \u22651 nTPM; fold enrichment \u22651.25. Sort by fold enrichment, then regional mean, then gene symbol. At most 3 results; never fill with ineligible genes.",
+  "formula": "Arithmetic mean across the mapped source areas divided by the arithmetic mean across all other unique areas in the SAME HPA study. Target areas are excluded from the denominator. Not an ASD/control ratio or a significance test.",
+  "thresholdNote": "1.25\u00d7 is a descriptive interface threshold chosen for this app, not a validated biological or statistical cutoff.",
+  "sfari": {
+    "url": "https://gene.sfari.org/database/human-gene/",
+    "retrieved": "2026-10-28",
+    "sha256": "3ef77ddc2db61b8de519d79763ff762befc4eef6f1b78481d1e89112ff03ef71",
+    "note": "Preserved official Human Gene table rows for the 20 current library genes. Scores describe autism genetic evidence overall, not region-specific causality."
+  },
+  "genes": {
+    "ADNP": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 105,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "ADNP",
+        "Activity-dependent neuroprotector homeobox",
+        "20",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "41.5",
+        "105"
+      ]
+    },
+    "ARID1B": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 106,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "ARID1B",
+        "AT-rich interaction domain 1B",
+        "6",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "34.75",
+        "106"
+      ]
+    },
+    "ASH1L": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 55,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "ASH1L",
+        "Ash1 (absent, small, or homeotic)-like (Drosophila)",
+        "1",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "",
+        "14.15",
+        "55"
+      ]
+    },
+    "CHD8": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 144,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "CHD8",
+        "chromodomain helicase DNA binding protein 8",
+        "14",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "97.65",
+        "144"
+      ]
+    },
+    "CNTNAP2": {
+      "score": 2,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": true,
+      "reports": 111,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "CNTNAP2",
+        "contactin associated protein-like 2",
+        "7",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "2",
+        "S",
+        "\u2013",
+        "111"
+      ]
+    },
+    "DYRK1A": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 99,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "DYRK1A",
+        "Dual-specificity tyrosine-(Y)-phosphorylation regulated kinase 1A",
+        "21",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "20.2",
+        "99"
+      ]
+    },
+    "FOXP1": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": true,
+      "reports": 95,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "FOXP1",
+        "forkhead box P1",
+        "3",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "S",
+        "60.45",
+        "95"
+      ]
+    },
+    "GRIN2B": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 99,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "GRIN2B",
+        "glutamate receptor, inotropic, N-methyl D-apartate 2B",
+        "12",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "",
+        "29.65",
+        "99"
+      ]
+    },
+    "KMT5B": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": false,
+      "reports": 35,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "KMT5B",
+        "lysine methyltransferase 5B",
+        "11",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "",
+        "14.05",
+        "35"
+      ]
+    },
+    "MECP2": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 164,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "MECP2",
+        "Methyl CpG binding protein 2",
+        "X",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "106.65",
+        "164"
+      ]
+    },
+    "MET": {
+      "score": 2,
+      "geneticCategory": "Rare Single Gene Mutation, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 44,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "MET",
+        "met proto-oncogene (hepatocyte growth factor receptor)",
+        "7",
+        "Rare Single Gene Mutation, Genetic Association, Functional",
+        "2",
+        "",
+        "\u2013",
+        "44"
+      ]
+    },
+    "NLGN3": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 60,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "NLGN3",
+        "neuroligin 3",
+        "X",
+        "Rare Single Gene Mutation, Genetic Association, Functional",
+        "1",
+        "",
+        "6.5",
+        "60"
+      ]
+    },
+    "NRXN1": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 128,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "NRXN1",
+        "neurexin 1",
+        "2",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "",
+        "143.75",
+        "128"
+      ]
+    },
+    "POGZ": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": true,
+      "reports": 81,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "POGZ",
+        "Pogo transposable element with ZNF domain",
+        "1",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "S",
+        "35.4",
+        "81"
+      ]
+    },
+    "PTEN": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": true,
+      "reports": 133,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "PTEN",
+        "phosphatase and tensin homolog (mutated in multiple advanced cancers 1)",
+        "10",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "S",
+        "63.15",
+        "133"
+      ]
+    },
+    "SCN2A": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": false,
+      "reports": 167,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "SCN2A",
+        "sodium channel, voltage-gated, type II, alpha subunit",
+        "2",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "",
+        "109.3",
+        "167"
+      ]
+    },
+    "SHANK3": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": true,
+      "reports": 199,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "SHANK3",
+        "SH3 and multiple ankyrin repeat domains 3",
+        "22",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "S",
+        "74.85",
+        "199"
+      ]
+    },
+    "SYNGAP1": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": true,
+      "reports": 132,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "SYNGAP1",
+        "synaptic Ras GTPase activating protein 1",
+        "6",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "S",
+        "40.75",
+        "132"
+      ]
+    },
+    "TBR1": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+      "syndromic": false,
+      "reports": 51,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "TBR1",
+        "T-box, brain, 1",
+        "2",
+        "Rare Single Gene Mutation, Syndromic, Genetic Association, Functional",
+        "1",
+        "",
+        "10.85",
+        "51"
+      ]
+    },
+    "WDFY3": {
+      "score": 1,
+      "geneticCategory": "Rare Single Gene Mutation, Syndromic, Functional",
+      "syndromic": false,
+      "reports": 29,
+      "url": "https://gene.sfari.org/database/human-gene/",
+      "sourceRow": [
+        "",
+        "WDFY3",
+        "WD repeat and FYVE domain containing 3",
+        "4",
+        "Rare Single Gene Mutation, Syndromic, Functional",
+        "1",
+        "",
+        "17.2",
+        "29"
+      ]
+    }
+  },
+  "regions": {
+    "caudalanteriorcingulate": {
+      "eligibleCount": 7,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 50.599999999999994,
+          "otherAreaMean": 24.522513089005237,
+          "enrichment": 2.063410051667449,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 94.94999999999999,
+          "otherAreaMean": 52.730890052356024,
+          "enrichment": 1.8006523293220538,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 50.9,
+          "otherAreaMean": 33.07486910994764,
+          "enrichment": 1.5389327719120511,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "rostralanteriorcingulate": {
+      "eligibleCount": 3,
+      "top": [
+        {
+          "gene": "SHANK3",
+          "regionalMean": 32.1,
+          "otherAreaMean": 18.81764705882353,
+          "enrichment": 1.7058455767427323,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 17,
+          "study": "pfc",
+          "score": 1
+        },
+        {
+          "gene": "NLGN3",
+          "regionalMean": 9.5,
+          "otherAreaMean": 6.294117647058823,
+          "enrichment": 1.5093457943925235,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 17,
+          "study": "pfc",
+          "score": 1
+        },
+        {
+          "gene": "SYNGAP1",
+          "regionalMean": 13.333333333333334,
+          "otherAreaMean": 10.66470588235294,
+          "enrichment": 1.2502298216583931,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 17,
+          "study": "pfc",
+          "score": 1
+        }
+      ]
+    },
+    "caudalmiddlefrontal": {
+      "eligibleCount": 0,
+      "top": []
+    },
+    "rostralmiddlefrontal": {
+      "eligibleCount": 0,
+      "top": []
+    },
+    "cuneus": {
+      "eligibleCount": 10,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 97.1,
+          "otherAreaMean": 24.41614583333333,
+          "enrichment": 3.9768766398600652,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 19.3,
+          "otherAreaMean": 5.384895833333333,
+          "enrichment": 3.5840990424605863,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 105.4,
+          "otherAreaMean": 54.4390625,
+          "enrichment": 1.936109755747539,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        }
+      ]
+    },
+    "lateraloccipital": {
+      "eligibleCount": 10,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 97.1,
+          "otherAreaMean": 24.41614583333333,
+          "enrichment": 3.9768766398600652,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 19.3,
+          "otherAreaMean": 5.384895833333333,
+          "enrichment": 3.5840990424605863,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 105.4,
+          "otherAreaMean": 54.4390625,
+          "enrichment": 1.936109755747539,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        }
+      ]
+    },
+    "pericalcarine": {
+      "eligibleCount": 6,
+      "top": [
+        {
+          "gene": "MET",
+          "regionalMean": 19.9,
+          "otherAreaMean": 5.381770833333333,
+          "enrichment": 3.6976676666989254,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 66.0,
+          "otherAreaMean": 24.578125,
+          "enrichment": 2.6853146853146854,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "NRXN1",
+          "regionalMean": 282.7,
+          "otherAreaMean": 180.22552083333332,
+          "enrichment": 1.5685902789618331,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "entorhinal": {
+      "eligibleCount": 6,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 61.9,
+          "otherAreaMean": 24.599479166666665,
+          "enrichment": 2.516313438207957,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SYNGAP1",
+          "regionalMean": 65.8,
+          "otherAreaMean": 30.846354166666668,
+          "enrichment": 2.133153229210637,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 103.2,
+          "otherAreaMean": 52.9078125,
+          "enrichment": 1.9505625941348455,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "fusiform": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "MET",
+          "regionalMean": 16.5,
+          "otherAreaMean": 5.399479166666667,
+          "enrichment": 3.055850294202759,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 71.1,
+          "otherAreaMean": 24.5515625,
+          "enrichment": 2.8959460319480685,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 105.7,
+          "otherAreaMean": 52.89479166666666,
+          "enrichment": 1.998306386498356,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "inferiorparietal": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 74.6,
+          "otherAreaMean": 24.53333333333333,
+          "enrichment": 3.0407608695652173,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "NRXN1",
+          "regionalMean": 327.0,
+          "otherAreaMean": 179.99479166666666,
+          "enrichment": 1.8167192337741256,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 91.7,
+          "otherAreaMean": 54.510416666666664,
+          "enrichment": 1.6822472768966177,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        }
+      ]
+    },
+    "inferiortemporal": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 77.1,
+          "otherAreaMean": 24.5203125,
+          "enrichment": 3.1443318677117182,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 15.0,
+          "otherAreaMean": 5.407291666666667,
+          "enrichment": 2.774031978424196,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 65.1,
+          "otherAreaMean": 33.09375,
+          "enrichment": 1.9671388101983,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "lingual": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "MET",
+          "regionalMean": 14.9,
+          "otherAreaMean": 5.4078125,
+          "enrichment": 2.7552730424732736,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 63.4,
+          "otherAreaMean": 24.591666666666665,
+          "enrichment": 2.5781091155540494,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 111.0,
+          "otherAreaMean": 52.8671875,
+          "enrichment": 2.099601004876607,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "middletemporal": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 72.8,
+          "otherAreaMean": 24.542708333333334,
+          "enrichment": 2.96625779890497,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 12.2,
+          "otherAreaMean": 5.421875,
+          "enrichment": 2.25014409221902,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 65.9,
+          "otherAreaMean": 33.08958333333333,
+          "enrichment": 1.9915633066800986,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "parahippocampal": {
+      "eligibleCount": 7,
+      "top": [
+        {
+          "gene": "SYNGAP1",
+          "regionalMean": 66.0,
+          "otherAreaMean": 30.8453125,
+          "enrichment": 2.1397092345879134,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 112.6,
+          "otherAreaMean": 52.85885416666667,
+          "enrichment": 2.130201302604223,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 49.4,
+          "otherAreaMean": 24.664583333333333,
+          "enrichment": 2.0028718641777177,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "parsopercularis": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 78.5,
+          "otherAreaMean": 24.513020833333332,
+          "enrichment": 3.202379687665994,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 73.2,
+          "otherAreaMean": 33.0515625,
+          "enrichment": 2.214721316125372,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 107.2,
+          "otherAreaMean": 52.88697916666666,
+          "enrichment": 2.0269639463084608,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "postcentral": {
+      "eligibleCount": 8,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 105.0,
+          "otherAreaMean": 24.375,
+          "enrichment": 4.3076923076923075,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 129.6,
+          "otherAreaMean": 52.7703125,
+          "enrichment": 2.4559263316850735,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 80.7,
+          "otherAreaMean": 33.0125,
+          "enrichment": 2.444528587656191,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "posteriorcingulate": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 179.8,
+          "otherAreaMean": 52.508854166666666,
+          "enrichment": 3.424184413342988,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SYNGAP1",
+          "regionalMean": 86.0,
+          "otherAreaMean": 30.741145833333334,
+          "enrichment": 2.797553496094743,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 74.0,
+          "otherAreaMean": 33.04739583333333,
+          "enrichment": 2.2392082079084648,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "precentral": {
+      "eligibleCount": 6,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 73.0,
+          "otherAreaMean": 24.541666666666668,
+          "enrichment": 2.9745331069609504,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 115.5,
+          "otherAreaMean": 54.38645833333333,
+          "enrichment": 2.1236904100668443,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 109.5,
+          "otherAreaMean": 52.875,
+          "enrichment": 2.0709219858156027,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "precuneus": {
+      "eligibleCount": 8,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 62.9,
+          "otherAreaMean": 24.594270833333333,
+          "enrichment": 2.5575061942779693,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 9.7,
+          "otherAreaMean": 5.434895833333333,
+          "enrichment": 1.7847628174413033,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "NRXN1",
+          "regionalMean": 270.2,
+          "otherAreaMean": 180.290625,
+          "enrichment": 1.4986913490371447,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "superiorparietal": {
+      "eligibleCount": 6,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 57.3,
+          "otherAreaMean": 24.6234375,
+          "enrichment": 2.3270512088330477,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "NRXN1",
+          "regionalMean": 287.4,
+          "otherAreaMean": 180.20104166666667,
+          "enrichment": 1.5948853421814755,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SHANK3",
+          "regionalMean": 179.3,
+          "otherAreaMean": 114.846875,
+          "enrichment": 1.5612092187967677,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "superiortemporal": {
+      "eligibleCount": 10,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 79.7,
+          "otherAreaMean": 24.506770833333334,
+          "enrichment": 3.2521624551038193,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 13.7,
+          "otherAreaMean": 5.4140625,
+          "enrichment": 2.5304473304473305,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 77.0,
+          "otherAreaMean": 33.03177083333333,
+          "enrichment": 2.3310890714432126,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "supramarginal": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 71.0,
+          "otherAreaMean": 24.552083333333332,
+          "enrichment": 2.8918116249469668,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 12.6,
+          "otherAreaMean": 5.419791666666667,
+          "enrichment": 2.3248126081107054,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 95.4,
+          "otherAreaMean": 52.9484375,
+          "enrichment": 1.8017528845870099,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "insula": {
+      "eligibleCount": 8,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 67.43333333333334,
+          "otherAreaMean": 24.119473684210526,
+          "enrichment": 2.795804511168816,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 190,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 112.10000000000001,
+          "otherAreaMean": 52.23789473684211,
+          "enrichment": 2.145951718857051,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 190,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 65.6,
+          "otherAreaMean": 32.74894736842105,
+          "enrichment": 2.00311781817013,
+          "sourceAreaCount": 3,
+          "comparisonAreaCount": 190,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "paracentral": {
+      "eligibleCount": 7,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 68.65,
+          "otherAreaMean": 24.33350785340314,
+          "enrichment": 2.8212126428125743,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 61.2,
+          "otherAreaMean": 32.96701570680628,
+          "enrichment": 1.856400971937682,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 96.7,
+          "otherAreaMean": 52.71256544502618,
+          "enrichment": 1.8344772101985478,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "transversetemporal": {
+      "eligibleCount": 9,
+      "top": [
+        {
+          "gene": "TBR1",
+          "regionalMean": 79.94999999999999,
+          "otherAreaMean": 24.2151832460733,
+          "enrichment": 3.301647531945255,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "MET",
+          "regionalMean": 14.95,
+          "otherAreaMean": 5.357591623036649,
+          "enrichment": 2.790432913124206,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "SCN2A",
+          "regionalMean": 63.65,
+          "otherAreaMean": 32.9413612565445,
+          "enrichment": 1.932221303919387,
+          "sourceAreaCount": 2,
+          "comparisonAreaCount": 191,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "isthmuscingulate": {
+      "eligibleCount": 6,
+      "top": [
+        {
+          "gene": "MET",
+          "regionalMean": 13.2,
+          "otherAreaMean": 5.416666666666667,
+          "enrichment": 2.4369230769230765,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 2
+        },
+        {
+          "gene": "GRIN2B",
+          "regionalMean": 99.0,
+          "otherAreaMean": 52.9296875,
+          "enrichment": 1.8704059040590406,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        },
+        {
+          "gene": "SYNGAP1",
+          "regionalMean": 56.2,
+          "otherAreaMean": 30.896354166666665,
+          "enrichment": 1.8189848451644446,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 192,
+          "study": "hpa",
+          "score": 1
+        }
+      ]
+    },
+    "lateralorbitofrontal": {
+      "eligibleCount": 2,
+      "top": [
+        {
+          "gene": "SHANK3",
+          "regionalMean": 27.1,
+          "otherAreaMean": 20.478947368421053,
+          "enrichment": 1.3233102030326394,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        },
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 3.8,
+          "otherAreaMean": 3.031578947368421,
+          "enrichment": 1.253472222222222,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 2
+        }
+      ]
+    },
+    "medialorbitofrontal": {
+      "eligibleCount": 1,
+      "top": [
+        {
+          "gene": "WDFY3",
+          "regionalMean": 9.3,
+          "otherAreaMean": 7.373684210526315,
+          "enrichment": 1.2612419700214135,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        }
+      ]
+    },
+    "parsorbitalis": {
+      "eligibleCount": 2,
+      "top": [
+        {
+          "gene": "CNTNAP2",
+          "regionalMean": 4.0,
+          "otherAreaMean": 3.0210526315789474,
+          "enrichment": 1.32404181184669,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 2
+        },
+        {
+          "gene": "SHANK3",
+          "regionalMean": 26.6,
+          "otherAreaMean": 20.50526315789474,
+          "enrichment": 1.2972279260780286,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        }
+      ]
+    },
+    "parstriangularis": {
+      "eligibleCount": 1,
+      "top": [
+        {
+          "gene": "SHANK3",
+          "regionalMean": 27.2,
+          "otherAreaMean": 20.473684210526315,
+          "enrichment": 1.32853470437018,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        }
+      ]
+    },
+    "superiorfrontal": {
+      "eligibleCount": 3,
+      "top": [
+        {
+          "gene": "SCN2A",
+          "regionalMean": 11.6,
+          "otherAreaMean": 8.273684210526316,
+          "enrichment": 1.4020356234096691,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        },
+        {
+          "gene": "TBR1",
+          "regionalMean": 15.8,
+          "otherAreaMean": 11.273684210526316,
+          "enrichment": 1.4014939309056957,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        },
+        {
+          "gene": "NRXN1",
+          "regionalMean": 28.2,
+          "otherAreaMean": 22.410526315789475,
+          "enrichment": 1.2583372475340535,
+          "sourceAreaCount": 1,
+          "comparisonAreaCount": 19,
+          "study": "pfc",
+          "score": 1
+        }
+      ]
+    },
+    "unknown": {
+      "eligibleCount": 0,
+      "top": []
+    }
+  }
+}
