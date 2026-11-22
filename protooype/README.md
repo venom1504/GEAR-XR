@@ -7,7 +7,7 @@ The application started as an exact copy of the production `dist/` tree: all 69 
 
 ## Current prototype changes
 
-The home screen now offers **Human Autism Gene Expression** and **Allen CCF Mouse Brain**. The header also switches between them. The human atlas retains its existing data and behavior. The mouse section uses a preview derived from the user-supplied `template_10.nii.gz`, with a movable approximate surface and three anatomical slice planes. Region annotations and mouse expression data are not loaded. See `MOUSE_ATLAS.md` for processing and scientific scope.
+The home screen offers **Human Autism Gene Expression** and **Allen CCF Mouse Brain**. The header switches between them. The human atlas retains its existing data and behavior. The mouse section combines the supplied `template_10.nii.gz` with matching official Allen CCFv3 2020 annotations. Click the 3D region surfaces or annotated slices to see names, abbreviations and Allen IDs. Search selects regions and their descendants; isolation reveals internal structures. Mouse expression data are not loaded. See `MOUSE_ATLAS.md` for sources, processing and resolution limits.
 
 ## Open locally
 

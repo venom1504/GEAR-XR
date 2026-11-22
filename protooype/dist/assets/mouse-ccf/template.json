@@ -103,9 +103,10 @@
     1.3700000192970005
   ],
   "display_scale_world_units_per_mm": 0.2,
-  "regions_loaded": false,
+  "regions_loaded": true,
   "expression_loaded": false,
   "official_information_url": "https://alleninstitute.github.io/CCF-MAP/descriptions/mouse_ccf.html",
   "official_template_url": "https://allen-atlas-assets.s3.us-west-2.amazonaws.com/templates/allen-adult-mouse-stpt-template/2020/template_10.nii.gz",
-  "provenance_note": "Derived from the user-supplied file. The source hash identifies that file; it was not independently compared byte for byte with the linked official asset."
+  "provenance_note": "Derived from the user-supplied file. The source hash identifies that file; it was not independently compared byte for byte with the linked official asset.",
+  "annotation_file": "annotation.json"
 }
