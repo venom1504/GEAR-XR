@@ -35,3 +35,7 @@ Prototype-only commits must include `[skip render]` to prevent a Render deployme
 The local shortcut `GEAR-XR-prototype` points here so there is only one working prototype.
 
 Reset source: https://github.com/venom1504/GEAR-XR/commit/c9670e32a0321bdd6f9e0e3ba83f56678cd89d10
+
+## Human RNA prototype update
+
+The human atlas now defaults to a separate Allen Human Brain Atlas adult microarray view for all 20 genes, with donor/probe selection, conservative hemisphere-specific source-name matching, inspectable sample counts and optional regional-expression coloring. HPA candidate rankings remain selectable. Both atlases have an adjustable opacity control (78% by default). See `HUMAN_ALLEN.md` and the linked in-app methods for the distinction between source summaries and spatial registration.

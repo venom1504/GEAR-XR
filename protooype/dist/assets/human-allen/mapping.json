@@ -1,0 +1,766 @@
+{
+  "lh-14423100": {
+    "parcel": "precentral",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4012,
+      4013,
+      4014,
+      4015
+    ],
+    "source_names": [
+      "precentral gyrus, left, bank of the precentral sulcus",
+      "precentral gyrus, left, superior lateral aspect of gyrus",
+      "precentral gyrus, left, inferior lateral aspect of gyrus",
+      "precentral gyrus, left, bank of the central sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-1316060": {
+    "parcel": "postcentral",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4087,
+      4088,
+      4089,
+      4090
+    ],
+    "source_names": [
+      "postcentral gyrus, left, bank of the central sulcus",
+      "postcentral gyrus, left, superior lateral aspect of gyrus",
+      "postcentral gyrus, left, inferior lateral aspect of gyrus",
+      "postcentral gyrus, left, bank of the posterior central sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-2146559": {
+    "parcel": "insula",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4270,
+      4273
+    ],
+    "source_names": [
+      "long insular gyri, left",
+      "short insular gyri, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-1351760": {
+    "parcel": "supramarginal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4106,
+      4107
+    ],
+    "source_names": [
+      "supramarginal gyrus, left, superior bank of gyrus",
+      "supramarginal gyrus, left, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-13145750": {
+    "parcel": "transversetemporal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4166
+    ],
+    "source_names": [
+      "Heschl's gyrus, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-14474380": {
+    "parcel": "superiortemporal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4135,
+      4136
+    ],
+    "source_names": [
+      "superior temporal gyrus, left, lateral bank of gyrus",
+      "superior temporal gyrus, left, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-3302560": {
+    "parcel": "middletemporal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4142,
+      4143
+    ],
+    "source_names": [
+      "middle temporal gyrus, left, superior bank of gyrus",
+      "middle temporal gyrus, left, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-9221340": {
+    "parcel": "parsopercularis",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4042
+    ],
+    "source_names": [
+      "inferior frontal gyrus, opercular part, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-1326300": {
+    "parcel": "parstriangularis",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4039
+    ],
+    "source_names": [
+      "inferior frontal gyrus, triangular part, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-3302420": {
+    "parcel": "parsorbitalis",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4045
+    ],
+    "source_names": [
+      "inferior frontal gyrus, orbital part, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-8204875": {
+    "parcel": "rostralmiddlefrontal",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-7874740": {
+    "parcel": "inferiortemporal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4149,
+      4150,
+      4151
+    ],
+    "source_names": [
+      "inferior temporal gyrus, left, bank of the its",
+      "inferior temporal gyrus, left, lateral bank of gyrus",
+      "inferior temporal gyrus, left, bank of mts"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-3296035": {
+    "parcel": "lateralorbitofrontal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4060
+    ],
+    "source_names": [
+      "lateral orbital gyrus, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-1639705": {
+    "parcel": "unknown",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-9231540": {
+    "parcel": "fusiform",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4158,
+      4159,
+      4160
+    ],
+    "source_names": [
+      "fusiform gyrus, left, bank of the its",
+      "fusiform gyrus, left, lateral bank of gyrus",
+      "fusiform gyrus, left, bank of cos"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-660700": {
+    "parcel": "entorhinal",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-10542100": {
+    "parcel": "superiorfrontal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4022,
+      4023,
+      4024
+    ],
+    "source_names": [
+      "superior frontal gyrus, left",
+      "superior frontal gyrus, left, medial bank of gyrus",
+      "superior frontal gyrus, left, lateral bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-4924360": {
+    "parcel": "medialorbitofrontal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4051
+    ],
+    "source_names": [
+      "medial orbital gyrus, left"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-9180240": {
+    "parcel": "rostralanteriorcingulate",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-6500": {
+    "parcel": "caudalmiddlefrontal",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-9221140": {
+    "parcel": "superiorparietal",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4098,
+      4099
+    ],
+    "source_names": [
+      "superior parietal lobule, left, superior bank of gyrus",
+      "superior parietal lobule, left, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-14433500": {
+    "parcel": "inferiorparietal",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-3988540": {
+    "parcel": "paracentral",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4072,
+      4073,
+      4074,
+      4127,
+      4128
+    ],
+    "source_names": [
+      "paracentral lobule, anterior part, left",
+      "paracentral lobule, anterior part, left, superior bank of gyrus",
+      "paracentral lobule, anterior part, left, inferior bank of gyrus",
+      "paracentral lobule, posterior part, left, lateral bank of gyrus",
+      "paracentral lobule, posterior part, left, bank of cingulate sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-11832480": {
+    "parcel": "precuneus",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4120,
+      4121
+    ],
+    "source_names": [
+      "precuneus, left, superior lateral bank of gyrus",
+      "precuneus, left, inferior lateral bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-10511485": {
+    "parcel": "caudalanteriorcingulate",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-14464220": {
+    "parcel": "posteriorcingulate",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-9180300": {
+    "parcel": "isthmuscingulate",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-6558940": {
+    "parcel": "cuneus",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4186,
+      4187
+    ],
+    "source_names": [
+      "cuneus, left, peristriate",
+      "cuneus, left, striate"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-9182740": {
+    "parcel": "lateraloccipital",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-3957880": {
+    "parcel": "pericalcarine",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "lh-9211105": {
+    "parcel": "lingual",
+    "hemisphere": "left",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4193,
+      4194
+    ],
+    "source_names": [
+      "lingual gyrus, left, peristriate",
+      "lingual gyrus, left, striate"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "lh-3988500": {
+    "parcel": "parahippocampal",
+    "hemisphere": "left",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-14423100": {
+    "parcel": "precentral",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4017,
+      4018,
+      4019,
+      4020
+    ],
+    "source_names": [
+      "precentral gyrus, right, bank of the precentral sulcus",
+      "precentral gyrus, right, superior lateral aspect of gyrus",
+      "precentral gyrus, right, inferior lateral aspect of gyrus",
+      "precentral gyrus, right, bank of the central sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-1316060": {
+    "parcel": "postcentral",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4092,
+      4093,
+      4094,
+      4095
+    ],
+    "source_names": [
+      "postcentral gyrus, right, bank of the central sulcus",
+      "postcentral gyrus, right, superior lateral aspect of gyrus",
+      "postcentral gyrus, right, inferior lateral aspect of gyrus",
+      "postcentral gyrus, right, bank of the posterior central sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-2146559": {
+    "parcel": "insula",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4271,
+      4274
+    ],
+    "source_names": [
+      "long insular gyri, right",
+      "short insular gyri, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-14474380": {
+    "parcel": "superiortemporal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4138,
+      4139
+    ],
+    "source_names": [
+      "superior temporal gyrus, right, lateral bank of gyrus",
+      "superior temporal gyrus, right, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-13145750": {
+    "parcel": "transversetemporal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4167
+    ],
+    "source_names": [
+      "Heschl's gyrus, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-3302560": {
+    "parcel": "middletemporal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4145,
+      4146
+    ],
+    "source_names": [
+      "middle temporal gyrus, right, superior bank of gyrus",
+      "middle temporal gyrus, right, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-7874740": {
+    "parcel": "inferiortemporal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4153,
+      4154,
+      4155
+    ],
+    "source_names": [
+      "inferior temporal gyrus, right, bank of the its",
+      "inferior temporal gyrus, right, lateral bank of gyrus",
+      "inferior temporal gyrus, right, bank of mts"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-9221340": {
+    "parcel": "parsopercularis",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4043
+    ],
+    "source_names": [
+      "inferior frontal gyrus, opercular part, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-1326300": {
+    "parcel": "parstriangularis",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4040
+    ],
+    "source_names": [
+      "inferior frontal gyrus, triangular part, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-3302420": {
+    "parcel": "parsorbitalis",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4046
+    ],
+    "source_names": [
+      "inferior frontal gyrus, orbital part, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-8204875": {
+    "parcel": "rostralmiddlefrontal",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-3296035": {
+    "parcel": "lateralorbitofrontal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4061
+    ],
+    "source_names": [
+      "lateral orbital gyrus, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-9231540": {
+    "parcel": "fusiform",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4162,
+      4163,
+      4164
+    ],
+    "source_names": [
+      "fusiform gyrus, right, bank of the its",
+      "fusiform gyrus, right, lateral bank of gyrus",
+      "fusiform gyrus, right, bank of cos"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-660700": {
+    "parcel": "entorhinal",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-1639705": {
+    "parcel": "unknown",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-4924360": {
+    "parcel": "medialorbitofrontal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4052
+    ],
+    "source_names": [
+      "medial orbital gyrus, right"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-10542100": {
+    "parcel": "superiorfrontal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4026,
+      4027
+    ],
+    "source_names": [
+      "superior frontal gyrus, right, medial bank of gyrus",
+      "superior frontal gyrus, right, lateral bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-9180240": {
+    "parcel": "rostralanteriorcingulate",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-10511485": {
+    "parcel": "caudalanteriorcingulate",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-6500": {
+    "parcel": "caudalmiddlefrontal",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-1351760": {
+    "parcel": "supramarginal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4109,
+      4110
+    ],
+    "source_names": [
+      "supramarginal gyrus, right, superior bank of gyrus",
+      "supramarginal gyrus, right, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-14433500": {
+    "parcel": "inferiorparietal",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-9221140": {
+    "parcel": "superiorparietal",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4101,
+      4102
+    ],
+    "source_names": [
+      "superior parietal lobule, right, superior bank of gyrus",
+      "superior parietal lobule, right, inferior bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-3988540": {
+    "parcel": "paracentral",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4076,
+      4077,
+      4130,
+      4131
+    ],
+    "source_names": [
+      "paracentral lobule, anterior part, right, superior bank of gyrus",
+      "paracentral lobule, anterior part, right, inferior bank of gyrus",
+      "paracentral lobule, posterior part, right, lateral bank of gyrus",
+      "paracentral lobule, posterior part, right, bank of cingulate sulcus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-14464220": {
+    "parcel": "posteriorcingulate",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-11832480": {
+    "parcel": "precuneus",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4123,
+      4124
+    ],
+    "source_names": [
+      "precuneus, right, superior lateral bank of gyrus",
+      "precuneus, right, inferior lateral bank of gyrus"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-9180300": {
+    "parcel": "isthmuscingulate",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-6558940": {
+    "parcel": "cuneus",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4189,
+      4190
+    ],
+    "source_names": [
+      "cuneus, right, peristriate",
+      "cuneus, right, striate"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-3957880": {
+    "parcel": "pericalcarine",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-9182740": {
+    "parcel": "lateraloccipital",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  },
+  "rh-9211105": {
+    "parcel": "lingual",
+    "hemisphere": "right",
+    "status": "approximate-name",
+    "source_structure_ids": [
+      4196,
+      4197
+    ],
+    "source_names": [
+      "lingual gyrus, right, peristriate",
+      "lingual gyrus, right, striate"
+    ],
+    "rationale": "Same-named source anatomy (including sampled subdivisions), selected hemisphere only. AHBA and DKT boundaries are not identical; no spatial registration."
+  },
+  "rh-3988500": {
+    "parcel": "parahippocampal",
+    "hemisphere": "right",
+    "status": "unmapped",
+    "source_structure_ids": [],
+    "source_names": [],
+    "rationale": "No conservative same-named source-area match configured. No broad-region fallback."
+  }
+}

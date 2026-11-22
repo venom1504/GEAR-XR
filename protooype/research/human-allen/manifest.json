@@ -1,0 +1,32 @@
+[
+  {
+    "file": "research/human-allen/probes.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AProbe%2Crma%3A%3Acriteria%2C%5Bprobe_type%24eq%27DNA%27%5D%2Cproducts%5Babbreviation%24eq%27HumanMA%27%5D%2Cgene%5Bacronym%24in%27ADNP%27%2C%27ARID1B%27%2C%27ASH1L%27%2C%27CHD8%27%2C%27CNTNAP2%27%2C%27DYRK1A%27%2C%27FOXP1%27%2C%27GRIN2B%27%2C%27KMT5B%27%2C%27MECP2%27%2C%27MET%27%2C%27NLGN3%27%2C%27NRXN1%27%2C%27POGZ%27%2C%27PTEN%27%2C%27SCN2A%27%2C%27SHANK3%27%2C%27SYNGAP1%27%2C%27TBR1%27%2C%27WDFY3%27%5D%2Crma%3A%3Ainclude%2Cgene%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "bytes": 47343,
+    "sha256": "0a8a260ef06f47e559c391cf3a095e8534c79b87d1ebdf821eb15e98c6d46da5"
+  },
+  {
+    "file": "research/human-allen/expression-response.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=service%3A%3Ahuman_microarray_expression%5Bprobes%24eq1044670%2C1013079%2C1022153%2C1024737%2C1014755%2C1020688%2C1042952%2C1027583%2C1025665%2C1055934%2C1022204%2C1047044%2C1022205%2C1014259%2C1022207%2C1017198%2C1055935%2C1024736%2C1030905%2C1046114%2C1023383%2C1023749%2C1027584%2C1026233%2C1054225%2C1054197%2C1022154%2C1021223%2C1021226%2C1047046%2C1046008%2C1030742%2C1054224%2C1023751%2C1021227%2C1023750%2C1015900%2C1042951%2C1023141%2C1030743%2C1022155%2C1041471%2C1054198%2C1044671%2C1023140%2C1055936%2C1047045%2C1054196%2C1026234%2C1023384%2C1046007%2C1025664%2C1017596%2C1013374%2C1026235%2C1041472%2C1022206%2C1046009%2C1024735%5D",
+    "bytes": 5340342,
+    "sha256": "13a04179a152d52993c3537e9f0487b35bd15bdef20d78704b0d46d975fe5bea"
+  },
+  {
+    "file": "research/human-allen/kmt5b-probes.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AProbe%2Crma%3A%3Acriteria%2C%5Bprobe_type%24eq%27DNA%27%5D%2Cproducts%5Babbreviation%24eq%27HumanMA%27%5D%2Cgene%5Bentrez_id%24eq51111%5D%2Crma%3A%3Ainclude%2Cgene%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "bytes": 2603,
+    "sha256": "5c330484e5952262665c25590c432207627f01437dd04cfc6f0f61c0ea45144b"
+  },
+  {
+    "file": "research/human-allen/kmt5b-expression.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=service%3A%3Ahuman_microarray_expression%5Bprobes%24eq1025016%2C1043752%2C1043753%5D",
+    "bytes": 1476052,
+    "sha256": "7115922e1498f3c8e08eeacd71d7a7acf3f19f9fb56cf01af30c66b9b0730bba"
+  },
+  {
+    "file": "research/human-allen/FreeSurferColorLUT.txt",
+    "url": "https://raw.githubusercontent.com/freesurfer/freesurfer/dev/distribution/FreeSurferColorLUT.txt",
+    "bytes": 116599,
+    "sha256": "d65dd6e4550106d9eb3bc116ef95dd9e2248e0299dad5fd8668209394bd68750"
+  }
+]

@@ -1,4 +1,5 @@
 import * as THREE from 'three';
+import {applyBrainOpacity} from './brain-display.js?v=2';
 import {createMouseExpression} from './mouse-expression.js?v=expression-1';
 import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
@@ -131,7 +132,7 @@ async function load(){
   colors=new Float32Array(annotation.surface_vertex_count*3);geometry.setAttribute('color',new THREE.BufferAttribute(colors,3));faceValues=new Uint16Array(annotation.surface_index_count/3);
   geometry.computeVertexNormals();geometry.computeBoundingSphere();geometry.computeBoundingBox();scene=new THREE.Scene();scene.add(new THREE.HemisphereLight(0xdbf5ef,0x223c45,2));
   const key=new THREE.DirectionalLight(0xffffff,2.1);key.position.set(3,5,4);scene.add(key);const rim=new THREE.DirectionalLight(0x87c8d6,1.2);rim.position.set(-3,1,-2);scene.add(rim);
-  mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
+  mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;$('mouseScene').replaceChildren(renderer.domElement);
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=.1;controls.maxDistance=18;controls.autoRotateSpeed=.5;
   let down=null;renderer.domElement.addEventListener('pointerdown',event=>{if(event.button===0)down=[event.clientX,event.clientY];});
@@ -141,6 +142,7 @@ async function load(){
     const hit=ray.intersectObject(mesh,false)[0];if(!hit)return;const value=faceValues[hit.faceIndex];selectRegion(byValue.get(value),nearestVoxel(hit.point,value));
   });
   new ResizeObserver(resize).observe($('mouseScene'));
+  $('mouseBrainOpacity').oninput=()=>{const value=$('mouseBrainOpacity').value;$('mouseBrainOpacityValue').textContent=value+'%';applyBrainOpacity(mesh.material,value);};
   $('mouseReset').onclick=reset;$('mouseIsolate').onclick=()=>{if(selected){isolated=!isolated;updateGeometry();if(!isolated)fit(mesh.geometry.boundingBox);}};
   $('mouseRotate').onclick=()=>{controls.autoRotate=!controls.autoRotate;$('mouseRotate').setAttribute('aria-pressed',String(controls.autoRotate));};
   $('mousePlane').onchange=setPlane;$('mouseSlicePosition').oninput=drawSlice;$('mouseShowLabels').onchange=drawSlice;$('mouseRegionSearch').oninput=renderRegionList;

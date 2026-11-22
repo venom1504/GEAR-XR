@@ -1,0 +1,1 @@
+https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AProbe%2Crma%3A%3Acriteria%2C%5Bprobe_type%24eq%27DNA%27%5D%2Cproducts%5Babbreviation%24eq%27HumanMA%27%5D%2Cgene%5Bentrez_id%24eq51111%5D%2Crma%3A%3Ainclude%2Cgene%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D
