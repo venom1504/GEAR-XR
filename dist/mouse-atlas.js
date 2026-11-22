@@ -1,6 +1,6 @@
 import * as THREE from 'three';
 import {applyBrainOpacity} from './brain-display.js?v=2';
-import {createMouseExpression} from './mouse-expression.js?v=expression-1';
+import {createMouseExpression} from './mouse-expression.js?v=controls-2';
 import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
 
