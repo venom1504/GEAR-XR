@@ -124,7 +124,7 @@ function nearestVoxel(world,value){
   return best||byValue.get(value).representative_voxel;
 }
 function animate(){
- if(!active||!renderer){frame=0;return;}controls.update();
+ if(!active||!renderer||!controls){frame=0;return;}controls.update();
  if(selected&&selectionMask.visible){renderer.setRenderTarget(selectionTarget);renderer.render(selectionScene,camera);renderer.setRenderTarget(null);}
  renderer.render(scene,camera);
  if(selected&&selectionMask.visible){renderer.autoClear=false;renderer.render(outlineScene,outlineCamera);renderer.autoClear=true;}
@@ -145,7 +145,7 @@ function makeSelectionOutline(geometry){
  outlineScene=new THREE.Scene();outlineScene.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),outlineMaterial));outlineCamera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
 }
 function fullscreenActive(){return document.fullscreenElement===$('mouseAtlas')||document.body.classList.contains('mouse-expanded');}
-function syncFullscreen(){const active=fullscreenActive(),button=$('mouseFullscreen');button.setAttribute('aria-pressed',String(active));button.setAttribute('aria-label',active?'Exit full screen':'Enter full screen');button.textContent=active?'⤢ Exit full screen':'⛶ Full screen';resize();}
+function syncFullscreen(){const active=fullscreenActive(),button=$('mouseFullscreen');if(!button)return;button.setAttribute('aria-pressed',String(active));button.setAttribute('aria-label',active?'Exit full screen':'Enter full screen');button.textContent=active?'⤢ Exit full screen':'⛶ Full screen';resize();}
 async function toggleFullscreen(){
  if(fullscreenActive()){if(document.fullscreenElement===$('mouseAtlas'))await document.exitFullscreen();document.body.classList.remove('mouse-expanded');}
  else{try{if(!$('mouseAtlas').requestFullscreen)throw Error('Use expanded layout');await $('mouseAtlas').requestFullscreen();}catch{document.body.classList.add('mouse-expanded');}}
@@ -168,7 +168,7 @@ async function load(){
   mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;$('mouseScene').replaceChildren(renderer.domElement);
   makeSelectionOutline(geometry);
-  $('mouseFullscreen').onclick=toggleFullscreen;document.addEventListener('fullscreenchange',syncFullscreen);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('mouse-expanded')){document.body.classList.remove('mouse-expanded');syncFullscreen();}});
+  if($('mouseFullscreen'))$('mouseFullscreen').onclick=toggleFullscreen;document.addEventListener('fullscreenchange',syncFullscreen);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('mouse-expanded')){document.body.classList.remove('mouse-expanded');syncFullscreen();}});
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=.1;controls.maxDistance=18;controls.autoRotateSpeed=.5;
   let down=null;renderer.domElement.addEventListener('pointerdown',event=>{if(event.button===0)down=[event.clientX,event.clientY];});
   renderer.domElement.addEventListener('pointerup',event=>{
@@ -188,6 +188,6 @@ async function load(){
 }
 export async function showMouse(){
   active=true;if(!pending)pending=load().catch(error=>{pending=null;$('mouseLoading').hidden=false;$('mouseLoading').textContent=`Could not open the mouse atlas. ${error.message}`;console.error(error);});
-  await pending;if(renderer&&active){resize();if(!frame)animate();}
+  await pending;if(renderer&&controls&&active){resize();if(!frame)animate();}
 }
 export function hideMouse(){document.body.classList.remove('mouse-expanded');if(document.fullscreenElement===$('mouseAtlas'))document.exitFullscreen().catch(()=>{});active=false;if(frame)cancelAnimationFrame(frame);frame=0;}
