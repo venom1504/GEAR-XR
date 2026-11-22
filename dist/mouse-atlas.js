@@ -1,8 +1,11 @@
 import * as THREE from 'three';
+import {applyBrainOpacity} from './brain-display.js?v=2';
+import {createMouseExpression} from './mouse-expression.js?v=expression-1';
 import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
 
 const $=id=>document.getElementById(id),ASSETS='assets/mouse-ccf/';
+let expression;
 let metadata,annotation,volume,labels,regions,parts,renderer,scene,camera,controls,mesh;
 let frame=0,pending,active=false,selected=null,point=null,isolated=false,browseAll=false;
 let byValue,byId,baseIndices,faceValues,colors,selectedValues=new Set();
@@ -28,9 +31,9 @@ function updateGeometry(){
   let indexOffset=0;const box=new THREE.Box3(),v=new THREE.Vector3();
   for(const part of parts){
     const included=!isolated||selectedValues.has(part.value),highlight=!selected||selectedValues.has(part.value);
-    const color=new THREE.Color(byValue.get(part.value).color);
-    if(selected&&!highlight)color.multiplyScalar(.38);
-    if(selected&&highlight)color.lerp(new THREE.Color('#f4f6db'),.28);
+    const color=new THREE.Color(expression?.colorForRegion(byValue.get(part.value))||byValue.get(part.value).color);
+    if(!expression?.active&&selected&&!highlight)color.multiplyScalar(.38);
+    if(!expression?.active&&selected&&highlight)color.lerp(new THREE.Color('#f4f6db'),.28);
     for(let i=part.vertex_start*3,end=i+part.vertex_count*3;i<end;i+=3){colors[i]=color.r;colors[i+1]=color.g;colors[i+2]=color.b;}
     if(!included)continue;
     index.set(baseIndices.subarray(part.index_start,part.index_start+part.index_count),indexOffset);
@@ -41,7 +44,7 @@ function updateGeometry(){
   mesh.geometry.index.needsUpdate=true;mesh.geometry.attributes.color.needsUpdate=true;mesh.geometry.setDrawRange(0,indexOffset);
   $('mouseIsolate').disabled=!selected;$('mouseIsolate').setAttribute('aria-pressed',String(isolated));
   $('mouseIsolate').textContent=isolated?'Show whole brain':'Isolate region';
-  $('mouseSurfaceLabel').textContent=selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
+  $('mouseSurfaceLabel').textContent=expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
   if(isolated&&!box.isEmpty())fit(box);
 }
 function showRegionInfo(message){
@@ -57,7 +60,7 @@ function selectRegion(region,voxel=null){
   if(!region)isolated=false;
   if(point)for(const [name,view] of Object.entries(planes))selectedSlices[name]=point[view.axis];
   showRegionInfo(region?null:'The clicked point is background or has no annotation in this sampled volume.');
-  updateGeometry();setPlane();renderRegionList();
+  expression?.setRegion(region);updateGeometry();setPlane();renderRegionList();
 }
 function renderRegionList(){
   if(!regions)return;const list=$('mouseRegionList'),query=$('mouseRegionSearch').value.trim().toLowerCase();list.replaceChildren();
@@ -129,7 +132,7 @@ async function load(){
   colors=new Float32Array(annotation.surface_vertex_count*3);geometry.setAttribute('color',new THREE.BufferAttribute(colors,3));faceValues=new Uint16Array(annotation.surface_index_count/3);
   geometry.computeVertexNormals();geometry.computeBoundingSphere();geometry.computeBoundingBox();scene=new THREE.Scene();scene.add(new THREE.HemisphereLight(0xdbf5ef,0x223c45,2));
   const key=new THREE.DirectionalLight(0xffffff,2.1);key.position.set(3,5,4);scene.add(key);const rim=new THREE.DirectionalLight(0x87c8d6,1.2);rim.position.set(-3,1,-2);scene.add(rim);
-  mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
+  mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;$('mouseScene').replaceChildren(renderer.domElement);
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=.1;controls.maxDistance=18;controls.autoRotateSpeed=.5;
   let down=null;renderer.domElement.addEventListener('pointerdown',event=>{if(event.button===0)down=[event.clientX,event.clientY];});
@@ -139,12 +142,14 @@ async function load(){
     const hit=ray.intersectObject(mesh,false)[0];if(!hit)return;const value=faceValues[hit.faceIndex];selectRegion(byValue.get(value),nearestVoxel(hit.point,value));
   });
   new ResizeObserver(resize).observe($('mouseScene'));
+  $('mouseBrainOpacity').oninput=()=>{const value=$('mouseBrainOpacity').value;$('mouseBrainOpacityValue').textContent=value+'%';applyBrainOpacity(mesh.material,value);};
   $('mouseReset').onclick=reset;$('mouseIsolate').onclick=()=>{if(selected){isolated=!isolated;updateGeometry();if(!isolated)fit(mesh.geometry.boundingBox);}};
   $('mouseRotate').onclick=()=>{controls.autoRotate=!controls.autoRotate;$('mouseRotate').setAttribute('aria-pressed',String(controls.autoRotate));};
   $('mousePlane').onchange=setPlane;$('mouseSlicePosition').oninput=drawSlice;$('mouseShowLabels').onchange=drawSlice;$('mouseRegionSearch').oninput=renderRegionList;
   $('mouseBrowseRegions').onclick=()=>{browseAll=!browseAll;renderRegionList();};$('mouseSlice').onclick=pickSlice;
   $('mouseSlice').onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();const rect=$('mouseSlice').getBoundingClientRect();pickSlice({clientX:rect.left+rect.width/2,clientY:rect.top+rect.height/2});}};
-  reset();setPlane();renderRegionList();showRegionInfo();$('mouseLoading').hidden=true;if(active&&!frame)animate();
+  reset();setPlane();renderRegionList();showRegionInfo();
+  expression=await createMouseExpression(regions,updateGeometry);$('mouseLoading').hidden=true;if(active&&!frame)animate();
 }
 export async function showMouse(){
   active=true;if(!pending)pending=load().catch(error=>{pending=null;$('mouseLoading').hidden=false;$('mouseLoading').textContent=`Could not open the mouse atlas. ${error.message}`;console.error(error);});

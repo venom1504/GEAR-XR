@@ -95,3 +95,7 @@ Further acknowledgments and contributor information will be added as collaborati
 ---
 
 **University of California, Santa Cruz | Undergraduate Research Initiative**
+
+## Public Allen mouse RNA demo
+
+The Allen CCF mouse atlas includes anatomical region labels, annotated slices and a six-gene adult mouse RNA ISH demo (Ctf1, Tbr1, Slc17a7, Gad1, Pvalb and Sst). Select a gene and experiment, then select a region to inspect the source measurements. Optional regional RNA coloring and adjustable mouse-brain opacity are available. Earlier Allen expression summaries are matched by exact structure ID to the 2020 labels, not overlaid as a registered voxel map. The human atlas and its HPA evidence remain unchanged. See `MOUSE_EXPRESSION.md`.

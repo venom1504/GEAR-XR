@@ -1,0 +1,158 @@
+[
+  {
+    "path": "research/mouse-expression/Ctf1-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Ctf1%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "b9521ec9008083f2a7b06ef023ff1d2b424a31e26fd3fef98b2c8acee8f5495f",
+    "bytes": 2565
+  },
+  {
+    "path": "research/mouse-expression/Ctf1-1695-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq1695%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "6d04b2896029658d2190f2a32b0dc1c4e461e647fc7273ba7b04156f904612bf",
+    "bytes": 261119
+  },
+  {
+    "path": "dist/assets/mouse-expression/Ctf1-1695-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/1695?include=energy,density,intensity",
+    "sha256": "be93c866af25f4483c7750b93c03826353469e76c94da26a92fcdb4e251e1fe8",
+    "bytes": 986368
+  },
+  {
+    "path": "research/mouse-expression/Tbr1-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Tbr1%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "7429293a0e5cf5080f494f77b5adcddb38bc906b645ddc61973976186e9ba01e",
+    "bytes": 5122
+  },
+  {
+    "path": "research/mouse-expression/Tbr1-1041-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq1041%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "fe1c2f3bea7e6322c0f5824ee9c8e60b791486ae088fe7a56c4fb0c5d4608360",
+    "bytes": 261566
+  },
+  {
+    "path": "dist/assets/mouse-expression/Tbr1-1041-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/1041?include=energy,density,intensity",
+    "sha256": "4fe02f0c24ff93074f9897e42753f15ce3396999f5c9e718e6eb6fb63cb49693",
+    "bytes": 993026
+  },
+  {
+    "path": "research/mouse-expression/Tbr1-79591351-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq79591351%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "a180a4dcff2f1cfbf36e97de9db9da72d390c525e5a092b83cc086512a243a99",
+    "bytes": 264087
+  },
+  {
+    "path": "dist/assets/mouse-expression/Tbr1-79591351-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/79591351?include=energy,density,intensity",
+    "sha256": "af3568c8173ea08be5f814b5c65e2d556f889775075cbc1f7d68849a54ab72b9",
+    "bytes": 1148467
+  },
+  {
+    "path": "research/mouse-expression/Slc17a7-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Slc17a7%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "f25a1e3f8291a64bb9346d9538a3e401acc0ef58648f8d45d3ef6f408d9b8065",
+    "bytes": 5544
+  },
+  {
+    "path": "research/mouse-expression/Slc17a7-70436317-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq70436317%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "ec39a2f3143cec72220009dd039ad3364938b516b0b32112c5cd76c959102cfd",
+    "bytes": 264359
+  },
+  {
+    "path": "dist/assets/mouse-expression/Slc17a7-70436317-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/70436317?include=energy,density,intensity",
+    "sha256": "0c6f0cde1954f93f04b46a48fdfdab04bac01b0513b591cd1fef4af87c4ecd7f",
+    "bytes": 1075343
+  },
+  {
+    "path": "research/mouse-expression/Slc17a7-75081210-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq75081210%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "f61f6e2405c189b53f613a8b51916811f2098dd3467d1e58fc8272402ea5dcd3",
+    "bytes": 264089
+  },
+  {
+    "path": "dist/assets/mouse-expression/Slc17a7-75081210-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/75081210?include=energy,density,intensity",
+    "sha256": "2575f25078eeab4569df00f7bfaf02105a53d7e8e8a7fa9e59728dfd7b27008d",
+    "bytes": 1038750
+  },
+  {
+    "path": "research/mouse-expression/Gad1-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Gad1%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "db3fd359bc5671d4765718417f383c3ee55292c89329550223bd151a025ab6f1",
+    "bytes": 5199
+  },
+  {
+    "path": "research/mouse-expression/Gad1-479-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq479%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "10a607b2660d7856550b31de26bebf1469d50e16277b526cfc24ba0de5d40585",
+    "bytes": 259766
+  },
+  {
+    "path": "dist/assets/mouse-expression/Gad1-479-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/479?include=energy,density,intensity",
+    "sha256": "8c62eb0d38b9d7d14955247484964ac184c49e062eb674170c65b7e27435826b",
+    "bytes": 950345
+  },
+  {
+    "path": "research/mouse-expression/Gad1-79556706-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq79556706%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "9ea18c66f74f4b8c74dc795b546394d60c768ce3fb75171c99765af7d7fdc676",
+    "bytes": 264363
+  },
+  {
+    "path": "dist/assets/mouse-expression/Gad1-79556706-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/79556706?include=energy,density,intensity",
+    "sha256": "ff2543d367d01b847aff5f3f37b713000ef19c6c3412ebaf2e33a8817c6ec851",
+    "bytes": 1123832
+  },
+  {
+    "path": "research/mouse-expression/Pvalb-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Pvalb%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "5ad9122e3d854b8912dc03b059b57bda574c032f5616e2f06dc327ce52e25ca6",
+    "bytes": 5116
+  },
+  {
+    "path": "research/mouse-expression/Pvalb-868-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq868%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "793ce2da539a508f0e24b05acb5e3483f9a196845775c9e291a8b176d1b00bb3",
+    "bytes": 259440
+  },
+  {
+    "path": "dist/assets/mouse-expression/Pvalb-868-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/868?include=energy,density,intensity",
+    "sha256": "f9ec0c13abd68f8b1b7a241c20ca11a8cb9deaefba0a03c977cf38940778d410",
+    "bytes": 1026020
+  },
+  {
+    "path": "research/mouse-expression/Pvalb-79556738-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq79556738%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "787b5e9a283360254ea103b97e1037f42538125a599ff005ce465168645712d7",
+    "bytes": 263975
+  },
+  {
+    "path": "dist/assets/mouse-expression/Pvalb-79556738-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/79556738?include=energy,density,intensity",
+    "sha256": "50f2bb9488831dc8a6e078dd33aabbd33b8dc4894d44c059a1e972518be818b0",
+    "bytes": 1086278
+  },
+  {
+    "path": "research/mouse-expression/Sst-experiments.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3ASectionDataSet%2Crma%3A%3Acriteria%2C%5Bfailed%24eqfalse%5D%2Cproducts%5Bid%24eq1%5D%2Cgenes%5Bacronym%24eq%27Sst%27%5D%2Cplane_of_section%5Bname%24eq%27coronal%27%5D%2Crma%3A%3Ainclude%2Cgenes%2Cplane_of_section%2Cspecimen%28donor%28age%29%29%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "44e5aaededa99d0aeab704e03e1850d833e586b6e512b27b1de5e74a4102c433",
+    "bytes": 2565
+  },
+  {
+    "path": "research/mouse-expression/Sst-1001-regional-statistics.json",
+    "url": "https://api.brain-map.org/api/v2/data/query.json?criteria=model%3A%3AStructureUnionize%2Crma%3A%3Acriteria%2C%5Bsection_data_set_id%24eq1001%5D%2Cstructure%5Bgraph_id%24eq1%5D%2Crma%3A%3Aoptions%5Bnum_rows%24eqall%5D",
+    "sha256": "2fb7337c9e58b93bf0ba5bb3404700699f29a57e83c2b9d38b40f397c4aa1380",
+    "bytes": 214501
+  },
+  {
+    "path": "dist/assets/mouse-expression/Sst-1001-expression-grid.zip",
+    "url": "https://api.brain-map.org/grid_data/download/1001?include=energy,density,intensity",
+    "sha256": "edc66e3b5dca62eb4ea57affe3676681e7cf276ebae99078d56083fb071e6d2b",
+    "bytes": 701464
+  }
+]
