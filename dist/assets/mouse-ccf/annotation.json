@@ -1,0 +1,88 @@
+{
+  "version": "Allen CCFv3 2020",
+  "source_url": "https://allen-atlas-assets.s3.us-west-2.amazonaws.com/annotation-sets/allen-adult-mouse-stereotaxic-annotation/2020/annotations_compressed_10.nii.gz",
+  "terminology_url": "https://alleninstitute.github.io/CCF-MAP/_downloads/217b9700f0796a5febba105e568ad04c/CCFv3_2020_terminology.csv",
+  "source_sha256": "4119abf70a7627785cc9b7077866328d0326d0dc293693592f5dcd314fc4bcac",
+  "terminology_sha256": "3cabef557d7c85582f2a5232e97d77e4852fc44d7871a1030e6ea97770327a07",
+  "source_dimensions": [
+    1320,
+    800,
+    1140
+  ],
+  "source_affine_ras_mm": [
+    [
+      0.0,
+      0.0,
+      0.009999999776482582,
+      -5.695000171661377
+    ],
+    [
+      -0.009999999776482582,
+      0.0,
+      0.0,
+      5.349999904632568
+    ],
+    [
+      0.0,
+      -0.009999999776482582,
+      0.0,
+      5.21999979019165
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "preview_dimensions": [
+    228,
+    264,
+    160
+  ],
+  "preview_affine_ras_mm": [
+    [
+      0.04999999888241291,
+      0.0,
+      0.0,
+      -5.695000171661377
+    ],
+    [
+      0.0,
+      0.04999999888241291,
+      0.0,
+      -7.799999801442027
+    ],
+    [
+      0.0,
+      0.0,
+      0.04999999888241291,
+      -2.7300000321120024
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "preview_spacing_um": 50,
+  "sampling": "Exact nearest samples every fifth original voxel; no label interpolation",
+  "template_affine_max_error_mm": 0.0,
+  "volume_file": "annotation-u16.bin.gz",
+  "dtype": "uint16 little-endian",
+  "order": "C",
+  "regions_file": "regions.json",
+  "surface_file": "region-surfaces.bin.gz",
+  "surface_position_offset": 0,
+  "surface_index_offset": 10517100,
+  "surface_vertex_count": 876425,
+  "surface_index_count": 5334528,
+  "present_annotation_values": 683,
+  "terminology_entries": 1328,
+  "regions_with_sampled_descendants": 854,
+  "value_semantics": "Compact annotation values are mapped using annotation_value in the official terminology; MBA identifiers are separate.",
+  "geometry_method": "Per-label marching cubes of nearest-sampled 50-um annotation, step 2 (100 um) for larger regions, step 1 for small regions; no smoothing or nearest-name inference.",
+  "resolution_limit": "Fine structures not sampled at 50 um may be omitted. Surfaces are coarser display approximations; picking returns the source label from which each surface was derived, not an independently validated 10-um boundary.",
+  "expression_loaded": false
+}

@@ -1,0 +1,112 @@
+{
+  "title": "Allen CCF Mouse Brain",
+  "source_filename": "template_10.nii.gz",
+  "source_sha256": "b5b99c32caee5d9b53b528d4b7d0789bef6887966115d3850c5f17bf406db550",
+  "source_dimensions": [
+    1320,
+    800,
+    1140
+  ],
+  "source_spacing_mm": [
+    0.009999999776482582,
+    0.009999999776482582,
+    0.009999999776482582
+  ],
+  "source_axis_codes": [
+    "P",
+    "I",
+    "R"
+  ],
+  "source_affine_ras_mm": [
+    [
+      0.0,
+      0.0,
+      0.009999999776482582,
+      -5.695000171661377
+    ],
+    [
+      -0.009999999776482582,
+      0.0,
+      0.0,
+      5.349999904632568
+    ],
+    [
+      0.0,
+      -0.009999999776482582,
+      0.0,
+      5.21999979019165
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_qform_code": 1,
+  "source_sform_code": 0,
+  "preview_dimensions": [
+    228,
+    264,
+    160
+  ],
+  "preview_axis_codes": [
+    "R",
+    "A",
+    "S"
+  ],
+  "preview_affine_ras_mm": [
+    [
+      0.04999999888241291,
+      0.0,
+      0.0,
+      -5.695000171661377
+    ],
+    [
+      0.0,
+      0.04999999888241291,
+      0.0,
+      -7.799999801442027
+    ],
+    [
+      0.0,
+      0.0,
+      0.04999999888241291,
+      -2.7300000321120024
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "preview_spacing_um": 50,
+  "volume_file": "template-preview-u8.bin.gz",
+  "volume_order": "C: (x * ny + y) * nz + z",
+  "display_window_raw": [
+    0,
+    270.0
+  ],
+  "display_units": "Windowed anatomical template intensity; not expression",
+  "surface_file": "template-surface.bin",
+  "vertex_count": 113298,
+  "index_count": 680760,
+  "position_offset": 0,
+  "index_offset": 1359576,
+  "surface_threshold_raw": 84.0,
+  "surface_method": "Otsu intensity threshold; closing and filling; largest connected component; Gaussian sigma 0.8; marching cubes step 2",
+  "surface_qualification": "Approximate surface derived from template intensity, not an official region segmentation. Fine structures may be omitted.",
+  "display_ras_center_mm": [
+    0.004999843984839103,
+    -1.3501523993875284,
+    1.3700000192970005
+  ],
+  "display_scale_world_units_per_mm": 0.2,
+  "regions_loaded": true,
+  "expression_loaded": false,
+  "official_information_url": "https://alleninstitute.github.io/CCF-MAP/descriptions/mouse_ccf.html",
+  "official_template_url": "https://allen-atlas-assets.s3.us-west-2.amazonaws.com/templates/allen-adult-mouse-stpt-template/2020/template_10.nii.gz",
+  "provenance_note": "Derived from the user-supplied file. The source hash identifies that file; it was not independently compared byte for byte with the linked official asset.",
+  "annotation_file": "annotation.json"
+}
