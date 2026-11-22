@@ -6,7 +6,6 @@ import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
 
 const $=id=>document.getElementById(id),ASSETS='assets/mouse-ccf/';
-let anatomyMaterial,rnaMaterial;
 let expression,selectionMask,selectionScene,selectionTarget,outlineScene,outlineCamera,outlineMaterial;
 let outlinedRegion=null;
 let metadata,annotation,volume,labels,regions,parts,renderer,scene,camera,controls,mesh;
@@ -31,7 +30,6 @@ function fit(box){
 function reset(){if(!mesh)return;isolated=false;updateGeometry();fit(mesh.geometry.boundingBox);}
 function updateGeometry(){
   if(!mesh)return;
-  mesh.material=expression?.active?rnaMaterial:anatomyMaterial;applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);
   const index=mesh.geometry.index.array,positions=mesh.geometry.attributes.position.array;
   let indexOffset=0;const box=new THREE.Box3(),v=new THREE.Vector3();
   for(const part of parts){
@@ -165,15 +163,9 @@ async function load(){
   const geometry=new THREE.BufferGeometry();geometry.setAttribute('position',new THREE.BufferAttribute(new Float32Array(binary,annotation.surface_position_offset,annotation.surface_vertex_count*3),3));
   baseIndices=new Uint32Array(binary,annotation.surface_index_offset,annotation.surface_index_count);geometry.setIndex(new THREE.BufferAttribute(baseIndices.slice(),1));
   colors=new Float32Array(annotation.surface_vertex_count*3);geometry.setAttribute('color',new THREE.BufferAttribute(colors,3));faceValues=new Uint16Array(annotation.surface_index_count/3);
-  geometry.computeVertexNormals();geometry.computeBoundingSphere();geometry.computeBoundingBox();scene=new THREE.Scene();
-  // Uniform ambient illumination removes the old dark lower hemisphere.
-  scene.add(new THREE.AmbientLight(0xffffff,2.2));
-  anatomyMaterial=new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide});
-  // Quantitative RNA colors are unlit, matching the legend at every angle.
-  rnaMaterial=new THREE.MeshBasicMaterial({vertexColors:true,side:THREE.DoubleSide,toneMapped:false});
-  mesh=new THREE.Mesh(geometry,anatomyMaterial);applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
-  // A white headlight follows the viewer, so the underside is lit like the top.
-  const headlight=new THREE.DirectionalLight(0xffffff,1.8);headlight.position.set(0,0,0);headlight.target.position.set(0,0,-1);camera.add(headlight,headlight.target);scene.add(camera);
+  geometry.computeVertexNormals();geometry.computeBoundingSphere();geometry.computeBoundingBox();scene=new THREE.Scene();scene.add(new THREE.HemisphereLight(0xdbf5ef,0x223c45,2));
+  const key=new THREE.DirectionalLight(0xffffff,2.1);key.position.set(3,5,4);scene.add(key);const rim=new THREE.DirectionalLight(0x87c8d6,1.2);rim.position.set(-3,1,-2);scene.add(rim);
+  mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;$('mouseScene').replaceChildren(renderer.domElement);
   makeSelectionOutline(geometry);
   if($('mouseFullscreen'))$('mouseFullscreen').onclick=toggleFullscreen;document.addEventListener('fullscreenchange',syncFullscreen);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('mouse-expanded')){document.body.classList.remove('mouse-expanded');syncFullscreen();}});
