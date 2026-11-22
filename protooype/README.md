@@ -3,7 +3,11 @@
 Created November 22, 2026 from the current live website.
 
 This replaces the retired lab prototype. Future experimental changes belong in this folder.
-The application starts as an exact copy of the production `dist/` tree: all 69 files were compared with the live website and matched byte for byte.
+The application started as an exact copy of the production `dist/` tree: all 69 baseline files were compared with the live website and matched byte for byte. `BASELINE.json` records that original snapshot, before prototype edits.
+
+## Current prototype changes
+
+The home screen now offers **Human Autism Gene Expression** and **Allen CCF Mouse Brain**. The header also switches between them. The human atlas retains its existing data and behavior. The mouse section uses a preview derived from the user-supplied `template_10.nii.gz`, with a movable approximate surface and three anatomical slice planes. Region annotations and mouse expression data are not loaded. See `MOUSE_ATLAS.md` for processing and scientific scope.
 
 ## Open locally
 
@@ -17,7 +21,7 @@ Then visit http://127.0.0.1:8768/ .
 
 ## Files
 
-- `dist/`: browser application and assets, copied without changes.
+- `dist/`: browser application, atlas selector and derived mouse preview assets.
 - `research/`, `scripts/`, `tests/`, `docs/`: the current production supporting files.
 - `BASELINE.json`: original Git commit, live URL and SHA-256 checksums.
 - `UPSTREAM_README.md`: the repository README at the time of copying.
