@@ -15,7 +15,7 @@ In the mouse atlas:
 - Switch coronal, horizontal and sagittal planes; toggle colored overlays.
 - Read the region name, abbreviation, stable Allen identifier and hierarchy in the region explorer.
 
-There are 683 nonzero label values in the 50 µm preview. The terminology has 1,328 entries. Including hierarchy parents, 854 entries have sampled voxels or sampled descendants and can be selected. Parents overlap their descendants; these counts are not independent, nonoverlapping anatomical regions. No mouse gene-expression or protein measurements have been added.
+There are 683 nonzero label values in the 50 µm preview. The terminology has 1,328 entries. Including hierarchy parents, 854 entries have sampled voxels or sampled descendants and can be selected. Parents overlap their descendants; these counts are not independent, nonoverlapping anatomical regions. Adult mouse RNA source-region summaries are available in the separate expression demo described in `MOUSE_EXPRESSION.md`; protein measurements are not included.
 
 ## Official annotation sources
 
@@ -71,4 +71,4 @@ The annotation processor downloads the official originals if absent, checks coor
 
 Tests verify matching coordinate grids, the compact-index/MBA-ID distinction, every named label, representative voxel membership, all three slice-picking orientations and letterbox rejection, and all triangle indices / face-to-label ranges. Human regional ranking tests remain included. Manual browser checks covered 3D picking, named region selection, isolation and slice picking.
 
-Mouse immersive VR and gene expression overlays are not implemented. Mouse and human renderers remain independent, with inactive scenes paused.
+Mouse immersive VR and voxelwise expression overlays are not implemented. The adult mouse RNA demo now provides source-region summaries and optional uniform regional coloring; see `MOUSE_EXPRESSION.md`. Mouse and human renderers remain independent, with inactive scenes paused.
