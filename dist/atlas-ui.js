@@ -1,6 +1,6 @@
 const $=id=>document.getElementById(id);
 let mouseModule;
-const mouse=()=>mouseModule??=import('./mouse-atlas.js?v=mouse-controls-2');
+const mouse=()=>mouseModule??=import('./mouse-atlas.js?v=mouse-toolbar-4');
 function openAtlas(value){
   const atlas=['human','mouse'].includes(value)?value:'home';
   document.body.dataset.atlas=atlas;

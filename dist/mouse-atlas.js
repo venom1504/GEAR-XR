@@ -149,7 +149,7 @@ async function load(){
   $('mouseBrowseRegions').onclick=()=>{browseAll=!browseAll;renderRegionList();};$('mouseSlice').onclick=pickSlice;
   $('mouseSlice').onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();const rect=$('mouseSlice').getBoundingClientRect();pickSlice({clientX:rect.left+rect.width/2,clientY:rect.top+rect.height/2});}};
   reset();setPlane();renderRegionList();showRegionInfo();
-  expression=await createMouseExpression(regions,updateGeometry);$('mouseLoading').hidden=true;if(active&&!frame)animate();
+  expression=await createMouseExpression(regions,updateGeometry);expression?.setRegion(selected);updateGeometry();$('mouseLoading').hidden=true;if(active&&!frame)animate();
 }
 export async function showMouse(){
   active=true;if(!pending)pending=load().catch(error=>{pending=null;$('mouseLoading').hidden=false;$('mouseLoading').textContent=`Could not open the mouse atlas. ${error.message}`;console.error(error);});
