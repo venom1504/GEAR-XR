@@ -1,8 +1,11 @@
-# GEAR-XR — lab prototype
+# GEAR-XR — fresh prototype
 
-This `protooype/` folder contains the expanded-sampling and repaired-display model described in the linked chat. It is separate from the live site's root `dist/` directory.
+Created November 22, 2026 from the current live website.
 
-## Run locally
+This replaces the retired lab prototype. Future experimental changes belong in this folder.
+The application starts as an exact copy of the production `dist/` tree: all 69 files were compared with the live website and matched byte for byte.
+
+## Open locally
 
 From this folder:
 
@@ -10,25 +13,21 @@ From this folder:
 python3 -m http.server 8768 --bind 127.0.0.1 --directory dist
 ```
 
-Open http://127.0.0.1:8768 . Keep the terminal open; press Control+C to stop. Use a local web server rather than opening index.html directly.
+Then visit http://127.0.0.1:8768/ .
 
-Run `npm test` to execute 20 JavaScript and 5 Python regression checks.
+## Files
 
-## What's included
+- `dist/`: browser application and assets, copied without changes.
+- `research/`, `scripts/`, `tests/`, `docs/`: the current production supporting files.
+- `BASELINE.json`: original Git commit, live URL and SHA-256 checksums.
+- `UPSTREAM_README.md`: the repository README at the time of copying.
 
-- Postcentral and precentral evidence includes the unsuffixed entry plus dorsal, middle and ventral subdivisions, across all 20 library genes.
-- TBR1's original 105.0 nTPM single-sample entry remains visible. Its corrected postcentral summary is 78.493 nTPM across 15 equally weighted tissue samples. The unsuffixed entry now has 1/15 (6.7%) weight, not 25%. This is not an independent-donor mean.
-- All 880 mapped gene/source measurements have verified sample tables and direct source anchors. The audit retains 4,260 imported source entries: all 193 HPA brain areas and all 20 PFC areas across 20 genes. The separately published parietal cortex page supplies six verified tissue rows per gene, completing the PFC baseline. SCN2A superior frontal uses the separate PFC study: 10 tissue samples, mean 11.6 nTPM and range 3.9–25.4 nTPM.
-- Shared broader mappings are explicit; cuneus and lateral occipital do not claim independent parcel-level measurements.
-- Sampling notices disappear for empty rankings. Yellow is reserved for single-sample results; multiple-source evidence is neutral and its weights are shown.
-- Region selection retains both hemispheres. The 3D canvas occupies its own panel, and narrow windows scroll.
-- Protein switching and loading guards are repaired. ASH1L, DYRK1A and PTEN show a single representative chain, with cited monomeric-assembly metadata. Full supplied coordinate files and original display JSON are preserved.
-- BigBrain links and download descriptions are corrected. The six historical extraction files have been recovered and match the original checksums.
+The earlier expanded-sampling prototype, its experiments and its dated ZIP backup have been removed from this folder. No changes from that prototype were carried over. The current production behavior is the starting point, including its existing scientific methods and limitations.
 
-## Limits that remain
+## Keep production separate
 
-Every tissue sample now has equal weight in both the target and comparison means, with duplicate sample IDs removed and target samples excluded from the baseline. Independent donor weights remain unavailable; repeated donors can still be overrepresented. Tissue ranges are not confidence intervals. Enrichment is descriptive and does not adjust for donor, age or cell-type composition. Broad anatomical correspondences are not spatial registrations. Physical headset validation remains required.
+Edit this folder for prototype work. Root `dist/` is the live application's code.
+Prototype-only commits must include `[skip render]` to prevent a Render deployment.
+The local shortcut `GEAR-XR-prototype` points here so there is only one working prototype.
 
-See [WEIGHTING_CHANGE.md](WEIGHTING_CHANGE.md) for the exact methodological change and coverage limitations.
-
-Read [LOCAL_LAB_PROTOTYPE.md](LOCAL_LAB_PROTOTYPE.md) for rebuild and provenance details. Preserve all asset licenses and scientific attribution.
+Reset source: https://github.com/venom1504/GEAR-XR/commit/c9670e32a0321bdd6f9e0e3ba83f56678cd89d10
