@@ -29,3 +29,9 @@ The sequential color scale runs from zero to the maximum energy across matched s
 ## Reproduce
 
 Run `python3 scripts/fetch_mouse_expression.py`, then `node --test tests/*.test.mjs` inside the prototype. The downloader validates ZIP integrity, raw byte sizes and retains all source responses. Existing cached files are reused and checksummed. Source grids are offered for download; they are not loaded as a spatial overlay.
+
+## Selected anatomy and full screen
+
+A white outline marks the projected boundary of the selected anatomical region in 3D, including the union of its descendants. It uses the original region triangles in a separate mask pass and leaves RNA colors and measurements unchanged. Internal region outlines can be seen through the translucent brain; they are selection guides, not expression thresholds or newly inferred boundaries. Slice outlines follow the selected annotation union without outlining every internal subdivision.
+
+The bottom-right Full screen button expands the mouse atlas with its controls intact. Browsers supporting the Fullscreen API use native full screen; otherwise an expanded page layout is used. The button or Escape exits the expanded view. The human atlas and separate prototype are unchanged.

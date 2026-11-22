@@ -1,11 +1,13 @@
 import * as THREE from 'three';
+import {selectedSurfaceIndices,isSelectionBorder} from './mouse-selection.js';
 import {applyBrainOpacity} from './brain-display.js?v=2';
 import {createMouseExpression} from './mouse-expression.js?v=controls-2';
 import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
 
 const $=id=>document.getElementById(id),ASSETS='assets/mouse-ccf/';
-let expression;
+let expression,selectionMask,selectionScene,selectionTarget,outlineScene,outlineCamera,outlineMaterial;
+let outlinedRegion=null;
 let metadata,annotation,volume,labels,regions,parts,renderer,scene,camera,controls,mesh;
 let frame=0,pending,active=false,selected=null,point=null,isolated=false,browseAll=false;
 let byValue,byId,baseIndices,faceValues,colors,selectedValues=new Set();
@@ -16,6 +18,7 @@ function el(tag,text,className){const node=document.createElement(tag);if(text!=
 function resize(){
   if(!renderer)return;const rect=$('mouseScene').getBoundingClientRect();if(!rect.width||!rect.height)return;
   camera.aspect=rect.width/rect.height;camera.updateProjectionMatrix();renderer.setSize(rect.width,rect.height);
+  if(selectionTarget){const size=renderer.getDrawingBufferSize(new THREE.Vector2());selectionTarget.setSize(size.x,size.y);outlineMaterial.uniforms.texel.value.set(1/size.x,1/size.y);outlineMaterial.uniforms.radius.value=2*renderer.getPixelRatio();}
 }
 function fit(box){
   resize();const target=box.getCenter(new THREE.Vector3()),radius=box.getSize(new THREE.Vector3()).length()/2;
@@ -45,6 +48,7 @@ function updateGeometry(){
   $('mouseIsolate').disabled=!selected;$('mouseIsolate').setAttribute('aria-pressed',String(isolated));
   $('mouseIsolate').textContent=isolated?'Show whole brain':'Isolate region';
   $('mouseSurfaceLabel').textContent=expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
+  if(outlinedRegion!==selected){outlinedRegion=selected;selectionMask.geometry.setIndex(new THREE.BufferAttribute(selectedSurfaceIndices(parts,baseIndices,selectedValues),1));selectionMask.visible=Boolean(selected);}
   if(isolated&&!box.isEmpty())fit(box);
 }
 function showRegionInfo(message){
@@ -80,14 +84,16 @@ function drawSlice(){
   if(!volume||!labels)return;
   const plane=$('mousePlane').value,view=planes[plane],shape=metadata.preview_dimensions,index=Number($('mouseSlicePosition').value);
   selectedSlices[plane]=index;const width=shape[view.u],height=shape[view.v],canvas=$('mouseSlice');canvas.width=width;canvas.height=height;
+  const selectionPixels=new Uint8Array(width*height);
   const context=canvas.getContext('2d'),image=context.createImageData(width,height),pos=[0,0,0],overlay=$('mouseShowLabels').checked;pos[view.axis]=index;
   for(let y=0;y<height;y++)for(let x=0;x<width;x++){
     pos[view.u]=x;pos[view.v]=height-1-y;
     const offset=voxelOffset(pos,shape),value=volume[offset],label=labels[offset],color=byValue.get(label)?.rgb;
     const alpha=overlay&&label&&color?(selected?(selectedValues.has(label)?.65:.12):.36):0,pixel=(y*width+x)*4;
     for(let channel=0;channel<3;channel++)image.data[pixel+channel]=value*(1-alpha)+(color?.[channel]||0)*alpha;
-    image.data[pixel+3]=255;
+    selectionPixels[y*width+x]=selectedValues.has(label)?1:0;image.data[pixel+3]=255;
   }
+  if(selected)for(let y=0;y<height;y++)for(let x=0;x<width;x++)if(isSelectionBorder(selectionPixels,width,height,x,y)){const i=(y*width+x)*4;image.data[i]=image.data[i+1]=image.data[i+2]=255;}
   context.putImageData(image,0,0);
   if(point&&point[view.axis]===index){
     const x=point[view.u]+.5,y=height-1-point[view.v]+.5;context.strokeStyle='#ffffc2';context.lineWidth=.8;context.beginPath();
@@ -117,7 +123,34 @@ function nearestVoxel(world,value){
   }
   return best||byValue.get(value).representative_voxel;
 }
-function animate(){if(!active||!renderer){frame=0;return;}controls.update();renderer.render(scene,camera);frame=requestAnimationFrame(animate);}
+function animate(){
+ if(!active||!renderer){frame=0;return;}controls.update();
+ if(selected&&selectionMask.visible){renderer.setRenderTarget(selectionTarget);renderer.render(selectionScene,camera);renderer.setRenderTarget(null);}
+ renderer.render(scene,camera);
+ if(selected&&selectionMask.visible){renderer.autoClear=false;renderer.render(outlineScene,outlineCamera);renderer.autoClear=true;}
+ frame=requestAnimationFrame(animate);
+}
+function makeSelectionOutline(geometry){
+ const maskGeometry=new THREE.BufferGeometry();maskGeometry.setAttribute('position',geometry.attributes.position);maskGeometry.setIndex([]);
+ selectionMask=new THREE.Mesh(maskGeometry,new THREE.MeshBasicMaterial({color:0xffffff,side:THREE.DoubleSide,toneMapped:false}));selectionMask.visible=false;
+ selectionScene=new THREE.Scene();selectionScene.add(selectionMask);
+ selectionTarget=new THREE.WebGLRenderTarget(1,1,{minFilter:THREE.NearestFilter,magFilter:THREE.NearestFilter});
+ outlineMaterial=new THREE.ShaderMaterial({uniforms:{mask:{value:selectionTarget.texture},texel:{value:new THREE.Vector2(1,1)},radius:{value:2}},
+ vertexShader:'varying vec2 uvPoint;void main(){uvPoint=uv;gl_Position=vec4(position.xy,0.,1.);}',
+ fragmentShader:`uniform sampler2D mask;uniform vec2 texel;uniform float radius;varying vec2 uvPoint;
+ void main(){float center=texture2D(mask,uvPoint).r;float edge=0.;
+ for(int x=-1;x<=1;x++)for(int y=-1;y<=1;y++){edge=max(edge,texture2D(mask,uvPoint+vec2(float(x),float(y))*texel*radius).r);}
+ float alpha=(1.-center)*edge;if(alpha<.01)discard;gl_FragColor=vec4(1.,1.,1.,alpha);}`,
+ transparent:true,depthTest:false,depthWrite:false,toneMapped:false});
+ outlineScene=new THREE.Scene();outlineScene.add(new THREE.Mesh(new THREE.PlaneGeometry(2,2),outlineMaterial));outlineCamera=new THREE.OrthographicCamera(-1,1,1,-1,0,1);
+}
+function fullscreenActive(){return document.fullscreenElement===$('mouseAtlas')||document.body.classList.contains('mouse-expanded');}
+function syncFullscreen(){const active=fullscreenActive(),button=$('mouseFullscreen');button.setAttribute('aria-pressed',String(active));button.setAttribute('aria-label',active?'Exit full screen':'Enter full screen');button.textContent=active?'⤢ Exit full screen':'⛶ Full screen';resize();}
+async function toggleFullscreen(){
+ if(fullscreenActive()){if(document.fullscreenElement===$('mouseAtlas'))await document.exitFullscreen();document.body.classList.remove('mouse-expanded');}
+ else{try{if(!$('mouseAtlas').requestFullscreen)throw Error('Use expanded layout');await $('mouseAtlas').requestFullscreen();}catch{document.body.classList.add('mouse-expanded');}}
+ syncFullscreen();
+}
 async function load(){
   $('mouseLoading').hidden=false;$('mouseLoading').textContent='Loading Allen region labels and anatomical surfaces…';
   [metadata,annotation]=await Promise.all([response('template.json').then(r=>r.json()),response('annotation.json').then(r=>r.json())]);
@@ -134,6 +167,8 @@ async function load(){
   const key=new THREE.DirectionalLight(0xffffff,2.1);key.position.set(3,5,4);scene.add(key);const rim=new THREE.DirectionalLight(0x87c8d6,1.2);rim.position.set(-3,1,-2);scene.add(rim);
   mesh=new THREE.Mesh(geometry,new THREE.MeshStandardMaterial({vertexColors:true,roughness:.85,metalness:0,side:THREE.DoubleSide}));applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);scene.add(mesh);camera=new THREE.PerspectiveCamera(38,1,.01,100);
   renderer=new THREE.WebGLRenderer({antialias:true,alpha:true});renderer.setPixelRatio(Math.min(devicePixelRatio,2));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;$('mouseScene').replaceChildren(renderer.domElement);
+  makeSelectionOutline(geometry);
+  $('mouseFullscreen').onclick=toggleFullscreen;document.addEventListener('fullscreenchange',syncFullscreen);document.addEventListener('keydown',event=>{if(event.key==='Escape'&&document.body.classList.contains('mouse-expanded')){document.body.classList.remove('mouse-expanded');syncFullscreen();}});
   controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minDistance=.1;controls.maxDistance=18;controls.autoRotateSpeed=.5;
   let down=null;renderer.domElement.addEventListener('pointerdown',event=>{if(event.button===0)down=[event.clientX,event.clientY];});
   renderer.domElement.addEventListener('pointerup',event=>{
@@ -155,4 +190,4 @@ export async function showMouse(){
   active=true;if(!pending)pending=load().catch(error=>{pending=null;$('mouseLoading').hidden=false;$('mouseLoading').textContent=`Could not open the mouse atlas. ${error.message}`;console.error(error);});
   await pending;if(renderer&&active){resize();if(!frame)animate();}
 }
-export function hideMouse(){active=false;if(frame)cancelAnimationFrame(frame);frame=0;}
+export function hideMouse(){document.body.classList.remove('mouse-expanded');if(document.fullscreenElement===$('mouseAtlas'))document.exitFullscreen().catch(()=>{});active=false;if(frame)cancelAnimationFrame(frame);frame=0;}
