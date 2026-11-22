@@ -24,7 +24,7 @@ These are RNA ISH optical image signals, not nTPM, protein abundance or molecule
 
 The downloaded expression grids use the earlier Allen CCF release (documentation describes the May 2015 update). Our anatomical annotation is CCFv3 2020. This implementation does **not** overlay those grids onto the 2020 volume or claim identical boundaries. It joins source-region summaries only where an exact MBA structure ID exists. Matching names/IDs alone do not establish equivalent boundary geometry. No parent fallback, missing-as-zero imputation, or averaging of overlapping parent/child summaries is applied.
 
-The sequential color scale runs from zero to the maximum energy across matched selectable regions within the selected experiment and uses a square-root transform. The legend labels this transform. Three-dimensional lighting can change apparent color; the numeric panel is authoritative. Selection no longer dims expression colors; use isolation to highlight a selected region.
+The sequential color scale runs from zero to the maximum energy across matched selectable regions within the selected experiment and uses a square-root transform. The legend labels this transform. RNA surfaces use unlit vertex colors, so top and underside views use the same color mapping. Opacity and overlapping translucent surfaces can still affect apparent colors; the numeric panel is authoritative. Selection no longer dims expression colors; use isolation to highlight a selected region.
 
 ## Reproduce
 
@@ -35,3 +35,5 @@ Run `python3 scripts/fetch_mouse_expression.py`, then `node --test tests/*.test.
 A white outline marks the projected boundary of the selected anatomical region in 3D, including the union of its descendants. It uses the original region triangles in a separate mask pass and leaves RNA colors and measurements unchanged. Internal region outlines can be seen through the translucent brain; they are selection guides, not expression thresholds or newly inferred boundaries. Slice outlines follow the selected annotation union without outlining every internal subdivision.
 
 The bottom-right Full screen button expands the mouse atlas with its controls intact. Browsers supporting the Fullscreen API use native full screen; otherwise an expanded page layout is used. The button or Escape exits the expanded view. The human atlas and separate prototype are unchanged.
+
+Anatomical-label mode uses uniform white ambient illumination and a white light attached to the camera, replacing the earlier colored top/bottom lighting. This keeps the underside illuminated while retaining surface shape cues. RNA mode uses a separate unlit material, independent of camera-facing surface normals. Neither mode changes measurements or the selection outline.
