@@ -42,8 +42,12 @@ The human atlas now defaults to a separate Allen Human Brain Atlas adult microar
 
 ## About-page prototype
 
-`dist/about.html` is a simple team and project-goal page, linked from the prototype header. It distinguishes current adult reference measurements from the longer-term childhood-development and VR goals. Contact / reach-out features are intentionally omitted for now. Only prototype files were changed; the public site is untouched.
+`dist/about.html` is a simple team and project-goal page, linked from the prototype header. It distinguishes current adult reference measurements from the longer-term childhood-development and 3D brain-atlas goals. Contact / reach-out features are intentionally omitted for now. Only prototype files were changed; the public site is untouched.
 
 ## Home page and narrated demo
 
 The prototype root URL and GEAR-XR wordmark now lead to `about.html`, which serves as the home page. The atlas chooser remains available at `index.html#atlases`, and direct human/mouse links still work. The hero card uses the existing 4K slideshow demonstration with its original audio, native controls, a real video-frame poster and an explicit Play button. Playback starts only after user interaction, unmuted by default. Video source metadata and a checksum are saved in `dist/assets/demo/source.json`. No contact features were added, and production assets are unchanged.
+
+## 3D wording update
+
+The About page now describes 3D brain atlases. Its 4K demo removes the opening virtual-reality sentence and matching captions, retaining the original voice and pacing elsewhere (96.33 seconds). The immutable source remains outside the prototype. `scripts/edit-home-demo-3d.py` records the exact edit. Transcription and full-media decoding passed; audible quality was not independently reviewed. Production and the slideshow remain unchanged.

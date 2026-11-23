@@ -1,13 +1,20 @@
 {
   "source_file": "GEAR-XR-Brain-Atlas-Demo-4K.mp4",
-  "bytes": 11386657,
-  "sha256": "c63e05255828ae493789acd0ad49695096eeeed2c0a03ff7be234fd14919be27",
-  "duration_seconds": 100.25,
+  "bytes": 11725469,
+  "sha256": "25434f990231ad3c4bee16387863f7638b9f0236ef276d1b757c963eb19ae8cd",
+  "duration_seconds": 96.333333,
   "dimensions": [
     3840,
     2160
   ],
-  "audio": "Original audio track retained; no mute or autoplay applied.",
-  "poster_time_seconds": 8,
-  "provenance": "Existing GEAR-XR slideshow demo; original local video copied unchanged after matching the slide video filename and size."
+  "audio": "Original narration retained at 1x; the virtual-reality sentence removed together with its video and captions. Playback starts with user interaction, unmuted.",
+  "poster_time_seconds": 4.083333,
+  "provenance": "Prototype edit of the existing slideshow demo; original local source preserved. Removed source interval 76/24 to 170/24 seconds and corrected the opening caption.",
+  "original_source_sha256": "c63e05255828ae493789acd0ad49695096eeeed2c0a03ff7be234fd14919be27",
+  "verification": {
+    "full_decode": "passed",
+    "narration_transcription": "No VR or virtual reality wording detected in the final audio.",
+    "listening_review": "not_performed",
+    "dimensions": "3840x2160 H264 with AAC audio"
+  }
 }
