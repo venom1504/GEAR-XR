@@ -39,3 +39,7 @@ Reset source: https://github.com/venom1504/GEAR-XR/commit/c9670e32a0321bdd6f9e0e
 ## Human RNA prototype update
 
 The human atlas now defaults to a separate Allen Human Brain Atlas adult microarray view for all 20 genes, with donor/probe selection, conservative hemisphere-specific source-name matching, inspectable sample counts and optional regional-expression coloring. HPA candidate rankings remain selectable. Both atlases have an adjustable opacity control (78% by default). See `HUMAN_ALLEN.md` and the linked in-app methods for the distinction between source summaries and spatial registration.
+
+## About-page prototype
+
+`dist/about.html` is a simple team and project-goal page, linked from the prototype header. It distinguishes current adult reference measurements from the longer-term childhood-development and VR goals. Contact / reach-out features are intentionally omitted for now. Only prototype files were changed; the public site is untouched.
