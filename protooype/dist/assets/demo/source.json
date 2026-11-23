@@ -1,0 +1,13 @@
+{
+  "source_file": "GEAR-XR-Brain-Atlas-Demo-4K.mp4",
+  "bytes": 11386657,
+  "sha256": "c63e05255828ae493789acd0ad49695096eeeed2c0a03ff7be234fd14919be27",
+  "duration_seconds": 100.25,
+  "dimensions": [
+    3840,
+    2160
+  ],
+  "audio": "Original audio track retained; no mute or autoplay applied.",
+  "poster_time_seconds": 8,
+  "provenance": "Existing GEAR-XR slideshow demo; original local video copied unchanged after matching the slide video filename and size."
+}
