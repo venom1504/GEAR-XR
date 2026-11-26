@@ -51,3 +51,7 @@ The prototype root URL and GEAR-XR wordmark now lead to `about.html`, which serv
 ## 3D wording update
 
 The About page now describes 3D brain atlases. Its 4K demo removes the opening virtual-reality sentence and matching captions, retaining the original voice and pacing elsewhere (96.33 seconds). The immutable source remains outside the prototype. `scripts/edit-home-demo-3d.py` records the exact edit. Transcription and full-media decoding passed; audible quality was not independently reviewed. Production and the slideshow remain unchanged.
+
+## ABC categorical cells
+
+The mouse viewer adds the Zhuang-ABCA-2 cell-type layer requested by Jing Zhu: registered cell centers, class/subclass/neurotransmitter colors, region filtering, counts and inspectable source confidence. Existing ISH expression remains a separate mode. See `ABC_CELLS.md`.

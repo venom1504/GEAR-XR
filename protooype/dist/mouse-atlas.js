@@ -1,11 +1,12 @@
 import * as THREE from 'three';
+import {createMouseCells} from './mouse-cells.js?v=1';
 import {applyBrainOpacity} from './brain-display.js?v=2';
-import {createMouseExpression} from './mouse-expression.js?v=expression-1';
+import {createMouseExpression} from './mouse-expression.js?v=abc-cells-1';
 import {OrbitControls} from './assets/OrbitControls.js';
 import {planes,voxelOffset,slicePixelToVoxel,regionValues} from './mouse-annotation-utils.js';
 
 const $=id=>document.getElementById(id),ASSETS='assets/mouse-ccf/';
-let expression;
+let expression,cells;
 let metadata,annotation,volume,labels,regions,parts,renderer,scene,camera,controls,mesh;
 let frame=0,pending,active=false,selected=null,point=null,isolated=false,browseAll=false;
 let byValue,byId,baseIndices,faceValues,colors,selectedValues=new Set();
@@ -31,7 +32,7 @@ function updateGeometry(){
   let indexOffset=0;const box=new THREE.Box3(),v=new THREE.Vector3();
   for(const part of parts){
     const included=!isolated||selectedValues.has(part.value),highlight=!selected||selectedValues.has(part.value);
-    const color=new THREE.Color(expression?.colorForRegion(byValue.get(part.value))||byValue.get(part.value).color);
+    const color=new THREE.Color(cells?.active?'#80919a':expression?.colorForRegion(byValue.get(part.value))||byValue.get(part.value).color);
     if(!expression?.active&&selected&&!highlight)color.multiplyScalar(.38);
     if(!expression?.active&&selected&&highlight)color.lerp(new THREE.Color('#f4f6db'),.28);
     for(let i=part.vertex_start*3,end=i+part.vertex_count*3;i<end;i+=3){colors[i]=color.r;colors[i+1]=color.g;colors[i+2]=color.b;}
@@ -44,7 +45,7 @@ function updateGeometry(){
   mesh.geometry.index.needsUpdate=true;mesh.geometry.attributes.color.needsUpdate=true;mesh.geometry.setDrawRange(0,indexOffset);
   $('mouseIsolate').disabled=!selected;$('mouseIsolate').setAttribute('aria-pressed',String(isolated));
   $('mouseIsolate').textContent=isolated?'Show whole brain':'Isolate region';
-  $('mouseSurfaceLabel').textContent=expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
+  $('mouseSurfaceLabel').textContent=cells?.active?'ABC Atlas · Zhuang-ABCA-2 · sampled cell centers':expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
   if(isolated&&!box.isEmpty())fit(box);
 }
 function showRegionInfo(message){
@@ -60,7 +61,7 @@ function selectRegion(region,voxel=null){
   if(!region)isolated=false;
   if(point)for(const [name,view] of Object.entries(planes))selectedSlices[name]=point[view.axis];
   showRegionInfo(region?null:'The clicked point is background or has no annotation in this sampled volume.');
-  expression?.setRegion(region);updateGeometry();setPlane();renderRegionList();
+  expression?.setRegion(region);cells?.setRegion(region);updateGeometry();setPlane();renderRegionList();
 }
 function renderRegionList(){
   if(!regions)return;const list=$('mouseRegionList'),query=$('mouseRegionSearch').value.trim().toLowerCase();list.replaceChildren();
@@ -89,6 +90,7 @@ function drawSlice(){
     image.data[pixel+3]=255;
   }
   context.putImageData(image,0,0);
+  cells?.drawSlice(context,plane,index);
   if(point&&point[view.axis]===index){
     const x=point[view.u]+.5,y=height-1-point[view.v]+.5;context.strokeStyle='#ffffc2';context.lineWidth=.8;context.beginPath();
     context.moveTo(x-5,y);context.lineTo(x+5,y);context.moveTo(x,y-5);context.lineTo(x,y+5);context.stroke();
@@ -139,17 +141,20 @@ async function load(){
   renderer.domElement.addEventListener('pointerup',event=>{
     if(!down||Math.hypot(event.clientX-down[0],event.clientY-down[1])>5){down=null;return;}down=null;
     const rect=renderer.domElement.getBoundingClientRect();pointer.set((event.clientX-rect.left)/rect.width*2-1,-(event.clientY-rect.top)/rect.height*2+1);ray.setFromCamera(pointer,camera);
+    if(cells?.pick(ray))return;
     const hit=ray.intersectObject(mesh,false)[0];if(!hit)return;const value=faceValues[hit.faceIndex];selectRegion(byValue.get(value),nearestVoxel(hit.point,value));
   });
   new ResizeObserver(resize).observe($('mouseScene'));
-  $('mouseBrainOpacity').oninput=()=>{const value=$('mouseBrainOpacity').value;$('mouseBrainOpacityValue').textContent=value+'%';applyBrainOpacity(mesh.material,value);};
+  $('mouseBrainOpacity').oninput=()=>{const value=$('mouseBrainOpacity').value;$('mouseBrainOpacityValue').textContent=value+'%';applyBrainOpacity(mesh.material,value);if(cells?.active)mesh.material.depthWrite=false;};
   $('mouseReset').onclick=reset;$('mouseIsolate').onclick=()=>{if(selected){isolated=!isolated;updateGeometry();if(!isolated)fit(mesh.geometry.boundingBox);}};
   $('mouseRotate').onclick=()=>{controls.autoRotate=!controls.autoRotate;$('mouseRotate').setAttribute('aria-pressed',String(controls.autoRotate));};
   $('mousePlane').onchange=setPlane;$('mouseSlicePosition').oninput=drawSlice;$('mouseShowLabels').onchange=drawSlice;$('mouseRegionSearch').oninput=renderRegionList;
   $('mouseBrowseRegions').onclick=()=>{browseAll=!browseAll;renderRegionList();};$('mouseSlice').onclick=pickSlice;
   $('mouseSlice').onkeydown=event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();const rect=$('mouseSlice').getBoundingClientRect();pickSlice({clientX:rect.left+rect.width/2,clientY:rect.top+rect.height/2});}};
   reset();setPlane();renderRegionList();showRegionInfo();
-  expression=await createMouseExpression(regions,updateGeometry);$('mouseLoading').hidden=true;if(active&&!frame)animate();
+  expression=await createMouseExpression(regions,updateGeometry);
+  cells=createMouseCells({scene,template:metadata,regions,expression,onChange(){applyBrainOpacity(mesh.material,$('mouseBrainOpacity').value);if(cells?.active)mesh.material.depthWrite=false;updateGeometry();drawSlice();}});
+  $('mouseLoading').hidden=true;if(active&&!frame)animate();
 }
 export async function showMouse(){
   active=true;if(!pending)pending=load().catch(error=>{pending=null;$('mouseLoading').hidden=false;$('mouseLoading').textContent=`Could not open the mouse atlas. ${error.message}`;console.error(error);});

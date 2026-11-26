@@ -27,3 +27,28 @@ body[data-atlas="human"] #atlasChooser,body[data-atlas="mouse"] #atlasChooser{di
 
 /* Prototype project page entry point. */
 .about-project-link{color:#b5dbd2;font-size:11px;text-decoration:none;white-space:nowrap;padding:8px 2px}.about-project-link:hover{text-decoration:underline;text-underline-offset:4px}@media(max-width:600px){.about-project-link{font-size:10px}.atlas-controls select{width:auto;min-width:0;flex:1}.atlas-controls{gap:10px}}
+
+/* Categorical ABC cells live in the same verified CCF frame as the anatomy. */
+.mouse-workspace{display:flex;flex-direction:column;gap:12px;min-width:0;min-height:0}
+.mouse-workspace>.mouse-view{flex:1;min-height:300px}
+.mouse-cell-controls{flex:none;padding:14px 16px;background:#101d25;border:1px solid #304852;border-radius:8px}
+.cell-toolbar-label{display:block;font-size:11px;color:#b9cdd4;margin-bottom:8px}
+.cell-mode-buttons{display:flex;flex-wrap:wrap;gap:6px}
+.cell-mode-buttons button{padding:9px 12px;background:#0a151c;border:1px solid #3a505a;border-radius:5px;font-size:11px;color:#c5d7dc}
+.cell-mode-buttons button[aria-pressed=true]{background:#b2ded4;color:#102a2b;border-color:#b2ded4}
+.cell-mode-help{font-size:10px;line-height:1.6;color:#a3bbc4;margin:9px 0 0}
+.mouse-cells-panel{border:1px solid #43616b;border-radius:8px;padding:15px;margin:18px 0;background:#0c1b23}
+.mouse-cells-panel h2{font-size:21px;margin:10px 0}.mouse-cells-panel p{font-size:11px;line-height:1.7;color:#b1c6cf}
+.mouse-cells-panel .cell-explanation{color:#d4e1e2}.mouse-cells-panel label{font-size:11px;color:#bdcfd5}
+.mouse-cells-panel input[type=search]{width:100%;border:1px solid #405864;padding:10px;border-radius:5px;font-size:12px;background:#08151c}
+.mouse-cells-panel select{font-size:11px;padding:9px}.mouse-cells-panel .mouse-overlay-toggle{font-size:11px!important}
+.cell-type-list{display:flex;flex-direction:column;gap:4px;max-height:230px;overflow:auto;scrollbar-width:thin}
+.cell-type-list button{display:grid;grid-template-columns:9px 1fr auto;gap:7px;align-items:center;text-align:left;background:#10232c;border:1px solid #2a414b;padding:8px;border-radius:4px;font-size:10px;line-height:1.45}
+.cell-type-list button:hover,.cell-type-list button[aria-pressed=true]{border-color:#9de8dd;background:#203b40}
+.cell-type-list small{font-size:10px;font-variant-numeric:tabular-nums;color:#afc6cd}.cell-type-swatch{width:8px;height:8px;border-radius:2px}
+.cell-reset{background:none;border:1px solid #455d68;color:#bdd4dc;padding:8px;border-radius:4px;font-size:10px;margin-top:10px}
+.cell-picked{margin-top:15px;border:1px solid #698d8d;border-radius:5px;padding:12px;overflow-wrap:anywhere;background:#172d32}.cell-picked h3{font-size:13px;line-height:1.5;margin:0 0 8px}
+.mouse-cells-panel details{margin-top:16px;padding-top:13px}.mouse-cells-panel a{color:#b2ded4;font-size:11px;line-height:1.8}
+body[data-mouse-mode=cells] #mouseExpression{display:none}
+@media(max-width:850px){.mouse-workspace{min-height:530px}.mouse-workspace>.mouse-view{min-height:400px}}
+@media(max-width:600px){.mouse-workspace{flex:none;min-height:550px}.mouse-workspace>.mouse-view{min-height:400px}.cell-mode-buttons button{padding:9px;font-size:10px}.mouse-cell-controls{padding:12px}.mouse-cells-panel{padding:14px}.cell-type-list button{font-size:12px;padding:10px}.cell-type-list{max-height:260px}}

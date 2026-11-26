@@ -32,6 +32,6 @@ export async function createMouseExpression(regions,onChange){
     geneSelect.onchange=()=>{gene=data.genes.find(g=>g.gene===geneSelect.value);experiments();render();onChange();};
     expSelect.onchange=()=>{experiment=gene.experiments.find(e=>String(e.id)===expSelect.value);render();onChange();};toggle.onchange=()=>{render();onChange();};
     experiments();render();
-    return {setRegion(region){selected=region;render();},colorForRegion(region){return toggle.checked?energyColor(measurement(experiment,region.identifier)?.expression_energy,maximum):null;},get active(){return toggle.checked;},get gene(){return gene.gene;}};
+    return {setActive(value){toggle.checked=value;render();},setRegion(region){selected=region;render();},colorForRegion(region){return toggle.checked?energyColor(measurement(experiment,region.identifier)?.expression_energy,maximum):null;},get active(){return toggle.checked;},get gene(){return gene.gene;}};
   }catch(error){panel.replaceChildren(element('h2','Expression data unavailable'),element('p',`The anatomy still works. Could not load the local Allen demo: ${error.message}`));return null;}
 }

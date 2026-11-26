@@ -1,0 +1,727 @@
+[
+  {
+    "cell_id": "279249348972408783785949376428826712489",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.035",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 2098,
+      "subclass_confidence_score": 0.9999952016669044,
+      "cluster_confidence_score": 0.742165647713292,
+      "high_quality_transfer": true,
+      "x": 6.237224100000001,
+      "y": 7.0972564,
+      "z": 5.542064074999999,
+      "parcellation_index": 167
+    },
+    "display_record": [
+      "279249348972408783785949376428826712489",
+      6.237224,
+      7.097256,
+      5.542064,
+      1927,
+      167,
+      29,
+      1.0,
+      0.7422,
+      true
+    ]
+  },
+  {
+    "cell_id": "246389795353166385314923167201508024010",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.037",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5263,
+      "subclass_confidence_score": 0.9738302836392422,
+      "cluster_confidence_score": 0.7187844875708858,
+      "high_quality_transfer": true,
+      "x": 6.795040274999999,
+      "y": 1.39907125,
+      "z": 5.72080865,
+      "parcellation_index": 532
+    },
+    "display_record": [
+      "246389795353166385314923167201508024010",
+      6.79504,
+      1.399071,
+      5.720809,
+      4328,
+      532,
+      31,
+      0.9738,
+      0.7188,
+      true
+    ]
+  },
+  {
+    "cell_id": "159915629062633944101928975909262505855",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.022",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 14939,
+      "subclass_confidence_score": 0.97088259852598,
+      "cluster_confidence_score": 0.9673303526207369,
+      "high_quality_transfer": true,
+      "x": 3.8524953999999996,
+      "y": 2.3472694499999998,
+      "z": 4.3087721000000005,
+      "parcellation_index": 1010
+    },
+    "display_record": [
+      "159915629062633944101928975909262505855",
+      3.852495,
+      2.347269,
+      4.308772,
+      4416,
+      1010,
+      18,
+      0.9709,
+      0.9673,
+      true
+    ]
+  },
+  {
+    "cell_id": "129458089479134692445450079843483764869",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.032",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 663,
+      "subclass_confidence_score": 0.9579429982620588,
+      "cluster_confidence_score": 0.5944390518594066,
+      "high_quality_transfer": true,
+      "x": 5.884365849999999,
+      "y": 0.6924912249999999,
+      "z": 4.182509825,
+      "parcellation_index": 108
+    },
+    "display_record": [
+      "129458089479134692445450079843483764869",
+      5.884366,
+      0.692491,
+      4.18251,
+      641,
+      108,
+      26,
+      0.9579,
+      0.5944,
+      true
+    ]
+  },
+  {
+    "cell_id": "94571370142119231615148457786095258565",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.060",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999938095401538,
+      "cluster_confidence_score": 0.9876874036174388,
+      "high_quality_transfer": true,
+      "x": 11.068576525000001,
+      "y": 5.3545125250000005,
+      "z": 4.750486124999999,
+      "parcellation_index": 344
+    },
+    "display_record": [
+      "94571370142119231615148457786095258565",
+      11.068577,
+      5.354513,
+      4.750486,
+      4303,
+      344,
+      52,
+      1.0,
+      0.9877,
+      true
+    ]
+  },
+  {
+    "cell_id": "54507674102240750362153264270692995969",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.056",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5150,
+      "subclass_confidence_score": 0.9907828436527164,
+      "cluster_confidence_score": 0.972996240497643,
+      "high_quality_transfer": true,
+      "x": 10.413884525,
+      "y": 4.69951145,
+      "z": 3.31646545,
+      "parcellation_index": 73
+    },
+    "display_record": [
+      "54507674102240750362153264270692995969",
+      10.413885,
+      4.699511,
+      3.316465,
+      4280,
+      73,
+      48,
+      0.9908,
+      0.973,
+      true
+    ]
+  },
+  {
+    "cell_id": "177857263390398930208788184840696123",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.061",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5283,
+      "subclass_confidence_score": 0.999990261112376,
+      "cluster_confidence_score": 0.999990261112376,
+      "high_quality_transfer": true,
+      "x": 11.23577395,
+      "y": 5.664536525000001,
+      "z": 5.261448325,
+      "parcellation_index": 1037
+    },
+    "display_record": [
+      "177857263390398930208788184840696123",
+      11.235774,
+      5.664537,
+      5.261448,
+      4342,
+      1037,
+      53,
+      1.0,
+      1.0,
+      true
+    ]
+  },
+  {
+    "cell_id": "145589205293049627114624403527518209521",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.045",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999842108951866,
+      "cluster_confidence_score": 0.7930198690588304,
+      "high_quality_transfer": true,
+      "x": 8.14621565,
+      "y": 5.104329925,
+      "z": 4.671400325,
+      "parcellation_index": 739
+    },
+    "display_record": [
+      "145589205293049627114624403527518209521",
+      8.146216,
+      5.10433,
+      4.6714,
+      4303,
+      739,
+      37,
+      1.0,
+      0.793,
+      true
+    ]
+  },
+  {
+    "cell_id": "85586064686231835308966463601877719448",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.055",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 14956,
+      "subclass_confidence_score": 0.9999815871248025,
+      "cluster_confidence_score": 0.8863638569045573,
+      "high_quality_transfer": true,
+      "x": 10.20926325,
+      "y": 4.81751535,
+      "z": 4.3188204,
+      "parcellation_index": 524
+    },
+    "display_record": [
+      "85586064686231835308966463601877719448",
+      10.209263,
+      4.817515,
+      4.31882,
+      4425,
+      524,
+      47,
+      1.0,
+      0.8864,
+      true
+    ]
+  },
+  {
+    "cell_id": "292069177621219335316767175307902757622",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.059",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5230,
+      "subclass_confidence_score": 0.9999783827635816,
+      "cluster_confidence_score": 0.5825585950399971,
+      "high_quality_transfer": true,
+      "x": 10.955381025000001,
+      "y": 3.529937925,
+      "z": 3.692343325,
+      "parcellation_index": 1080
+    },
+    "display_record": [
+      "292069177621219335316767175307902757622",
+      10.955381,
+      3.529938,
+      3.692343,
+      4302,
+      1080,
+      51,
+      1.0,
+      0.5826,
+      true
+    ]
+  },
+  {
+    "cell_id": "80124855673387130727026993501511391795",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.028",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999629398798372,
+      "cluster_confidence_score": 0.5112530217082513,
+      "high_quality_transfer": true,
+      "x": 4.95343435,
+      "y": 5.41204285,
+      "z": 5.742221125,
+      "parcellation_index": 554
+    },
+    "display_record": [
+      "80124855673387130727026993501511391795",
+      4.953434,
+      5.412043,
+      5.742221,
+      4303,
+      554,
+      23,
+      1.0,
+      0.5113,
+      true
+    ]
+  },
+  {
+    "cell_id": "12097755678199915292911799759618593897",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.005",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5241,
+      "subclass_confidence_score": 0.9999886459487188,
+      "cluster_confidence_score": 0.5459598928131201,
+      "high_quality_transfer": true,
+      "x": 0.7505905,
+      "y": 4.328091250000001,
+      "z": 5.4966727,
+      "parcellation_index": 497
+    },
+    "display_record": [
+      "12097755678199915292911799759618593897",
+      0.750591,
+      4.328091,
+      5.496673,
+      4311,
+      497,
+      1,
+      1.0,
+      0.546,
+      true
+    ]
+  },
+  {
+    "cell_id": "119052497516090146505484992913447474795",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.012",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5254,
+      "subclass_confidence_score": 0.9999906016235464,
+      "cluster_confidence_score": 0.9999906016235464,
+      "high_quality_transfer": true,
+      "x": 2.1110198749999998,
+      "y": 4.8481971249999996,
+      "z": 4.2892622000000005,
+      "parcellation_index": 154
+    },
+    "display_record": [
+      "119052497516090146505484992913447474795",
+      2.11102,
+      4.848197,
+      4.289262,
+      4319,
+      154,
+      8,
+      1.0,
+      1.0,
+      true
+    ]
+  },
+  {
+    "cell_id": "296632656413211721654224994598647311016",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.052",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5261,
+      "subclass_confidence_score": 0.9912678296208808,
+      "cluster_confidence_score": 0.9404973105686276,
+      "high_quality_transfer": true,
+      "x": 9.79386345,
+      "y": 1.85735285,
+      "z": 3.881732075,
+      "parcellation_index": 432
+    },
+    "display_record": [
+      "296632656413211721654224994598647311016",
+      9.793863,
+      1.857353,
+      3.881732,
+      4326,
+      432,
+      44,
+      0.9913,
+      0.9405,
+      true
+    ]
+  },
+  {
+    "cell_id": "143167497371431019707251794965304457870",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.036",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999479366044312,
+      "cluster_confidence_score": 0.6565185388532888,
+      "high_quality_transfer": true,
+      "x": 6.455080225000001,
+      "y": 3.8669436249999998,
+      "z": 5.222983275,
+      "parcellation_index": 352
+    },
+    "display_record": [
+      "143167497371431019707251794965304457870",
+      6.45508,
+      3.866944,
+      5.222983,
+      4303,
+      352,
+      30,
+      0.9999,
+      0.6565,
+      true
+    ]
+  },
+  {
+    "cell_id": "135743843504816295240578316774592510494",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.041",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5252,
+      "subclass_confidence_score": 0.9999774107272058,
+      "cluster_confidence_score": 0.9101333301515296,
+      "high_quality_transfer": true,
+      "x": 7.8418507250000005,
+      "y": 3.008726475,
+      "z": 2.136242275,
+      "parcellation_index": 389
+    },
+    "display_record": [
+      "135743843504816295240578316774592510494",
+      7.841851,
+      3.008726,
+      2.136242,
+      4318,
+      389,
+      34,
+      1.0,
+      0.9101,
+      true
+    ]
+  },
+  {
+    "cell_id": "332625587636778530001707713479495055596",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.025",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 81,
+      "subclass_confidence_score": 0.999989811652059,
+      "cluster_confidence_score": 0.8457866308004472,
+      "high_quality_transfer": true,
+      "x": 4.525557525,
+      "y": 1.828699825,
+      "z": 5.256122725,
+      "parcellation_index": 1004
+    },
+    "display_record": [
+      "332625587636778530001707713479495055596",
+      4.525558,
+      1.8287,
+      5.256123,
+      78,
+      1004,
+      20,
+      1.0,
+      0.8458,
+      true
+    ]
+  },
+  {
+    "cell_id": "211351073984233215849638234145459541722",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.034",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 14939,
+      "subclass_confidence_score": 0.9748410466399898,
+      "cluster_confidence_score": 0.9748410466399898,
+      "high_quality_transfer": true,
+      "x": 6.251376775,
+      "y": 2.012648175,
+      "z": 2.57064885,
+      "parcellation_index": 1059
+    },
+    "display_record": [
+      "211351073984233215849638234145459541722",
+      6.251377,
+      2.012648,
+      2.570649,
+      4416,
+      1059,
+      28,
+      0.9748,
+      0.9748,
+      true
+    ]
+  },
+  {
+    "cell_id": "65026298837280975527689231031142325086",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.026",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 14939,
+      "subclass_confidence_score": 0.9581946936074236,
+      "cluster_confidence_score": 0.8710393372559484,
+      "high_quality_transfer": true,
+      "x": 4.74113675,
+      "y": 2.212873975,
+      "z": 5.296507075,
+      "parcellation_index": 762
+    },
+    "display_record": [
+      "65026298837280975527689231031142325086",
+      4.741137,
+      2.212874,
+      5.296507,
+      4416,
+      762,
+      21,
+      0.9582,
+      0.871,
+      true
+    ]
+  },
+  {
+    "cell_id": "1582082449064164803295984930600389171",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.031",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5255,
+      "subclass_confidence_score": 0.9999715370996106,
+      "cluster_confidence_score": 0.7843265396076132,
+      "high_quality_transfer": true,
+      "x": 5.754449875000001,
+      "y": 7.071726700000001,
+      "z": 5.065632775,
+      "parcellation_index": 112
+    },
+    "display_record": [
+      "1582082449064164803295984930600389171",
+      5.75445,
+      7.071727,
+      5.065633,
+      4320,
+      112,
+      25,
+      1.0,
+      0.7843,
+      true
+    ]
+  },
+  {
+    "cell_id": "321823889941692401363507527874112016009",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.044",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 14956,
+      "subclass_confidence_score": 0.9961140906011344,
+      "cluster_confidence_score": 0.872148562149176,
+      "high_quality_transfer": true,
+      "x": 7.970290625,
+      "y": 5.417015849999999,
+      "z": 4.6056417000000005,
+      "parcellation_index": 739
+    },
+    "display_record": [
+      "321823889941692401363507527874112016009",
+      7.970291,
+      5.417016,
+      4.605642,
+      4425,
+      739,
+      36,
+      0.9961,
+      0.8721,
+      true
+    ]
+  },
+  {
+    "cell_id": "193167981942734477947218169514985250507",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.016",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5254,
+      "subclass_confidence_score": 0.9999656545610508,
+      "cluster_confidence_score": 0.7472349886864313,
+      "high_quality_transfer": true,
+      "x": 2.698199125,
+      "y": 2.1243102,
+      "z": 4.225283025,
+      "parcellation_index": 952
+    },
+    "display_record": [
+      "193167981942734477947218169514985250507",
+      2.698199,
+      2.12431,
+      4.225283,
+      4319,
+      952,
+      12,
+      1.0,
+      0.7472,
+      true
+    ]
+  },
+  {
+    "cell_id": "10814300237077721532279999361675796679",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.009",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999732393486496,
+      "cluster_confidence_score": 0.725012439708063,
+      "high_quality_transfer": true,
+      "x": 1.62052965,
+      "y": 4.75495055,
+      "z": 4.419790375000001,
+      "parcellation_index": 213
+    },
+    "display_record": [
+      "10814300237077721532279999361675796679",
+      1.62053,
+      4.754951,
+      4.41979,
+      4303,
+      213,
+      5,
+      1.0,
+      0.725,
+      true
+    ]
+  },
+  {
+    "cell_id": "117457117585317922533521752277640774037",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.033",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 5231,
+      "subclass_confidence_score": 0.9999713313861504,
+      "cluster_confidence_score": 0.8201435293006624,
+      "high_quality_transfer": true,
+      "x": 6.20755195,
+      "y": 3.17132465,
+      "z": 2.70771845,
+      "parcellation_index": 662
+    },
+    "display_record": [
+      "117457117585317922533521752277640774037",
+      6.207552,
+      3.171325,
+      2.707718,
+      4303,
+      662,
+      27,
+      1.0,
+      0.8201,
+      true
+    ]
+  },
+  {
+    "cell_id": "138992294113856349243851768993094947703",
+    "source": {
+      "brain_section_label": "Zhuang-ABCA-2.058",
+      "donor_label": "Zhuang-ABCA-2",
+      "donor_genotype": "wt/wt",
+      "donor_sex": "M",
+      "cluster_alias": 4167,
+      "subclass_confidence_score": 0.9361572768008148,
+      "cluster_confidence_score": 0.9361572768008148,
+      "high_quality_transfer": true,
+      "x": 10.789679225,
+      "y": 3.77141185,
+      "z": 1.9431393250000002,
+      "parcellation_index": 1045
+    },
+    "display_record": [
+      "138992294113856349243851768993094947703",
+      10.789679,
+      3.771412,
+      1.943139,
+      3544,
+      1045,
+      50,
+      0.9362,
+      0.9362,
+      true
+    ]
+  }
+]
