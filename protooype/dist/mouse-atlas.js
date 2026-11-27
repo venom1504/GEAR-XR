@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import {createMouseCells} from './mouse-cells.js?v=1';
+import {createMouseCells} from './mouse-cells.js?v=full-cells-2';
 import {applyBrainOpacity} from './brain-display.js?v=2';
 import {createMouseExpression} from './mouse-expression.js?v=abc-cells-1';
 import {OrbitControls} from './assets/OrbitControls.js';
@@ -45,7 +45,7 @@ function updateGeometry(){
   mesh.geometry.index.needsUpdate=true;mesh.geometry.attributes.color.needsUpdate=true;mesh.geometry.setDrawRange(0,indexOffset);
   $('mouseIsolate').disabled=!selected;$('mouseIsolate').setAttribute('aria-pressed',String(isolated));
   $('mouseIsolate').textContent=isolated?'Show whole brain':'Isolate region';
-  $('mouseSurfaceLabel').textContent=cells?.active?'ABC Atlas · Zhuang-ABCA-2 · sampled cell centers':expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
+  $('mouseSurfaceLabel').textContent=cells?.active?'ABC Atlas · Zhuang-ABCA-2 · registered cell centers':expression?.active?`${expression.gene} · RNA source-region summaries (earlier boundaries)`:selected?`${selected.abbreviation} · ${selected.name}`:'Allen CCFv3 · labeled anatomy';
   if(isolated&&!box.isEmpty())fit(box);
 }
 function showRegionInfo(message){

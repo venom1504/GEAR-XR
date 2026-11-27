@@ -55,3 +55,5 @@ The About page now describes 3D brain atlases. Its 4K demo removes the opening v
 ## ABC categorical cells
 
 The mouse viewer adds the Zhuang-ABCA-2 cell-type layer requested by Jing Zhu: registered cell centers, class/subclass/neurotransmitter colors, region filtering, counts and inspectable source confidence. Existing ISH expression remains a separate mode. See `ABC_CELLS.md`.
+
+The cell layer now includes all 1,035,684 eligible labeled, CCF-registered cell centers from Zhuang-ABCA-2 in a verified compact binary payload. It does not use display downsampling. The original metadata, coordinate exclusions, audit results and file schema remain documented in `ABC_CELLS.md` and the in-app methods.
